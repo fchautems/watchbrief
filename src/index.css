@@ -84,6 +84,7 @@ img { display: block; max-width: 100%; }
 .edition-badge { left: 16px; color: #d0d5db; }
 .edition-badge.limited { color: #edcf8c; }
 .verified-badge { right: 16px; color: var(--green); }
+.verified-badge.pending { color: #d7b574; }
 .watch-card-body { padding: 24px; }
 .watch-meta { display: flex; flex-wrap: wrap; gap: 7px; color: #929ba5; font-size: 11px; font-weight: 750; letter-spacing: 0.09em; text-transform: uppercase; }
 .watch-meta a { color: #c8cdd3; }
@@ -99,6 +100,7 @@ img { display: block; max-width: 100%; }
 .detail-link, .more-link, .official-button, .brand-empty a { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 11px; font-weight: 750; }
 .detail-link { padding: 10px 12px; background: var(--ivory); color: #111418; font-size: 12px; white-space: nowrap; }
 .detail-link:hover, .official-button:hover { background: #fff; }
+.detail-link.unavailable { border: 1px solid #303a45; background: transparent; color: #7f8994; cursor: default; }
 .more-link { width: max-content; margin: 30px auto 0; padding: 12px 18px; border: 1px solid #36414d; color: #d8dde3; font-size: 13px; }
 .more-link:hover { border-color: var(--accent); color: var(--accent-soft); }
 .image-placeholder { width: 100%; height: 100%; display: grid; place-items: center; background: radial-gradient(circle, #222b35 0, #12181f 70%); color: #79838e; font-size: 12px; }
@@ -119,11 +121,22 @@ img { display: block; max-width: 100%; }
 .brand-arrow { position: absolute; right: 17px; top: 17px; color: #77818d; }
 .brand-card:hover .brand-arrow { color: var(--accent); }
 
-.archive-count { padding-top: 3px; }
+.archive-count { padding-top: 3px; align-items: center; gap: 18px; }
+.archive-count > div:first-child { display: flex; gap: 18px; }
+.view-toggle { display: flex; gap: 5px; padding: 3px; border: 1px solid #29333e; border-radius: 10px; background: #0e1319; }
+.view-toggle button { min-height: 32px; padding: 0 10px; border: 0; border-radius: 7px; background: transparent; color: #8d97a2; cursor: pointer; font-size: 10px; font-weight: 750; letter-spacing: .04em; text-transform: uppercase; }
+.view-toggle button.active { background: #242d37; color: var(--ivory); }
 .archive-list { max-width: 950px; }
+.archive-list.card-view { max-width: none; }
 .archive-group { margin-top: 33px; }
 .archive-group > h2 { margin: 0 0 8px; font-family: var(--serif); font-size: 25px; font-weight: 400; }
 .archive-group > div { border-top: 1px solid #313a45; }
+.card-view .archive-items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; padding-top: 12px; border-top-color: #26303a; }
+.compact-card .watch-visual { height: 250px; }
+.compact-card .watch-card-body { padding: 20px; }
+.compact-card h2 { font-size: 22px; }
+.compact-card .watch-summary { min-height: 68px; display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.compact-card .watch-card-footer strong { font-size: 17px; }
 .archive-row { position: relative; min-height: 92px; padding: 17px 44px 17px 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px; border-bottom: 1px solid #222b35; transition: 150ms ease; }
 .archive-row:hover { padding-left: 11px; background: linear-gradient(90deg, rgba(210,174,102,.05), transparent 70%); }
 .archive-main { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
@@ -136,6 +149,7 @@ img { display: block; max-width: 100%; }
 .archive-side small.is-verified { color: var(--green); }
 .row-arrow { position: absolute; right: 8px; color: #7c8691; }
 .archive-row:hover .row-arrow { color: var(--accent); }
+.row-arrow.muted { color: #3f4852; }
 .load-more { margin: 34px auto 0; display: block; padding: 11px 18px; border: 1px solid #36414d; border-radius: 999px; background: #131920; cursor: pointer; }
 
 .back-link { display: inline-flex; margin-bottom: 32px; color: #99a2ac; font-size: 13px; }
@@ -224,6 +238,10 @@ img { display: block; max-width: 100%; }
   .alphabet { flex-wrap: nowrap; margin: 0 -14px; padding-left: 14px; padding-right: 14px; overflow-x: auto; scrollbar-width: none; }
   .alphabet button { flex: 0 0 auto; }
   .archive-row { grid-template-columns: minmax(0, 1fr); gap: 9px; padding-right: 29px; }
+  .archive-count { align-items: flex-start; }
+  .archive-count > div:first-child { padding-top: 8px; flex-direction: column; gap: 5px; }
+  .card-view .archive-items { grid-template-columns: 1fr; gap: 16px; }
+  .compact-card .watch-visual { height: 280px; }
   .archive-side { display: flex; justify-content: space-between; text-align: left; }
   .archive-specs { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .brand-hero { align-items: start; }

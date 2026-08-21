@@ -25,7 +25,15 @@ function WatchImage({ watch }: { watch: Watch }) {
   );
 }
 
-export function WatchCard({ watch, featured = false }: { watch: Watch; featured?: boolean }) {
+export function WatchCard({
+  watch,
+  featured = false,
+  compact = false,
+}: {
+  watch: Watch;
+  featured?: boolean;
+  compact?: boolean;
+}) {
   const edition = watch.limitedEdition
     ? watch.limitedQty
       ? `Limitée · ${watch.limitedQty}`
@@ -41,14 +49,26 @@ export function WatchCard({ watch, featured = false }: { watch: Watch; featured?
   ].filter(Boolean);
 
   return (
-    <article className={`watch-card${featured ? " featured" : ""}`}>
-      <Link className="watch-visual" to={`/watch/${watch.slug}`}>
-        <WatchImage watch={watch} />
-        <span className={`edition-badge${watch.limitedEdition ? " limited" : ""}`}>
-          {edition}
-        </span>
-        {watch.verified && <span className="verified-badge">Vérifiée</span>}
-      </Link>
+    <article className={`watch-card${featured ? " featured" : ""}${compact ? " compact-card" : ""}`}>
+      {watch.productUrl ? (
+        <a className="watch-visual" href={watch.productUrl} target="_blank" rel="noreferrer">
+          <WatchImage watch={watch} />
+          <span className={`edition-badge${watch.limitedEdition ? " limited" : ""}`}>
+            {edition}
+          </span>
+          <span className={`verified-badge${watch.verified ? "" : " pending"}`}>
+            {watch.verified ? "Vérifiée" : "À vérifier"}
+          </span>
+        </a>
+      ) : (
+        <div className="watch-visual">
+          <WatchImage watch={watch} />
+          <span className={`edition-badge${watch.limitedEdition ? " limited" : ""}`}>
+            {edition}
+          </span>
+          <span className="verified-badge pending">À vérifier</span>
+        </div>
+      )}
       <div className="watch-card-body">
         <div className="watch-meta">
           <Link to={`/brand/${watch.brandSlug}`}>{watch.brand}</Link>
@@ -56,7 +76,11 @@ export function WatchCard({ watch, featured = false }: { watch: Watch; featured?
           <time dateTime={watch.date}>{formatDate(watch.date)}</time>
         </div>
         <h2>
-          <Link to={`/watch/${watch.slug}`}>{watch.model}</Link>
+          {watch.productUrl ? (
+            <a href={watch.productUrl} target="_blank" rel="noreferrer">{watch.model}</a>
+          ) : (
+            watch.model
+          )}
         </h2>
         <div className="spec-list" aria-label="Caractéristiques principales">
           {specs.map((spec) => (
@@ -72,9 +96,15 @@ export function WatchCard({ watch, featured = false }: { watch: Watch; featured?
             <strong>{watch.price ?? "Prix non communiqué"}</strong>
             <small>{edition}</small>
           </div>
-          <Link className="detail-link" to={`/watch/${watch.slug}`}>
-            Voir la fiche <span aria-hidden="true">→</span>
-          </Link>
+          {watch.productUrl ? (
+            <a className="detail-link" href={watch.productUrl} target="_blank" rel="noreferrer">
+              Site officiel <span aria-hidden="true">↗</span>
+            </a>
+          ) : (
+            <span className="detail-link unavailable" aria-label="Source officielle à vérifier">
+              Source à vérifier
+            </span>
+          )}
         </div>
       </div>
     </article>
