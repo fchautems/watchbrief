@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b0e" />
+    <meta name="description" content="Les nouveautés horlogères qui valent le détour : photos, dimensions utiles, prix et sources officielles." />
+    <meta property="og:title" content="WatchBrief" />
+    <meta property="og:description" content="Nouveautés horlogères sélectionnées." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://fchautems.github.io/watchbrief/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/watchbrief/favicon.svg" />
+    <title>WatchBrief — Nouveautés horlogères sélectionnées</title>
+    <script>
+      (function (location) {
+        if (location.search.startsWith("?p=/")) {
+          var path = location.search.slice(3).split("&")[0];
+          var query = location.search.match(/&q=([^&]*)/);
+          window.history.replaceState(null, "", "/watchbrief" + path + (query ? "?" + query[1] : "") + location.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
