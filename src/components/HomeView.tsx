@@ -8,10 +8,9 @@ import { seedMeta, verifiedWatches } from "@/lib/data";
 import type { Watch } from "@/lib/types";
 
 function matchesFilter(watch: Watch, filter: FilterKey) {
+  if (filter === "verified") return watch.verified;
   if (filter === "limited") return watch.limitedEdition;
-  if (filter === "compact")
-    return watch.diameterMm !== null && watch.diameterMm !== undefined && watch.diameterMm <= 40;
-  if (filter === "independent") return watch.independent;
+  if (filter === "permanent") return !watch.limitedEdition;
   return true;
 }
 

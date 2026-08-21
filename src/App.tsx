@@ -6,7 +6,6 @@ import { BrandsView } from "@/components/BrandsView";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HomeView } from "@/components/HomeView";
-import { WatchView } from "@/components/WatchView";
 import { getBrand, getWatch } from "@/lib/data";
 
 function Shell({ children, active }: { children: React.ReactNode; active?: "news" | "brands" | "archives" }) {
@@ -53,11 +52,16 @@ function BrandPage() {
   return <Shell active="brands"><PageTitle title={brand.name} /><BrandView name={brand.name} slug={brand.slug} /></Shell>;
 }
 
-function WatchPage() {
+function LegacyWatchRedirect() {
   const { slug = "" } = useParams();
   const watch = getWatch(slug);
+  useEffect(() => {
+    if (watch?.productUrl) window.location.replace(watch.productUrl);
+  }, [watch]);
+
   if (!watch) return <Navigate to="/not-found" replace />;
-  return <Shell><PageTitle title={`${watch.brand} ${watch.model}`} /><WatchView watch={watch} /></Shell>;
+  if (!watch.productUrl) return <Navigate to="/archives" replace />;
+  return null;
 }
 
 function NotFoundPage() {
@@ -83,7 +87,7 @@ export default function App() {
         <Route path="/brands" element={<BrandsPage />} />
         <Route path="/brand/:slug" element={<BrandPage />} />
         <Route path="/archives" element={<ArchivesPage />} />
-        <Route path="/watch/:slug" element={<WatchPage />} />
+        <Route path="/watch/:slug" element={<LegacyWatchRedirect />} />
         <Route path="/not-found" element={<NotFoundPage />} />
         <Route path="*" element={<Navigate to="/not-found" replace />} />
       </Routes>

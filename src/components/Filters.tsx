@@ -1,4 +1,4 @@
-export type FilterKey = "all" | "limited" | "compact" | "independent";
+export type FilterKey = "all" | "verified" | "limited" | "permanent";
 
 type FiltersProps = {
   query: string;
@@ -6,13 +6,13 @@ type FiltersProps = {
   active: FilterKey;
   onFilterChange: (value: FilterKey) => void;
   compact?: boolean;
+  showVerified?: boolean;
 };
 
-const filters: Array<{ key: FilterKey; label: string }> = [
+const baseFilters: Array<{ key: FilterKey; label: string }> = [
   { key: "all", label: "Toutes" },
   { key: "limited", label: "Éditions limitées" },
-  { key: "compact", label: "≤ 40 mm" },
-  { key: "independent", label: "Indépendants" },
+  { key: "permanent", label: "Collection permanente" },
 ];
 
 export function Filters({
@@ -21,7 +21,12 @@ export function Filters({
   active,
   onFilterChange,
   compact = false,
+  showVerified = false,
 }: FiltersProps) {
+  const filters = showVerified
+    ? [baseFilters[0], { key: "verified" as const, label: "Vérifiées" }, ...baseFilters.slice(1)]
+    : baseFilters;
+
   return (
     <div className={`filter-bar${compact ? " compact" : ""}`}>
       <label className="search-wrap">
