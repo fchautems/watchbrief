@@ -6,7 +6,7 @@ function WatchImage({ watch }: { watch: Watch }) {
   if (!watch.imageUrl) {
     return (
       <div className="image-placeholder" aria-label="Photo en cours de vérification">
-        <span>Photo en cours de vérification</span>
+        <span>{watch.editorialStatus === "researching" ? "Photo officielle à confirmer" : "Photo à rechercher"}</span>
       </div>
     );
   }
@@ -47,6 +47,12 @@ export function WatchCard({
     watch.waterResistance,
     watch.powerReserve,
   ].filter(Boolean);
+  const status = {
+    publishable: { label: "Enrichie", className: "" },
+    researching: { label: "Source trouvée", className: "pending" },
+    backlog: { label: "À rechercher", className: "pending" },
+    "broken-link": { label: "Lien à corriger", className: "broken" },
+  }[watch.editorialStatus];
 
   return (
     <article className={`watch-card${featured ? " featured" : ""}${compact ? " compact-card" : ""}`}>
@@ -56,8 +62,8 @@ export function WatchCard({
           <span className={`edition-badge${watch.limitedEdition ? " limited" : ""}`}>
             {edition}
           </span>
-          <span className={`verified-badge${watch.verified ? "" : " pending"}`}>
-            {watch.verified ? "Vérifiée" : "À vérifier"}
+          <span className={`verified-badge${status.className ? ` ${status.className}` : ""}`}>
+            {status.label}
           </span>
         </a>
       ) : (
@@ -66,7 +72,7 @@ export function WatchCard({
           <span className={`edition-badge${watch.limitedEdition ? " limited" : ""}`}>
             {edition}
           </span>
-          <span className="verified-badge pending">À vérifier</span>
+          <span className={`verified-badge${status.className ? ` ${status.className}` : ""}`}>{status.label}</span>
         </div>
       )}
       <div className="watch-card-body">
@@ -98,7 +104,7 @@ export function WatchCard({
           </div>
           {watch.productUrl ? (
             <a className="detail-link" href={watch.productUrl} target="_blank" rel="noreferrer">
-              Site officiel <span aria-hidden="true">↗</span>
+              {watch.linkLabel ?? "Site officiel"} <span aria-hidden="true">↗</span>
             </a>
           ) : (
             <span className="detail-link unavailable" aria-label="Source officielle à vérifier">

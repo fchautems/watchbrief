@@ -2,7 +2,7 @@
 
 Une veille horlogère statique, mobile-first et sans longs articles : photos exactes, dimensions utiles, prix, statut d’édition et sources.
 
-## Contenu de la V0.3
+## Contenu de la V0.4
 
 - 90 nouveautés importées depuis l’historique WatchBrief
 - 229 marques surveillées
@@ -10,6 +10,10 @@ Une veille horlogère statique, mobile-first et sans longs articles : photos exa
 - pages de marque harmonisées avec les mêmes cartes éditoriales
 - liens directs vers les pages officielles, sans fiche intermédiaire
 - recherche, filtres d’édition et tris conservés dans l’URL
+- statuts éditoriaux explicites et premier lot de dix fiches recherché
+- contrôle hebdomadaire automatisé des liens publiés
+
+Le processus d’enrichissement est décrit dans [`docs/EDITORIAL_WORKFLOW.md`](docs/EDITORIAL_WORKFLOW.md).
 - statut explicite des données vérifiées ou encore issues du seed
 
 ## Développement

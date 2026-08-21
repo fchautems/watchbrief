@@ -1,4 +1,5 @@
 export type VerificationStatus = "seed" | "verified" | "needs-review";
+export type EditorialStatus = "backlog" | "researching" | "publishable" | "broken-link";
 
 export type Watch = {
   id: string;
@@ -20,6 +21,7 @@ export type Watch = {
   limitedQty?: number | null;
   summary?: string;
   productUrl?: string;
+  linkLabel?: string;
   imageUrl?: string;
   imageFallbacks?: string[];
   imageSource?: string;
@@ -29,6 +31,7 @@ export type Watch = {
   sourceNotes?: string;
   verified: boolean;
   verificationStatus: VerificationStatus;
+  editorialStatus: EditorialStatus;
   verifiedAt?: string;
   independent: boolean;
 };
@@ -40,6 +43,7 @@ export type SeedWatch = Omit<
   | "diameterMm"
   | "verified"
   | "verificationStatus"
+  | "editorialStatus"
   | "independent"
 >;
 

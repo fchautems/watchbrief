@@ -89,6 +89,7 @@ img { display: block; max-width: 100%; }
 .edition-badge.limited { color: #edcf8c; }
 .verified-badge { right: 16px; color: var(--green); }
 .verified-badge.pending { color: #d7b574; }
+.verified-badge.broken { color: #e58e8e; }
 .watch-card-body { padding: 24px; }
 .watch-meta { display: flex; flex-wrap: wrap; gap: 7px; color: #929ba5; font-size: 11px; font-weight: 750; letter-spacing: 0.09em; text-transform: uppercase; }
 .watch-meta a { color: #c8cdd3; }

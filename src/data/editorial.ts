@@ -148,6 +148,181 @@ export const editorialOverrides: EditorialOverride[] = [
     verificationStatus: "verified",
     verifiedAt: "2026-08-21",
   },
+  {
+    id: "venezianico-nereide-opale-blu",
+    summary:
+      "Une plongeuse de 42 mm dont chaque cadran en opale de laboratoire révèle des nuances différentes. La lunette en tungstène et les 200 mètres d’étanchéité maintiennent une vraie vocation d’outil.",
+    productUrl: "https://www.venezianico.com/products/nereide-opale-blu-limited-edition",
+    imageUrl:
+      "https://www.venezianico.com/cdn/shop/files/Hero_3e766f8a-53c9-46ec-a872-398788f1e2da.png?v=1787321403&width=2500",
+    imageSource: "Venezianico",
+    imageSourceUrl: "https://www.venezianico.com/products/nereide-opale-blu-limited-edition",
+    sources: ["https://www.venezianico.com/products/nereide-opale-blu-limited-edition"],
+    sourceNotes: "Page produit officielle : édition de 600 pièces, disponibilité annoncée le 24 août 2026.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "kiwame-yane",
+    summary:
+      "Deux exécutions très graphiques inspirées des toits japonais, dans un boîtier rectangulaire fin. Les versions Enji et Kuro sont toutes deux annoncées épuisées sur la boutique officielle.",
+    productUrl: "https://kiwametokyo.com/en/collections/yane%E5%B1%8B%E6%A0%B9",
+    imageUrl: "https://kiwametokyo.com/cdn/shop/files/yane_front1.jpg?v=1786586296&width=1200",
+    imageSource: "KIWAME TOKYO",
+    imageSourceUrl: "https://kiwametokyo.com/en/collections/yane%E5%B1%8B%E6%A0%B9",
+    sources: ["https://kiwametokyo.com/en/collections/yane%E5%B1%8B%E6%A0%B9"],
+    sourceNotes: "La collection officielle confirme les deux variantes, leur prix et leur statut épuisé.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "iwc-big-pilot-proset-mercedes-140",
+    price: "$41,200 hors taxes",
+    summary:
+      "IWC inaugure son calendrier perpétuel ProSet réglable en avant comme en arrière par la couronne. Le boîtier acier de 42 mm commémore les 140 ans de Mercedes-Benz en 140 exemplaires.",
+    productUrl:
+      "https://www.iwc.com/us-en/watches/pilot-watches/iw329603-big-pilots-watch-perpetual-calendar-proset-140-years-mercedes-benz",
+    imageUrl:
+      "https://img.iwc.com/product-slideshow-1/300f9b8e6db17f7f287bd4ff6b83abba60c8ac67.jpg",
+    imageSource: "IWC Schaffhausen",
+    imageSourceUrl:
+      "https://www.iwc.com/us-en/watches/pilot-watches/iw329603-big-pilots-watch-perpetual-calendar-proset-140-years-mercedes-benz",
+    sources: [
+      "https://www.iwc.com/us-en/watches/pilot-watches/iw329603-big-pilots-watch-perpetual-calendar-proset-140-years-mercedes-benz",
+      "https://press.iwc.com/iwc-celebrates-140-years-of-innovation-with-mercedes-benz-en/",
+    ],
+    sourceNotes: "La fiche officielle confirme la référence IW329603, le calibre 82665, 60 h et 10 bar.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "albishorn-marinagraph-classic",
+    thickness: "13 mm",
+    lugToLug: "47.7 mm",
+    price: "CHF 3,950",
+    limitedQty: 99,
+    summary:
+      "Un chronographe de régate monopoussoir doté d’un compte à rebours rétrograde breveté de dix minutes. La version Classic Fumé associe son cadran laqué à une lunette saphir très architecturale.",
+    productUrl:
+      "https://albishorn-watches.ch/en/collections/water-collection/marinagraph-classic-fume",
+    imageUrl:
+      "https://albishorn-watches.ch/content/8fc6ae22424d2321f5ba141c21cf5458/alb-marinagraph-dial.png",
+    imageSource: "Albishorn",
+    imageSourceUrl:
+      "https://albishorn-watches.ch/en/collections/water-collection/marinagraph-classic-fume",
+    sources: [
+      "https://albishorn-watches.ch/en/collections/water-collection/marinagraph-classic-fume",
+    ],
+    sourceNotes: "La page officielle de la Classic Fumé indique 99 pièces, CHF 3 950 et 64 h.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "seiko-presage-craftsmanship-hcc005-hcc006",
+    thickness: "12.4 mm",
+    lugToLug: "46.8 mm",
+    waterResistance: "Résistante aux éclaboussures",
+    price: "$1,400 / $1,650",
+    summary:
+      "Deux Presage de 39,6 mm consacrées aux métiers d’art japonais : émail blanc pour la HCC005 et laque urushi pour la HCC006. Le calibre 6R5H offre trois jours de réserve.",
+    productUrl: "https://www.seikowatches.com/us-en/products/presage/hcc005j1",
+    imageUrl:
+      "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/05/01/21/05/HCC005J1/HCC005J1.png?mh=1200&mw=1200",
+    imageFallbacks: [
+      "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/05/01/21/05/HCC006J1/HCC006J1.png?mh=1200&mw=1200",
+    ],
+    imageSource: "Seiko",
+    imageSourceUrl: "https://www.seikowatches.com/us-en/products/presage/hcc005j1",
+    sources: [
+      "https://www.seikowatches.com/us-en/products/presage/hcc005j1",
+      "https://www.seikowatches.com/us-en/products/presage/hcc006j1",
+      "https://www.seikowatches.com/au-en/news/2026/pr/20260813",
+    ],
+    sourceNotes: "Les deux pages produit officielles confirment 39,6 × 12,4 mm et 72 h.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "serica-7505-sunburst",
+    powerReserve: "42 h",
+    summary:
+      "La 7505 compacte reçoit un cadran émaillé brun-noir inspiré des guitares électriques. Elle conserve sa certification chronomètre, ses 200 mètres et son bracelet Bonklip.",
+    productUrl: "https://serica-watches.com/en/pages/serica-7505-sunburst-time-tide",
+    linkLabel: "Page officielle",
+    sources: ["https://serica-watches.com/en/pages/serica-7505-sunburst-time-tide"],
+    sourceNotes: "Caractéristiques et prix confirmés par Serica ; image officielle réutilisable encore à confirmer.",
+    verified: false,
+    verificationStatus: "needs-review",
+    editorialStatus: "researching",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "awake-son-mai-ultraviolet",
+    summary:
+      "Le cadran Sơn Mài superpose laque noire et violette sur feuille d’argent, avec un motif propre à chaque pièce. Cette édition partenaire de 38 mm conserve 100 mètres et 68 heures de réserve.",
+    productUrl: "https://timeandtidewatches.com/founderfest-2026/",
+    linkLabel: "Annonce partenaire",
+    sources: ["https://timeandtidewatches.com/founderfest-2026/"],
+    sourceNotes: "Annonce du partenaire de l’édition ; page produit et droits de l’image encore à confirmer.",
+    verified: false,
+    verificationStatus: "needs-review",
+    editorialStatus: "researching",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "baltic-heures-du-monde-horizon-line",
+    summary:
+      "Cette Heures du Monde de 37 mm introduit chez Baltic un cadran en carbone forgé, animé d’accents orange. Le Soprod C125 et les 100 mètres en font un véritable outil de voyage compact.",
+    productUrl: "https://timeandtidewatches.com/founderfest-2026/",
+    linkLabel: "Annonce partenaire",
+    sources: ["https://timeandtidewatches.com/founderfest-2026/"],
+    sourceNotes: "Annonce du partenaire de l’édition ; page produit et droits de l’image encore à confirmer.",
+    verified: false,
+    verificationStatus: "needs-review",
+    editorialStatus: "researching",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "furlan-marri-songlines",
+    summary:
+      "Un cadran brun laqué et un fond officier articulé donnent une personnalité très chaleureuse à cette automatique de 39 mm. Le calibre La Joux-Perret G100 reste visible une fois le couvercle ouvert.",
+    productUrl: "https://timeandtidewatches.com/founderfest-2026/",
+    linkLabel: "Annonce partenaire",
+    sources: ["https://timeandtidewatches.com/founderfest-2026/"],
+    sourceNotes: "Annonce du partenaire de l’édition ; page produit et droits de l’image encore à confirmer.",
+    verified: false,
+    verificationStatus: "needs-review",
+    editorialStatus: "researching",
+    verifiedAt: "2026-08-21",
+  },
+  {
+    id: "jacques-bianchi-om-jb200-chronometer",
+    thickness: "13.3 mm",
+    lugToLug: "47 mm",
+    summary:
+      "La JB200 adopte un cadran bleu émaillé aux couleurs de l’OM et un mouvement Soprod certifié COSC. Sa quantité finale dépendra de la fenêtre de précommande annoncée pour septembre.",
+    productUrl: "https://jacquesbianchi.com/en",
+    linkLabel: "Annonce officielle",
+    sources: [
+      "https://jacquesbianchi.com/en",
+      "https://www.fratellowatches.com/olympique-de-marseille-x-jacques-bianchi-marseille-jb200-chronometer/",
+    ],
+    sourceNotes: "La marque annonce le modèle sans page produit définitive ; photo officielle encore à confirmer.",
+    verified: false,
+    verificationStatus: "needs-review",
+    editorialStatus: "researching",
+    verifiedAt: "2026-08-21",
+  },
 ];
 
 export const independentBrands = new Set([
