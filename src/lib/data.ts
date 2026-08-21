@@ -35,6 +35,8 @@ function normalizeWatch(item: SeedWatch): Watch {
     diameterMm: firstDiameter(merged.diameter),
     verified: override?.verified ?? false,
     verificationStatus: override?.verificationStatus ?? "seed",
+    editorialStatus:
+      override?.editorialStatus ?? (override?.verified ? "publishable" : "backlog"),
     independent: independentBrands.has(item.brand),
   };
 }
@@ -51,8 +53,8 @@ export const brands = seed.brandWatchlist
   }))
   .sort((a, b) => a.name.localeCompare(b.name, "fr"));
 
-export const verifiedWatches = watches.filter(
-  (watch) => watch.verified && watch.imageUrl,
+export const publishableWatches = watches.filter(
+  (watch) => watch.editorialStatus === "publishable" && watch.imageUrl,
 );
 
 export function getWatch(slug: string) {

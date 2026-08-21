@@ -78,7 +78,7 @@ export function ArchivesView() {
       <div className="archive-count">
         <div>
           <span>{filtered.length} nouveautés</span>
-          <span>{filtered.filter((watch) => watch.verified).length} enrichies</span>
+          <span>{filtered.filter((watch) => watch.editorialStatus === "publishable").length} enrichies</span>
         </div>
         <div className="view-toggle" aria-label="Mode d’affichage">
           <button type="button" className={view === "cards" ? "active" : ""} onClick={() => setView("cards")}>Cartes</button>
@@ -105,8 +105,14 @@ export function ArchivesView() {
                       </span>
                       <span className="archive-side">
                         <strong>{watch.price ?? "Prix non communiqué"}</strong>
-                        <small className={watch.verified ? "is-verified" : ""}>
-                          {watch.verified ? "Vérifiée" : "À vérifier"}
+                        <small className={watch.editorialStatus === "publishable" ? "is-verified" : ""}>
+                          {watch.editorialStatus === "publishable"
+                            ? "Enrichie"
+                            : watch.editorialStatus === "researching"
+                              ? "Source trouvée"
+                              : watch.editorialStatus === "broken-link"
+                                ? "Lien à corriger"
+                                : "À rechercher"}
                         </small>
                       </span>
                       {watch.productUrl ? (

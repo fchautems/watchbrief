@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Filters, type FilterKey } from "@/components/Filters";
 import { WatchCard } from "@/components/WatchCard";
-import { seedMeta, verifiedWatches } from "@/lib/data";
+import { publishableWatches, seedMeta } from "@/lib/data";
 import type { Watch } from "@/lib/types";
 
 function matchesFilter(watch: Watch, filter: FilterKey) {
@@ -27,7 +27,7 @@ export function HomeView() {
   };
   const visible = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("fr");
-    return verifiedWatches
+    return publishableWatches
       .filter((watch) => matchesFilter(watch, filter))
       .filter((watch) =>
         needle
@@ -50,7 +50,7 @@ export function HomeView() {
           <span className="update-time">18:30</span>
           <span>21 août 2026</span>
           <span aria-hidden="true">·</span>
-          <span>{verifiedWatches.length} fiches enrichies</span>
+          <span>{publishableWatches.length} fiches enrichies</span>
           <span className="seed-counter">{seedMeta.watchCount} nouveautés suivies</span>
         </div>
       </section>
