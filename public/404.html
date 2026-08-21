@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>WatchBrief</title>
+    <script>
+      (function (location) {
+        var base = "/watchbrief";
+        var path = location.pathname.startsWith(base)
+          ? location.pathname.slice(base.length)
+          : location.pathname;
+        location.replace(
+          location.origin + base + "/?p=" + encodeURIComponent(path) +
+          (location.search ? "&q=" + encodeURIComponent(location.search.slice(1)) : "") +
+          location.hash
+        );
+      })(window.location);
+    </script>
+  </head>
+  <body></body>
+</html>
