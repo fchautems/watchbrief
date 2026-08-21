@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { formatDate, watches } from "@/lib/data";
+import { WatchCard } from "@/components/WatchCard";
+import { watches } from "@/lib/data";
 
 export function BrandView({ name, slug }: { name: string; slug: string }) {
   const entries = watches.filter((watch) => watch.brandSlug === slug);
@@ -18,31 +19,16 @@ export function BrandView({ name, slug }: { name: string; slug: string }) {
         </div>
       </section>
       {entries.length ? (
-        <section className="archive-list brand-archive">
-          <div className="archive-group">
-            <h2>2026</h2>
+        <section className="brand-watch-section" aria-labelledby="brand-news-title">
+          <div className="section-heading">
             <div>
-              {entries.map((watch) => (
-                <Link className="archive-row" to={`/watch/${watch.slug}`} key={watch.id}>
-                  <span className="archive-main">
-                    <span className="archive-brand">{formatDate(watch.date)}</span>
-                    <strong>{watch.model}</strong>
-                    <span className="archive-specs">
-                      {[watch.diameter, watch.material, watch.waterResistance]
-                        .filter(Boolean)
-                        .join(" · ")}
-                    </span>
-                  </span>
-                  <span className="archive-side">
-                    <strong>{watch.price ?? "Prix non communiqué"}</strong>
-                    <small className={watch.verified ? "is-verified" : ""}>
-                      {watch.verified ? "Vérifiée" : "Seed à vérifier"}
-                    </small>
-                  </span>
-                  <span className="row-arrow" aria-hidden="true">→</span>
-                </Link>
-              ))}
+              <p className="kicker">Dernières sorties</p>
+              <h2 id="brand-news-title">Nouveautés {name}</h2>
             </div>
+            <span>{entries.length} enregistrée{entries.length > 1 ? "s" : ""}</span>
+          </div>
+          <div className="watch-grid brand-watch-grid">
+            {entries.map((watch) => <WatchCard compact key={watch.id} watch={watch} />)}
           </div>
         </section>
       ) : (
