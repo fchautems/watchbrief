@@ -1,4 +1,5 @@
-export type FilterKey = "all" | "verified" | "limited" | "permanent";
+export type FilterKey = "all" | "limited" | "permanent";
+export type SortKey = "newest" | "brand" | "diameter";
 
 type FiltersProps = {
   query: string;
@@ -6,7 +7,8 @@ type FiltersProps = {
   active: FilterKey;
   onFilterChange: (value: FilterKey) => void;
   compact?: boolean;
-  showVerified?: boolean;
+  sort?: SortKey;
+  onSortChange?: (value: SortKey) => void;
 };
 
 const baseFilters: Array<{ key: FilterKey; label: string }> = [
@@ -21,12 +23,9 @@ export function Filters({
   active,
   onFilterChange,
   compact = false,
-  showVerified = false,
+  sort,
+  onSortChange,
 }: FiltersProps) {
-  const filters = showVerified
-    ? [baseFilters[0], { key: "verified" as const, label: "Vérifiées" }, ...baseFilters.slice(1)]
-    : baseFilters;
-
   return (
     <div className={`filter-bar${compact ? " compact" : ""}`}>
       <label className="search-wrap">
@@ -43,7 +42,7 @@ export function Filters({
         />
       </label>
       <div className="filter-chips" aria-label="Filtres">
-        {filters.map((filter) => (
+        {baseFilters.map((filter) => (
           <button
             key={filter.key}
             className={active === filter.key ? "active" : ""}
@@ -54,6 +53,16 @@ export function Filters({
             {filter.label}
           </button>
         ))}
+        {sort && onSortChange && (
+          <label className="sort-control">
+            <span className="sr-only">Trier les nouveautés</span>
+            <select value={sort} onChange={(event) => onSortChange(event.target.value as SortKey)}>
+              <option value="newest">Plus récentes</option>
+              <option value="brand">Marque A–Z</option>
+              <option value="diameter">Diamètre croissant</option>
+            </select>
+          </label>
+        )}
       </div>
     </div>
   );

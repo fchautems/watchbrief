@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Filters, type FilterKey } from "@/components/Filters";
+import { useSearchParams } from "react-router-dom";
+import { Filters, type FilterKey, type SortKey } from "@/components/Filters";
 import { WatchCard } from "@/components/WatchCard";
 import { formatDate, watches } from "@/lib/data";
 import type { Watch } from "@/lib/types";
@@ -9,34 +10,52 @@ import type { Watch } from "@/lib/types";
 const PAGE_SIZE = 24;
 
 function matchesFilter(watch: Watch, filter: FilterKey) {
-  if (filter === "verified") return watch.verified;
   if (filter === "limited") return watch.limitedEdition;
   if (filter === "permanent") return !watch.limitedEdition;
   return true;
 }
 
 export function ArchivesView() {
-  const [query, setQuery] = useState("");
-  const [filter, setFilter] = useState<FilterKey>("all");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get("q") ?? "";
+  const edition = searchParams.get("edition");
+  const filter: FilterKey = edition === "limited" || edition === "permanent" ? edition : "all";
+  const sortParam = searchParams.get("sort");
+  const sort: SortKey = sortParam === "brand" || sortParam === "diameter" ? sortParam : "newest";
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [view, setView] = useState<"cards" | "list">("cards");
 
+  const updateSearch = (nextQuery: string, nextFilter: FilterKey, nextSort: SortKey) => {
+    const next = new URLSearchParams();
+    if (nextQuery.trim()) next.set("q", nextQuery);
+    if (nextFilter !== "all") next.set("edition", nextFilter);
+    if (nextSort !== "newest") next.set("sort", nextSort);
+    setSearchParams(next, { replace: true });
+    setLimit(PAGE_SIZE);
+  };
+
   const filtered = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("fr");
-    return watches.filter((watch) => {
+    const results = watches.filter((watch) => {
       const matchesQuery = needle
         ? `${watch.brand} ${watch.model}`.toLocaleLowerCase("fr").includes(needle)
         : true;
       return matchesQuery && matchesFilter(watch, filter);
     });
-  }, [filter, query]);
+    if (sort === "brand") return results.sort((a, b) => a.brand.localeCompare(b.brand, "fr"));
+    if (sort === "diameter") {
+      return results.sort((a, b) => (a.diameterMm ?? Number.POSITIVE_INFINITY) - (b.diameterMm ?? Number.POSITIVE_INFINITY));
+    }
+    return results;
+  }, [filter, query, sort]);
 
   const grouped = useMemo(() => {
     return filtered.slice(0, limit).reduce<Record<string, Watch[]>>((result, watch) => {
-      (result[watch.date] ??= []).push(watch);
+      const group = sort === "newest" ? watch.date : "all";
+      (result[group] ??= []).push(watch);
       return result;
     }, {});
-  }, [filtered, limit]);
+  }, [filtered, limit, sort]);
 
   return (
     <>
@@ -49,22 +68,17 @@ export function ArchivesView() {
       </section>
       <Filters
         compact
-        showVerified
         query={query}
-        onQueryChange={(value) => {
-          setQuery(value);
-          setLimit(PAGE_SIZE);
-        }}
+        onQueryChange={(value) => updateSearch(value, filter, sort)}
         active={filter}
-        onFilterChange={(value) => {
-          setFilter(value);
-          setLimit(PAGE_SIZE);
-        }}
+        onFilterChange={(value) => updateSearch(query, value, sort)}
+        sort={sort}
+        onSortChange={(value) => updateSearch(query, filter, value)}
       />
       <div className="archive-count">
         <div>
           <span>{filtered.length} nouveautés</span>
-          <span>{filtered.filter((watch) => watch.verified).length} vérifiées</span>
+          <span>{filtered.filter((watch) => watch.verified).length} enrichies</span>
         </div>
         <div className="view-toggle" aria-label="Mode d’affichage">
           <button type="button" className={view === "cards" ? "active" : ""} onClick={() => setView("cards")}>Cartes</button>
@@ -74,7 +88,7 @@ export function ArchivesView() {
       <section className={`archive-list ${view === "cards" ? "card-view" : "list-view"}`} aria-live="polite">
         {Object.entries(grouped).map(([date, items]) => (
           <div className="archive-group" key={date}>
-            <h2>{formatDate(date)}</h2>
+            <h2>{date === "all" ? "Toutes les dates" : formatDate(date)}</h2>
             <div className="archive-items">
               {view === "cards"
                 ? items.map((watch) => <WatchCard compact key={watch.id} watch={watch} />)

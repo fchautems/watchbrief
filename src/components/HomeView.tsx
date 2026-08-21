@@ -1,22 +1,30 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { Filters, type FilterKey } from "@/components/Filters";
 import { WatchCard } from "@/components/WatchCard";
 import { seedMeta, verifiedWatches } from "@/lib/data";
 import type { Watch } from "@/lib/types";
 
 function matchesFilter(watch: Watch, filter: FilterKey) {
-  if (filter === "verified") return watch.verified;
   if (filter === "limited") return watch.limitedEdition;
   if (filter === "permanent") return !watch.limitedEdition;
   return true;
 }
 
 export function HomeView() {
-  const [query, setQuery] = useState("");
-  const [filter, setFilter] = useState<FilterKey>("all");
+  const [searchParams, setSearchParams] = useSearchParams();
+  const query = searchParams.get("q") ?? "";
+  const edition = searchParams.get("edition");
+  const filter: FilterKey = edition === "limited" || edition === "permanent" ? edition : "all";
+
+  const updateSearch = (nextQuery: string, nextFilter: FilterKey) => {
+    const next = new URLSearchParams();
+    if (nextQuery.trim()) next.set("q", nextQuery);
+    if (nextFilter !== "all") next.set("edition", nextFilter);
+    setSearchParams(next, { replace: true });
+  };
   const visible = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("fr");
     return verifiedWatches
@@ -42,16 +50,16 @@ export function HomeView() {
           <span className="update-time">18:30</span>
           <span>21 août 2026</span>
           <span aria-hidden="true">·</span>
-          <span>{verifiedWatches.length} fiches vérifiées</span>
-          <span className="seed-counter">{seedMeta.watchCount} entrées importées</span>
+          <span>{verifiedWatches.length} fiches enrichies</span>
+          <span className="seed-counter">{seedMeta.watchCount} nouveautés suivies</span>
         </div>
       </section>
 
       <Filters
         query={query}
-        onQueryChange={setQuery}
+        onQueryChange={(value) => updateSearch(value, filter)}
         active={filter}
-        onFilterChange={setFilter}
+        onFilterChange={(value) => updateSearch(query, value)}
       />
 
       <section className="section-block" aria-labelledby="latest-title">
@@ -74,8 +82,7 @@ export function HomeView() {
             <button
               type="button"
               onClick={() => {
-                setQuery("");
-                setFilter("all");
+                setSearchParams({}, { replace: true });
               }}
             >
               Effacer les filtres
