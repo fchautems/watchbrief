@@ -14,10 +14,14 @@
     <title>WatchBrief — Nouveautés horlogères sélectionnées</title>
     <script>
       (function (location) {
-        if (location.search.startsWith("?p=/")) {
-          var path = location.search.slice(3).split("&")[0];
+        if (location.search.startsWith("?p=")) {
+          var path = decodeURIComponent(location.search.slice(3).split("&")[0]);
           var query = location.search.match(/&q=([^&]*)/);
-          window.history.replaceState(null, "", "/watchbrief" + path + (query ? "?" + query[1] : "") + location.hash);
+          window.history.replaceState(
+            null,
+            "",
+            "/watchbrief" + path + (query ? "?" + decodeURIComponent(query[1]) : "") + location.hash
+          );
         }
       })(window.location);
     </script>
