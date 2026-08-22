@@ -17,6 +17,10 @@ export type Watch = {
   waterResistance?: string;
   powerReserve?: string;
   price?: string;
+  priceSourceUrl?: string;
+  priceCheckedAt?: string;
+  priceMarket?: string;
+  priceTaxMode?: "incl-vat" | "excl-vat" | "unknown";
   limitedEdition: boolean;
   limitedQty?: number | null;
   summary?: string;
