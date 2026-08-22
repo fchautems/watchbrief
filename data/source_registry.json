@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-22",
+  "purpose": "Mémoire réutilisable des sources, chemins d'images et prix. Ne pas enregistrer chaque URL consultée : seulement les méthodes qui évitent une erreur répétée.",
+  "sourceTiers": {
+    "official": ["site produit", "newsroom", "communiqué", "revendeur officiel"],
+    "secondary": ["Fratello", "Monochrome", "Hodinkee", "Time+Tide", "Worn & Wound", "Watchonista", "SJX", "Revolution", "WatchTime"]
+  },
+  "brands": {
+    "Hamilton": {
+      "officialDomains": ["hamiltonwatch.com", "press.hamiltonwatch.com"],
+      "imageRule": "Utiliser l'asset produit original, jamais une URL contenant /cache/. La photo produit H70675530_soldier_1.png est une source haute définition connue.",
+      "priceRule": "Consulter d'abord la boutique suisse si disponible ; sinon conserver le marché officiel consulté.",
+      "lastChecked": "2026-08-22"
+    },
+    "Vacheron Constantin": {
+      "officialDomains": ["vacheron-constantin.com"],
+      "imageRule": "Les transformations .transform.vacdetail.png ont fonctionné. Éviter les assets socialsharing qui ont déjà renvoyé 404.",
+      "priceRule": "Chercher le configurateur ou la page suisse/française de la référence exacte avant tout tarif étranger.",
+      "lastChecked": "2026-08-22"
+    },
+    "IWC": {
+      "officialDomains": ["iwc.com", "press.iwc.com"],
+      "imageRule": "Préférer une image presse ou un asset produit haute définition ; refuser une vignette visiblement floue après rendu de carte.",
+      "priceRule": "Maison suisse : rechercher impérativement la page CH/CHF pour la même référence avant d'accepter une page US en USD.",
+      "lastChecked": "2026-08-22"
+    },
+    "Albishorn": {
+      "officialDomains": ["albishorn-watches.ch"],
+      "imageRule": "L'asset alb-marinagraph-dial.png représente un cadran, pas la montre entière : il est interdit pour une carte. Chercher une image produit de la Classic Fumé exacte.",
+      "priceRule": "La page suisse officielle fait foi et doit être affichée en CHF.",
+      "lastChecked": "2026-08-22"
+    },
+    "TAG Heuer": {
+      "officialDomains": ["tagheuer.com"],
+      "imageRule": "Utiliser une transformation carrée explicite pour éviter le recadrage produit sur les cartes.",
+      "priceRule": "Chercher la page CH officielle en priorité quand elle existe.",
+      "lastChecked": "2026-08-22"
+    }
+  }
+}

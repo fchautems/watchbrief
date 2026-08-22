@@ -1,5 +1,7 @@
 # Flux éditorial WatchBrief
 
+La veille récurrente dépose désormais des **candidates** dans GitHub. Elle ne modifie ni le seed ni le site public. La méthode complète est dans [`RESEARCH_PLAYBOOK.md`](RESEARCH_PLAYBOOK.md), la politique de prix dans [`PRICE_POLICY.md`](PRICE_POLICY.md) et les sources connues dans [`../data/source_registry.json`](../data/source_registry.json).
+
 ## États
 
 - `backlog` : entrée importée, sans recherche éditoriale.
@@ -11,12 +13,13 @@ Seules les fiches `publishable` avec une photo apparaissent dans la sélection d
 
 ## Traitement d’une nouveauté
 
-1. Identifier d’abord la page de la marque ou du partenaire commercial officiel.
+1. Créer ou examiner d'abord une issue `Candidate · marque · modèle` ; les candidats passent par `candidate → needs-review → accepted → published` (ou `rejected`/`duplicate`).
+2. Identifier d’abord la page de la marque ou du partenaire commercial officiel.
 2. Comparer dimensions, mouvement, prix et quantité avec le seed.
 3. Ajouter un résumé original, court et factuel dans `src/data/editorial.ts`.
 4. Utiliser une image servie par la marque uniquement lorsque la page l’identifie clairement comme image produit. Ne pas recopier une photo de presse dans le dépôt sans autorisation.
 5. Renseigner `sources`, `sourceNotes`, `verifiedAt` et `editorialStatus`.
-6. Exécuter `npm run lint`, `npm run build` et `npm run check:links`.
+6. Exécuter `npm run lint`, `npm run build`, `npm run check:links` et `npm run check:images`.
 
 ## Lot pilote V0.4
 
