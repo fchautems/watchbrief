@@ -1,7 +1,17 @@
 import { readFile } from "node:fs/promises";
 
 const source = await readFile(new URL("../src/data/editorial.ts", import.meta.url), "utf8");
-const urls = [...new Set([...source.matchAll(/https:\/\/[^"'\s]+/g)].map(([url]) => url))];
+const candidates = JSON.parse(await readFile(new URL("../src/data/review-candidates.json", import.meta.url), "utf8"));
+const candidateUrls = candidates.flatMap(({ watch }) => [
+  watch.productUrl,
+  watch.priceSourceUrl,
+  watch.imageSourceUrl,
+  ...(watch.sources ?? []),
+]).filter(Boolean);
+const urls = [...new Set([
+  ...[...source.matchAll(/https:\/\/[^"'\s]+/g)].map(([url]) => url),
+  ...candidateUrls,
+])];
 async function request(url, method) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);

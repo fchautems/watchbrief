@@ -3,6 +3,7 @@ import {
   editorialOverrides,
   independentBrands,
 } from "@/data/editorial";
+import { reviewCandidates } from "@/lib/review";
 import type { SeedWatch, Watch, WatchSeed } from "@/lib/types";
 
 const seed = rawSeed as WatchSeed;
@@ -41,8 +42,12 @@ function normalizeWatch(item: SeedWatch): Watch {
   };
 }
 
-export const watches = seed.watches
-  .map(normalizeWatch)
+const seedWatches = seed.watches.map(normalizeWatch);
+const publishedCandidates = reviewCandidates
+  .filter((candidate) => candidate.status === "published")
+  .map((candidate) => candidate.watch);
+
+export const watches = [...seedWatches, ...publishedCandidates]
   .sort((a, b) => b.date.localeCompare(a.date) || a.brand.localeCompare(b.brand));
 
 export const brands = seed.brandWatchlist

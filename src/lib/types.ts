@@ -1,5 +1,6 @@
 export type VerificationStatus = "seed" | "verified" | "needs-review";
 export type EditorialStatus = "backlog" | "researching" | "publishable" | "broken-link";
+export type ReviewStatus = "review" | "approved" | "published" | "rejected" | "needs-review";
 
 export type Watch = {
   id: string;
@@ -58,4 +59,14 @@ export type WatchSeed = {
   warning: string;
   watches: SeedWatch[];
   brandWatchlist: string[];
+};
+
+export type ReviewCandidate = {
+  id: string;
+  issueNumber?: number;
+  status: ReviewStatus;
+  detectedAt: string;
+  reviewedAt?: string;
+  blockers?: string[];
+  watch: Watch;
 };

@@ -1,7 +1,11 @@
 import { readFile } from "node:fs/promises";
 
 const source = await readFile(new URL("../src/data/editorial.ts", import.meta.url), "utf8");
-const urls = [...new Set([...source.matchAll(/imageUrl:\s*\n?\s*"(https:\/\/[^"\n]+)"/g)].map(([, url]) => url))];
+const candidates = JSON.parse(await readFile(new URL("../src/data/review-candidates.json", import.meta.url), "utf8"));
+const urls = [...new Set([
+  ...[...source.matchAll(/imageUrl:\s*\n?\s*"(https:\/\/[^"\n]+)"/g)].map(([, url]) => url),
+  ...candidates.map(({ watch }) => watch.imageUrl).filter(Boolean),
+])];
 
 async function checkImage(url) {
   const controller = new AbortController();
