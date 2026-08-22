@@ -388,7 +388,7 @@ export const editorialOverrides: EditorialOverride[] = [
   },
   {
     id: "hamilton-khaki-field-auto-the-odyssey",
-    priceSourceUrl: "https://press.hamiltonwatch.com/hamilton-x-the-odyssey/",
+    priceSourceUrl: "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
     priceCheckedAt: "2026-08-22",
     priceMarket: "CH",
     priceTaxMode: "incl-vat",
@@ -403,7 +403,7 @@ export const editorialOverrides: EditorialOverride[] = [
       "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
     sources: [
       "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
-      "https://press.hamiltonwatch.com/hamilton-x-the-odyssey/",
+      "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
     ],
     sourceNotes: "Fiche officielle : bronze, 42 mm, 100 m, calibre H-10 et édition de 2 112 pièces.",
     verified: true,
@@ -563,93 +563,6 @@ export const editorialOverrides: EditorialOverride[] = [
     imageSourceUrl: "https://1776atelier.com/products/liberty-250",
     sources: ["https://1776atelier.com/products/liberty-250"],
     sourceNotes: "Fiche officielle : or rose 18 ct, 41 × 10,2 mm, 25 pièces et USD 44 000.",
-    verified: true,
-    verificationStatus: "verified",
-    editorialStatus: "publishable",
-    verifiedAt: "2026-08-22",
-  },
-  {
-    id: "tag-heuer-formula-1-solargraph-zandvoort",
-    thickness: "9.9 mm",
-    lugToLug: "Non communiqué",
-    price: "CHF 2,000",
-    priceSourceUrl:
-      "https://www.tagheuer.com/ch/en/timepieces/collections/tag-heuer-formula-1/38-mm-th50-00/WBY111H.FT8128.html",
-    priceCheckedAt: "2026-08-22",
-    priceMarket: "CH",
-    priceTaxMode: "incl-vat",
-    summary:
-      "La Formula 1 orange des années 1980 revient en version solaire pour le dernier Grand Prix néerlandais à Zandvoort. Son boîtier acier de 38 mm, sa lunette TH-Polylight et ses 100 mètres en font une édition vive mais réellement fonctionnelle.",
-    productUrl:
-      "https://www.tagheuer.com/ch/en/timepieces/collections/tag-heuer-formula-1/38-mm-th50-00/WBY111H.FT8128.html",
-    imageUrl:
-      "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dw6895bb16/TAG_Heuer_Formula_1/WBY111H.FT8128/WBY111H.FT8128_Soldier.png?expansion=true&impolicy=TrimRatioResize&ratioHeight=1&ratioWidth=1&width=1200",
-    imageSource: "TAG Heuer",
-    imageSourceUrl:
-      "https://www.tagheuer.com/ch/en/timepieces/collections/tag-heuer-formula-1/38-mm-th50-00/WBY111H.FT8128.html",
-    sources: [
-      "https://www.tagheuer.com/ch/en/timepieces/collections/tag-heuer-formula-1/38-mm-th50-00/WBY111H.FT8128.html",
-      "https://www.hodinkee.com/articles/the-tag-heuer-formula-1-solargraph-limited-edition-inspired-by-zandvoort-for-the-final-dutch-grand-p",
-    ],
-    sourceNotes:
-      "Référence WBY111H.FT8128 confirmée : 38 × 9,9 mm, TH50-00 solaire, 100 m et 1 500 pièces. Prix officiel suisse CHF 2 000. La valeur « Lugs Distance 18,5 mm » désigne l'entrecorne, pas le lug-to-lug.",
-    verified: true,
-    verificationStatus: "verified",
-    editorialStatus: "publishable",
-    verifiedAt: "2026-08-22",
-  },
-  {
-    id: "grone-oldenzaal-horologium",
-    thickness: "10 mm",
-    lugToLug: "47 mm",
-    price: "€2,390 hors taxes",
-    priceSourceUrl: "https://grone.com/pages/horologium",
-    priceCheckedAt: "2026-08-22",
-    priceMarket: "NL",
-    priceTaxMode: "excl-vat",
-    summary:
-      "Les frères Grönefeld déclinent leur nouvelle petite seconde en deux tempéraments : orange et bleu pour Quirky, saumon pour Classic. Le boîtier de 39 mm abrite un mouvement manuel La Joux-Perret décoré, visible sous fond saphir.",
-    productUrl: "https://grone.com/pages/horologium",
-    imageUrl:
-      "https://grone.com/cdn/shop/files/Horologium_Web_7_e1fba676-173a-4332-93b2-4b80fbb76d61.jpg?v=1785404667&width=1800",
-    imageSource: "GRØNE Oldenzaal",
-    imageSourceUrl: "https://grone.com/pages/horologium",
-    sources: [
-      "https://grone.com/pages/horologium",
-      "https://monochrome-watches.com/grone-oldenzaal-horologium-attainable-hand-wound-dress-watch-small-seconds-by-gronefeld-brother/",
-    ],
-    sourceNotes:
-      "Page officielle : 39 × 10 mm, 47 mm corne à corne, 50 m, 60 h et 188 pièces par variante. Prix officiel international €2 390 hors TVA, droits et livraison ; aucune conversion CHF appliquée. La carte illustre la variante Quirky.",
-    verified: true,
-    verificationStatus: "verified",
-    editorialStatus: "publishable",
-    verifiedAt: "2026-08-22",
-  },
-  {
-    id: "panerai-luminor-marina-pam01707",
-    thickness: "14.5 mm",
-    lugToLug: "Non communiqué",
-    price: "CHF 11,900",
-    priceSourceUrl:
-      "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01707-luminor-marina.html",
-    priceCheckedAt: "2026-08-22",
-    priceMarket: "CH",
-    priceTaxMode: "incl-vat",
-    summary:
-      "Panerai transpose les codes Luminor des années 1960 dans un boîtier Carbotech beaucoup plus léger. Le P.9010 automatique conserve trois jours de réserve, une heure locale réglable et 300 mètres d'étanchéité.",
-    productUrl:
-      "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01707-luminor-marina.html",
-    imageUrl:
-      "https://www.panerai.com/content/dam/rcq/pan/17/vh/Do/Sm/Tw/uz/e8/Qj/dR/J2/Xw/17vhDoSmTwuze8QjdRJ2Xw.jpeg.transform.strip_component_bg_image_640_2x.png",
-    imageSource: "Panerai",
-    imageSourceUrl:
-      "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01707-luminor-marina.html",
-    sources: [
-      "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01707-luminor-marina.html",
-      "https://www.fratellowatches.com/an-ideal-blend-of-old-and-new-the-panerai-luminor-marina-pam01707-in-carbotech/",
-    ],
-    sourceNotes:
-      "Référence PAM01707 confirmée : Carbotech 44 mm, P.9010 automatique, 72 h, 300 m, bracelet cuir brun et caoutchouc noir supplémentaire. Prix officiel suisse CHF 11 900, TVA comprise. Lug-to-lug non publié.",
     verified: true,
     verificationStatus: "verified",
     editorialStatus: "publishable",

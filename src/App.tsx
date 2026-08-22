@@ -6,6 +6,7 @@ import { BrandsView } from "@/components/BrandsView";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HomeView } from "@/components/HomeView";
+import { ReviewView } from "@/components/ReviewView";
 import { getBrand, getWatch } from "@/lib/data";
 
 function Shell({ children, active }: { children: React.ReactNode; active?: "news" | "brands" | "archives" }) {
@@ -52,6 +53,10 @@ function BrandPage() {
   return <Shell active="brands"><PageTitle title={brand.name} /><BrandView name={brand.name} slug={brand.slug} /></Shell>;
 }
 
+function ReviewPage() {
+  return <Shell><PageTitle title="Validation éditoriale" /><ReviewView /></Shell>;
+}
+
 function LegacyWatchRedirect() {
   const { slug = "" } = useParams();
   const watch = getWatch(slug);
@@ -87,6 +92,7 @@ export default function App() {
         <Route path="/brands" element={<BrandsPage />} />
         <Route path="/brand/:slug" element={<BrandPage />} />
         <Route path="/archives" element={<ArchivesPage />} />
+        <Route path="/review" element={<ReviewPage />} />
         <Route path="/watch/:slug" element={<LegacyWatchRedirect />} />
         <Route path="/not-found" element={<NotFoundPage />} />
         <Route path="*" element={<Navigate to="/not-found" replace />} />
