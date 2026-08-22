@@ -29,7 +29,9 @@
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/63d42fc27035525d0c9f68c7/86b42498-6be2-4ecd-a34a-20b24aa73e74/Nodus-Sector-Sport-Tigers-Eye-Steel-Day.jpg",
       "imageSource": "Nodus",
       "imageSourceUrl": "https://www.noduswatches.com/sector-sport/p/sector-sport-tigers-eye",
-      "sources": ["https://www.noduswatches.com/sector-sport/p/sector-sport-tigers-eye"],
+      "sources": [
+        "https://www.noduswatches.com/sector-sport/p/sector-sport-tigers-eye"
+      ],
       "verified": true,
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
@@ -39,10 +41,9 @@
   {
     "id": "tissot-prx-40-mop",
     "issueNumber": 15,
-    "status": "needs-review",
+    "status": "review",
     "detectedAt": "2026-08-22",
     "reviewedAt": "2026-08-22",
-    "blockers": ["Asset officiel haute définition à contrôler avant publication."],
     "watch": {
       "id": "tissot-prx-40-mop",
       "slug": "tissot-prx-40-mop",
@@ -66,11 +67,16 @@
       "productUrl": "https://www.tissotwatches.com/fr-ch/T1374071111100.html",
       "imageSource": "Tissot",
       "imageSourceUrl": "https://www.tissotwatches.com/fr-ch/T1374071111100.html",
-      "sources": ["https://www.tissotwatches.com/fr-ch/T1374071111100.html"],
-      "verified": false,
-      "verificationStatus": "needs-review",
-      "editorialStatus": "researching",
-      "independent": false
+      "sources": [
+        "https://www.tissotwatches.com/fr-ch/T1374071111100.html",
+        "https://www.tissotwatches.com/nl-be/T1374071111100.html"
+      ],
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": false,
+      "imageUrl": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw0c7a6290/product-pictures/9ff31687-c1ac-4203-b621-e27cc19526cb_T137-407-11-111-00-psd.png",
+      "sourceNotes": "Asset produit officiel original de la référence T137.407.11.111.00, montre entière sur bracelet acier. La page CH confirme CHF 725 TVA comprise, 40 × 10,93 mm, 100 m et 80 h. Lug-to-lug non publié par Tissot."
     }
   },
   {
@@ -78,7 +84,9 @@
     "issueNumber": 16,
     "status": "needs-review",
     "detectedAt": "2026-08-22",
-    "blockers": ["Page produit définitive et image officielle haute définition attendues après le lancement du 24 août."],
+    "blockers": [
+      "Page produit définitive et image officielle haute définition attendues après le lancement du 24 août."
+    ],
     "watch": {
       "id": "wren-diver-one-abyss",
       "slug": "wren-diver-one-abyss",
@@ -103,7 +111,10 @@
       "productUrl": "https://www.wrenwatches.com/musou-black",
       "imageSource": "Wren / Time+Tide",
       "imageSourceUrl": "https://www.wrenwatches.com/musou-black",
-      "sources": ["https://www.wrenwatches.com/musou-black", "https://timeandtidewatches.com/wren-diver-one-abyss-in-the-shop/"],
+      "sources": [
+        "https://www.wrenwatches.com/musou-black",
+        "https://timeandtidewatches.com/wren-diver-one-abyss-in-the-shop/"
+      ],
       "verified": false,
       "verificationStatus": "needs-review",
       "editorialStatus": "researching",
@@ -140,7 +151,9 @@
       "imageUrl": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/04/01/21/07/HCC002J1/HCC002J1.png?mh=1200&mw=1200",
       "imageSource": "Seiko",
       "imageSourceUrl": "https://www.seikowatches.com/us-en/products/presage/hcc002j1",
-      "sources": ["https://www.seikowatches.com/us-en/products/presage/hcc002j1"],
+      "sources": [
+        "https://www.seikowatches.com/us-en/products/presage/hcc002j1"
+      ],
       "verified": true,
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
@@ -178,7 +191,9 @@
       "imageUrl": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/04/17/21/10/HCC008J1/HCC008J1.png?mh=1200&mw=1200",
       "imageSource": "Seiko",
       "imageSourceUrl": "https://www.seikowatches.com/us-en/products/presage/hcc008j1",
-      "sources": ["https://www.seikowatches.com/us-en/products/presage/hcc008j1"],
+      "sources": [
+        "https://www.seikowatches.com/us-en/products/presage/hcc008j1"
+      ],
       "verified": true,
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
