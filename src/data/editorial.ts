@@ -323,6 +323,145 @@ export const editorialOverrides: EditorialOverride[] = [
     editorialStatus: "researching",
     verifiedAt: "2026-08-21",
   },
+  {
+    id: "hamilton-khaki-field-auto-the-odyssey",
+    summary:
+      "La Khaki Field passe au bronze pour accompagner le film de Christopher Nolan. Ses 42 mm, son fond titane et ses 80 heures d’autonomie donnent à cette édition de 2 112 pièces une vraie présence de montre d’aventure.",
+    productUrl:
+      "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
+    imageUrl:
+      "https://www.hamiltonwatch.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/h/7/h70675530_soldier_1.png",
+    imageSource: "Hamilton",
+    imageSourceUrl:
+      "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
+    sources: [
+      "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
+      "https://press.hamiltonwatch.com/hamilton-x-the-odyssey/",
+    ],
+    sourceNotes: "Fiche officielle : bronze, 42 mm, 100 m, calibre H-10 et édition de 2 112 pièces.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "tag-heuer-formula-1-chronograph-gulf",
+    thickness: "14.1 mm",
+    lugToLug: "47.3 mm",
+    summary:
+      "Une Formula 1 automatique en titane grade 2 avec lunette carbone forgé, plutôt qu’un simple habillage Gulf. Les 1 000 exemplaires conservent le Calibre 16 et 200 mètres d’étanchéité.",
+    productUrl:
+      "https://www.tagheuer.com/int/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16/CBZ208B.BF0009.html",
+    imageUrl:
+      "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dwa8fc5c25/TAG_Heuer_Formula_1/CBZ208B.BF0009/CBZ208B.BF0009_Soldier.png",
+    imageSource: "TAG Heuer",
+    imageSourceUrl:
+      "https://www.tagheuer.com/int/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16/CBZ208B.BF0009.html",
+    sources: [
+      "https://www.tagheuer.com/int/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16/CBZ208B.BF0009.html",
+      "https://go.tagheuer.com/F1GulfTAT",
+    ],
+    sourceNotes: "La fiche officielle confirme la référence CBZ208B.BF0009, les 1 000 pièces et 200 m.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "vacheron-overseas-34-5-red",
+    thickness: "9.33 mm",
+    summary:
+      "Le cadran rouge laqué donne une personnalité rare à l’Overseas compacte. Elle conserve les trois bracelets interchangeables, 150 mètres d’étanchéité et le calibre 1088/1 visible au dos.",
+    productUrl:
+      "https://www.vacheron-constantin.com/fr/en/collections/overseas/4600v-200a-h127.html",
+    imageUrl:
+      "https://www.vacheron-constantin.com/dam/rcq/vac/iU/Lt/bl/_U/Tu/6J/as/7v/xW/KJ/aQ/iULtbl_UTu6Jas7vxWKJaQ.png.transform.vacsocialsharing.png",
+    imageSource: "Vacheron Constantin",
+    imageSourceUrl:
+      "https://www.vacheron-constantin.com/fr/en/collections/overseas/4600v-200a-h127.html",
+    sources: [
+      "https://www.vacheron-constantin.com/fr/en/collections/overseas/4600v-200a-h127.html",
+    ],
+    sourceNotes: "Fiche officielle de la version acier à cadran rouge : 34,5 × 9,33 mm et 150 m.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "christopher-ward-twelve-xander",
+    summary:
+      "La Twelve X devient une toile miniature : cadran peint à la main par The Dial Artist, boîtier titane et calibre manufacture SH21. Une collaboration de 150 pièces, désormais épuisée.",
+    productUrl: "https://www.christopherward.com/the-twelve-xander.html",
+    imageUrl:
+      "https://www.christopherward.com/dw/image/v2/BDWD_PRD/on/demandware.static/-/Sites-cw-master-catalog/default/dw4d2a3951/images/WATCHES/C12-41A5D1-THPDA-B0/C12-41A5D1-THPDA-B0_Picture_1.jpg?sw=900&sh=900",
+    imageSource: "Christopher Ward",
+    imageSourceUrl: "https://www.christopherward.com/the-twelve-xander.html",
+    sources: ["https://www.christopherward.com/the-twelve-xander.html"],
+    sourceNotes: "Page officielle : édition de 150 pièces, 41 mm, titane, calibre SH21 et statut épuisé.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "oris-divers-date-39-olive",
+    summary:
+      "Un cadran olive inspiré d’équipements militaires vintage, dans le format très équilibré de 39 mm. La Divers Date reste une vraie plongeuse, avec 200 mètres et le Sellita éprouvé d’Oris.",
+    productUrl:
+      "https://www.oris.ch/en-US/product/watch/divers/new-divers/01-733-7795-4057-Set",
+    imageUrl:
+      "https://image.oris.ch/data/37795_0173377954057-Set_horizontale_ds.png",
+    imageSource: "Oris",
+    imageSourceUrl:
+      "https://www.oris.ch/en-US/product/watch/divers/new-divers/01-733-7795-4057-Set",
+    sources: [
+      "https://www.oris.ch/en-US/product/watch/divers/new-divers/01-733-7795-4057-Set",
+    ],
+    sourceNotes: "Fiche officielle : 39 mm, acier, 20 bar / 200 m et USD 2 800.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "hublot-big-bang-sapphire-sky-blue",
+    summary:
+      "Un boîtier saphir bleu ciel, mais une vraie démonstration mécanique : le Meca-10 manuel affiche dix jours de réserve à travers une architecture entièrement ajourée. Série limitée à 100 pièces.",
+    productUrl:
+      "https://www.hublot.com/en-ae/watches/big-bang/big-bang-sapphire-sky-blue-44-mm",
+    imageUrl:
+      "https://www.hublot.com/sites/default/files/styles/boutique_hero_image_mobile/public/2026-07/Big-Bang-Sapphire-Skye-Blue-44-mm-Soldier.png?itok=v4xOlwXV",
+    imageSource: "Hublot",
+    imageSourceUrl:
+      "https://www.hublot.com/en-ae/watches/big-bang/big-bang-sapphire-sky-blue-44-mm",
+    sources: [
+      "https://www.hublot.com/en-ae/watches/big-bang/big-bang-sapphire-sky-blue-44-mm",
+      "https://www.hublot.com/en-int/news/big-bang-sapphire-sky-blue",
+    ],
+    sourceNotes: "Référence 424.JX.5120.RX confirmée : 44 mm, 50 m, Meca-10 / 240 h, 100 pièces.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
+  {
+    id: "1776-atelier-liberty-250",
+    thickness: "10.2 mm",
+    summary:
+      "Une pièce américaine de haute horlogerie plus classique qu’elle n’en a l’air : or rose massif, mouvement manuel entièrement décoré et gravure à la main. La série de 25 exemplaires célèbre les 250 ans des États-Unis.",
+    productUrl: "https://1776atelier.com/products/liberty-250",
+    imageUrl:
+      "https://1776atelier.com/cdn/shop/files/Libert250Heroshot.jpg?v=1783977373&width=1200",
+    imageSource: "1776 Atelier",
+    imageSourceUrl: "https://1776atelier.com/products/liberty-250",
+    sources: ["https://1776atelier.com/products/liberty-250"],
+    sourceNotes: "Fiche officielle : or rose 18 ct, 41 × 10,2 mm, 25 pièces et USD 44 000.",
+    verified: true,
+    verificationStatus: "verified",
+    editorialStatus: "publishable",
+    verifiedAt: "2026-08-22",
+  },
 ];
 
 export const independentBrands = new Set([
