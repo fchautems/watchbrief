@@ -7,20 +7,26 @@
       "brand": "Hamilton",
       "purpose": "image",
       "preferred": "https://www.hamiltonwatch.com/media/catalog/product/…",
-      "avoid": ["https://www.hamiltonwatch.com/cache/…"],
+      "avoid": [
+        "https://www.hamiltonwatch.com/cache/…"
+      ],
       "reason": "Les URLs cache ont fourni de petites images pixelisées."
     },
     {
       "brand": "Vacheron Constantin",
       "purpose": "image",
       "preferred": "…png.transform.vacdetail.png",
-      "avoid": ["…socialsharing…"],
+      "avoid": [
+        "…socialsharing…"
+      ],
       "reason": "vacdetail est rendu correctement ; socialsharing a renvoyé 404."
     },
     {
       "brand": "Albishorn",
       "purpose": "image",
-      "avoid": ["alb-marinagraph-dial.png"],
+      "avoid": [
+        "alb-marinagraph-dial.png"
+      ],
       "reason": "Cadran isolé : ne représente pas le modèle entier."
     },
     {
@@ -28,6 +34,30 @@
       "purpose": "price",
       "preferred": "locale CH et prix CHF de la référence exacte",
       "reason": "Le tarif US en USD ne correspond pas à la politique de prix suisse."
+    },
+    {
+      "brand": "TAG Heuer",
+      "purpose": "image",
+      "preferred": "…_Soldier.png?impolicy=TrimRatioResize&ratioHeight=1&ratioWidth=1&width=1200",
+      "reason": "Transformation carrée nette et montre entière pour WBY111H.FT8128."
+    },
+    {
+      "brand": "Panerai",
+      "purpose": "image",
+      "preferred": "…jpeg.transform.strip_component_bg_image_640_2x.png",
+      "reason": "Asset officiel 1280 px, sans vignette floue."
+    },
+    {
+      "brand": "Panerai",
+      "purpose": "price",
+      "preferred": "https://www.panerai.com/ch/en/…",
+      "reason": "La locale suisse expose le tarif CHF TVA comprise."
+    },
+    {
+      "brand": "GRØNE Oldenzaal",
+      "purpose": "image",
+      "preferred": "https://grone.com/cdn/shop/files/…?width=1800",
+      "reason": "Asset Shopify officiel haute définition ; variante à contrôler visuellement."
     }
   ]
 }

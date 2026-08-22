@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "source": "Seed reconstructed from the prior ChatGPT watch-news conversation.",
   "warning": "This is an import seed, not a fully re-verified database. Re-check every record against official brand sources and reputable watch press before final publication. Preserve corrections and contradiction notes.",
   "watches": [
@@ -1335,6 +1335,36 @@
       "limitedEdition": true,
       "limitedQty": null,
       "notes": "Final quantity determined after preorder."
+    },
+    {
+      "id": "tag-heuer-formula-1-solargraph-zandvoort",
+      "brand": "TAG Heuer",
+      "model": "Formula 1 Solargraph WBY111H.FT8128",
+      "date": "2026-08-18",
+      "movement": "TH50-00 Solargraph",
+      "diameter": "38 mm",
+      "material": "Steel / TH-Polylight",
+      "waterResistance": "100 m",
+      "powerReserve": "Up to 10 months on full charge",
+      "price": "CHF 2,000",
+      "limitedEdition": true,
+      "limitedQty": 1500,
+      "notes": "Orange rubber-strap edition for the final Dutch Grand Prix at Zandvoort."
+    },
+    {
+      "id": "panerai-luminor-marina-pam01707",
+      "brand": "Panerai",
+      "model": "Luminor Marina Carbotech PAM01707",
+      "date": "2026-08-03",
+      "movement": "P.9010 automatic",
+      "diameter": "44 mm",
+      "material": "Carbotech / titanium caseback",
+      "waterResistance": "300 m",
+      "powerReserve": "72 h",
+      "price": "CHF 11,900",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "notes": "Brown calf strap with additional black rubber strap."
     }
   ],
   "brandWatchlist": [
@@ -1566,6 +1596,7 @@
     "Zelos",
     "Zenith",
     "Zero West",
-    "echo/neutra"
+    "echo/neutra",
+    "GRØNE Oldenzaal"
   ]
 }
