@@ -64,20 +64,20 @@
       "priceRule": "Chercher la page CH officielle en priorité quand elle existe.",
       "lastChecked": "2026-08-22"
     },
-    "GRØNE Oldenzaal": {
-      "officialDomains": [
-        "grone.com"
-      ],
-      "imageRule": "Les assets Shopify /cdn/shop/files/ peuvent être demandés avec width=1800. Vérifier si la carte illustre Quirky ou Classic.",
-      "priceRule": "Conserver le prix officiel EUR hors taxes ; ne pas convertir en CHF sans tarif suisse officiel.",
-      "lastChecked": "2026-08-22"
-    },
     "Panerai": {
       "officialDomains": [
         "panerai.com"
       ],
       "imageRule": "Les assets DAM transform.strip_component_bg_image_640_2x donnent une image produit nette de 1280 px. Vérifier la référence PAM exacte.",
       "priceRule": "Utiliser la locale /ch/en/ pour obtenir le prix officiel CHF TVA comprise.",
+      "lastChecked": "2026-08-22"
+    },
+    "Grøne": {
+      "officialDomains": [
+        "grone.com"
+      ],
+      "imageRule": "Les assets Shopify /cdn/shop/files/ peuvent être demandés avec width=1800. Vérifier si la carte illustre Quirky ou Classic.",
+      "priceRule": "Conserver le prix officiel EUR hors taxes ; ne pas convertir en CHF sans tarif suisse officiel.",
       "lastChecked": "2026-08-22"
     }
   }
