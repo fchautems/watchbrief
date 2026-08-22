@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-08-22",
+  "scope": "19 fiches enrichies",
+  "policy": "Afficher un prix officiel suisse en CHF lorsqu'il est publié pour la référence exacte ; sinon conserver la devise et le marché officiels sans conversion.",
+  "summary": { "chf": 13, "native-market": 6, "needs-follow-up": 0 },
+  "notes": [
+    "Les champs priceSourceUrl, priceCheckedAt, priceMarket et priceTaxMode portent la trace de vérification dans les surcharges éditoriales.",
+    "Le seed reste intact ; cette table est un état d'audit, pas une source de présentation."
+  ]
+}
