@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-22",
+  "notes": "Ces règles sont des raccourcis de recherche, pas des preuves. Toute candidate exige encore une vérification de la variante exacte.",
+  "patterns": [
+    {
+      "brand": "Hamilton",
+      "purpose": "image",
+      "preferred": "https://www.hamiltonwatch.com/media/catalog/product/…",
+      "avoid": ["https://www.hamiltonwatch.com/cache/…"],
+      "reason": "Les URLs cache ont fourni de petites images pixelisées."
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "purpose": "image",
+      "preferred": "…png.transform.vacdetail.png",
+      "avoid": ["…socialsharing…"],
+      "reason": "vacdetail est rendu correctement ; socialsharing a renvoyé 404."
+    },
+    {
+      "brand": "Albishorn",
+      "purpose": "image",
+      "avoid": ["alb-marinagraph-dial.png"],
+      "reason": "Cadran isolé : ne représente pas le modèle entier."
+    },
+    {
+      "brand": "IWC",
+      "purpose": "price",
+      "preferred": "locale CH et prix CHF de la référence exacte",
+      "reason": "Le tarif US en USD ne correspond pas à la politique de prix suisse."
+    }
+  ]
+}

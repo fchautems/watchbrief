@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WatchBrief candidate",
+  "type": "object",
+  "required": ["status", "brand", "model", "detectedAt", "officialSource", "summary", "confidence"],
+  "properties": {
+    "status": { "enum": ["candidate", "needs-review", "accepted", "published", "rejected", "duplicate"] },
+    "brand": { "type": "string", "minLength": 1 },
+    "model": { "type": "string", "minLength": 1 },
+    "reference": { "type": "string" },
+    "detectedAt": { "type": "string", "format": "date" },
+    "officialSource": { "type": "string", "format": "uri" },
+    "secondarySources": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 2 },
+    "imageCandidate": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "knownDimensions": { "type": "string" },
+        "exactVariantConfirmed": { "type": "boolean" }
+      },
+      "required": ["url", "sourceUrl", "exactVariantConfirmed"]
+    },
+    "price": {
+      "type": "object",
+      "properties": {
+        "amount": { "type": "number" },
+        "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
+        "market": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "taxMode": { "enum": ["incl-vat", "excl-vat", "unknown"] },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "checkedAt": { "type": "string", "format": "date" },
+        "status": { "enum": ["official", "not-published", "needs-review"] }
+      },
+      "required": ["status"]
+    },
+    "summary": { "type": "string", "minLength": 1, "maxLength": 900 },
+    "contradictions": { "type": "array", "items": { "type": "string" } },
+    "duplicateCheck": { "type": "string" },
+    "confidence": { "enum": ["high", "medium", "low"] }
+  },
+  "additionalProperties": false
+}
