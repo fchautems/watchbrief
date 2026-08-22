@@ -15,7 +15,7 @@ async function checkImage(url) {
     const type = response.headers.get("content-type") ?? "";
     const state = !response.ok
       ? response.status === 404 || response.status === 410 ? "broken" : "inconclusive"
-      : type.startsWith("image/") ? "ok" : "broken";
+      : type.startsWith("image/") ? "ok" : "inconclusive";
     return { url, status: response.status, type: type || "-", state };
   } catch (error) {
     return { url, status: null, type: "-", state: "inconclusive", detail: String(error) };
