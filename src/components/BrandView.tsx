@@ -28,7 +28,7 @@ export function BrandView({ name, slug }: { name: string; slug: string }) {
             <span>{entries.length} enregistrée{entries.length > 1 ? "s" : ""}</span>
           </div>
           <div className="watch-grid brand-watch-grid">
-            {entries.map((watch) => <WatchCard compact key={watch.id} watch={watch} />)}
+            {entries.map((watch) => <WatchCard key={watch.id} watch={watch} />)}
           </div>
         </section>
       ) : (
