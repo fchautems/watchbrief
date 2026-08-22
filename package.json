@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "check:links": "node scripts/check-links.mjs"
+    "check:links": "node scripts/check-links.mjs",
+    "check:images": "node scripts/check-images.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
