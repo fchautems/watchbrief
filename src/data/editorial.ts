@@ -330,7 +330,7 @@ export const editorialOverrides: EditorialOverride[] = [
     productUrl:
       "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
     imageUrl:
-      "https://www.hamiltonwatch.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/h/7/h70675530_soldier_1.png",
+      "https://www.hamiltonwatch.com/media/catalog/product/h/7/h70675530_soldier_1.png",
     imageSource: "Hamilton",
     imageSourceUrl:
       "https://www.hamiltonwatch.com/en-us/h70675530-khaki-field-auto-odyssey-limited-edition.html",
@@ -353,7 +353,7 @@ export const editorialOverrides: EditorialOverride[] = [
     productUrl:
       "https://www.tagheuer.com/int/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16/CBZ208B.BF0009.html",
     imageUrl:
-      "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dwa8fc5c25/TAG_Heuer_Formula_1/CBZ208B.BF0009/CBZ208B.BF0009_Soldier.png",
+      "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dwa8fc5c25/TAG_Heuer_Formula_1/CBZ208B.BF0009/CBZ208B.BF0009_Soldier.png?impolicy=TrimRatioResize&width=1028&ratioHeight=1&ratioWidth=1&expansion=true&padding=150",
     imageSource: "TAG Heuer",
     imageSourceUrl:
       "https://www.tagheuer.com/int/en/timepieces/collections/tag-heuer-formula-1/44-mm-calibre-16/CBZ208B.BF0009.html",
@@ -375,7 +375,7 @@ export const editorialOverrides: EditorialOverride[] = [
     productUrl:
       "https://www.vacheron-constantin.com/fr/en/collections/overseas/4600v-200a-h127.html",
     imageUrl:
-      "https://www.vacheron-constantin.com/dam/rcq/vac/iU/Lt/bl/_U/Tu/6J/as/7v/xW/KJ/aQ/iULtbl_UTu6Jas7vxWKJaQ.png.transform.vacsocialsharing.png",
+      "https://www.vacheron-constantin.com/dam/rcq/vac/iU/Lt/bl/_U/Tu/6J/as/7v/xW/KJ/aQ/iULtbl_UTu6Jas7vxWKJaQ.png.transform.vacdetail.png",
     imageSource: "Vacheron Constantin",
     imageSourceUrl:
       "https://www.vacheron-constantin.com/fr/en/collections/overseas/4600v-200a-h127.html",
