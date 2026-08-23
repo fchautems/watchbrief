@@ -200,5 +200,47 @@
       "editorialStatus": "publishable",
       "independent": false
     }
+  },
+  {
+    "id": "norqain-independence-skeleton-titanium",
+    "issueNumber": 21,
+    "status": "review",
+    "detectedAt": "2026-08-23",
+    "reviewedAt": "2026-08-23",
+    "watch": {
+      "id": "norqain-independence-skeleton-titanium",
+      "slug": "norqain-independence-skeleton-titanium",
+      "brand": "NORQAIN",
+      "brandSlug": "norqain",
+      "model": "Independence Skeleton Titanium 42 mm",
+      "date": "2026-08-23",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "11.8 mm",
+      "lugToLug": "48.75 mm",
+      "waterResistance": "100 m",
+      "powerReserve": "41 h",
+      "price": "CHF 4’500",
+      "priceSourceUrl": "https://norqain.com/products/independence-skeleton-titanium-dlc",
+      "priceCheckedAt": "2026-08-23",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Première Independence Skeleton entièrement réalisée en titane grade 5, avec revêtement DLC noir et un poids annoncé de 82 g. Le calibre automatique squeletté NB08S est certifié COSC.",
+      "productUrl": "https://norqain.com/products/independence-skeleton-titanium-dlc",
+      "imageUrl": "https://norqain.com/cdn/shop/files/NORQAIN_Independence_Skeleton_Titanium_DLC_Black_Rubber_2160x2700_7a8df919-96a0-4cf0-a710-5e1e0b00843f.jpg?v=1785831832",
+      "imageSource": "NORQAIN",
+      "imageSourceUrl": "https://norqain.com/products/independence-skeleton-titanium-dlc",
+      "sources": [
+        "https://norqain.com/products/independence-skeleton-titanium-dlc",
+        "https://norqain.com/policies/terms-of-service",
+        "https://monochrome-watches.com/norqain-independence-skeleton-titanium-dlc-introducing-price/"
+      ],
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": true,
+      "sourceNotes": "Variante N3000.07T01.B03.R01 sur caoutchouc Milanaise noir avec boucle ardillon. Page officielle : 42 × 11,8 × 48,75 mm, titane grade 5 DLC noir, calibre NB08S COSC, 41 h, 100 m et CHF 4’500. Les conditions NORQAIN confirment que les prix CHF incluent la TVA suisse. Asset officiel 2160 × 2700 de la montre entière ; variante exacte confirmée."
+    }
   }
 ]
