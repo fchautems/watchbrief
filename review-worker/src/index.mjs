@@ -3,7 +3,7 @@ const githubApi = "https://api.github.com";
 function cors(env) {
   return {
     "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN,
-    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Headers": "Content-Type, X-Review-Password",
     "Access-Control-Allow-Methods": "PATCH, OPTIONS",
     Vary: "Origin",
   };
@@ -99,8 +99,22 @@ async function githubJson(url, token, init = {}) {
   return result;
 }
 
-async function updateCandidate(request, env, candidateId, ctx) {
-  if (!ctx.access) throw new Error("Accès Cloudflare requis");
+function passwordsMatch(received, expected) {
+  if (received.length !== expected.length) return false;
+  let difference = 0;
+  for (let index = 0; index < received.length; index += 1) difference |= received.charCodeAt(index) ^ expected.charCodeAt(index);
+  return difference === 0;
+}
+
+function assertReviewer(request, env) {
+  const password = request.headers.get("X-Review-Password");
+  if (!env.REVIEW_PASSWORD || !password || !passwordsMatch(password, env.REVIEW_PASSWORD)) {
+    throw new Error("Mot de passe de validation invalide");
+  }
+}
+
+async function updateCandidate(request, env, candidateId) {
+  assertReviewer(request, env);
   const { status } = await request.json();
   if (!["published", "rejected"].includes(status)) throw new Error("Décision invalide");
   const token = await installationToken(env);
@@ -127,17 +141,16 @@ async function updateCandidate(request, env, candidateId, ctx) {
 }
 
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request, env) {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
     const url = new URL(request.url);
     try {
       if (url.pathname === "/" && request.method === "GET") {
-        if (!ctx.access) return json({ error: "Accès Cloudflare requis" }, 401, env);
-        return json({ message: "Accès validation WatchBrief autorisé" }, 200, env);
+        return json({ message: "Service de validation WatchBrief actif" }, 200, env);
       }
       const match = url.pathname.match(/^\/candidates\/([a-z0-9-]+)$/);
       if (match && request.method === "PATCH") {
-        await updateCandidate(request, env, match[1], ctx);
+        await updateCandidate(request, env, match[1]);
         return json({ message: "Candidate mise à jour" }, 200, env);
       }
       return json({ error: "Route introuvable" }, 404, env);

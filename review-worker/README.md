@@ -1,6 +1,6 @@
 # Publication immédiate — configuration
 
-La page `/review` est volontairement hors navigation. Son bouton de publication ne devient actif qu'après le raccordement du Worker ci-dessous. Ce Worker n'expose aucun secret dans GitHub Pages : Cloudflare Access protège le Worker et celui-ci écrit avec une GitHub App limitée à `fchautems/watchbrief`.
+La page `/review` est volontairement hors navigation. Son bouton de publication ne devient actif qu'après le raccordement du Worker ci-dessous. Ce Worker n'expose aucun secret dans GitHub Pages : un mot de passe de validation est conservé uniquement comme secret Cloudflare, et le Worker écrit avec une GitHub App limitée à `fchautems/watchbrief`.
 
 ## 1. Créer une GitHub App
 
@@ -20,12 +20,13 @@ Installer Wrangler, se connecter à Cloudflare, puis depuis `review-worker/` :
 ```bash
 npx wrangler secret put GITHUB_APP_ID
 npx wrangler secret put GITHUB_APP_PRIVATE_KEY
+npx wrangler secret put REVIEW_PASSWORD
 npx wrangler deploy
 ```
 
 Pour `GITHUB_APP_PRIVATE_KEY`, coller la clé PEM complète. Cloudflare donne ensuite une URL `https://watchbrief-review.<compte>.workers.dev`.
 
-Dans **Workers & Pages → watchbrief-review → Access**, choisir **Protect this Worker behind Access**, **All traffic**, puis la politique **Cloudflare account**. L'authentification est alors gérée par Cloudflare ; aucune OAuth App GitHub n'est nécessaire.
+Définir `REVIEW_PASSWORD` comme secret long et unique dans Cloudflare. Il est demandé sur la page `/review`, gardé uniquement pendant la session du navigateur et envoyé au Worker par HTTPS. Aucune OAuth App GitHub ni abonnement Zero Trust ne sont nécessaires.
 
 ## 3. Raccorder la page
 
@@ -35,5 +36,5 @@ Définir `VITE_REVIEW_API_BASE` avec cette URL dans le build GitHub Pages (varia
 
 1. La tâche de veille ajoute des brouillons complets dans `src/data/review-candidates.json` avec le statut `review`.
 2. La page `/review` affiche les cartes, hors navigation publique.
-3. Après connexion Cloudflare, **Publier** change le statut en `published` dans ce fichier.
+3. Après saisie du mot de passe de validation, **Publier** change le statut en `published` dans ce fichier.
 4. `src/lib/data.ts` inclut uniquement les candidates `published` dans le site public ; GitHub Pages déploie le commit.
