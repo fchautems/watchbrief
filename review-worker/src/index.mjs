@@ -3,8 +3,8 @@ const githubApi = "https://api.github.com";
 function cors(env) {
   return {
     "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN,
-    "Access-Control-Allow-Headers": "Authorization, Content-Type",
-    "Access-Control-Allow-Methods": "POST, PATCH, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "PATCH, OPTIONS",
     Vary: "Origin",
   };
 }
@@ -14,10 +14,6 @@ function json(body, status, env) {
     status,
     headers: { "Content-Type": "application/json", ...cors(env) },
   });
-}
-
-function form(data) {
-  return new URLSearchParams(data).toString();
 }
 
 function decodeBase64(value) {
@@ -76,16 +72,6 @@ async function installationToken(env) {
   return result.token;
 }
 
-async function assertReviewer(request, env) {
-  const token = request.headers.get("Authorization")?.replace(/^Bearer\s+/i, "");
-  if (!token) throw new Error("Connexion GitHub requise");
-  const response = await fetch(`${githubApi}/user`, {
-    headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
-  });
-  const user = await response.json();
-  if (!response.ok || user.login !== env.ALLOWED_GITHUB_LOGIN) throw new Error("Compte GitHub non autorisé");
-}
-
 async function githubJson(url, token, init = {}) {
   const response = await fetch(url, {
     ...init,
@@ -101,28 +87,8 @@ async function githubJson(url, token, init = {}) {
   return result;
 }
 
-async function deviceCode(env) {
-  const response = await fetch("https://github.com/login/device/code", {
-    method: "POST",
-    headers: { Accept: "application/json", "Content-Type": "application/x-www-form-urlencoded" },
-    body: form({ client_id: env.GITHUB_OAUTH_CLIENT_ID, scope: "read:user" }),
-  });
-  return { response, result: await response.json() };
-}
-
-async function deviceToken(request, env) {
-  const { device_code } = await request.json();
-  if (!device_code) throw new Error("Code d’autorisation absent");
-  const response = await fetch("https://github.com/login/oauth/access_token", {
-    method: "POST",
-    headers: { Accept: "application/json", "Content-Type": "application/x-www-form-urlencoded" },
-    body: form({ client_id: env.GITHUB_OAUTH_CLIENT_ID, device_code, grant_type: "urn:ietf:params:oauth:grant-type:device_code" }),
-  });
-  return { response, result: await response.json() };
-}
-
-async function updateCandidate(request, env, candidateId) {
-  await assertReviewer(request, env);
+async function updateCandidate(request, env, candidateId, ctx) {
+  if (!ctx.access) throw new Error("Accès Cloudflare requis");
   const { status } = await request.json();
   if (!["published", "rejected"].includes(status)) throw new Error("Décision invalide");
   const token = await installationToken(env);
@@ -149,21 +115,13 @@ async function updateCandidate(request, env, candidateId) {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
     const url = new URL(request.url);
     try {
-      if (url.pathname === "/auth/device-code" && request.method === "POST") {
-        const { response, result } = await deviceCode(env);
-        return json(result, response.ok ? 200 : response.status, env);
-      }
-      if (url.pathname === "/auth/device-token" && request.method === "POST") {
-        const { response, result } = await deviceToken(request, env);
-        return json(result, response.ok ? 200 : response.status, env);
-      }
       const match = url.pathname.match(/^\/candidates\/([a-z0-9-]+)$/);
       if (match && request.method === "PATCH") {
-        await updateCandidate(request, env, match[1]);
+        await updateCandidate(request, env, match[1], ctx);
         return json({ message: "Candidate mise à jour" }, 200, env);
       }
       return json({ error: "Route introuvable" }, 404, env);
