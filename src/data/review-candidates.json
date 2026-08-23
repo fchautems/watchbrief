@@ -242,5 +242,48 @@
       "independent": true,
       "sourceNotes": "Variante N3000.07T01.B03.R01 sur caoutchouc Milanaise noir avec boucle ardillon. Page officielle : 42 × 11,8 × 48,75 mm, titane grade 5 DLC noir, calibre NB08S COSC, 41 h, 100 m et CHF 4’500. Les conditions NORQAIN confirment que les prix CHF incluent la TVA suisse. Asset officiel 2160 × 2700 de la montre entière ; variante exacte confirmée."
     }
+  },
+  {
+    "id": "ollech-wajs-early-bird-eb-24",
+    "issueNumber": 27,
+    "status": "review",
+    "detectedAt": "2026-08-23",
+    "reviewedAt": "2026-08-23",
+    "watch": {
+      "id": "ollech-wajs-early-bird-eb-24",
+      "slug": "ollech-wajs-early-bird-eb-24",
+      "brand": "Ollech & Wajs",
+      "brandSlug": "ollech-wajs",
+      "model": "Early Bird EB-24 “Numbered Edition”",
+      "date": "2026-06-30",
+      "diameter": "39.5 mm",
+      "diameterMm": 39.5,
+      "thickness": "12.5 mm",
+      "lugToLug": "48 mm",
+      "waterResistance": "300 m",
+      "powerReserve": "42 h",
+      "price": "CHF 1’956",
+      "priceSourceUrl": "https://ow-watch.com/products/ow-early-bird-numered2",
+      "priceCheckedAt": "2026-08-23",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 56,
+      "summary": "Réinterprétation de l’Early Bird de 1965 avec un véritable affichage mécanique sur 24 heures et une lunette bidirectionnelle pour le second fuseau. Le calibre Soprod C-125 dédié s’accompagne de 300 mètres d’étanchéité.",
+      "productUrl": "https://ow-watch.com/products/ow-early-bird-numered2",
+      "imageUrl": "https://ow-watch.com/cdn/shop/files/Ollech___Wajs_3_Quarter_Leather_7c7db903-689b-4a1b-bb5f-5188beabdad5_1024x1024.jpg?v=1782748076",
+      "imageSource": "Ollech & Wajs",
+      "imageSourceUrl": "https://ow-watch.com/products/ow-early-bird-numered2",
+      "sources": [
+        "https://ow-watch.com/products/ow-early-bird-numered2",
+        "https://www.fratellowatches.com/hands-on-new-ollech-wajs-early-bird-eb-24/",
+        "https://twobrokewatchsnobs.com/ollech-wajs-eb-24/"
+      ],
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": true,
+      "sourceNotes": "OW Early Bird EB-24 sur bracelet cuir noir. La page officielle confirme 39,5 × 12,5 × 48 mm, calibre automatique Soprod C-125, 42 h, 300 m et CHF 1’956 ; l’expédition annoncée comprend la TVA et les droits. L’asset officiel 1024 × 1024 montre la variante entière en vue trois-quarts. La série de lancement comprend 56 couronnes numérotées ; une production ultérieure non numérotée n’est pas exclue."
+    }
   }
 ]
