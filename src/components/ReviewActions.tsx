@@ -34,6 +34,7 @@ export function ReviewActions({ candidate }: { candidate: ReviewCandidate }) {
 
   return (
     <div className="review-actions">
+      <a className="review-action-note" href={apiBase} target="_blank" rel="noreferrer">Autoriser Cloudflare (une fois par navigateur) ↗</a>
       <button type="button" className="publish-action" onClick={() => decide("published")} disabled={busy || candidate.status === "needs-review"}>Publier</button>
       <button type="button" className="reject-action" onClick={() => decide("rejected")} disabled={busy}>Refuser</button>
       {candidate.status === "needs-review" && <p className="review-action-note">Cette candidate doit d’abord être complétée.</p>}

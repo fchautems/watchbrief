@@ -131,6 +131,10 @@ export default {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
     const url = new URL(request.url);
     try {
+      if (url.pathname === "/" && request.method === "GET") {
+        if (!ctx.access) return json({ error: "Accès Cloudflare requis" }, 401, env);
+        return json({ message: "Accès validation WatchBrief autorisé" }, 200, env);
+      }
       const match = url.pathname.match(/^\/candidates\/([a-z0-9-]+)$/);
       if (match && request.method === "PATCH") {
         await updateCandidate(request, env, match[1], ctx);
