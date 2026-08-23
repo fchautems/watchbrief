@@ -11,7 +11,7 @@ Dans **GitHub → Settings → Developer settings → GitHub Apps → New GitHub
 - désactiver les webhooks ;
 - Repository permissions : **Contents: Read and write**, **Metadata: Read-only** ;
 - installer l'app uniquement sur le dépôt `fchautems/watchbrief` ;
-- générer une private key et relever l'App ID et l'Installation ID.
+- générer une private key et relever l'App ID. L'installation est détectée automatiquement, car l'app n'est autorisée que sur `watchbrief`.
 
 ## 2. Déployer et protéger le Worker Cloudflare
 
@@ -19,7 +19,6 @@ Installer Wrangler, se connecter à Cloudflare, puis depuis `review-worker/` :
 
 ```bash
 npx wrangler secret put GITHUB_APP_ID
-npx wrangler secret put GITHUB_APP_INSTALLATION_ID
 npx wrangler secret put GITHUB_APP_PRIVATE_KEY
 npx wrangler deploy
 ```
