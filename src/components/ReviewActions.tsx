@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { ReviewCandidate, ReviewStatus } from "@/lib/types";
 
-const apiBase = (import.meta.env.VITE_REVIEW_API_BASE ?? "").replace(/\/$/, "");
+const apiBase = (import.meta.env.VITE_REVIEW_API_BASE ?? "https://watchbrief-review.fchautems.workers.dev").replace(/\/$/, "");
 
 export function ReviewActions({ candidate }: { candidate: ReviewCandidate }) {
   const [message, setMessage] = useState("");
