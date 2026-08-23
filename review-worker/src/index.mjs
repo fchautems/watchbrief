@@ -59,7 +59,19 @@ async function appJwt(env) {
 
 async function installationToken(env) {
   const jwt = await appJwt(env);
-  const response = await fetch(`${githubApi}/app/installations/${env.GITHUB_APP_INSTALLATION_ID}/access_tokens`, {
+  const installationsResponse = await fetch(`${githubApi}/app/installations`, {
+    headers: {
+      Authorization: `Bearer ${jwt}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+  });
+  const installations = await installationsResponse.json();
+  if (!installationsResponse.ok || !Array.isArray(installations)) throw new Error("Installations GitHub App introuvables");
+  const owner = env.REPOSITORY.split("/")[0];
+  const installation = installations.find((item) => item.account?.login === owner);
+  if (!installation) throw new Error("Installation GitHub App du dépôt introuvable");
+  const response = await fetch(`${githubApi}/app/installations/${installation.id}/access_tokens`, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${jwt}`,
