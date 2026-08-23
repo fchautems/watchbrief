@@ -285,5 +285,48 @@
       "independent": true,
       "sourceNotes": "OW Early Bird EB-24 sur bracelet cuir noir. La page officielle confirme 39,5 × 12,5 × 48 mm, calibre automatique Soprod C-125, 42 h, 300 m et CHF 1’956 ; l’expédition annoncée comprend la TVA et les droits. L’asset officiel 1024 × 1024 montre la variante entière en vue trois-quarts. La série de lancement comprend 56 couronnes numérotées ; une production ultérieure non numérotée n’est pas exclue."
     }
+  },
+  {
+    "id": "venezianico-nereide-opale-blu",
+    "issueNumber": 28,
+    "status": "review",
+    "detectedAt": "2026-08-23",
+    "reviewedAt": "2026-08-23",
+    "watch": {
+      "id": "venezianico-nereide-opale-blu",
+      "slug": "venezianico-nereide-opale-blu",
+      "brand": "Venezianico",
+      "brandSlug": "venezianico",
+      "model": "Nereide Opale Blu – Édition limitée",
+      "date": "2026-08-23",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "12.5 mm",
+      "lugToLug": "49 mm",
+      "waterResistance": "200 m",
+      "powerReserve": "Non communiqué",
+      "price": "EUR 1’350",
+      "priceSourceUrl": "https://it.venezianico.com/products/nereide-opale-blu-limited-edition",
+      "priceCheckedAt": "2026-08-23",
+      "priceMarket": "IT",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 600,
+      "summary": "Le cadran en opale de laboratoire Kyocera de 0,4 mm produit des reflets allant du bleu pétrole au cobalt. Cette édition de 600 pièces conserve le Sellita SW200-1, l’insert de lunette en tungstène et 200 mètres d’étanchéité.",
+      "productUrl": "https://it.venezianico.com/products/nereide-opale-blu-limited-edition",
+      "imageUrl": "https://it.venezianico.com/cdn/shop/files/1_8942fe6f-55dd-45bf-b9ad-0a28e28c6bd4.png?v=1786531690&width=2000",
+      "imageSource": "Venezianico",
+      "imageSourceUrl": "https://it.venezianico.com/products/nereide-opale-blu-limited-edition",
+      "sources": [
+        "https://it.venezianico.com/products/nereide-opale-blu-limited-edition",
+        "https://help.venezianico.com/hc/en-us/articles/36033751942034-Is-VAT-included-in-the-price",
+        "https://timeandtidewatches.com/czapek-alexandre-martin-wren-last-week-in-watches/"
+      ],
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": true,
+      "sourceNotes": "Variante Opale Blu sur bracelet acier Sansovino. La fiche officielle confirme 42 × 12,5 × 49 mm, Sellita SW200-1, 200 m, 600 pièces et EUR 1’350 sur le marché italien, TVA incluse. Asset officiel servi à 2 000 px de large, montre entière et variante exacte. La disponibilité indexée a d’abord indiqué le 24 août, puis la page a été mise à jour au 25 août à 15 h. Réserve de marche non publiée, donc non déduite."
+    }
   }
 ]
