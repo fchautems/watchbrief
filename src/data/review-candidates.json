@@ -82,11 +82,8 @@
   {
     "id": "wren-diver-one-abyss",
     "issueNumber": 16,
-    "status": "needs-review",
+    "status": "review",
     "detectedAt": "2026-08-22",
-    "blockers": [
-      "Page produit définitive et image officielle haute définition attendues après le lancement du 24 août."
-    ],
     "watch": {
       "id": "wren-diver-one-abyss",
       "slug": "wren-diver-one-abyss",
@@ -100,26 +97,30 @@
       "lugToLug": "47 mm",
       "waterResistance": "200 m",
       "powerReserve": "38 h",
-      "price": "US$1,195 / £1,050 TTC",
-      "priceSourceUrl": "https://www.wrenwatches.com/musou-black",
-      "priceCheckedAt": "2026-08-22",
-      "priceMarket": "US / UK",
-      "priceTaxMode": "unknown",
+      "price": "US$1,195 hors taxes",
+      "priceSourceUrl": "https://www.wristenthusiast.com/shop/p/wren-diver-one-abyss",
+      "priceCheckedAt": "2026-08-23",
+      "priceMarket": "US",
+      "priceTaxMode": "excl-vat",
       "limitedEdition": true,
       "limitedQty": 100,
       "summary": "Le cadran sandwich Musou Black fait flotter les marquages aqua au-dessus d’un noir extrêmement absorbant. Cette première série numérotée combine aussi une lunette céramique luminescente et un boîtier acier à DLC transparent.",
-      "productUrl": "https://www.wrenwatches.com/musou-black",
-      "imageSource": "Wren / Time+Tide",
-      "imageSourceUrl": "https://www.wrenwatches.com/musou-black",
+      "productUrl": "https://www.wristenthusiast.com/shop/p/wren-diver-one-abyss",
+      "imageSource": "Wren / Wrist Enthusiast",
+      "imageSourceUrl": "https://www.wristenthusiast.com/shop/p/wren-diver-one-abyss",
       "sources": [
+        "https://www.wristenthusiast.com/shop/p/wren-diver-one-abyss",
         "https://www.wrenwatches.com/musou-black",
         "https://timeandtidewatches.com/wren-diver-one-abyss-in-the-shop/"
       ],
-      "verified": false,
-      "verificationStatus": "needs-review",
-      "editorialStatus": "researching",
-      "independent": true
-    }
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": true,
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5c78138211f784469d4817df/3a968860-ef5e-4547-b986-374a3d9670f0/Wren%2BDiver%2BOne%2BAbyss%2BSteel%2BProduct.png",
+      "sourceNotes": "Page produit officielle de vente publiée par Wrist Enthusiast, équipe propriétaire de Wren : image produit de la variante Abyss entière sur bracelet acier, 41 × 13,3 × 47 mm, Sellita SW200, 38 h et 200 m. Prix officiel US$1 195 ; droits et TVA à la charge des acheteurs internationaux. Les 100 premières pièces sont numérotées ; aucune série future n’est actuellement en production, sans garantie explicite qu’il n’y en aura jamais."
+    },
+    "reviewedAt": "2026-08-23"
   },
   {
     "id": "seiko-presage-classic-hcc002",
