@@ -374,5 +374,51 @@
       "verifiedAt": "2026-08-24",
       "independent": false
     }
+  },
+  {
+    "id": "czapek-promenade-transparencies-aqua-blue",
+    "issueNumber": 30,
+    "status": "review",
+    "detectedAt": "2026-08-24",
+    "reviewedAt": "2026-08-24",
+    "watch": {
+      "id": "czapek-promenade-transparencies-aqua-blue",
+      "slug": "czapek-promenade-transparencies-aqua-blue",
+      "brand": "Czapek",
+      "brandSlug": "czapek",
+      "model": "Promenade Transparencies Aqua Blue",
+      "date": "2026-08-20",
+      "movement": "Calibre manufacture SXH7 automatique squeletté à micro-rotor",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "10.8 mm",
+      "lugToLug": "42 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "50 m",
+      "powerReserve": "60 h",
+      "price": "CHF 28’800 hors taxes",
+      "priceSourceUrl": "https://www.czapek.com/shop/1705-promenade-transparence-bleu-7077",
+      "priceCheckedAt": "2026-08-24",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 38,
+      "summary": "Un cadran en saphir fumé Aqua Blue révèle le calibre manufacture SXH7 entièrement squeletté et son micro-rotor en platine recyclé. Cette édition de 38 pièces conserve un format contenu de 38 × 10,8 × 42 mm.",
+      "productUrl": "https://www.czapek.com/shop/1705-promenade-transparence-bleu-7077",
+      "imageUrl": "https://www.czapek.com/web/image/product.product/8552/image_1024/%5B1705%5D%20Promenade%20-%20Transparence%20Bleu?unique=08d5a82",
+      "imageSource": "Czapek",
+      "imageSourceUrl": "https://www.czapek.com/shop/1705-promenade-transparence-bleu-7077",
+      "sources": [
+        "https://www.czapek.com/shop/1705-promenade-transparence-bleu-7077",
+        "https://monochrome-watches.com/czapek-promenade-transparencies-aqua-blue-review-price/",
+        "https://www.hodinkee.com/articles/czapek-promenade-transparencies"
+      ],
+      "sourceNotes": "Variante Aqua Blue sur bracelet nubuck bleu. La page officielle confirme 38 × 10,8 mm, acier, cadran saphir fumé métallisé, calibre SXH7, 60 h, 50 m et 38 pièces. Le lug-to-lug de 42 mm est publié par Monochrome et Hodinkee. Asset produit officiel 765 × 1024 px, montre entière et variante exacte visuellement confirmée. Prix international officiel CHF 28’800 hors taxes ; Czapek précise que 8,1 % de TVA suisse est ajouté pour un achat en Suisse. Référence commerciale non publiée ; [1705] est l’identifiant de la page produit.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-24",
+      "independent": true
+    }
   }
 ]
