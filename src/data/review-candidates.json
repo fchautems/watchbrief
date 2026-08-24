@@ -466,5 +466,50 @@
       "verifiedAt": "2026-08-24",
       "independent": true
     }
+  },
+  {
+    "id": "straum-expedition-midnight-blue",
+    "issueNumber": 32,
+    "status": "review",
+    "detectedAt": "2026-08-24",
+    "reviewedAt": "2026-08-24",
+    "watch": {
+      "id": "straum-expedition-midnight-blue",
+      "slug": "straum-expedition-midnight-blue",
+      "brand": "Straum",
+      "brandSlug": "straum",
+      "model": "Expedition Midnight Blue",
+      "date": "2026-08-24",
+      "movement": "La Joux-Perret G100 automatique, réglé en interne",
+      "diameter": "38.2 mm (lunette)",
+      "diameterMm": 38.2,
+      "thickness": "11 mm",
+      "lugToLug": "45.7 mm",
+      "material": "Titane grade 5 durci et microbillé",
+      "waterResistance": "100 m",
+      "powerReserve": "68 h",
+      "price": "35’000 NOK",
+      "priceSourceUrl": "https://straum.co/products/expedition-midnight-blue",
+      "priceCheckedAt": "2026-08-24",
+      "priceMarket": "NO",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 200,
+      "summary": "Première montre de la collection « Built For » de Straum, l’Expedition combine un boîtier compact en titane grade 5 durci, une couronne à témoin orange lorsqu’elle est dévissée et des chiffres entièrement moulés en Super-LumiNova. Cette Midnight Blue limitée à 200 pièces reçoit le La Joux-Perret G100 à 68 heures de réserve.",
+      "productUrl": "https://straum.co/products/expedition-midnight-blue",
+      "imageUrl": "https://straum.co/cdn/shop/files/WATCH-EXPEDITION-CPL-02-TI5-MIDNIGHTBLUE-39-BRACELET-TI5-MAQR.webp?v=1787552121&width=1946",
+      "imageSource": "Straum",
+      "imageSourceUrl": "https://straum.co/products/expedition-midnight-blue",
+      "sources": [
+        "https://straum.co/products/expedition-midnight-blue",
+        "https://oracleoftime.com/straum-launch-expedition-watch-built-for-norwegian-nature/"
+      ],
+      "sourceNotes": "Référence exacte WATCH-EXPEDITION-CPL-02-TI5-MIDNIGHTBLUE-39-BRACELET-TI5-MAQR. La fiche officielle confirme la lunette de 38,2 mm, l’épaisseur de 11 mm, le lug-to-lug de 45,7 mm, le titane grade 5 durci, 100 m, le LJP G100 et 68 h. Image officielle 1946 × 2780 px : montre entière, nette et variante sur bracelet titane visuellement confirmée. Prix officiel norvégien de 35’000 NOK TVA incluse pour cette configuration ; le modèle sur caoutchouc débute à 31’000 NOK. Limité à 200 pièces, expéditions annoncées en mars 2027. Straum publie un diamètre de lunette, pas un diamètre de boîtier.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-24",
+      "independent": true
+    }
   }
 ]
