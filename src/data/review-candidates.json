@@ -511,5 +511,50 @@
       "verifiedAt": "2026-08-24",
       "independent": true
     }
+  },
+  {
+    "id": "meistersinger-edition-unitas-1z-hellblau",
+    "issueNumber": 33,
+    "status": "review",
+    "detectedAt": "2026-08-24",
+    "reviewedAt": "2026-08-24",
+    "watch": {
+      "id": "meistersinger-edition-unitas-1z-hellblau",
+      "slug": "meistersinger-edition-unitas-1z-hellblau",
+      "brand": "MeisterSinger",
+      "brandSlug": "meistersinger",
+      "model": "Edition Unitas 1Z Hellblau",
+      "date": "2026-08-14",
+      "movement": "ETA/Unitas 6497 à remontage manuel",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "11.7 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable",
+      "waterResistance": "50 m",
+      "powerReserve": "46 h",
+      "price": "6’990 EUR",
+      "priceSourceUrl": "https://meistersinger.com/de/produkt/edition-unitas-1z-hellblau/",
+      "priceCheckedAt": "2026-08-24",
+      "priceMarket": "DE",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 25,
+      "summary": "Première édition MeisterSinger dotée d’un cadran grand feu coloré, cette Unitas 1Z associe un émail bleu clair à l’affichage monoaiguille historique de la marque. Le calibre de poche ETA/Unitas 6497 décoré est visible au dos, dans une série limitée à 25 pièces.",
+      "productUrl": "https://meistersinger.com/de/produkt/edition-unitas-1z-hellblau/",
+      "imageUrl": "https://meistersinger.com/wp-content/uploads/2026/07/ED-Unitas-08E_SGG021_Web.png",
+      "imageSource": "MeisterSinger",
+      "imageSourceUrl": "https://meistersinger.com/de/produkt/edition-unitas-1z-hellblau/",
+      "sources": [
+        "https://meistersinger.com/de/produkt/edition-unitas-1z-hellblau/",
+        "https://monochrome-watches.com/introducing-meistesinger-edition-unitas-1z-blue-grand-feu-enamel-dial-limited-edition-specs-price/"
+      ],
+      "sourceNotes": "Référence exacte ED-Unitas-08E. La page allemande officielle confirme 40 × 11,7 mm, acier, 50 m, ETA/Unitas 6497, 46 h, 25 pièces et 6’990 EUR TVA allemande de 19 % incluse. Lug-to-lug non communiqué. Image officielle 640 × 1080 px : montre entière, nette et variante bleu clair sur cuir brun visuellement confirmée. Contradiction conservée : MeisterSinger indique un fond vitré en verre minéral, tandis que Monochrome mentionne un fond saphir.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-24",
+      "independent": true
+    }
   }
 ]
