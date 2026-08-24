@@ -328,5 +328,51 @@
       "independent": true,
       "sourceNotes": "Variante Opale Blu sur bracelet acier Sansovino. La fiche officielle confirme 42 × 12,5 × 49 mm, Sellita SW200-1, 200 m, 600 pièces et EUR 1’350 sur le marché italien, TVA incluse. Asset officiel servi à 2 000 px de large, montre entière et variante exacte. La disponibilité indexée a d’abord indiqué le 24 août, puis la page a été mise à jour au 25 août à 15 h. Réserve de marche non publiée, donc non déduite."
     }
+  },
+  {
+    "id": "glashutte-original-senator-chronograph-navigator",
+    "issueNumber": 29,
+    "status": "review",
+    "detectedAt": "2026-08-24",
+    "reviewedAt": "2026-08-24",
+    "watch": {
+      "id": "glashutte-original-senator-chronograph-navigator",
+      "slug": "glashutte-original-senator-chronograph-navigator",
+      "brand": "Glashütte Original",
+      "brandSlug": "glashutte-original",
+      "model": "Senator Chronograph Navigator",
+      "date": "2026-08-20",
+      "movement": "Calibre manufacture 37-24, automatique, chronographe flyback",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "12.9 mm",
+      "lugToLug": "48.5 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "50 m",
+      "powerReserve": "70 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.glashuette-original.com/de/watches/senator/senator-chronograph-navigator-1-37-24-20-12-64/",
+      "priceCheckedAt": "2026-08-24",
+      "priceMarket": "DE",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Le Senator Chronograph Navigator adopte un boîtier réduit à 41 × 12,9 mm et un cadran de pilote noir à chiffres luminescents. Son nouveau calibre manufacture 37-24 conserve le flyback et la grande date avec 70 heures de réserve, dans une présentation simplifiée.",
+      "productUrl": "https://www.glashuette-original.com/de/watches/senator/senator-chronograph-navigator-1-37-24-20-12-64/",
+      "imageUrl": "https://www.glashuette-original.com/app/uploads/2026/08/W13724201264.png",
+      "imageSource": "Glashütte Original",
+      "imageSourceUrl": "https://www.glashuette-original.com/de/watches/senator/senator-chronograph-navigator-1-37-24-20-12-64/",
+      "sources": [
+        "https://www.glashuette-original.com/de/watches/senator/senator-chronograph-navigator-1-37-24-20-12-64/",
+        "https://monochrome-watches.com/2026-new-glashutte-original-senator-chronograph-and-senator-chronograph-navigator-41mm-slimmer-review-price/",
+        "https://www.hodinkee.com/articles/the-glashutte-original-senator-chronograph-and-senator-chronograph-navigator"
+      ],
+      "sourceNotes": "Référence 1-37-24-20-12-64 sur bracelet synthétique sable. La page officielle confirme 41 × 12,9 mm, acier, calibre 37-24, chronographe flyback, grande date, 70 h et 50 m. Asset officiel PNG 1000 × 1440, montre entière et variante exacte visuellement confirmée. Le lug-to-lug de 48,5 mm est publié par Hodinkee. Le site allemand indique « Preis auf Anfrage » : le prix reste donc non communiqué ; Monochrome relaie 15’900 EUR sur bracelet, TVA non précisée.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-24",
+      "independent": false
+    }
   }
 ]
