@@ -420,5 +420,51 @@
       "verifiedAt": "2026-08-24",
       "independent": true
     }
+  },
+  {
+    "id": "brew-retrograph-stone-blend-automatic",
+    "issueNumber": 31,
+    "status": "review",
+    "detectedAt": "2026-08-24",
+    "reviewedAt": "2026-08-24",
+    "watch": {
+      "id": "brew-retrograph-stone-blend-automatic",
+      "slug": "brew-retrograph-stone-blend-automatic",
+      "brand": "Brew",
+      "brandSlug": "brew",
+      "model": "Retrograph Stone Blend Automatic",
+      "date": "2026-08-12",
+      "movement": "Miyota 9015 automatique",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "10.4 mm",
+      "lugToLug": "41.5 mm",
+      "material": "Acier inoxydable 316L avec revêtement PVD or",
+      "waterResistance": "50 m",
+      "powerReserve": "42 h",
+      "price": "US$775",
+      "priceSourceUrl": "https://www.brew-watches.com/collections/watches/products/retrograph-stone-blend",
+      "priceCheckedAt": "2026-08-24",
+      "priceMarket": "US",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 250,
+      "summary": "Le Retrograph abandonne ici le méca-quartz et le chronographe pour un Miyota 9015 automatique, visible par un fond saphir. Chaque cadran en pietersite naturel évoque le lait se mêlant au cold brew, dans une série de 250 pièces au format compact.",
+      "productUrl": "https://www.brew-watches.com/collections/watches/products/retrograph-stone-blend",
+      "imageUrl": "https://www.brew-watches.com/cdn/shop/files/Stone-Blend-Front-A2.jpg?v=1786387576&width=2000",
+      "imageSource": "Brew",
+      "imageSourceUrl": "https://www.brew-watches.com/collections/watches/products/retrograph-stone-blend",
+      "sources": [
+        "https://www.brew-watches.com/collections/watches/products/retrograph-stone-blend",
+        "https://hodinkee.com.au/articles/introducing-brew-retrograph-stone-blend-automatic",
+        "https://www.brew-watches.com/pages/faq"
+      ],
+      "sourceNotes": "Variante unique sur cuir brun. La fiche officielle confirme 38 × 10,4 × 41,5 mm, acier 316L PVD or, Miyota 9015, 50 m, 250 pièces et US$775. Asset officiel 2000×2000, montre entière et variante exacte visuellement confirmée. La réserve de 42 h est publiée par Hodinkee ; elle n'est pas indiquée sur la fiche officielle. Le prix est celui du marché US ; le site ne précise pas la taxe américaine et indique que TVA et droits internationaux sont calculés au checkout.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-24",
+      "independent": true
+    }
   }
 ]
