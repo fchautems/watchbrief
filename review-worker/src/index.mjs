@@ -1,6 +1,14 @@
 const githubApi = "https://api.github.com";
-const buildVersion = "2026-08-25-github-v4";
+const buildVersion = "2026-08-25-concurrency-v5";
 const githubUserAgent = "WatchBrief-Review-Worker";
+
+class GitHubResponseError extends Error {
+  constructor(message, status) {
+    super(message);
+    this.name = "GitHubResponseError";
+    this.status = status;
+  }
+}
 
 function cors(env) {
   return {
@@ -141,9 +149,14 @@ async function readGithubResponse(response, stage) {
     result = JSON.parse(text);
   } catch {
     const detail = text.trim().replace(/\s+/g, " ").slice(0, 160) || "réponse vide";
-    throw new Error(`${stage} : GitHub HTTP ${response.status} — ${detail}`);
+    throw new GitHubResponseError(`${stage} : GitHub HTTP ${response.status} — ${detail}`, response.status);
   }
-  if (!response.ok) throw new Error(`${stage} : ${result.message ?? `GitHub HTTP ${response.status}`}`);
+  if (!response.ok) {
+    throw new GitHubResponseError(
+      `${stage} : GitHub HTTP ${response.status} — ${result.message ?? "requête refusée"}`,
+      response.status,
+    );
+  }
   return result;
 }
 
@@ -171,7 +184,7 @@ async function installationToken(env) {
   return result.token;
 }
 
-async function githubJson(url, token, init = {}) {
+async function githubJson(url, token, init = {}, stage = "Requête GitHub") {
   const response = await fetch(url, {
     ...init,
     headers: {
@@ -182,7 +195,7 @@ async function githubJson(url, token, init = {}) {
       ...(init.headers ?? {}),
     },
   });
-  return readGithubResponse(response, "Mise à jour du dépôt");
+  return readGithubResponse(response, stage);
 }
 
 function passwordsMatch(received, expected) {
@@ -206,24 +219,47 @@ async function updateCandidate(request, env, candidateId) {
   const token = await installationToken(env);
   const path = "src/data/review-candidates.json";
   const endpoint = `${githubApi}/repos/${env.REPOSITORY}/contents/${path}?ref=${env.BRANCH}`;
-  const file = await githubJson(endpoint, token);
-  const candidates = JSON.parse(decodeBase64(file.content));
-  const candidate = candidates.find((item) => item.id === candidateId);
-  if (!candidate) throw new Error("Candidate introuvable");
-  if (candidate.status === "needs-review" && status === "published") throw new Error("Cette candidate doit d’abord être complétée");
-  candidate.status = status;
-  candidate.reviewedAt = new Date().toISOString().slice(0, 10);
   const action = status === "published" ? "Publier" : "Refuser";
-  await githubJson(`${githubApi}/repos/${env.REPOSITORY}/contents/${path}`, token, {
-    method: "PUT",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      message: `${action} candidate WatchBrief : ${candidate.watch.brand} ${candidate.watch.model}`,
-      content: encodeBase64(`${JSON.stringify(candidates, null, 2)}\n`),
-      sha: file.sha,
-      branch: env.BRANCH,
-    }),
-  });
+
+  for (let attempt = 1; attempt <= 5; attempt += 1) {
+    const file = await githubJson(
+      endpoint,
+      token,
+      { headers: { "Cache-Control": "no-cache" } },
+      "Lecture des candidates",
+    );
+    const candidates = JSON.parse(decodeBase64(file.content));
+    const candidate = candidates.find((item) => item.id === candidateId);
+    if (!candidate) throw new Error("Candidate introuvable");
+    if (candidate.status === status) return;
+    if (["published", "rejected"].includes(candidate.status)) {
+      throw new Error(`Cette candidate est déjà ${candidate.status === "published" ? "publiée" : "refusée"}`);
+    }
+    if (candidate.status === "needs-review" && status === "published") {
+      throw new Error("Cette candidate doit d’abord être complétée");
+    }
+    candidate.status = status;
+    candidate.reviewedAt = new Date().toISOString().slice(0, 10);
+
+    try {
+      await githubJson(`${githubApi}/repos/${env.REPOSITORY}/contents/${path}`, token, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: `${action} candidate WatchBrief : ${candidate.watch.brand} ${candidate.watch.model}`,
+          content: encodeBase64(`${JSON.stringify(candidates, null, 2)}\n`),
+          sha: file.sha,
+          branch: env.BRANCH,
+        }),
+      }, "Enregistrement de la décision");
+      return;
+    } catch (error) {
+      const concurrentUpdate = error instanceof GitHubResponseError
+        && [409, 422].includes(error.status)
+        && /expected|sha|conflict/i.test(error.message);
+      if (!concurrentUpdate || attempt === 5) throw error;
+    }
+  }
 }
 
 export { normalizePrivateKey, pemToArrayBuffer };
