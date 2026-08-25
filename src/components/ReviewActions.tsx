@@ -6,6 +6,7 @@ const apiBase = (import.meta.env.VITE_REVIEW_API_BASE ?? "https://watchbrief-rev
 export function ReviewActions({ candidate, password }: { candidate: ReviewCandidate; password: string }) {
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
+  const [decided, setDecided] = useState(false);
 
   if (candidate.status === "published" || candidate.status === "rejected") return null;
 
@@ -24,6 +25,7 @@ export function ReviewActions({ candidate, password }: { candidate: ReviewCandid
       });
       const result = await response.json() as { message?: string; error?: string };
       if (!response.ok) throw new Error(result.error ?? "Mise à jour impossible");
+      setDecided(true);
       setMessage(status === "published" ? "Publiée : GitHub Pages déploie maintenant la mise à jour." : "Refusée : la candidate reste archivée hors site public.");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Mise à jour impossible");
@@ -34,8 +36,8 @@ export function ReviewActions({ candidate, password }: { candidate: ReviewCandid
 
   return (
     <div className="review-actions">
-      <button type="button" className="publish-action" onClick={() => decide("published")} disabled={busy || candidate.status === "needs-review" || !password}>Publier</button>
-      <button type="button" className="reject-action" onClick={() => decide("rejected")} disabled={busy || !password}>Refuser</button>
+      <button type="button" className="publish-action" onClick={() => decide("published")} disabled={busy || decided || candidate.status === "needs-review" || !password}>Publier</button>
+      <button type="button" className="reject-action" onClick={() => decide("rejected")} disabled={busy || decided || !password}>Refuser</button>
       {candidate.status === "needs-review" && <p className="review-action-note">Cette candidate doit d’abord être complétée.</p>}
       {message && <p className="review-action-note">{message}</p>}
     </div>
