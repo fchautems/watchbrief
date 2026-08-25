@@ -4,7 +4,7 @@ function cors(env) {
   return {
     "Access-Control-Allow-Origin": env.ALLOWED_ORIGIN,
     "Access-Control-Allow-Headers": "Content-Type, X-Review-Password",
-    "Access-Control-Allow-Methods": "PATCH, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, PATCH, OPTIONS",
     Vary: "Origin",
   };
 }
@@ -147,6 +147,10 @@ export default {
     try {
       if (url.pathname === "/" && request.method === "GET") {
         return json({ message: "Service de validation WatchBrief actif" }, 200, env);
+      }
+      if (url.pathname === "/auth/check" && request.method === "GET") {
+        assertReviewer(request, env);
+        return json({ message: "Mot de passe valide" }, 200, env);
       }
       const match = url.pathname.match(/^\/candidates\/([a-z0-9-]+)$/);
       if (match && request.method === "PATCH") {

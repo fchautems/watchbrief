@@ -196,6 +196,11 @@ img { display: block; max-width: 100%; }
 .review-actions .publish-action { border-color: var(--ivory); background: var(--ivory); color: #111418; }
 .review-actions .reject-action { background: transparent; color: #bdc5cc; }
 .review-action-note { width: 100%; margin: 0; color: #8c97a2; font-size: 12px; line-height: 1.45; }
+.review-auth { margin-top: 18px; display: flex; align-items: center; flex-wrap: wrap; gap: 9px; color: #aeb7c0; font-size: 12px; }
+.review-auth input { min-width: min(100%, 280px); min-height: 42px; padding: 0 12px; border: 1px solid #34404b; border-radius: 10px; background: #111820; color: #edf0f3; }
+.review-auth button { min-height: 40px; padding: 0 13px; border: 1px solid #34404b; border-radius: 10px; background: #17202a; color: #edf0f3; cursor: pointer; font-weight: 750; }
+.review-auth button:disabled { opacity: .44; cursor: not-allowed; }
+.review-auth-error { width: 100%; color: #e0a7a7; }
 .device-login { width: 100%; display: flex; align-items: center; flex-wrap: wrap; gap: 10px; color: #b9c1c9; font-size: 12px; line-height: 1.5; }
 .device-login strong { color: var(--accent-soft); letter-spacing: .06em; }
 .device-login a { display: inline-flex; align-items: center; text-decoration: none; }
