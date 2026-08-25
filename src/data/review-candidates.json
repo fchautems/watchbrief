@@ -556,5 +556,53 @@
       "verifiedAt": "2026-08-24",
       "independent": true
     }
+  },
+  {
+    "id": "peacock-black-hole-iii-perseus",
+    "issueNumber": 40,
+    "status": "review",
+    "detectedAt": "2026-08-25",
+    "reviewedAt": "2026-08-25",
+    "watch": {
+      "id": "peacock-black-hole-iii-perseus",
+      "slug": "peacock-black-hole-iii-perseus",
+      "brand": "Peacock",
+      "brandSlug": "peacock",
+      "model": "Black Hole III Curved Guilloché Central Tourbillon — Perseus",
+      "date": "2026-08-23",
+      "movement": "Peacock PAX9611A à remontage manuel, tourbillon central",
+      "diameter": "43.5 mm",
+      "diameterMm": 43.5,
+      "thickness": "11.9 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5 avec revêtement noir",
+      "waterResistance": "50 m",
+      "powerReserve": "120 h",
+      "price": "US$5,199",
+      "priceSourceUrl": "https://peacockwatches.com/products/peacock-black-hole-iii-curved-guilloche-central-tourbillon-watch-special-edition",
+      "priceCheckedAt": "2026-08-25",
+      "priceMarket": "US",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": null,
+      "summary": "Un tourbillon central à remontage manuel entouré d’un cadran guilloché incurvé, avec 120 heures de réserve de marche. La variante Perseus associe un boîtier noir à un décor violet et noir, dans une édition spéciale proposée pendant une fenêtre de précommande limitée.",
+      "productUrl": "https://peacockwatches.com/products/peacock-black-hole-iii-curved-guilloche-central-tourbillon-watch-special-edition",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://peacockwatches.com/cdn/shop/files/03_700e25a7-1f1c-43a8-8a3a-a4ef41546bf7.png?v=1787279508&width=1946",
+      "imageFallbacks": [],
+      "imageSource": "Peacock",
+      "imageSourceUrl": "https://peacockwatches.com/products/peacock-black-hole-iii-curved-guilloche-central-tourbillon-watch-special-edition",
+      "sources": [
+        "https://peacockwatches.com/products/peacock-black-hole-iii-curved-guilloche-central-tourbillon-watch-special-edition",
+        "https://monochrome-watches.com/the-peacock-black-hole-iii-curved-guilloche-central-tourbillon-bold-complex-yet-attainable/"
+      ],
+      "notes": "Référence affichée par Peacock : pbg0203.07. Variante Perseus confirmée visuellement. Précommande spéciale du 23 août au 6 septembre 2026 ; quantité non communiquée. Prix officiel US ; statut des taxes non précisé.",
+      "sourceNotes": "Page produit officielle vérifiée le 2026-08-25. Image officielle 1946 × 1946 px contrôlée visuellement : montre entière nette, boîtier noir, cadran guilloché violet/noir, tourbillon central et bracelet noir exacts. Dimensions, mouvement, réserve et étanchéité publiés par Peacock. Lug-to-lug non communiqué. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-25",
+      "independent": false
+    }
   }
 ]
