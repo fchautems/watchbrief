@@ -1,4 +1,5 @@
 const githubApi = "https://api.github.com";
+const buildVersion = "2026-08-25-pem-v2";
 
 function cors(env) {
   return {
@@ -57,12 +58,55 @@ function pkcs1ToPkcs8(pkcs1) {
   return joinBytes(Uint8Array.of(0x30), derLength(body.length), body).buffer;
 }
 
+function normalizePrivateKey(value) {
+  let normalized = value.trim();
+  if (normalized.startsWith('"') && normalized.endsWith('"')) {
+    try {
+      normalized = JSON.parse(normalized);
+    } catch {
+      normalized = normalized.slice(1, -1);
+    }
+  } else if (normalized.startsWith("'") && normalized.endsWith("'")) {
+    normalized = normalized.slice(1, -1);
+  }
+  return normalized.replace(/\\r\\n|\\n|\\r/g, "\n").replace(/\r\n?/g, "\n").trim();
+}
+
+function readDerLength(bytes, offset) {
+  const first = bytes[offset];
+  if (first < 0x80) return { length: first, next: offset + 1 };
+  const count = first & 0x7f;
+  if (count === 0 || count > 4 || offset + count >= bytes.length) throw new Error("Longueur DER invalide");
+  let length = 0;
+  for (let index = 0; index < count; index += 1) length = (length << 8) | bytes[offset + 1 + index];
+  return { length, next: offset + 1 + count };
+}
+
+function nextDerValue(bytes, offset, expectedTag) {
+  if (bytes[offset] !== expectedTag) throw new Error("Structure DER invalide");
+  const { length, next } = readDerLength(bytes, offset + 1);
+  if (next + length > bytes.length) throw new Error("Structure DER tronquée");
+  return { start: next, end: next + length };
+}
+
+function privateKeyFormat(bytes) {
+  try {
+    const sequence = nextDerValue(bytes, 0, 0x30);
+    const version = nextDerValue(bytes, sequence.start, 0x02);
+    return bytes[version.end] === 0x02 ? "pkcs1" : bytes[version.end] === 0x30 ? "pkcs8" : "unknown";
+  } catch {
+    return "unknown";
+  }
+}
+
 function pemToArrayBuffer(pem) {
-  const isPkcs1 = pem.includes("BEGIN RSA PRIVATE KEY");
-  const content = pem.replace(/-----BEGIN (?:RSA )?PRIVATE KEY-----|-----END (?:RSA )?PRIVATE KEY-----|\s/g, "");
+  const normalized = normalizePrivateKey(pem);
+  const content = normalized.replace(/-----BEGIN [^-]+-----|-----END [^-]+-----|\s/g, "");
   const binary = atob(content);
   const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
-  return isPkcs1 ? pkcs1ToPkcs8(bytes) : bytes.buffer;
+  const format = normalized.includes("BEGIN RSA PRIVATE KEY") ? "pkcs1" : privateKeyFormat(bytes);
+  if (format === "unknown") throw new Error(`Clé GitHub illisible (${buildVersion})`);
+  return { buffer: format === "pkcs1" ? pkcs1ToPkcs8(bytes) : bytes.buffer, format };
 }
 
 async function appJwt(env) {
@@ -70,14 +114,19 @@ async function appJwt(env) {
   const header = base64Url(JSON.stringify({ alg: "RS256", typ: "JWT" }));
   const payload = base64Url(JSON.stringify({ iat: now - 60, exp: now + 540, iss: env.GITHUB_APP_ID }));
   const input = `${header}.${payload}`;
-  const privateKey = env.GITHUB_APP_PRIVATE_KEY.replace(/\\n/g, "\n");
-  const key = await crypto.subtle.importKey(
-    "pkcs8",
-    pemToArrayBuffer(privateKey),
-    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
-    false,
-    ["sign"],
-  );
+  const privateKey = pemToArrayBuffer(env.GITHUB_APP_PRIVATE_KEY);
+  let key;
+  try {
+    key = await crypto.subtle.importKey(
+      "pkcs8",
+      privateKey.buffer,
+      { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+      false,
+      ["sign"],
+    );
+  } catch {
+    throw new Error(`Clé GitHub invalide (format ${privateKey.format}, ${buildVersion})`);
+  }
   const signature = await crypto.subtle.sign("RSASSA-PKCS1-v1_5", key, new TextEncoder().encode(input));
   let binary = "";
   for (const byte of new Uint8Array(signature)) binary += String.fromCharCode(byte);
@@ -167,13 +216,15 @@ async function updateCandidate(request, env, candidateId) {
   });
 }
 
+export { normalizePrivateKey, pemToArrayBuffer };
+
 export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors(env) });
     const url = new URL(request.url);
     try {
       if (url.pathname === "/" && request.method === "GET") {
-        return json({ message: "Service de validation WatchBrief actif" }, 200, env);
+        return json({ message: "Service de validation WatchBrief actif", version: buildVersion }, 200, env);
       }
       if (url.pathname === "/auth/check" && request.method === "GET") {
         assertReviewer(request, env);
