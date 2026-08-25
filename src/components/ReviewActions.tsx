@@ -2,10 +2,8 @@ import { useState } from "react";
 import type { ReviewCandidate, ReviewStatus } from "@/lib/types";
 
 const apiBase = (import.meta.env.VITE_REVIEW_API_BASE ?? "https://watchbrief-review.fchautems.workers.dev").replace(/\/$/, "");
-const passwordKey = "watchbrief-review-password";
 
-export function ReviewActions({ candidate }: { candidate: ReviewCandidate }) {
-  const [password, setPassword] = useState(() => sessionStorage.getItem(passwordKey) ?? "");
+export function ReviewActions({ candidate, password }: { candidate: ReviewCandidate; password: string }) {
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -36,20 +34,6 @@ export function ReviewActions({ candidate }: { candidate: ReviewCandidate }) {
 
   return (
     <div className="review-actions">
-      {!password ? (
-        <label className="review-action-note">
-          Mot de passe de validation
-          <input
-            type="password"
-            autoComplete="current-password"
-            value={password}
-            onChange={(event) => {
-              setPassword(event.target.value);
-              sessionStorage.setItem(passwordKey, event.target.value);
-            }}
-          />
-        </label>
-      ) : null}
       <button type="button" className="publish-action" onClick={() => decide("published")} disabled={busy || candidate.status === "needs-review" || !password}>Publier</button>
       <button type="button" className="reject-action" onClick={() => decide("rejected")} disabled={busy || !password}>Refuser</button>
       {candidate.status === "needs-review" && <p className="review-action-note">Cette candidate doit d’abord être complétée.</p>}
