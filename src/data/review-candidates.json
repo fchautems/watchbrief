@@ -604,5 +604,52 @@
       "verifiedAt": "2026-08-25",
       "independent": false
     }
+  },
+  {
+    "id": "omega-speedmaster-38-black-no-date",
+    "issueNumber": 41,
+    "status": "review",
+    "detectedAt": "2026-08-25",
+    "watch": {
+      "id": "omega-speedmaster-38-black-no-date",
+      "slug": "omega-speedmaster-38-black-no-date",
+      "brand": "OMEGA",
+      "brandSlug": "omega",
+      "model": "Speedmaster 38 mm noire sans date",
+      "date": "2026-08-25",
+      "movement": "Calibre OMEGA 3332 automatique Co-Axial, chronographe à roue à colonnes, certifié chronomètre",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "14.75 mm",
+      "lugToLug": "44.96 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m",
+      "powerReserve": "52 h",
+      "price": "CHF 5’500",
+      "priceSourceUrl": "https://www.omegawatches.com/fr-ch/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001002",
+      "priceCheckedAt": "2026-08-25",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "La Speedmaster 38 adopte ici une esthétique nettement plus proche de la Moonwatch, avec cadran noir sans date, compteurs ronds et lunette Dot Over Ninety. Le calibre automatique Co-Axial 3332 à roue à colonnes et les 100 mètres d’étanchéité complètent ce format compact.",
+      "productUrl": "https://www.omegawatches.com/fr-ch/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001002",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://www.omegawatches.com/media/catalog/product/o/m/omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001002-61c6ec.png",
+      "imageFallbacks": [],
+      "imageSource": "OMEGA",
+      "imageSourceUrl": "https://www.omegawatches.com/fr-ch/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001002",
+      "sources": [
+        "https://www.omegawatches.com/fr-ch/watch-omega-speedmaster-38-co-axial-chronometer-chronograph-38-mm-32430385001002",
+        "https://www.fratellowatches.com/hands-on-new-redesigned-speedmaster-reduced-hands-on-omega-speedmaster-38/",
+        "https://monochrome-watches.com/2026-omega-refreshes-the-speedmaster-38mm-collection-including-a-moonwatch-like-black-no-date-with-video-review-price/"
+      ],
+      "notes": "Référence 324.30.38.50.01.002, cadran noir sans date sur bracelet acier. Collection permanente. La fiche OMEGA CH affiche CHF 5’500 TTC ; Fratello et Monochrome relaient CHF 5’100 hors TVA, contradiction fiscale conservée.",
+      "sourceNotes": "Page produit officielle OMEGA CH vérifiée le 2026-08-25 : 38 × 14,75 × 44,96 mm, acier, calibre 3332 automatique Co-Axial, 52 h, 100 m et CHF 5’500. Le storefront suisse est configuré pour afficher les sous-totaux TVA incluse. Asset officiel PNG 2000 × 2000 px contrôlé visuellement : montre nette, variante exacte, cadran noir sans date, trois compteurs ronds, lunette noire et bracelet acier. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-25",
+      "independent": false
+    }
   }
 ]
