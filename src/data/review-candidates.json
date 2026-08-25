@@ -656,7 +656,7 @@
   {
     "id": "longines-master-collection-chrono-monopusher-l29604782",
     "issueNumber": 42,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-25",
     "watch": {
       "id": "longines-master-collection-chrono-monopusher-l29604782",
@@ -698,6 +698,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-25",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-25"
   }
 ]
