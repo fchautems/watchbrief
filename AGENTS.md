@@ -14,11 +14,11 @@ WatchBrief est une veille horlogère éditoriale. La fiabilité prévaut sur le 
 ## Pipeline
 
 1. Lire `docs/RESEARCH_PLAYBOOK.md`, `data/source_registry.json`, `data/brand_patterns.json` et `docs/PRICE_POLICY.md` avant une recherche.
-2. Dédupliquer avec les 90 entrées de `src/data/watchbrief_seed.json`, les surcharges de `src/data/editorial.ts` et les issues ouvertes intitulées `Candidate ·`.
-3. Toute détection devient une issue qui respecte `.github/ISSUE_TEMPLATE/watch-candidate.md` et `schemas/candidate.schema.json`.
-4. Les états sont `candidate`, `needs-review`, `accepted`, `published`, `rejected` ou `duplicate`.
-5. Seul un travail explicitement demandé sur une candidate `accepted` peut modifier `src/data/editorial.ts` puis ouvrir une pull request.
+2. Dédupliquer avec `src/data/watchbrief_seed.json`, `src/data/editorial.ts` et `src/data/review-candidates.json`.
+3. Toute détection conforme à `schemas/candidate.schema.json` est ajoutée à `src/data/review-candidates.json`. Elle reste invisible du site public jusqu'à une décision humaine.
+4. Les états sont `review`, `needs-review`, `approved`, `published`, `rejected` ou `duplicate`.
+5. Le bouton de la page privée `/review` est le seul chemin normal pour passer une candidate à `published` ou `rejected`. Une publication remplace automatiquement une éventuelle entrée seed ayant le même id.
 
 ## Validation
 
-Avant toute pull request qui touche au site : `npm run lint`, `npm run build`, `npm run check:links` et `npm run check:images`.
+Avant toute pull request qui touche au site : `npm run check:data`, `npm run lint`, `npm run build`, `npm run check:links` et `npm run check:images`.

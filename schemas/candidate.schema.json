@@ -1,43 +1,44 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "WatchBrief candidate",
+  "title": "WatchBrief review candidate",
   "type": "object",
-  "required": ["status", "brand", "model", "detectedAt", "officialSource", "summary", "confidence"],
+  "required": ["id", "status", "detectedAt", "watch"],
   "properties": {
-    "status": { "enum": ["candidate", "needs-review", "accepted", "published", "rejected", "duplicate"] },
-    "brand": { "type": "string", "minLength": 1 },
-    "model": { "type": "string", "minLength": 1 },
-    "reference": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "issueNumber": { "type": "integer", "minimum": 1 },
+    "status": { "enum": ["review", "needs-review", "approved", "published", "rejected", "duplicate"] },
     "detectedAt": { "type": "string", "format": "date" },
-    "officialSource": { "type": "string", "format": "uri" },
-    "secondarySources": { "type": "array", "items": { "type": "string", "format": "uri" }, "maxItems": 2 },
-    "imageCandidate": {
+    "reviewedAt": { "type": "string", "format": "date" },
+    "blockers": { "type": "array", "items": { "type": "string" } },
+    "watch": {
       "type": "object",
+      "required": ["id", "slug", "brand", "brandSlug", "model", "date", "lugToLug", "limitedEdition", "verified", "verificationStatus", "editorialStatus", "independent"],
       "properties": {
-        "url": { "type": "string", "format": "uri" },
-        "sourceUrl": { "type": "string", "format": "uri" },
-        "knownDimensions": { "type": "string" },
-        "exactVariantConfirmed": { "type": "boolean" }
+        "id": { "type": "string" },
+        "slug": { "type": "string" },
+        "brand": { "type": "string", "minLength": 1 },
+        "brandSlug": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "date": { "type": "string", "format": "date" },
+        "lugToLug": { "type": "string", "minLength": 1 },
+        "price": { "type": "string" },
+        "priceSourceUrl": { "type": "string", "format": "uri" },
+        "priceCheckedAt": { "type": "string", "format": "date" },
+        "priceMarket": { "type": "string" },
+        "priceTaxMode": { "enum": ["incl-vat", "excl-vat", "unknown"] },
+        "limitedEdition": { "type": "boolean" },
+        "summary": { "type": "string", "minLength": 1, "maxLength": 900 },
+        "productUrl": { "type": "string", "format": "uri" },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "imageSourceUrl": { "type": "string", "format": "uri" },
+        "sources": { "type": "array", "items": { "type": "string", "format": "uri" } },
+        "verified": { "type": "boolean" },
+        "verificationStatus": { "enum": ["seed", "verified", "needs-review"] },
+        "editorialStatus": { "enum": ["backlog", "researching", "publishable", "broken-link"] },
+        "independent": { "type": "boolean" }
       },
-      "required": ["url", "sourceUrl", "exactVariantConfirmed"]
-    },
-    "price": {
-      "type": "object",
-      "properties": {
-        "amount": { "type": "number" },
-        "currency": { "type": "string", "minLength": 3, "maxLength": 3 },
-        "market": { "type": "string", "minLength": 2, "maxLength": 2 },
-        "taxMode": { "enum": ["incl-vat", "excl-vat", "unknown"] },
-        "sourceUrl": { "type": "string", "format": "uri" },
-        "checkedAt": { "type": "string", "format": "date" },
-        "status": { "enum": ["official", "not-published", "needs-review"] }
-      },
-      "required": ["status"]
-    },
-    "summary": { "type": "string", "minLength": 1, "maxLength": 900 },
-    "contradictions": { "type": "array", "items": { "type": "string" } },
-    "duplicateCheck": { "type": "string" },
-    "confidence": { "enum": ["high", "medium", "low"] }
+      "additionalProperties": true
+    }
   },
   "additionalProperties": false
 }

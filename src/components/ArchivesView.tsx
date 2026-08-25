@@ -22,8 +22,10 @@ export function ArchivesView() {
   const filter: FilterKey = edition === "limited" || edition === "permanent" ? edition : "all";
   const sortParam = searchParams.get("sort");
   const sort: SortKey = sortParam === "brand" || sortParam === "diameter" ? sortParam : "newest";
-  const [limit, setLimit] = useState(PAGE_SIZE);
   const [view, setView] = useState<"cards" | "list">("cards");
+  const paginationKey = `${query}\u0000${filter}\u0000${sort}`;
+  const [pagination, setPagination] = useState({ key: paginationKey, limit: PAGE_SIZE });
+  const limit = pagination.key === paginationKey ? pagination.limit : PAGE_SIZE;
 
   const updateSearch = (nextQuery: string, nextFilter: FilterKey, nextSort: SortKey) => {
     const next = new URLSearchParams();
@@ -31,7 +33,6 @@ export function ArchivesView() {
     if (nextFilter !== "all") next.set("edition", nextFilter);
     if (nextSort !== "newest") next.set("sort", nextSort);
     setSearchParams(next, { replace: true });
-    setLimit(PAGE_SIZE);
   };
 
   const filtered = useMemo(() => {
@@ -128,7 +129,7 @@ export function ArchivesView() {
         {!filtered.length && <div className="empty-state">Aucun résultat.</div>}
       </section>
       {limit < filtered.length && (
-        <button className="load-more" type="button" onClick={() => setLimit((value) => value + PAGE_SIZE)}>
+        <button className="load-more" type="button" onClick={() => setPagination({ key: paginationKey, limit: limit + PAGE_SIZE })}>
           Afficher plus
         </button>
       )}

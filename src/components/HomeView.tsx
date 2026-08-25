@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Filters, type FilterKey } from "@/components/Filters";
 import { WatchCard } from "@/components/WatchCard";
-import { publishableWatches, seedMeta } from "@/lib/data";
+import { formatDate, publishableWatches, seedMeta } from "@/lib/data";
 import type { Watch } from "@/lib/types";
 
 function matchesFilter(watch: Watch, filter: FilterKey) {
@@ -47,8 +47,8 @@ export function HomeView() {
           prix, statut d’édition et lien officiel.
         </p>
         <div className="update-line">
-          <span className="update-time">18:30</span>
-          <span>21 août 2026</span>
+          <span className="update-time">Dernière nouveauté</span>
+          <span>{formatDate(seedMeta.latestDate)}</span>
           <span aria-hidden="true">·</span>
           <span>{publishableWatches.length} fiches enrichies</span>
           <span className="seed-counter">{seedMeta.watchCount} nouveautés suivies</span>

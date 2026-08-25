@@ -13,13 +13,13 @@ Seules les fiches `publishable` avec une photo apparaissent dans la sélection d
 
 ## Traitement d’une nouveauté
 
-1. Créer ou examiner d'abord une issue `Candidate · marque · modèle` ; les candidats passent par `candidate → needs-review → accepted → published` (ou `rejected`/`duplicate`).
+1. Examiner la fiche ajoutée par la veille dans `src/data/review-candidates.json` ; elle passe par `review` ou `needs-review`, puis `published` ou `rejected` après décision humaine (`duplicate` pour un doublon confirmé).
 2. Identifier d’abord la page de la marque ou du partenaire commercial officiel.
-2. Comparer dimensions, mouvement, prix et quantité avec le seed.
-3. Ajouter un résumé original, court et factuel dans `src/data/editorial.ts`.
+3. Comparer dimensions, mouvement, prix et quantité avec le seed.
+4. Ajouter un résumé original, court et factuel dans la candidate.
 4. Utiliser une image servie par la marque uniquement lorsque la page l’identifie clairement comme image produit. Ne pas recopier une photo de presse dans le dépôt sans autorisation.
-5. Renseigner `sources`, `sourceNotes`, `verifiedAt` et `editorialStatus`.
-6. Exécuter `npm run lint`, `npm run build`, `npm run check:links` et `npm run check:images`.
+6. Renseigner `sources`, `sourceNotes`, `verifiedAt` et `editorialStatus`.
+7. Exécuter `npm run check:data`, `npm run lint`, `npm run build`, `npm run check:links` et `npm run check:images`.
 
 ## Lot pilote V0.4
 

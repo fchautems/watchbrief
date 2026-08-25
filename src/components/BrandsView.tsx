@@ -29,7 +29,7 @@ export function BrandsView() {
         <p className="kicker">Watchlist</p>
         <h1>Toutes les marques.</h1>
         <p className="intro-copy">
-          De la grande manufacture à la micro-marque : 229 maisons surveillées.
+          De la grande manufacture à la micro-marque : {brands.length} maisons surveillées.
         </p>
       </section>
       <label className="brand-search search-wrap">

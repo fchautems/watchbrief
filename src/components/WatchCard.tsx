@@ -1,9 +1,16 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { formatDate } from "@/lib/data";
 import type { Watch } from "@/lib/types";
 
 function WatchImage({ watch }: { watch: Watch }) {
-  if (!watch.imageUrl) {
+  const sources = [watch.imageUrl, ...(watch.imageFallbacks ?? [])].filter(
+    (source, index, items): source is string => Boolean(source) && items.indexOf(source) === index,
+  );
+  const [sourceIndex, setSourceIndex] = useState(0);
+  const source = sources[sourceIndex];
+
+  if (!source) {
     return (
       <div className="image-placeholder" aria-label="Photo en cours de vérification">
         <span>{watch.editorialStatus === "researching" ? "Photo officielle à confirmer" : "Photo à rechercher"}</span>
@@ -13,14 +20,10 @@ function WatchImage({ watch }: { watch: Watch }) {
 
   return (
     <img
-      src={watch.imageUrl}
+      src={source}
       alt={`${watch.brand} ${watch.model}`}
       loading="lazy"
-      onError={(event) => {
-        const image = event.currentTarget;
-        const fallback = watch.imageFallbacks?.find((item) => item !== image.src);
-        if (fallback) image.src = fallback;
-      }}
+      onError={() => setSourceIndex((index) => index + 1)}
     />
   );
 }
