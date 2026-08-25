@@ -125,9 +125,9 @@
   {
     "id": "seiko-presage-classic-hcc002",
     "issueNumber": 17,
-    "status": "approved",
+    "status": "published",
     "detectedAt": "2026-08-22",
-    "reviewedAt": "2026-08-22",
+    "reviewedAt": "2026-08-25",
     "watch": {
       "id": "seiko-presage-classic-hcc002",
       "slug": "seiko-presage-classic-hcc002",
