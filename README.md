@@ -4,8 +4,8 @@ Une veille horlogère statique, mobile-first et sans longs articles : photos exa
 
 ## Contenu de la V0.6 (pilote)
 
-- 90 nouveautés importées depuis l’historique WatchBrief
-- 229 marques surveillées
+- un historique seed complété automatiquement par les candidates publiées
+- une watchlist de marques extensible à chaque publication
 - accueil éditorial, marques et archives en cartes ou en liste
 - pages de marque harmonisées avec les mêmes cartes éditoriales
 - liens directs vers les pages officielles, sans fiche intermédiaire

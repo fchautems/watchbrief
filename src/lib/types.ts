@@ -1,6 +1,6 @@
 export type VerificationStatus = "seed" | "verified" | "needs-review";
 export type EditorialStatus = "backlog" | "researching" | "publishable" | "broken-link";
-export type ReviewStatus = "review" | "approved" | "published" | "rejected" | "needs-review";
+export type ReviewStatus = "review" | "approved" | "published" | "rejected" | "needs-review" | "duplicate";
 
 export type Watch = {
   id: string;

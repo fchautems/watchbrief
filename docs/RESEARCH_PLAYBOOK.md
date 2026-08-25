@@ -21,7 +21,7 @@ Une annonce de presse seule reste une candidate `needs-review` si elle ne permet
 
 ## Prix
 
-Appliquer strictement `docs/PRICE_POLICY.md`. Enregistrer le prix brut et son contexte : devise, marché, TVA, URL et date de vérification. Une absence de prix ne bloque pas une candidate, mais interdit l'état `accepted` tant que le prix n'est pas clarifié ou explicitement annoncé comme non communiqué.
+Appliquer strictement `docs/PRICE_POLICY.md`. Enregistrer le prix brut et son contexte : devise, marché, TVA, URL et date de vérification. Une absence de prix ne bloque pas une candidate `needs-review`, mais interdit l'état `review` tant que le prix n'est pas clarifié ou explicitement annoncé comme non communiqué.
 
 ## Déduplication
 

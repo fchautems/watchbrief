@@ -8,7 +8,7 @@ assignees: ""
 
 ## Statut
 
-`candidate` · ne pas publier automatiquement
+`review` ou `needs-review` · ne pas publier automatiquement
 
 ## Identité
 

@@ -9,4 +9,5 @@ export const reviewStatusLabel = {
   published: "Publiée",
   rejected: "Refusée",
   "needs-review": "À compléter",
+  duplicate: "Doublon",
 } as const;

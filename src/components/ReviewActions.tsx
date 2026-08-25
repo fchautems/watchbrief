@@ -1,14 +1,15 @@
 import { useState } from "react";
+import { readReviewResponse } from "@/lib/reviewApi";
 import type { ReviewCandidate, ReviewStatus } from "@/lib/types";
 
 const apiBase = (import.meta.env.VITE_REVIEW_API_BASE ?? "https://watchbrief-review.fchautems.workers.dev").replace(/\/$/, "");
 
-export function ReviewActions({ candidate, password }: { candidate: ReviewCandidate; password: string }) {
+export function ReviewActions({ candidate, password, onDecision }: { candidate: ReviewCandidate; password: string; onDecision: (id: string) => void }) {
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
   const [decided, setDecided] = useState(false);
 
-  if (candidate.status === "published" || candidate.status === "rejected") return null;
+  if (candidate.status === "published" || candidate.status === "rejected" || candidate.status === "duplicate") return null;
 
   if (!apiBase) {
     return <p className="review-action-note">Publication sécurisée en cours de raccordement.</p>;
@@ -23,10 +24,11 @@ export function ReviewActions({ candidate, password }: { candidate: ReviewCandid
         headers: { "Content-Type": "application/json", "X-Review-Password": password },
         body: JSON.stringify({ status }),
       });
-      const result = await response.json() as { message?: string; error?: string };
+      const result = await readReviewResponse(response);
       if (!response.ok) throw new Error(result.error ?? "Mise à jour impossible");
       setDecided(true);
       setMessage(status === "published" ? "Publiée : GitHub Pages déploie maintenant la mise à jour." : "Refusée : la candidate reste archivée hors site public.");
+      window.setTimeout(() => onDecision(candidate.id), 700);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Mise à jour impossible");
     } finally {

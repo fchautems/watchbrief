@@ -47,14 +47,28 @@ const publishedCandidates = reviewCandidates
   .filter((candidate) => candidate.status === "published")
   .map((candidate) => candidate.watch);
 
-export const watches = [...seedWatches, ...publishedCandidates]
+// A published candidate is the editorially enriched version of a seed entry.
+// Keep one public record per id and let the candidate replace the seed data.
+const watchesById = new Map(seedWatches.map((watch) => [watch.id, watch]));
+publishedCandidates.forEach((watch) => watchesById.set(watch.id, watch));
+
+export const watches = [...watchesById.values()]
   .sort((a, b) => b.date.localeCompare(a.date) || a.brand.localeCompare(b.brand));
 
-export const brands = seed.brandWatchlist
-  .map((name) => ({
+const brandNamesBySlug = new Map(
+  seed.brandWatchlist.map((name) => [slugify(name), name]),
+);
+watches.forEach((watch) => {
+  if (!brandNamesBySlug.has(watch.brandSlug)) {
+    brandNamesBySlug.set(watch.brandSlug, watch.brand);
+  }
+});
+
+export const brands = [...brandNamesBySlug]
+  .map(([slug, name]) => ({
     name,
-    slug: slugify(name),
-    count: watches.filter((watch) => watch.brand === name).length,
+    slug,
+    count: watches.filter((watch) => watch.brandSlug === slug).length,
   }))
   .sort((a, b) => a.name.localeCompare(b.name, "fr"));
 
@@ -82,4 +96,5 @@ export const seedMeta = {
   generatedAt: seed.generatedAt,
   watchCount: watches.length,
   brandCount: brands.length,
+  latestDate: watches[0]?.date ?? seed.generatedAt,
 };

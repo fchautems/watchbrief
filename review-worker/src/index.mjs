@@ -1,5 +1,5 @@
 const githubApi = "https://api.github.com";
-const buildVersion = "2026-08-25-concurrency-v5";
+const buildVersion = "2026-08-25-audit-v6";
 const githubUserAgent = "WatchBrief-Review-Worker";
 
 class GitHubResponseError extends Error {
@@ -232,8 +232,9 @@ async function updateCandidate(request, env, candidateId) {
     const candidate = candidates.find((item) => item.id === candidateId);
     if (!candidate) throw new Error("Candidate introuvable");
     if (candidate.status === status) return;
-    if (["published", "rejected"].includes(candidate.status)) {
-      throw new Error(`Cette candidate est déjà ${candidate.status === "published" ? "publiée" : "refusée"}`);
+    if (["published", "rejected", "duplicate"].includes(candidate.status)) {
+      const finalLabels = { published: "publiée", rejected: "refusée", duplicate: "classée comme doublon" };
+      throw new Error(`Cette candidate est déjà ${finalLabels[candidate.status]}`);
     }
     if (candidate.status === "needs-review" && status === "published") {
       throw new Error("Cette candidate doit d’abord être complétée");
