@@ -1,5 +1,6 @@
 const githubApi = "https://api.github.com";
-const buildVersion = "2026-08-25-github-v3";
+const buildVersion = "2026-08-25-github-v4";
+const githubUserAgent = "WatchBrief-Review-Worker";
 
 function cors(env) {
   return {
@@ -152,6 +153,7 @@ async function installationToken(env) {
     headers: {
       Authorization: `Bearer ${jwt}`,
       Accept: "application/vnd.github+json",
+      "User-Agent": githubUserAgent,
       "X-GitHub-Api-Version": "2022-11-28",
     },
   });
@@ -161,6 +163,7 @@ async function installationToken(env) {
     headers: {
       Authorization: `Bearer ${jwt}`,
       Accept: "application/vnd.github+json",
+      "User-Agent": githubUserAgent,
       "X-GitHub-Api-Version": "2022-11-28",
     },
   });
@@ -173,6 +176,7 @@ async function githubJson(url, token, init = {}) {
     ...init,
     headers: {
       Accept: "application/vnd.github+json",
+      "User-Agent": githubUserAgent,
       "X-GitHub-Api-Version": "2022-11-28",
       Authorization: `Bearer ${token}`,
       ...(init.headers ?? {}),
