@@ -424,9 +424,9 @@
   {
     "id": "brew-retrograph-stone-blend-automatic",
     "issueNumber": 31,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-24",
-    "reviewedAt": "2026-08-24",
+    "reviewedAt": "2026-08-25",
     "watch": {
       "id": "brew-retrograph-stone-blend-automatic",
       "slug": "brew-retrograph-stone-blend-automatic",
