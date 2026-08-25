@@ -32,10 +32,37 @@ function base64Url(value) {
   return encodeBase64(value).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
 }
 
+function derLength(length) {
+  if (length < 128) return Uint8Array.of(length);
+  const bytes = [];
+  for (let remaining = length; remaining > 0; remaining >>= 8) bytes.unshift(remaining & 0xff);
+  return Uint8Array.of(0x80 | bytes.length, ...bytes);
+}
+
+function joinBytes(...chunks) {
+  const result = new Uint8Array(chunks.reduce((total, chunk) => total + chunk.length, 0));
+  let offset = 0;
+  for (const chunk of chunks) {
+    result.set(chunk, offset);
+    offset += chunk.length;
+  }
+  return result;
+}
+
+function pkcs1ToPkcs8(pkcs1) {
+  const version = Uint8Array.of(0x02, 0x01, 0x00);
+  const rsaAlgorithm = Uint8Array.of(0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00);
+  const privateKey = joinBytes(Uint8Array.of(0x04), derLength(pkcs1.length), pkcs1);
+  const body = joinBytes(version, rsaAlgorithm, privateKey);
+  return joinBytes(Uint8Array.of(0x30), derLength(body.length), body).buffer;
+}
+
 function pemToArrayBuffer(pem) {
-  const content = pem.replace(/-----BEGIN PRIVATE KEY-----|-----END PRIVATE KEY-----|\s/g, "");
+  const isPkcs1 = pem.includes("BEGIN RSA PRIVATE KEY");
+  const content = pem.replace(/-----BEGIN (?:RSA )?PRIVATE KEY-----|-----END (?:RSA )?PRIVATE KEY-----|\s/g, "");
   const binary = atob(content);
-  return Uint8Array.from(binary, (char) => char.charCodeAt(0)).buffer;
+  const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+  return isPkcs1 ? pkcs1ToPkcs8(bytes) : bytes.buffer;
 }
 
 async function appJwt(env) {
