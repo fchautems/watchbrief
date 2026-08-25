@@ -1,5 +1,5 @@
 const githubApi = "https://api.github.com";
-const buildVersion = "2026-08-25-pem-v2";
+const buildVersion = "2026-08-25-github-v3";
 
 function cors(env) {
   return {
@@ -133,20 +133,29 @@ async function appJwt(env) {
   return `${input}.${btoa(binary).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_")}`;
 }
 
+async function readGithubResponse(response, stage) {
+  const text = await response.text();
+  let result;
+  try {
+    result = JSON.parse(text);
+  } catch {
+    const detail = text.trim().replace(/\s+/g, " ").slice(0, 160) || "réponse vide";
+    throw new Error(`${stage} : GitHub HTTP ${response.status} — ${detail}`);
+  }
+  if (!response.ok) throw new Error(`${stage} : ${result.message ?? `GitHub HTTP ${response.status}`}`);
+  return result;
+}
+
 async function installationToken(env) {
   const jwt = await appJwt(env);
-  const installationsResponse = await fetch(`${githubApi}/app/installations`, {
+  const installationResponse = await fetch(`${githubApi}/repos/${env.REPOSITORY}/installation`, {
     headers: {
       Authorization: `Bearer ${jwt}`,
       Accept: "application/vnd.github+json",
       "X-GitHub-Api-Version": "2022-11-28",
     },
   });
-  const installations = await installationsResponse.json();
-  if (!installationsResponse.ok || !Array.isArray(installations)) throw new Error("Installations GitHub App introuvables");
-  const owner = env.REPOSITORY.split("/")[0];
-  const installation = installations.find((item) => item.account?.login === owner);
-  if (!installation) throw new Error("Installation GitHub App du dépôt introuvable");
+  const installation = await readGithubResponse(installationResponse, "Installation GitHub App");
   const response = await fetch(`${githubApi}/app/installations/${installation.id}/access_tokens`, {
     method: "POST",
     headers: {
@@ -155,8 +164,7 @@ async function installationToken(env) {
       "X-GitHub-Api-Version": "2022-11-28",
     },
   });
-  const result = await response.json();
-  if (!response.ok) throw new Error(result.message ?? "Jeton GitHub App impossible à obtenir");
+  const result = await readGithubResponse(response, "Création du jeton GitHub App");
   return result.token;
 }
 
@@ -170,9 +178,7 @@ async function githubJson(url, token, init = {}) {
       ...(init.headers ?? {}),
     },
   });
-  const result = await response.json();
-  if (!response.ok) throw new Error(result.message ?? "GitHub a refusé la mise à jour");
-  return result;
+  return readGithubResponse(response, "Mise à jour du dépôt");
 }
 
 function passwordsMatch(received, expected) {
