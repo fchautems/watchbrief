@@ -608,7 +608,7 @@
   {
     "id": "omega-speedmaster-38-black-no-date",
     "issueNumber": 41,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-25",
     "watch": {
       "id": "omega-speedmaster-38-black-no-date",
@@ -650,7 +650,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-25",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-25"
   },
   {
     "id": "longines-master-collection-chrono-monopusher-l29604782",
