@@ -700,5 +700,51 @@
       "independent": false
     },
     "reviewedAt": "2026-08-25"
+  },
+  {
+    "id": "cartier-santos-de-cartier-chronograph-wssa0083",
+    "issueNumber": 44,
+    "status": "review",
+    "detectedAt": "2026-08-26",
+    "watch": {
+      "id": "cartier-santos-de-cartier-chronograph-wssa0083",
+      "slug": "cartier-santos-de-cartier-chronograph-wssa0083",
+      "brand": "Cartier",
+      "brandSlug": "cartier",
+      "model": "Santos de Cartier Chronograph",
+      "date": "2026-04-27",
+      "reference": "WSSA0083",
+      "movement": "Calibre 1904-CH MC automatique, chronographe intégré à roue à colonnes et embrayage vertical",
+      "diameter": "39.8 mm (largeur)",
+      "diameterMm": 39.8,
+      "thickness": "11.6 mm",
+      "lugToLug": "47.5 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m",
+      "powerReserve": "47 h",
+      "price": "CHF 12’100",
+      "priceSourceUrl": "https://www.cartier.com/fr-ch/watches/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0083",
+      "priceCheckedAt": "2026-08-26",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Cartier redimensionne son Santos chronographe dans un boîtier de 39,8 × 47,5 mm et 11,6 mm d’épaisseur. La nouvelle génération adopte deux poussoirs classiques tout en conservant le calibre automatique intégré 1904-CH MC à roue à colonnes et embrayage vertical.",
+      "productUrl": "https://www.cartier.com/fr-ch/watches/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0083",
+      "imageUrl": "https://asset.bucherer.com/image/upload/f_auto,w_1800/Assets/Watches/RICHEMONT/Cartier/Automatic/1475-329-6_FP.png",
+      "imageSource": "Bucherer",
+      "imageSourceUrl": "https://www.bucherer.com/ch/en/watches/cartier/santos-de-cartier/1475-329-6.html",
+      "sources": [
+        "https://www.cartier.com/fr-ch/watches/collections/santos-de-cartier/montre-santos-de-cartier-CRWSSA0083",
+        "https://www.bucherer.com/ch/en/watches/cartier/santos-de-cartier/1475-329-6.html",
+        "https://monochrome-watches.com/2026-santos-de-cartier-chronograph-lm-new-generation-review-price/",
+        "https://timeandtidewatches.com/cartier-santos-de-cartier-chronograph-hands-on/"
+      ],
+      "sourceNotes": "Référence WSSA0083 en acier, cadran argenté et bracelet acier. Cartier Suisse confirme la référence, les dimensions arrondies à 47 × 39,8 × 11,6 mm, 100 m et CHF 12’100 TVA comprise ; Bucherer Suisse recoupe le tarif TTC et la variante. Monochrome et Time+Tide publient 47,5 mm pour le lug-to-lug, valeur conservée avec la divergence d’arrondi documentée. Asset Bucherer 1800 × 1761 px : montre entière, nette et variante exacte confirmée visuellement.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": false
+    }
   }
 ]
