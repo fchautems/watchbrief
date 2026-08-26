@@ -937,5 +937,54 @@
       "independent": false
     },
     "reviewedAt": "2026-08-26"
+  },
+  {
+    "id": "atelier-wen-massena-lab-inflection-shuo-rose-gold",
+    "issueNumber": 50,
+    "status": "review",
+    "detectedAt": "2026-08-26",
+    "watch": {
+      "id": "atelier-wen-massena-lab-inflection-shuo-rose-gold",
+      "slug": "atelier-wen-massena-lab-inflection-shuo-rose-gold",
+      "brand": "Atelier Wen × Massena LAB",
+      "brandSlug": "atelier-wen-massena-lab",
+      "model": "Inflection 烁 (Shuò)",
+      "date": "2026-08-26",
+      "reference": "Variante Rose Gold · cadran en or blanc 18 ct avec secteur des heures en or rose · bracelet intégré en tantale",
+      "movement": "Girard-Perregaux GP03300 automatique personnalisé, 27 rubis",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "10,2 mm",
+      "lugToLug": "45 mm",
+      "material": "Boîtier et bracelet en tantale pur à 99,9 %",
+      "waterResistance": "100 m",
+      "powerReserve": "48 h",
+      "price": "HK$326’300",
+      "priceSourceUrl": "https://atelierwen.com/products/massenalab-inflectionshuo",
+      "priceCheckedAt": "2026-08-26",
+      "priceMarket": "HK",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 40,
+      "summary": "Atelier Wen et Massena LAB associent un boîtier-bracelet en tantale pur à 99,9 % à un cadran en or 18 ct travaillé en tremblage et gravé main. La typographie mêle chiffres arabes et calligraphie chinoise, tandis que le calibre Girard-Perregaux GP03300 reçoit des ponts redessinés et décorés spécifiquement.",
+      "productUrl": "https://atelierwen.com/products/massenalab-inflectionshuo",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://atelierwen.com/cdn/shop/files/RG3.png?v=1787740442",
+      "imageSource": "Atelier Wen",
+      "imageSourceUrl": "https://atelierwen.com/products/massenalab-inflectionshuo",
+      "sources": [
+        "https://atelierwen.com/products/massenalab-inflectionshuo",
+        "https://monochrome-watches.com/atelier-wen-x-massena-lab-inflection-shuo-tantalum-integrated-watch-solid-gold-dial-introducing-price/",
+        "https://www.fratellowatches.com/tantalizing-tantalum-the-atelier-wen-x-massena-lab-inflection-shuo/"
+      ],
+      "notes": "Variante Rose Gold accessible au public à 40 exemplaires ; l’édition totale compte 50 montres, dont 10 White Gold réservées aux clients établis.",
+      "sourceNotes": "Page produit officielle vérifiée le 2026-08-26 : 40 × 45 × 10,2 mm, tantale 99,9 %, 100 m, calibre GP03300 automatique personnalisé et 48 h. La boutique officielle Hong Kong affiche HK$326’300 sans préciser le traitement fiscal ; Monochrome et Fratello annoncent CHF 33’800 hors taxes. Le tarif officiel natif HKD est conservé sans conversion, avec fiscalité inconnue. Asset officiel RG3 contrôlé visuellement, 2220 × 1474 px : montre entière nette, variante Rose Gold exacte, bracelet intégré en tantale et couronne en or rose.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-26",
+      "independent": true
+    },
+    "reviewedAt": "2026-08-26"
   }
 ]
