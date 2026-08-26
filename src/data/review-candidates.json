@@ -891,7 +891,7 @@
   {
     "id": "bell-ross-br-x5-meteorite-brx5r-mtr-st-sst",
     "issueNumber": 49,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "bell-ross-br-x5-meteorite-brx5r-mtr-st-sst",
@@ -935,6 +935,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-26",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-26"
   }
 ]
