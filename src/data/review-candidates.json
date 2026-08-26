@@ -843,7 +843,7 @@
   {
     "id": "ming-57-05-comet-strap",
     "issueNumber": 48,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "ming-57-05-comet-strap",
@@ -885,6 +885,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-26",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-26"
   }
 ]
