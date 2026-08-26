@@ -887,5 +887,54 @@
       "independent": true
     },
     "reviewedAt": "2026-08-26"
+  },
+  {
+    "id": "bell-ross-br-x5-meteorite-brx5r-mtr-st-sst",
+    "issueNumber": 49,
+    "status": "review",
+    "detectedAt": "2026-08-26",
+    "watch": {
+      "id": "bell-ross-br-x5-meteorite-brx5r-mtr-st-sst",
+      "slug": "bell-ross-br-x5-meteorite-brx5r-mtr-st-sst",
+      "brand": "Bell & Ross",
+      "brandSlug": "bell-ross",
+      "model": "BR-X5 Meteorite",
+      "date": "2026-08-26",
+      "reference": "BRX5R-MTR-ST/SST · cadran météorite, boîtier et bracelet acier",
+      "movement": "Calibre manufacture BR-CAL.323 automatique, certifié COSC",
+      "diameter": "41 mm (largeur)",
+      "diameterMm": 41,
+      "thickness": "12.80 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier poli-satiné",
+      "waterResistance": "100 m",
+      "powerReserve": "Environ 70 h",
+      "price": "CHF 8’700",
+      "priceSourceUrl": "https://bellross.com/fr-ch/products/br-x5-meteorite-steel-bracelet",
+      "priceCheckedAt": "2026-08-26",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 250,
+      "summary": "Bell & Ross associe pour la première fois la construction modulaire de la BR-X5 à un cadran taillé directement dans une météorite de Muonionalusta, sans plaque de laiton rapportée. La montre conserve le calibre manufacture BR-CAL.323 automatique certifié COSC, sa grande date et son indicateur de réserve, dans une série de 250 pièces.",
+      "productUrl": "https://bellross.com/fr-ch/products/br-x5-meteorite-steel-bracelet",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://bellross.com/cdn/shop/files/br-x5-meteorite-sst_soldat.png?v=1786006493",
+      "imageSource": "Bell & Ross",
+      "imageSourceUrl": "https://bellross.com/fr-ch/products/br-x5-meteorite-steel-bracelet",
+      "sources": [
+        "https://bellross.com/fr-ch/products/br-x5-meteorite-steel-bracelet",
+        "https://bellross.com/fr-ch/pages/conditions-generales-de-vente",
+        "https://monochrome-watches.com/bell-ross-br-x5-meteorite-introducing/",
+        "https://revolutionwatch.com/the-bell-ross-br-x5-meteorite-is-out-of-this-world/"
+      ],
+      "notes": "Référence BRX5R-MTR-ST/SST sur bracelet acier. Cadran taillé directement dans une météorite de Muonionalusta et protégé par une fine couche PVD. Édition limitée à 250 pièces.",
+      "sourceNotes": "Page produit officielle Bell & Ross Suisse vérifiée le 2026-08-26 : 41 × 12,80 mm, acier, calibre automatique BR-CAL.323, environ 70 h, 100 m, 250 pièces et CHF 8’700. Les conditions de vente Bell & Ross confirment que les prix en devise locale incluent la TVA. Le lug-to-lug n’est pas publié et reste « Non communiqué ». Monochrome indique 72 h de réserve ; la valeur officielle d’environ 70 h prévaut. Asset officiel PNG 2000 × 2398 px contrôlé visuellement : montre entière nette, cadran météorite, grande date, réserve de marche et bracelet acier correspondant exactement à BRX5R-MTR-ST/SST. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-26",
+      "independent": false
+    }
   }
 ]
