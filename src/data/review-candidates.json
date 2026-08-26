@@ -792,5 +792,50 @@
       "editorialStatus": "publishable",
       "independent": true
     }
+  },
+  {
+    "id": "seiko-prospex-hbc011-fan-selected",
+    "issueNumber": 46,
+    "status": "review",
+    "detectedAt": "2026-08-26",
+    "watch": {
+      "id": "seiko-prospex-hbc011-fan-selected",
+      "slug": "seiko-prospex-hbc011-fan-selected",
+      "brand": "Seiko",
+      "brandSlug": "seiko",
+      "model": "Prospex 1965 Heritage Diver’s Watch Fan-Selected Limited Edition",
+      "date": "2026-08-26",
+      "reference": "HBC011J1 / HBC011 · “Daytime Blue”",
+      "movement": "Calibre 6R55 automatique avec remontage manuel",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "13 mm",
+      "lugToLug": "46,4 mm",
+      "material": "Acier inoxydable avec revêtement renforcé",
+      "waterResistance": "300 m",
+      "powerReserve": "72 h",
+      "price": "1’600 EUR TTC",
+      "priceSourceUrl": "https://www.seikowatches.com/es-es/products/prospex/hbc011j1",
+      "priceCheckedAt": "2026-08-26",
+      "priceMarket": "ES",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 4500,
+      "summary": "Choisie par les amateurs lors de la campagne mondiale Seiko 2025, cette variante « Daytime Blue » associe un cadran turquoise à motif de vagues et une lunette assortie au boîtier compact de la Prospex 1965 Heritage Diver. Elle conserve le calibre automatique 6R55 à 72 heures et l’étanchéité à 300 m, avec une nouvelle boucle réglable, dans une série de 4’500 exemplaires.",
+      "productUrl": "https://www.seikowatches.com/es-es/products/prospex/hbc011j1",
+      "imageUrl": "https://www.seikowatches.com/es-es/-/media/Images/Product--Image/All/Seiko/2026/07/02/21/07/HBC011J1/HBC011J1.png?mh=1200&mw=1200",
+      "imageSource": "Seiko",
+      "imageSourceUrl": "https://www.seikowatches.com/es-es/products/prospex/hbc011j1",
+      "sources": [
+        "https://www.seikowatches.com/es-es/products/prospex/hbc011j1",
+        "https://www.seikowatches.com/es-es/products/prospex/special/1965-fan-selected-limited/",
+        "https://monochrome-watches.com/introducing-popular-choice-the-new-seiko-prospex-1965-heritage-diver-fan-selected-hbc011-price/"
+      ],
+      "sourceNotes": "Référence internationale HBC011J1, affichée HBC011 sur la fiche officielle espagnole. Seiko publie 40 × 13 × 46,4 mm, 300 m, 72 h et 4’500 pièces. La fiche officielle Espagne affiche 1’600 EUR ; Monochrome annonçait 1’550 EUR TTC, divergence conservée et priorité donnée au tarif officiel courant. Asset officiel 1102 × 1102 px, montre entière et variante exacte confirmée visuellement.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "independent": false
+    }
   }
 ]
