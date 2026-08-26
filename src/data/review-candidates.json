@@ -704,7 +704,7 @@
   {
     "id": "cartier-santos-de-cartier-chronograph-wssa0083",
     "issueNumber": 44,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "cartier-santos-de-cartier-chronograph-wssa0083",
@@ -745,6 +745,7 @@
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-26"
   }
 ]
