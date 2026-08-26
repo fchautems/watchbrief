@@ -34,7 +34,9 @@ for (const candidate of candidates) {
   if (!allowedStatuses.has(candidate.status)) failures.push(`${candidate.id}: statut inconnu ${candidate.status}`);
   if (candidate.id !== watch.id) failures.push(`${candidate.id}: candidate.id et watch.id diffèrent`);
   if (watch.slug !== slugify(watch.id)) failures.push(`${candidate.id}: watch.slug incohérent`);
-  // A brand can deliberately keep a short canonical slug even when its display\n  // name contains a location or a legal suffix (for example ArtyA Genève → artya).\n  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(watch.brandSlug ?? "")) failures.push(`${candidate.id}: watch.brandSlug invalide`);
+  // A brand can deliberately keep a short canonical slug even when its display
+  // name contains a location or a legal suffix (for example ArtyA Genève → artya).
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(watch.brandSlug ?? "")) failures.push(`${candidate.id}: watch.brandSlug invalide`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(candidate.detectedAt ?? "")) failures.push(`${candidate.id}: detectedAt invalide`);
   for (const field of ["slug", "brand", "brandSlug", "model", "date", "lugToLug"]) {
     if (!watch[field]) failures.push(`${candidate.id}: watch.${field} manquant`);
