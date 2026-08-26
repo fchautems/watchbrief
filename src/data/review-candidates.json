@@ -839,5 +839,52 @@
       "independent": false
     },
     "reviewedAt": "2026-08-26"
+  },
+  {
+    "id": "ming-57-05-comet-strap",
+    "issueNumber": 48,
+    "status": "review",
+    "detectedAt": "2026-08-26",
+    "watch": {
+      "id": "ming-57-05-comet-strap",
+      "slug": "ming-57-05-comet-strap",
+      "brand": "MING",
+      "brandSlug": "ming",
+      "model": "57.05 Comet",
+      "date": "2026-08-26",
+      "reference": "57.05 Comet · SKU 5705B_1 · bracelet en chèvre bleu cobalt Jean Rousseau Paris",
+      "movement": "Sellita for MING 330.M2 automatique, 25 rubis",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "10.33 mm",
+      "lugToLug": "47.8 mm",
+      "material": "Acier inoxydable 316L",
+      "waterResistance": "100 m",
+      "powerReserve": "Environ 50 h",
+      "price": "CHF 6’950 hors taxes",
+      "priceSourceUrl": "https://www.ming.watch/featured-product/ming-57-05-comet-strap",
+      "priceCheckedAt": "2026-08-26",
+      "priceMarket": "International (CHF)",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 200,
+      "summary": "Pour son neuvième anniversaire, MING réinterprète la worldtime avec une lunette mécanique qui décale d’un clic uniquement les villes observant l’heure d’été, sans toucher aux autres fuseaux. Le cadran bleu « Comet Tail » superpose deux trames pour produire un motif d’interférence évolutif, dans un boîtier acier contenu de 40 × 10,33 mm.",
+      "productUrl": "https://www.ming.watch/featured-product/ming-57-05-comet-strap",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://cdn.prod.website-files.com/62cd089edd0c372e58a75932/6a7ce56927942e7f2a2e142b_907X_B0008935.jpg",
+      "imageSource": "MING",
+      "imageSourceUrl": "https://www.ming.watch/featured-product/ming-57-05-comet-strap",
+      "sources": [
+        "https://www.ming.watch/featured-product/ming-57-05-comet-strap",
+        "https://www.fratellowatches.com/streaking-through-the-heavens-with-the-new-ming-57-05-comet/"
+      ],
+      "notes": "Version sur bracelet en chèvre bleu cobalt Jean Rousseau Paris. Commandes annoncées pour le 27 août 2026 à 13:00 GMT, livraison sous 6 à 12 semaines. Édition limitée à 200 pièces.",
+      "sourceNotes": "Page produit officielle MING vérifiée le 2026-08-26 : 40 × 10,33 × 47,8 mm, acier 316L, calibre automatique 330.M2, environ 50 h, 100 m et 200 pièces. Le prix dynamique n’est pas encore rendu avant l’ouverture des commandes ; Fratello recoupe CHF 6’950 et MING précise explicitement que ses prix sont hors taxes. Asset officiel 1800 × 2400 px contrôlé visuellement : montre entière nette, cadran Comet Tail bleu, lunette worldtime/DST et bracelet bleu cobalt correspondant exactement à la version SKU 5705B_1. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-26",
+      "independent": true
+    }
   }
 ]
