@@ -797,7 +797,7 @@
   {
     "id": "seiko-prospex-hbc011-fan-selected",
     "issueNumber": 46,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "seiko-prospex-hbc011-fan-selected",
@@ -837,6 +837,7 @@
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-26"
   }
 ]
