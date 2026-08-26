@@ -751,7 +751,7 @@
   {
     "id": "artya-complexity-metiers-d-art",
     "issueNumber": 45,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "artya-complexity-metiers-d-art",
@@ -791,7 +791,8 @@
       "verificationStatus": "verified",
       "editorialStatus": "publishable",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-26"
   },
   {
     "id": "seiko-prospex-hbc011-fan-selected",
