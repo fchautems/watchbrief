@@ -1034,5 +1034,54 @@
       "independent": true
     },
     "reviewedAt": "2026-08-27"
+  },
+  {
+    "id": "timex-noah-mk1-anchor-twg069300",
+    "issueNumber": 52,
+    "status": "review",
+    "detectedAt": "2026-08-27",
+    "watch": {
+      "id": "timex-noah-mk1-anchor-twg069300",
+      "slug": "timex-noah-mk1-anchor-twg069300",
+      "brand": "Timex × Noah",
+      "brandSlug": "timex-noah",
+      "model": "MK1 Anchor 36 mm Fabric Strap Gift Set",
+      "date": "2026-08-27",
+      "reference": "TWG069300 · cadran crème · bracelet tissu rayé rouge et bleu marine",
+      "movement": "Quartz analogique",
+      "diameter": "36 mm",
+      "diameterMm": 36,
+      "thickness": "10 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable",
+      "waterResistance": "30 m",
+      "powerReserve": "Non applicable (quartz)",
+      "price": "US$248 hors taxes",
+      "priceSourceUrl": "https://timex.com/products/noah-x-timex-mk1-anchor-36mm-fabric-strap-gift-set-twg069300",
+      "priceCheckedAt": "2026-08-27",
+      "priceMarket": "US",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Timex et Noah transforment la petite MK1 militaire en montre nautique de 36 mm, avec cadran crème, petite seconde en forme d’ancre et aiguilles alpha luminescentes. Le coffret inclut deux bracelets tissu à changement rapide, tout en conservant un tarif très accessible.",
+      "productUrl": "https://timex.com/products/noah-x-timex-mk1-anchor-36mm-fabric-strap-gift-set-twg069300",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://timex.com/cdn/shop/files/14523_TX_TC_26_FB_desktop_TWG069300_1.jpg?v=1787643570&width=1980",
+      "imageSource": "Timex",
+      "imageSourceUrl": "https://timex.com/products/noah-x-timex-mk1-anchor-36mm-fabric-strap-gift-set-twg069300",
+      "sources": [
+        "https://timex.com/products/noah-x-timex-mk1-anchor-36mm-fabric-strap-gift-set-twg069300",
+        "https://timex.com/pages/terms-conditions",
+        "https://www.gq.com/story/noah-timex-mk1-new-watch-08-25-26"
+      ],
+      "notes": "Coffret avec bracelet tissu rayé rouge et bleu marine et bracelet tissu bleu marine supplémentaire. Quantité produite non communiquée ; Timex ne présente pas la montre comme une édition limitée.",
+      "sourceNotes": "Fiche produit officielle Timex US vérifiée le 2026-08-27 : référence TWG069300, 36 × 10 mm, acier, mouvement quartz, cadran crème, verre acrylique, deux bracelets tissu et US$248. Les conditions Timex confirment que la taxe de vente dépend de l’État ; le tarif US est donc indiqué hors taxes. Le lug-to-lug n’est pas publié et reste « Non communiqué ». GQ recoupe l’étanchéité à 30 m. Asset officiel 1980 × 1273 px contrôlé visuellement : montre entière nette, cadran Anchor crème et bracelet rayé exacts. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-27",
+      "independent": false
+    },
+    "reviewedAt": "2026-08-27"
   }
 ]
