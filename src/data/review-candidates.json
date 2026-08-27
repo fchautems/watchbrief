@@ -986,5 +986,53 @@
       "independent": true
     },
     "reviewedAt": "2026-08-27"
+  },
+  {
+    "id": "formex-essence-39-automatic-cosc-alpine-white-033916613101",
+    "issueNumber": 51,
+    "status": "review",
+    "detectedAt": "2026-08-27",
+    "watch": {
+      "id": "formex-essence-39-automatic-cosc-alpine-white-033916613101",
+      "slug": "formex-essence-39-automatic-cosc-alpine-white-033916613101",
+      "brand": "Formex",
+      "brandSlug": "formex",
+      "model": "Essence 39 Automatic COSC Alpine White",
+      "date": "2026-08-27",
+      "reference": "0339.1.6613.101 · cadran Alpine White · bracelet acier",
+      "movement": "Sellita SW200-2 Power+ automatique, certifié COSC",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "10 mm",
+      "lugToLug": "45,5 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m",
+      "powerReserve": "65 h",
+      "price": "CHF 1’570",
+      "priceSourceUrl": "https://formexwatch.com/watches/essence-39-automatic-cosc-alpine-white/",
+      "priceCheckedAt": "2026-08-27",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Cette nouvelle génération de l’Essence 39 adopte le Sellita SW200-2 Power+ certifié COSC et porte la réserve à 65 heures. Une couronne vissée et un fermoir papillon à micro-ajustement 3/6 mm renforcent son usage quotidien, dans un boîtier acier contenu de 39 × 10 × 45,5 mm.",
+      "productUrl": "https://formexwatch.com/watches/essence-39-automatic-cosc-alpine-white/",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://cdn.crucials.io/upload/uok04hg6nb/Formex-Essence-39-mm-Automatic-COSC-Alpine-White-on-Stainless-Steel-Bracelet-53765139.jpg",
+      "imageSource": "Formex",
+      "imageSourceUrl": "https://formexwatch.com/watches/essence-39-automatic-cosc-alpine-white/",
+      "sources": [
+        "https://formexwatch.com/watches/essence-39-automatic-cosc-alpine-white/",
+        "https://www.fratellowatches.com/the-updated-formex-essence-automatic-cosc-39mm/"
+      ],
+      "notes": "Référence 0339.1.6613.101 sur bracelet acier. Précommande ouverte ; premières expéditions annoncées début octobre 2026.",
+      "sourceNotes": "Page produit officielle suisse vérifiée le 2026-08-27 : 39 × 10 × 45,5 mm, acier, Sellita SW200-2 Power+ automatique certifié COSC, 65 h, 100 m et CHF 1’570 TVA incluse. Fratello annonce 10,5 mm d’épaisseur ; la valeur officielle de 10 mm prévaut. Asset officiel 1920 × 1080 px contrôlé visuellement : montre entière nette, cadran Alpine White, aiguilles et index bleuïs, date à 6 h et bracelet acier correspondant exactement à la référence 0339.1.6613.101. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-27",
+      "independent": true
+    },
+    "reviewedAt": "2026-08-27"
   }
 ]
