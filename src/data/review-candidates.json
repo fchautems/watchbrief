@@ -941,7 +941,7 @@
   {
     "id": "atelier-wen-massena-lab-inflection-shuo-rose-gold",
     "issueNumber": 50,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-26",
     "watch": {
       "id": "atelier-wen-massena-lab-inflection-shuo-rose-gold",
@@ -985,6 +985,6 @@
       "verifiedAt": "2026-08-26",
       "independent": true
     },
-    "reviewedAt": "2026-08-26"
+    "reviewedAt": "2026-08-27"
   }
 ]
