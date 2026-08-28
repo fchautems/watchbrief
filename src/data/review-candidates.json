@@ -1230,5 +1230,54 @@
       "verifiedAt": "2026-08-28",
       "independent": true
     }
+  },
+  {
+    "id": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
+    "issueNumber": 56,
+    "status": "review",
+    "detectedAt": "2026-08-28",
+    "watch": {
+      "id": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
+      "slug": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
+      "brand": "Bianchet",
+      "brandSlug": "bianchet",
+      "model": "UltraFino Tonneau Ceramic Deep Blue",
+      "date": "2026-08-28",
+      "reference": "TNUFFTSKCMDB · céramique bleu profond · calibre noir · double bracelet",
+      "movement": "Automatique · calibre manufacture UT01 à tourbillon volant",
+      "diameter": "40 mm de largeur",
+      "diameterMm": 40,
+      "thickness": "8,9 mm",
+      "lugToLug": "47,5 mm de longueur",
+      "material": "Céramique haute technologie bleu profond",
+      "waterResistance": "50 m",
+      "powerReserve": "60 h (±5 %)",
+      "price": "CHF 72’500 hors taxes",
+      "priceSourceUrl": "https://www.bianchet.com/watch/tonneau/flying-tourbillon-ultrafino/skeleton-ceramic-deep-blue",
+      "priceCheckedAt": "2026-08-28",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Bianchet transpose pour la première fois l’UltraFino Tonneau dans une construction entièrement en céramique bleu profond, bracelet intégré compris. Son boîtier de 8,9 mm abrite le tourbillon volant automatique manufacture UT01 de 3,85 mm, conçu pour résister à des chocs jusqu’à 5’000 G.",
+      "productUrl": "https://www.bianchet.com/watch/tonneau/flying-tourbillon-ultrafino/skeleton-ceramic-deep-blue",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://static.wixstatic.com/media/2954f2_47751c7075c144c7aeba76d66ad57be2~mv2.png",
+      "imageSource": "Bianchet",
+      "imageSourceUrl": "https://www.bianchet.com/watch/tonneau/flying-tourbillon-ultrafino/skeleton-ceramic-deep-blue",
+      "sources": [
+        "https://www.bianchet.com/watch/tonneau/flying-tourbillon-ultrafino/skeleton-ceramic-deep-blue",
+        "https://www.bianchet.com/collections/tonneau",
+        "https://monochrome-watches.com/bianchet-ultrafino-tonneau-full-ceramic-versions-white-blue-2026-introducing-price/",
+        "https://www.timekeepers.club/articles/novelties/bianchet-ultrafino-tonneau-ceramic"
+      ],
+      "notes": "Collection permanente présentée pour Geneva Watch Days 2026. Livrée avec un bracelet intégré en céramique bleu profond et un bracelet caoutchouc noir, tous deux à changement rapide.",
+      "sourceNotes": "Fiche officielle Bianchet Suisse vérifiée le 2026-08-28 : référence TNUFFTSKCMDB, 40 × 47,5 × 8,9 mm, céramique bleu profond, calibre UT01 automatique à tourbillon volant, 60 h (±5 %), 50 m et CHF 72’500 hors taxes. Monochrome et Timekeepers Club recoupent la collection permanente, le bracelet céramique intégré, le traitement noir du mouvement et la résistance annoncée à 5’000 G. Asset officiel PNG 2480 × 3508 px contrôlé visuellement : montre entière nette, boîtier bleu profond, mouvement noir, tourbillon et bracelet caoutchouc exacts. Déduplication négative contre le seed — qui contient seulement une Rotondo UltraFino en or rose —, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-28",
+      "independent": true
+    }
   }
 ]
