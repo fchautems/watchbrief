@@ -1235,7 +1235,7 @@
   {
     "id": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
     "issueNumber": 56,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-28",
     "watch": {
       "id": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
@@ -1279,6 +1279,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-28",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-28"
   }
 ]
