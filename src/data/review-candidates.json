@@ -1133,5 +1133,54 @@
       "independent": true
     },
     "reviewedAt": "2026-08-28"
+  },
+  {
+    "id": "iwc-pilots-watch-chronograph-41-petronas-iw388121",
+    "issueNumber": 54,
+    "status": "review",
+    "detectedAt": "2026-08-28",
+    "watch": {
+      "id": "iwc-pilots-watch-chronograph-41-petronas-iw388121",
+      "slug": "iwc-pilots-watch-chronograph-41-petronas-iw388121",
+      "brand": "IWC Schaffhausen",
+      "brandSlug": "iwc-schaffhausen",
+      "model": "Pilot’s Watch Chronograph 41 Mercedes-AMG PETRONAS Formula One™ Team",
+      "date": "2026-08-28",
+      "reference": "IW388121 · titane grade 5 · cadran violet · bracelet caoutchouc violet",
+      "movement": "Automatique · calibre manufacture IWC 69385 à roue à colonnes",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "14,5 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5",
+      "waterResistance": "100 m",
+      "powerReserve": "46 h",
+      "price": "CHF 7’700 TVA incluse",
+      "priceSourceUrl": "https://www.iwc.com/ch-en/watches/pilot-watches/iw388121-pilots-watch-chronograph-41-mercedes-amg-petronas-formula-one-team",
+      "priceCheckedAt": "2026-08-28",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "La quatrième montre officielle IWC pour Mercedes-AMG PETRONAS introduit un cadran violet inédit dans la collection Pilot, inspiré de l’orchidée nationale de Singapour. Elle associe ce coloris aux détails verts de l’équipe, dans le boîtier titane de 41 mm animé par le chronographe manufacture 69385.",
+      "productUrl": "https://www.iwc.com/ch-en/watches/pilot-watches/iw388121-pilots-watch-chronograph-41-mercedes-amg-petronas-formula-one-team",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://img.iwc.com/product-slideshow-2xl-1/o-dpr-2/1f62bb1c2a909dd84e9f453f023e39b83240770e.jpg",
+      "imageSource": "IWC Schaffhausen",
+      "imageSourceUrl": "https://www.iwc.com/ch-en/watches/pilot-watches/iw388121-pilots-watch-chronograph-41-mercedes-amg-petronas-formula-one-team",
+      "sources": [
+        "https://www.iwc.com/ch-en/watches/pilot-watches/iw388121-pilots-watch-chronograph-41-mercedes-amg-petronas-formula-one-team",
+        "https://press.iwc.com/iwc-unveils-new-f1-team-watch-with-purple-dial-tribute-to-the-singapore-grand-prix-en/",
+        "https://monochrome-watches.com/first-look-iwc-schaffhausen-pilots-watch-chronograph-41-mercedes-amg-petronas-formula-one-team-george-russel-kimi-antonelli-singapore-grand-prix-iw388121-specs-price-review/"
+      ],
+      "notes": "Collection permanente annoncée le 27 août 2026 en amont du Grand Prix de Singapour. Nouvelle variante de cadran et de bracelet ; architecture et calibre inchangés par rapport au Pilot’s Watch Chronograph 41 PETRONAS.",
+      "sourceNotes": "Fiche officielle IWC Suisse vérifiée le 2026-08-28 : référence IW388121, cadran violet, titane, bracelet caoutchouc violet EasX-CHANGE, calibre 69385, 46 h et CHF 7’700 TVA incluse. Le communiqué IWC confirme le lancement du 27 août et le caractère de quatrième montre officielle de l’équipe. Monochrome recoupe 41 × 14,5 mm, 100 m et la collection permanente. Le lug-to-lug n’est pas publié et reste « Non communiqué ». Asset officiel 1854 × 2140 px contrôlé visuellement : montre entière nette et variante exacte. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-28",
+      "independent": false
+    },
+    "reviewedAt": "2026-08-28"
   }
 ]
