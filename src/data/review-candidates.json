@@ -1083,5 +1083,55 @@
       "independent": false
     },
     "reviewedAt": "2026-08-27"
+  },
+  {
+    "id": "fears-brunswick-39-perpetual-calendar",
+    "issueNumber": 53,
+    "status": "review",
+    "detectedAt": "2026-08-28",
+    "watch": {
+      "id": "fears-brunswick-39-perpetual-calendar",
+      "slug": "fears-brunswick-39-perpetual-calendar",
+      "brand": "Fears",
+      "brandSlug": "fears",
+      "model": "Brunswick 39 Perpetual Calendar",
+      "date": "2026-08-28",
+      "reference": "BS239.030.054.201 · cadran Silver Mink · bracelet autruche Walnut Brown",
+      "movement": "Automatique · Dubois Depraz 55115",
+      "diameter": "39 mm de largeur (37 mm de longueur hors cornes)",
+      "diameterMm": 39,
+      "thickness": "10,1 mm verre compris",
+      "lugToLug": "45,4 mm",
+      "material": "Acier inoxydable 316L",
+      "waterResistance": "50 m",
+      "powerReserve": "47 h",
+      "price": "£26’950 TVA incluse",
+      "priceSourceUrl": "https://www.fearswatches.com/collections/the-eminence-collection",
+      "priceCheckedAt": "2026-08-28",
+      "priceMarket": "Royaume-Uni",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Fears signe sa première montre automatique à calendrier perpétuel et phase de lune, dans un nouveau boîtier Brunswick coussin de 39 × 37 × 10,1 mm. Le Dubois Depraz 55115 spécialement réalisé pour la marque reçoit une finition manuelle et un rotor en or 18 ct.",
+      "productUrl": "https://www.fearswatches.com/products/brunswick-39-perpetual-calendar",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://www.fearswatches.com/cdn/shop/files/Fears_Brunswick_39_Perpetual_Calendar_packshot_1024x.jpg?v=1787163156",
+      "imageSource": "Fears",
+      "imageSourceUrl": "https://www.fearswatches.com/products/brunswick-39-perpetual-calendar",
+      "sources": [
+        "https://www.fearswatches.com/products/brunswick-39-perpetual-calendar",
+        "https://www.fearswatches.com/collections/the-eminence-collection",
+        "https://www.fratellowatches.com/fears-celebrates-its-re-birthday-with-the-new-brunswick-39-the-brands-first-perpetual-calendar/",
+        "https://deployant.com/commentary-new-fears-brunswick-39-perpetual-calendar/"
+      ],
+      "notes": "Collection permanente ; premières expéditions annoncées pour fin septembre 2026. Chaque exemplaire porte un numéro de série individuel, sans limitation quantitative annoncée.",
+      "sourceNotes": "Fiche Fears vérifiée le 2026-08-28 : SKU officiel BS239.030.054.201, boîtier 39 × 37 mm, lug-to-lug 45,4 mm, épaisseur 10,1 mm verre compris, 50 m, Dubois Depraz 55115 automatique et 47 h. La collection officielle UK affiche £26’950 TVA incluse (£22’458,33 hors TVA). L’asset officiel 1024 × 1024 px a été contrôlé visuellement : montre entière nette, cadran Silver Mink, affichages du calendrier perpétuel, phase de lune et bracelet brun exacts. Certaines sources secondaires abrègent la référence ou citent 55113 ; les données structurées et la fiche officielle prévalent. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-28",
+      "independent": true
+    },
+    "reviewedAt": "2026-08-28"
   }
 ]
