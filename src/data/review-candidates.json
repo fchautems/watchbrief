@@ -1186,7 +1186,7 @@
   {
     "id": "hanhart-mad-preventor-hd12-36-792l87464291",
     "issueNumber": 55,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-28",
     "watch": {
       "id": "hanhart-mad-preventor-hd12-36-792l87464291",
@@ -1229,7 +1229,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-28",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-28"
   },
   {
     "id": "bianchet-ultrafino-tonneau-ceramic-deep-blue-tnufftskcmdb",
