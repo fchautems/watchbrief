@@ -1182,5 +1182,53 @@
       "independent": false
     },
     "reviewedAt": "2026-08-28"
+  },
+  {
+    "id": "hanhart-mad-preventor-hd12-36-792l87464291",
+    "issueNumber": 55,
+    "status": "review",
+    "detectedAt": "2026-08-28",
+    "watch": {
+      "id": "hanhart-mad-preventor-hd12-36-792l87464291",
+      "slug": "hanhart-mad-preventor-hd12-36-792l87464291",
+      "brand": "Hanhart",
+      "brandSlug": "hanhart",
+      "model": "MAD Preventor HD12™ 36 mm",
+      "date": "2026-08-28",
+      "reference": "792L.874-6429-1 · cadran Black Forest Green · bracelet acier HD12",
+      "movement": "Automatique · Sellita SW200-1 sans date",
+      "diameter": "36 mm",
+      "diameterMm": 36,
+      "thickness": "10,5 mm",
+      "lugToLug": "43 mm",
+      "material": "Acier HD12 durci, satiné et poli, revêtement dur transparent PVD",
+      "waterResistance": "150 m",
+      "powerReserve": "38 h minimum",
+      "price": "EUR 1’340 TVA incluse (19 %)",
+      "priceSourceUrl": "https://www.hanhart.com/en/product/mad-preventor-hd12-36-mm-stainless-steel-bracelet/",
+      "priceCheckedAt": "2026-08-28",
+      "priceMarket": "DE",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 200,
+      "summary": "Hanhart réduit pour la première fois la Preventor HD12 à 36 mm tout en conservant 150 m d’étanchéité et un boîtier durci à 1’200 HV. Réalisée avec le MAD Watch Collector, cette série de 200 pièces associe un cadran vert Forêt-Noire au Sellita SW200-1 automatique sans date.",
+      "productUrl": "https://www.hanhart.com/en/product/mad-preventor-hd12-36-mm-stainless-steel-bracelet/",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://monochrome-watches.com/app/uploads/2026/08/Hanhart-MAD-Preventor-HD12-36mm-compact-all-rounder-sports-watch-forest-green-dial-4.jpg",
+      "imageSource": "Monochrome Watches",
+      "imageSourceUrl": "https://monochrome-watches.com/hanhart-mad-preventor-hd12-new-36mm-case-introducing-price/",
+      "sources": [
+        "https://www.hanhart.com/en/product/mad-preventor-hd12-36-mm-stainless-steel-bracelet/",
+        "https://monochrome-watches.com/hanhart-mad-preventor-hd12-new-36mm-case-introducing-price/",
+        "https://www.timeandwatches.com/2026/08/hanhart-mad-preventor-hd12-36mm-black-forest-green.html"
+      ],
+      "notes": "Collaboration avec Russell, le MAD Watch Collector, limitée à 200 pièces. Expéditions annoncées à partir de fin octobre 2026.",
+      "sourceNotes": "Fiche officielle Hanhart vérifiée le 2026-08-28 : référence 792L.874-6429-1 sur bracelet acier, 36 × 10,5 × 43 mm, acier HD12 jusqu’à 1’200 HV, Sellita SW200-1 sans date, 38 h minimum, 150 m et EUR 1’340 TVA incluse. Time and Watches précise la TVA allemande de 19 %. Monochrome recoupe les données et fournit l’asset 1500 × 1500 px contrôlé visuellement : montre entière nette, cadran Black Forest Green et bracelet acier exacts. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-28",
+      "independent": true
+    }
   }
 ]
