@@ -1281,5 +1281,54 @@
       "independent": true
     },
     "reviewedAt": "2026-08-28"
+  },
+  {
+    "id": "jack-mason-canton-day-date-slate-cant-dd-slte-3-link",
+    "issueNumber": 57,
+    "status": "review",
+    "detectedAt": "2026-08-28",
+    "watch": {
+      "id": "jack-mason-canton-day-date-slate-cant-dd-slte-3-link",
+      "slug": "jack-mason-canton-day-date-slate-cant-dd-slte-3-link",
+      "brand": "Jack Mason",
+      "brandSlug": "jack-mason",
+      "model": "Canton Day-Date: Slate",
+      "date": "2026-08-28",
+      "reference": "CANT-DD-SLTE-3-LINK · cadran Slate · bracelet acier 3-Link",
+      "movement": "Automatique · Sellita SW240-1 Top Grade",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "12 mm",
+      "lugToLug": "48 mm",
+      "material": "Acier inoxydable 316L durci",
+      "waterResistance": "150 m",
+      "powerReserve": "40 h",
+      "price": "CHF 1’519 hors taxes",
+      "priceSourceUrl": "https://jackmasonbrand.com/products/canton-day-date-slate?variant=45380795105462",
+      "priceCheckedAt": "2026-08-28",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Jack Mason étend sa Canton avec un affichage jour-date, un cadran Slate guilloché usiné et une loupe placée sous le saphir. Le Sellita SW240-1 Top Grade est réglé à ±5 s/j, dans un boîtier acier durci étanche à 150 m avec bracelet à micro-ajustement.",
+      "productUrl": "https://jackmasonbrand.com/products/canton-day-date-slate?variant=45380795105462",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://jackmasonbrand.com/cdn/shop/files/JM-H403-001-1_3L.png?v=1787593738&width=1400",
+      "imageSource": "Jack Mason",
+      "imageSourceUrl": "https://jackmasonbrand.com/products/canton-day-date-slate?variant=45380795105462",
+      "sources": [
+        "https://jackmasonbrand.com/products/canton-day-date-slate?variant=45380795105462",
+        "https://jackmasonbrand.com/pages/canton-day-date",
+        "https://jackmasonbrand.com/pages/shipping",
+        "https://www.fratellowatches.com/choosin-texas-with-the-new-jack-mason-canton-day-date/"
+      ],
+      "notes": "Nouvelle série régulière disponible immédiatement. Variante Slate retenue avec bracelet acier 3-Link ; la page propose aussi un bracelet 7-Link sous une autre référence SKU.",
+      "sourceNotes": "Fiche officielle Jack Mason vérifiée le 2026-08-28 : SKU CANT-DD-SLTE-3-LINK, 41 × 12 × 48 mm, acier 316L durci, Sellita SW240-1 Top Grade, 40 h, 150 m et prix localisé suisse de CHF 1’519. La politique d’expédition officielle précise que les prix internationaux excluent TVA, droits et taxes d’importation. Fratello recoupe le lancement de la collection régulière et les spécifications. Asset officiel PNG 1400 × 1400 px contrôlé visuellement : montre entière nette, cadran Slate, affichage jour-date et bracelet acier 3-Link exacts. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-28",
+      "independent": true
+    }
   }
 ]
