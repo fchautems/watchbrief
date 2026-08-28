@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22",
+  "updatedAt": "2026-08-28",
   "notes": "Ces règles sont des raccourcis de recherche, pas des preuves. Toute candidate exige encore une vérification de la variante exacte.",
   "patterns": [
     {
@@ -58,6 +58,15 @@
       "purpose": "image",
       "preferred": "https://grone.com/cdn/shop/files/…?width=1800",
       "reason": "Asset Shopify officiel haute définition ; variante à contrôler visuellement."
+    },
+    {
+      "brand": "IWC",
+      "purpose": "image",
+      "preferred": "https://img.iwc.com/product-slideshow-2xl-1/o-dpr-2/…",
+      "avoid": [
+        "…product-slideshow-thumbnail…"
+      ],
+      "reason": "La variante 2xl/o-dpr-2 fournit un asset officiel haute définition de la montre entière ; les thumbnails sont insuffisants."
     }
   ]
 }
