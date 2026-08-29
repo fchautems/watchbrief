@@ -1285,7 +1285,7 @@
   {
     "id": "jack-mason-canton-day-date-slate-cant-dd-slte-3-link",
     "issueNumber": 57,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-28",
     "watch": {
       "id": "jack-mason-canton-day-date-slate-cant-dd-slte-3-link",
@@ -1329,7 +1329,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-28",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-29"
   },
   {
     "id": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
