@@ -1475,5 +1475,54 @@
       "independent": false
     },
     "reviewedAt": "2026-08-29"
+  },
+  {
+    "id": "vacheron-constantin-metiers-art-tribute-animal-kingdom-feathersnake-7630a-000g-h206",
+    "issueNumber": 61,
+    "status": "review",
+    "detectedAt": "2026-08-29",
+    "reviewedAt": "2026-08-29",
+    "watch": {
+      "id": "vacheron-constantin-metiers-art-tribute-animal-kingdom-feathersnake-7630a-000g-h206",
+      "slug": "vacheron-constantin-metiers-art-tribute-animal-kingdom-feathersnake-7630a-000g-h206",
+      "brand": "Vacheron Constantin",
+      "brandSlug": "vacheron-constantin",
+      "model": "Métiers d’Art Tribute to the Animal Kingdom – Feathersnake",
+      "date": "2026-08-27",
+      "reference": "7630A/000G-H206 · or gris 18 ct · cadran micro-plumasserie serpent à plumes · bracelet bleu",
+      "movement": "Automatique · calibre manufacture 2460 G4 à quatre affichages par guichet",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "12,9 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Or gris 18 ct",
+      "waterResistance": "30 m",
+      "powerReserve": "40 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.vacheron-constantin.com/ch/en/watches/exceptional-timepieces/tribute-to-the-animal-kingdom.html",
+      "priceCheckedAt": "2026-08-29",
+      "priceMarket": "CH",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 1,
+      "summary": "Vacheron Constantin réunit haute horlogerie et micro-plumasserie dans une montre concept consacrée au serpent à plumes. Plus de 200 fragments de plumes de lophophore composent l’animal sur un fond en plume d’oie, tandis que le calibre automatique 2460 G4 libère le centre du cadran grâce à quatre affichages périphériques.",
+      "productUrl": "https://www.vacheron-constantin.com/ch/en/watches/exceptional-timepieces/tribute-to-the-animal-kingdom.html",
+      "linkLabel": "Page officielle",
+      "imageUrl": "https://www.vacheron-constantin.com/dam/ric-import-ocp/vac/a569/77a4/j5XBC0hiRviL3CwFoTIBTQ.jpeg.transform.vachw.jpeg",
+      "imageSource": "Vacheron Constantin",
+      "imageSourceUrl": "https://www.vacheron-constantin.com/ch/en/watches/exceptional-timepieces/tribute-to-the-animal-kingdom.html",
+      "sources": [
+        "https://www.vacheron-constantin.com/ch/en/watches/exceptional-timepieces/tribute-to-the-animal-kingdom.html",
+        "https://monochrome-watches.com/vacheron-constantin-metiers-dart-tribute-to-the-animal-kingdom-2026-introducing/",
+        "https://www.fratellowatches.com/vacheron-constantin-metiers-dart-tribute-to-the-animal-kingdom/"
+      ],
+      "notes": "L’une des six créations concept uniques de la série Tribute to the Animal Kingdom. La micro-plumasserie demande environ 250 heures, recherche et prototypes compris. Vacheron Constantin n’a pas annoncé de production ni de commercialisation futures.",
+      "sourceNotes": "Page officielle Vacheron Constantin Suisse vérifiée le 2026-08-29 : Feathersnake, référence 7630A/000G-H206, boîtier en or gris 18 ct de 42 mm, micro-plumasserie et calibre 2460 G4. Monochrome recoupe 12,9 mm d’épaisseur, 30 m, 40 h et les quatre affichages par guichet. Prix et lug-to-lug non publiés : « Prix non communiqué », marché CH, TVA inconnue et « Non communiqué ». Asset officiel 900 × 1125 px contrôlé visuellement : montre entière nette, cadran serpent à plumes et bracelet bleu de la variante exacte. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-29",
+      "independent": false
+    }
   }
 ]
