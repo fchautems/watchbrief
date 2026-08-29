@@ -1383,7 +1383,7 @@
   {
     "id": "awake-son-mai-frosted-leaf-blood-moon",
     "issueNumber": 59,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-29",
     "watch": {
       "id": "awake-son-mai-frosted-leaf-blood-moon",
@@ -1425,6 +1425,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-29",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-29"
   }
 ]
