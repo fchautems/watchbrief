@@ -1377,5 +1377,52 @@
       "verifiedAt": "2026-08-29",
       "independent": false
     }
+  },
+  {
+    "id": "awake-son-mai-frosted-leaf-blood-moon",
+    "issueNumber": 59,
+    "status": "review",
+    "detectedAt": "2026-08-29",
+    "watch": {
+      "id": "awake-son-mai-frosted-leaf-blood-moon",
+      "slug": "awake-son-mai-frosted-leaf-blood-moon",
+      "brand": "AWAKE",
+      "brandSlug": "awake",
+      "model": "Sơn Mài Frosted Leaf « Blood Moon »",
+      "date": "2026-08-28",
+      "reference": "Variante officielle Blood Moon · cadran noir et rouge · bracelet nubuck rouge · référence alphanumérique non communiquée",
+      "movement": "Automatique · La Joux-Perret G101 avec rotor tungstène personnalisé",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "11,5 mm avec glace (10 mm sans glace)",
+      "lugToLug": "44,75 mm",
+      "material": "Acier inoxydable 316L poli et satiné",
+      "waterResistance": "100 m",
+      "powerReserve": "68 h",
+      "price": "EUR 2’820 taxes, droits et livraison inclus",
+      "priceSourceUrl": "https://awakewatches.com/products/son-mai-frosted-leaf-blood-moon",
+      "priceCheckedAt": "2026-08-29",
+      "priceMarket": "FR / international",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "AWAKE décline sa Frosted Leaf dans une interprétation noir et rouge inspirée d’une éclipse lunaire. Son cadran est réalisé à la main en laque vietnamienne Sơn Mài, pigments naturels et feuille d’argent, dans le nouveau boîtier de 38 mm animé par le La Joux-Perret G101 de 68 heures.",
+      "productUrl": "https://awakewatches.com/products/son-mai-frosted-leaf-blood-moon",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://awakewatches.com/cdn/shop/files/SonMai-FrostedLeaf_BloodMoon_Packshot.jpg?v=1787670949&width=2160",
+      "imageSource": "AWAKE",
+      "imageSourceUrl": "https://awakewatches.com/products/son-mai-frosted-leaf-blood-moon",
+      "sources": [
+        "https://awakewatches.com/products/son-mai-frosted-leaf-blood-moon",
+        "https://monochrome-watches.com/awake-adds-storm-blood-moon-and-lagoon-colours-to-the-son-mai-frosted-leaf-collection-2026-introducing-price/"
+      ],
+      "notes": "Collection permanente produite artisanalement à environ 100 pièces par an et par couleur. Livraisons annoncées à partir de fin septembre 2026. Le prix affiché par AWAKE inclut livraison, taxes, droits et tarifs pour toutes les destinations.",
+      "sourceNotes": "Fiche officielle AWAKE vérifiée le 2026-08-29 : variante Blood Moon, 38 × 11,5 × 44,75 mm, acier 316L, cadran noir et rouge en laque Sơn Mài et feuille d’argent, calibre La Joux-Perret G101, 68 h, 100 m et EUR 2’820 taxes, droits et livraison inclus. Monochrome recoupe l’annonce des trois nouvelles couleurs, la collection permanente et la cadence d’environ 100 pièces par an et par cadran. Référence alphanumérique non publiée. Asset officiel JPG 2160 px de large contrôlé : montre entière nette, cadran noir/rouge et bracelet nubuck rouge exacts. Le seed contient uniquement la Frosted Leaf « Ultraviolet » ; déduplication négative contre editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-29",
+      "independent": true
+    }
   }
 ]
