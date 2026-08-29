@@ -1427,5 +1427,52 @@
       "independent": true
     },
     "reviewedAt": "2026-08-29"
+  },
+  {
+    "id": "jaeger-lecoultre-reverso-tribute-enamel-turner-q39334w2",
+    "issueNumber": 60,
+    "status": "review",
+    "detectedAt": "2026-08-29",
+    "watch": {
+      "id": "jaeger-lecoultre-reverso-tribute-enamel-turner-q39334w2",
+      "slug": "jaeger-lecoultre-reverso-tribute-enamel-turner-q39334w2",
+      "brand": "Jaeger-LeCoultre",
+      "brandSlug": "jaeger-lecoultre",
+      "model": "Reverso Tribute Enamel “Turner” — From the Porch of Madonna della Salute",
+      "date": "2026-08-29",
+      "reference": "Q39334W2 · cadran vert guilloché grain de riz · or gris 18 ct · miniature de Venice, from the Porch of Madonna della Salute (1835)",
+      "movement": "Remontage manuel · calibre manufacture 822",
+      "diameter": "27,4 mm de largeur",
+      "diameterMm": 27.4,
+      "thickness": "8,51 mm",
+      "lugToLug": "45,6 mm de longueur",
+      "material": "Or gris 750/1000 (18 carats)",
+      "waterResistance": "30 m",
+      "powerReserve": "42 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.jaeger-lecoultre.com/ch-en/watches/reverso/reverso-tribute/reverso-tribute-enamel-turner-q39334w2",
+      "priceCheckedAt": "2026-08-29",
+      "priceMarket": "CH",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 10,
+      "summary": "Jaeger-LeCoultre consacre une nouvelle série de quatre Reverso aux paysages vénitiens de Turner. La Q39334W2 associe un cadran vert grand feu sur guillochage grain de riz à une miniature émaillée de « Venice, from the Porch of Madonna della Salute », dans un boîtier en or gris aminci à 8,51 mm.",
+      "productUrl": "https://www.jaeger-lecoultre.com/ch-en/watches/reverso/reverso-tribute/reverso-tribute-enamel-turner-q39334w2",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://img.jaeger-lecoultre.com/product-grid-hero-xl-4/f4acb8e8b99e5ec564bcf95c1dcae32a7b860b08.jpg",
+      "imageSource": "Jaeger-LeCoultre",
+      "imageSourceUrl": "https://www.jaeger-lecoultre.com/ch-en/watches/reverso/reverso-tribute/reverso-tribute-enamel-turner-q39334w2",
+      "sources": [
+        "https://www.jaeger-lecoultre.com/ch-en/watches/reverso/reverso-tribute/reverso-tribute-enamel-turner-q39334w2",
+        "https://www.fratellowatches.com/jaeger-lecoultre-reverso-tribute-enamel-turner-series-watches/"
+      ],
+      "notes": "L’une des quatre références Turner présentées pour Homo Faber 2026, chacune limitée à 10 pièces. La miniature du revers demande environ 80 heures de peinture et jusqu’à 14 couches d’émail cuites séparément.",
+      "sourceNotes": "Fiche officielle Jaeger-LeCoultre Suisse vérifiée le 2026-08-29 : référence Q39334W2, 45,6 × 27,4 × 8,51 mm, or gris 18 ct, calibre manufacture 822 manuel, 42 h, 30 m et prix sur demande — affiché conformément à la politique comme « Prix non communiqué », marché CH et TVA inconnue. Fratello recoupe le lancement du 29 août, la limitation à 10 pièces et le thème Turner. Asset officiel 850 × 850 px contrôlé visuellement : montre entière nette, cadran vert guilloché et bracelet alligator noir de la variante exacte. La longueur de 45,6 mm est explicitement qualifiée de lug-to-lug par la maison. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-29",
+      "independent": false
+    }
   }
 ]
