@@ -1330,5 +1330,52 @@
       "verifiedAt": "2026-08-28",
       "independent": true
     }
+  },
+  {
+    "id": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
+    "issueNumber": 58,
+    "status": "review",
+    "detectedAt": "2026-08-29",
+    "watch": {
+      "id": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
+      "slug": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
+      "brand": "Hublot",
+      "brandSlug": "hublot",
+      "model": "Big Bang Reloaded UEFA Champions League Titanium Ceramic",
+      "date": "2026-08-27",
+      "reference": "421.NL.5129.VR.UCL26 · titane · céramique bleue · cadran squelette bleu · bracelet bleu et blanc étoilé",
+      "movement": "Automatique · calibre manufacture HUB1280 Unico à chronographe flyback et roue à colonnes",
+      "diameter": "44 mm",
+      "diameterMm": 44,
+      "thickness": "Non communiqué",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5 satiné et poli, lunette en titane poli et céramique bleue",
+      "waterResistance": "100 m",
+      "powerReserve": "Environ 72 h",
+      "price": "CHF 20’900 TVA incluse",
+      "priceSourceUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-reloaded-uefa-champions-league-titanium-ceramic-44-mm",
+      "priceCheckedAt": "2026-08-29",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 100,
+      "summary": "Hublot ouvre la saison 2026/27 avec la huitième montre issue de son partenariat UEFA Champions League. Limitée à 100 pièces, cette Big Bang Reloaded associe un boîtier titane de 44 mm, une lunette céramique bleue, le flyback manufacture Unico HUB1280 et un bracelet étoilé aux couleurs de la compétition.",
+      "productUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-reloaded-uefa-champions-league-titanium-ceramic-44-mm",
+      "linkLabel": "Fiche officielle",
+      "imageUrl": "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2026-08/Big-Bang-Reloaded-UEFA-Champions-League-Titanium-Ceramic-44-mm-Soldier.png?itok=NkcpwlYC",
+      "imageSource": "Hublot",
+      "imageSourceUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-reloaded-uefa-champions-league-titanium-ceramic-44-mm",
+      "sources": [
+        "https://www.hublot.com/en-ch/watches/big-bang/big-bang-reloaded-uefa-champions-league-titanium-ceramic-44-mm",
+        "https://www.hublot.com/en-us/news/hublot-unveils-big-bang-reloaded-uefa-champions-league-titanium-ceramic"
+      ],
+      "notes": "Édition limitée à 100 pièces, disponible depuis le 27 août 2026 en boutiques Hublot et sur Hublot.com. Livrée dans un coffret accompagné d’une réplique miniature du trophée de l’UEFA Champions League et d’un hologramme.",
+      "sourceNotes": "Fiche officielle Hublot Suisse vérifiée le 2026-08-29 : référence 421.NL.5129.VR.UCL26, 44 mm, titane, lunette céramique bleue, calibre HUB1280 Unico flyback à roue à colonnes, environ 72 h, 100 m et CHF 20’900 TVA incluse. Le communiqué Hublot du 27 août confirme la huitième montre du partenariat, l’édition de 100 pièces et la disponibilité immédiate. Épaisseur et lug-to-lug non publiés, laissés « Non communiqué ». Asset officiel PNG non recadré de 600 px de large : montre entière nette et variante exacte. Déduplication négative contre seed, editorial.ts, review-candidates.json et issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-29",
+      "independent": false
+    }
   }
 ]
