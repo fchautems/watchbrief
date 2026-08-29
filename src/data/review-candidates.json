@@ -1335,7 +1335,7 @@
   {
     "id": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
     "issueNumber": 58,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-29",
     "watch": {
       "id": "hublot-big-bang-reloaded-uefa-champions-league-titanium-ceramic-421-nl-5129-vr-ucl26",
@@ -1377,7 +1377,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-29",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-29"
   },
   {
     "id": "awake-son-mai-frosted-leaf-blood-moon",
