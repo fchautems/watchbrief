@@ -1431,7 +1431,7 @@
   {
     "id": "jaeger-lecoultre-reverso-tribute-enamel-turner-q39334w2",
     "issueNumber": 60,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-29",
     "watch": {
       "id": "jaeger-lecoultre-reverso-tribute-enamel-turner-q39334w2",
@@ -1473,6 +1473,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-29",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-08-29"
   }
 ]
