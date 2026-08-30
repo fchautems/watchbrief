@@ -1573,5 +1573,51 @@
       "verifiedAt": "2026-08-30",
       "waterResistance": "300 m"
     }
+  },
+  {
+    "id": "lleroy-vox-temporis-titanium-ll303-1",
+    "issueNumber": 63,
+    "status": "review",
+    "detectedAt": "2026-08-30",
+    "watch": {
+      "id": "lleroy-vox-temporis-titanium-ll303-1",
+      "slug": "lleroy-vox-temporis-titanium-ll303-1",
+      "brand": "L.Leroy",
+      "brandSlug": "lleroy",
+      "model": "Vox Temporis Tourbillon Minute Repeater Titanium",
+      "date": "2026-08-30",
+      "movement": "Calibre propriétaire L601SQR, remontage manuel, répétition minutes et tourbillon volant",
+      "diameter": "43 mm",
+      "diameterMm": 43,
+      "thickness": "13.95 mm, fond compris",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5",
+      "waterResistance": "30 m",
+      "powerReserve": "90 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://montres-leroy.com/en-GB/vox-temporis",
+      "priceCheckedAt": "2026-08-30",
+      "priceMarket": "CH",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 15,
+      "summary": "La Vox Temporis fait tourner son cadran guilloché sous une aiguille des heures fixe et confie les minutes à une répétition à la demande. La référence LL303/1 en titane grade 5 associe ce dispositif au calibre manuel L601SQR de 321 composants, avec tourbillon volant et 90 heures de réserve.",
+      "productUrl": "https://montres-leroy.com/en-GB/vox-temporis",
+      "linkLabel": "Voir la fiche officielle",
+      "imageUrl": "https://cdn.thewatchpages.com/media/1787749546711wbll/l-leroy-vox-temporis-titanium-ll303-1.jpg?quality=80&width=1080",
+      "imageSource": "L.Leroy via The Watch Pages",
+      "imageSourceUrl": "https://www.thewatchpages.com/watches/l-leroy-vox-temporis-titanium-ll303-1",
+      "sources": [
+        "https://montres-leroy.com/en-GB/vox-temporis",
+        "https://monochrome-watches.com/new-l-leroy-vox-temporis-tourbillon-minute-repeater-tact-watch-inspired-single-hand-display-introducing-price/",
+        "https://www.thewatchpages.com/watches/l-leroy-vox-temporis-titanium-ll303-1"
+      ],
+      "sourceNotes": "Référence LL303/1 : titane grade 5, cadran gris acier et aiguille bleue traitée ALD. La fiche officielle confirme 43 × 13,95 mm, calibre L601SQR, 321 composants, répétition minutes, tourbillon volant, 90 h, 30 m et 15 pièces au total entre les trois métaux. Lug-to-lug non publié. L.Leroy n'affiche pas de prix officiel ; le tarif secondaire rapporté par la presse n'est donc pas repris. Visuel produit 1080 × 1727 px de la variante exacte, montre entière sur bracelet alligator noir.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-30",
+      "independent": true
+    }
   }
 ]
