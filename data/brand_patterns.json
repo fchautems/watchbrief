@@ -94,6 +94,21 @@
       "purpose": "image",
       "preferred": "Lien « Display bigger image » vers cdn.nomos-glashuette.com/img/f=scale-down,w=2560,…/webshop/…/*_2d-front-masked.jpg",
       "reason": "Le lien d’agrandissement officiel conserve le packshot entier. 792.S1 contrôlée le 2026-08-30 : 1853 × 1854 px, cadran argenté à codes boursiers orange et bracelet acier. Extraire le lien de la fiche exacte, sans inventer son chemin."
+    },
+    {
+      "brand": "Speake Marin",
+      "purpose": "image",
+      "preferred": "Asset du packshot /cdn/shop/files/…png extrait du lien image de la fiche produit, avec width=1144 ou résolution supérieure disponible",
+      "reason": "Tourbillon Royal Blue contrôlée le 2026-08-30 : SpeakeMarin-TourbillonRoyalBlue1_69ee49f1-5c2f-4a55-8c9b-50f08a142453.png, 1144 × 1618 px, montre entière nette et bracelet autruche fermé. Extraire le lien exact, sans deviner le nom."
+    },
+    {
+      "brand": "S.U.F Helsinki",
+      "purpose": "image",
+      "avoid": [
+        "valotus1_1080x.jpg?v=1786624377",
+        "valotus2_1080x.jpg?v=1786624394"
+      ],
+      "reason": "Vetehinen Blue : vues 1080 px contrôlées le 2026-08-30, mais extrémités du bracelet noyées dans le noir et non entièrement visibles ; chercher un packshot complet. Les liens littéraux {width}x ne sont pas des URLs finales : lire le srcset rendu. La fiche /products/vetehinen-blue-spectrolite redirige désormais vers /products/vetehinen-blue-labradorite ; conserver la désignation actuelle sans déduire l’origine géographique de la pierre."
     }
   ]
 }
