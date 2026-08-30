@@ -109,6 +109,16 @@
         "valotus2_1080x.jpg?v=1786624394"
       ],
       "reason": "Vetehinen Blue : vues 1080 px contrôlées le 2026-08-30, mais extrémités du bracelet noyées dans le noir et non entièrement visibles ; chercher un packshot complet. Les liens littéraux {width}x ne sont pas des URLs finales : lire le srcset rendu. La fiche /products/vetehinen-blue-spectrolite redirige désormais vers /products/vetehinen-blue-labradorite ; conserver la désignation actuelle sans déduire l’origine géographique de la pierre."
+    },
+    {
+      "avoid": [
+        "https://i8.amplience.net/i/epsonemear/RA-BC0005L-900x900?%24orient-pdp-specs%24=&qlt=85",
+        "https://www.seriouswatches.com/cdn/shop/files/RA-BC0005L_a_800x.png?v=1787863911",
+        "https://www.seriouswatches.com/cdn/shop/files/O900OrientMakoGMTRA-BC0005LLimitedEdition1_600x.png?v=1787863906"
+      ],
+      "brand": "Orient",
+      "purpose": "image",
+      "reason": "Contrôle du 30 août 2026, RA-BC0005L : visuel officiel 900 × 900 net mais bracelet recadré en haut et en bas ; galerie produit UK chargée avec missing_product. Vue oblique du revendeur SeriousWatches 800 × 703 également coupée aux deux extrémités du bracelet. Son image frontale _600x ne charge qu'à 564 × 743. Aucun de ces chemins ne satisfait le contrôle d'image entière haute définition ; ne pas les réutiliser pour valider la candidate. Page officielle et prix UK 529,99 GBP TVA 20 % incluse retrouvés, mais aucune candidate créée faute de visuel admissible."
     }
   ]
 }
