@@ -1524,5 +1524,54 @@
       "verifiedAt": "2026-08-29",
       "independent": false
     }
+  },
+  {
+    "detectedAt": "2026-08-30",
+    "id": "unimatic-modello-uno-u1-gmt-aeg-impronte",
+    "issueNumber": 62,
+    "reviewedAt": "2026-08-30",
+    "status": "review",
+    "watch": {
+      "brand": "UNIMATIC",
+      "brandSlug": "unimatic",
+      "date": "2026-08-28",
+      "diameter": "40 mm de boîtier / 41,5 mm avec lunette",
+      "diameterMm": 41.5,
+      "editorialStatus": "publishable",
+      "id": "unimatic-modello-uno-u1-gmt-aeg-impronte",
+      "imageSource": "UNIMATIC",
+      "imageSourceUrl": "https://www.unimaticwatches.com/u1-gmt-aeg/",
+      "imageUrl": "https://www.unimaticwatches.com/wp-content/uploads/2025/12/U1-GMT-AEG-Hero.png",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 250,
+      "linkLabel": "Fiche officielle",
+      "lugToLug": "49 mm",
+      "material": "Acier inoxydable 316L brossé, insert de lunette en aluminium sablé",
+      "model": "Modello Uno U1-GMT-AEG « Impronte »",
+      "movement": "Automatique · Seiko NH34A GMT à aiguille 24 h réglable indépendamment",
+      "notes": "Référence exacte U1-GMT-AEG, cadran et aiguilles couleur aluminium, lunette 24 h à chiffres impairs en relief, NATO olive ; second NATO noir fourni. Annonce couverte par Fratello le 28 août 2026. Variante distincte de la UT1-PD ProDiver du seed.",
+      "powerReserve": "Plus de 41 h",
+      "price": "EUR 915 TVA et droits inclus · Italie",
+      "priceCheckedAt": "2026-08-30",
+      "priceMarket": "IT",
+      "priceSourceUrl": "https://www.unimaticwatches.com/u1-gmt-aeg/",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.unimaticwatches.com/u1-gmt-aeg/",
+      "slug": "unimatic-modello-uno-u1-gmt-aeg-impronte",
+      "sourceNotes": "Vérification du 30 août 2026 : PDF officiel de la référence confirmant NH34A, 40/41,5 × 14,4 × 49 mm, 300 m, plus de 41 h et 250 pièces. La page HTML indique NH35A par erreur ; le PDF et Fratello concordent sur NH34A. Le tableau final de Fratello mentionne 300 pièces, contrairement à son texte et aux deux sources officielles : 250 retenu. Prix observé dans le navigateur avec pays « Italy » sélectionné : EUR 915, taxes et droits inclus ; le tarif presse de EUR 800 hors taxes n’est pas repris. Image officielle originale 1600 × 1600 px contrôlée visuellement : montre entière nette, cadran aluminium et NATO olive exacts. Aucun doublon dans seed, éditorial, candidates JSON ou issues ouvertes.",
+      "sources": [
+        "https://www.unimaticwatches.com/u1-gmt-aeg/",
+        "https://www.unimaticwatches.com/wp-content/uploads/2025/12/TECH-SPECS-U1-GMT-AEG.pdf",
+        "https://www.unimaticwatches.com/impronte-collection/",
+        "https://www.fratellowatches.com/the-new-unimatic-impronte-collection-leaves-a-permanent-imprint/"
+      ],
+      "summary": "La collection Impronte introduit des chiffres en relief sur la lunette, des détails en creux sur le cadran et un fond à texture froissée. Cette GMT couleur aluminium sur NATO olive associe ce travail de surface à 300 m d’étanchéité et au calibre NH34A, dans une série numérotée de 250 pièces.",
+      "thickness": "14,4 mm avec glace (13,2 mm sans glace)",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-08-30",
+      "waterResistance": "300 m"
+    }
   }
 ]
