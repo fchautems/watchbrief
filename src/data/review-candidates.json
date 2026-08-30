@@ -1577,7 +1577,7 @@
   {
     "id": "lleroy-vox-temporis-titanium-ll303-1",
     "issueNumber": 63,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-30",
     "watch": {
       "id": "lleroy-vox-temporis-titanium-ll303-1",
@@ -1618,7 +1618,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-30",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-08-30"
   },
   {
     "detectedAt": "2026-08-30",
