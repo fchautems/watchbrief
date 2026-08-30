@@ -1671,7 +1671,7 @@
   {
     "detectedAt": "2026-08-30",
     "id": "speake-marin-openworked-tourbillon-royal-blue-424211010",
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Speake Marin",
       "brandSlug": "speake-marin",
@@ -1714,6 +1714,7 @@
       "verifiedAt": "2026-08-30",
       "waterResistance": "30 m"
     },
-    "issueNumber": 65
+    "issueNumber": 65,
+    "reviewedAt": "2026-08-30"
   }
 ]
