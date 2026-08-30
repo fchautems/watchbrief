@@ -1665,5 +1665,53 @@
       "waterResistance": "100 m"
     },
     "issueNumber": 64
+  },
+  {
+    "detectedAt": "2026-08-30",
+    "id": "speake-marin-openworked-tourbillon-royal-blue-424211010",
+    "status": "review",
+    "watch": {
+      "brand": "Speake Marin",
+      "brandSlug": "speake-marin",
+      "date": "2026-08-27",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "editorialStatus": "publishable",
+      "id": "speake-marin-openworked-tourbillon-royal-blue-424211010",
+      "imageSource": "Speake Marin",
+      "imageSourceUrl": "https://speake-marin.com/products/tourbillon-royal-blue",
+      "imageUrl": "https://speake-marin.com/cdn/shop/files/SpeakeMarin-TourbillonRoyalBlue1_69ee49f1-5c2f-4a55-8c9b-50f08a142453.png?v=1784136739&width=1144",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 5,
+      "linkLabel": "Page officielle",
+      "lugToLug": "Non communiqué",
+      "material": "Or rouge 5N",
+      "model": "Openworked Tourbillon Royal Blue",
+      "movement": "SMA05 manufacture automatique, micro-rotor et tourbillon volant",
+      "notes": "Référence 424211010 selon The Watch Pages ; or rouge 5N, cadran ajouré Royal Blue et autruche bleue à surpiqûres dorées. Nouvelle variante, sans revendication de nouveau calibre.",
+      "powerReserve": "72 h",
+      "price": "CHF 95’000 hors taxes",
+      "priceCheckedAt": "2026-08-30",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://speake-marin.com/products/tourbillon-royal-blue",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://speake-marin.com/products/tourbillon-royal-blue",
+      "slug": "speake-marin-openworked-tourbillon-royal-blue-424211010",
+      "sourceNotes": "Contrôle du 30 août 2026 : page officielle en marché Switzerland/CHF, prix explicitement hors taxes ; dimensions, étanchéité, autonomie et cinq pièces confirmés. Packshot officiel 1144 × 1618 px contrôlé visuellement : montre entière nette, bracelet fermé non recadré. Référence numérique recoupée par The Watch Pages, non affichée sur la fiche officielle ; lug-to-lug absent. Le descriptif technique nomme SMA05, tandis que le bloc générique du calibre emploie aussi SMA05-2. Date de première couverture datée retrouvée : 27 août 2026, pas une date de mise en vente confirmée.",
+      "sources": [
+        "https://speake-marin.com/products/tourbillon-royal-blue",
+        "https://www.thewatchpages.com/watches/speake-marin-openworked-tourbillon-royal-blue-424211010",
+        "https://ch.linkedin.com/company/speake-marin",
+        "https://luxury.it/speake-marin-tourbillon-royal-blue/"
+      ],
+      "summary": "Cette série de cinq pièces associe le boîtier Piccadilly en or rouge 5N à une architecture ajourée Royal Blue. Le calibre automatique à micro-rotor expose un tourbillon volant à 1 h 30 et un indicateur de réserve de marche ; le bracelet en autruche bleue prolonge cette nouvelle combinaison.",
+      "thickness": "12,35 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-08-30",
+      "waterResistance": "30 m"
+    },
+    "issueNumber": 65
   }
 ]
