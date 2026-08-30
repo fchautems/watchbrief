@@ -1619,5 +1619,51 @@
       "verifiedAt": "2026-08-30",
       "independent": true
     }
+  },
+  {
+    "detectedAt": "2026-08-30",
+    "id": "nomos-club-sport-neomatik-worldtimer-handelsblatt-792-s1",
+    "status": "review",
+    "watch": {
+      "brand": "NOMOS Glashütte",
+      "brandSlug": "nomos-glashutte",
+      "date": "2026-08-28",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "editorialStatus": "publishable",
+      "id": "nomos-club-sport-neomatik-worldtimer-handelsblatt-792-s1",
+      "imageSource": "NOMOS Glashütte",
+      "imageSourceUrl": "https://nomos-glashuette.com/en-ch/club/club-sport-neomatik-worldtimer-edition-handelsblatt-792.s1",
+      "imageUrl": "https://cdn.nomos-glashuette.com/img/f=scale-down,w=2560,bg=gray,sf=png/webshop/41/b3/55/1784017081/0792.S1_Club_Sport_neomatik_Weltzeit_Handelsblatt_2d-front-masked.jpg",
+      "independent": true,
+      "limitedEdition": false,
+      "limitedQty": null,
+      "linkLabel": "Fiche officielle",
+      "lugToLug": "48 mm",
+      "material": "Acier inoxydable 316L",
+      "model": "Club Sport neomatik Worldtimer – Edition Handelsblatt",
+      "movement": "Automatique · calibre manufacture DUW 3202 avec heures du monde intégrées",
+      "notes": "Référence 792.S1 sur bracelet acier Club Sport. Édition spéciale non annoncée comme numérotée ou limitée en quantité ; aucune évolution mécanique revendiquée. Délai officiel de livraison : deux mois au contrôle du 30 août 2026.",
+      "powerReserve": "Jusqu’à 42 h",
+      "price": "CHF 4’260 taxes et droits inclus",
+      "priceCheckedAt": "2026-08-30",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://nomos-glashuette.com/en-ch/club/club-sport-neomatik-worldtimer-edition-handelsblatt-792.s1",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://nomos-glashuette.com/en-ch/club/club-sport-neomatik-worldtimer-edition-handelsblatt-792.s1",
+      "slug": "nomos-club-sport-neomatik-worldtimer-handelsblatt-792-s1",
+      "sourceNotes": "La fiche suisse confirme 40 × 9,9 × 48 mm, DUW 3202, jusqu’à 42 h et 10 atm. Tarif CH de CHF 4’260 incluant les taxes d’importation applicables et les droits, sans conversion. Packshot officiel 1853 × 1854 px extrait du lien d’agrandissement : montre entière nette, cadran argenté avec NYSE/LSE/FWB/HKEX/TSE orange et bracelet acier exacts. Aucun doublon dans seed, éditorial, candidates ou issues ouvertes.",
+      "sources": [
+        "https://nomos-glashuette.com/en-ch/club/club-sport-neomatik-worldtimer-edition-handelsblatt-792.s1",
+        "https://www.timekeepers.club/articles/novelties/nomos-glashutte-club-sport-neomatik-worldtimer-edition-handelsblatt"
+      ],
+      "summary": "Pour les 80 ans du Handelsblatt, NOMOS remplace cinq codes de villes par ceux de places boursières, imprimés en orange sur le cadran argenté. Cette édition spéciale conserve le calibre manufacture DUW 3202 à heures du monde intégrées et le boîtier acier de 40 × 9,9 mm, étanche à 100 mètres.",
+      "thickness": "9,9 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-08-30",
+      "waterResistance": "100 m"
+    },
+    "issueNumber": 64
   }
 ]
