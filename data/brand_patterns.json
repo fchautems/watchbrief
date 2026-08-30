@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28",
+  "updatedAt": "2026-08-30",
   "notes": "Ces règles sont des raccourcis de recherche, pas des preuves. Toute candidate exige encore une vérification de la variante exacte.",
   "patterns": [
     {
@@ -67,6 +67,15 @@
         "…product-slideshow-thumbnail…"
       ],
       "reason": "La variante 2xl/o-dpr-2 fournit un asset officiel haute définition de la montre entière ; les thumbnails sont insuffisants."
+    },
+    {
+      "brand": "UNIMATIC",
+      "purpose": "image",
+      "preferred": "https://www.unimaticwatches.com/wp-content/uploads/…/<référence>-Hero.png",
+      "avoid": [
+        "…-768x768.png.webp"
+      ],
+      "reason": "La galerie agrandie expose l’original 1600 × 1600 px ; le hero affiché en page peut être une version réduite. U1-GMT-AEG-Hero.png contrôlé : montre entière nette sur NATO olive. Toujours extraire l’URL présente dans la galerie, sans deviner le chemin."
     }
   ]
 }
