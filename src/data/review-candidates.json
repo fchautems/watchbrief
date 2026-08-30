@@ -1624,7 +1624,7 @@
   {
     "detectedAt": "2026-08-30",
     "id": "nomos-club-sport-neomatik-worldtimer-handelsblatt-792-s1",
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "NOMOS Glashütte",
       "brandSlug": "nomos-glashutte",
@@ -1665,7 +1665,8 @@
       "verifiedAt": "2026-08-30",
       "waterResistance": "100 m"
     },
-    "issueNumber": 64
+    "issueNumber": 64,
+    "reviewedAt": "2026-08-30"
   },
   {
     "detectedAt": "2026-08-30",
