@@ -76,6 +76,18 @@
         "…-768x768.png.webp"
       ],
       "reason": "La galerie agrandie expose l’original 1600 × 1600 px ; le hero affiché en page peut être une version réduite. U1-GMT-AEG-Hero.png contrôlé : montre entière nette sur NATO olive. Toujours extraire l’URL présente dans la galerie, sans deviner le chemin."
+    },
+    {
+      "brand": "anOrdain",
+      "purpose": "image",
+      "avoid": [
+        "M1_Medium_Porcelain_White_Giedra_Black.webp",
+        "DSCF7400_copy_4000_…",
+        "DSC09667_…",
+        "DSC08548_copy_sq.jpg",
+        "DSC08589_copy_3000.jpg"
+      ],
+      "reason": "Model 1 Porcelain, contrôle visuel du 2026-08-30 : le hero officiel 3000 × 3000 et DSCF7400 montrent le boîtier complet mais coupent les extrémités du bracelet ; DSC09667 est une macro, DSC08548 un cadran isolé et DSC08589 des aiguilles seules. Ne pas confondre haute définition et vue entière non recadrée ; chercher un autre packshot avant admission."
     }
   ]
 }
