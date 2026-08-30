@@ -88,6 +88,12 @@
         "DSC08589_copy_3000.jpg"
       ],
       "reason": "Model 1 Porcelain, contrôle visuel du 2026-08-30 : le hero officiel 3000 × 3000 et DSCF7400 montrent le boîtier complet mais coupent les extrémités du bracelet ; DSC09667 est une macro, DSC08548 un cadran isolé et DSC08589 des aiguilles seules. Ne pas confondre haute définition et vue entière non recadrée ; chercher un autre packshot avant admission."
+    },
+    {
+      "brand": "NOMOS Glashütte",
+      "purpose": "image",
+      "preferred": "Lien « Display bigger image » vers cdn.nomos-glashuette.com/img/f=scale-down,w=2560,…/webshop/…/*_2d-front-masked.jpg",
+      "reason": "Le lien d’agrandissement officiel conserve le packshot entier. 792.S1 contrôlée le 2026-08-30 : 1853 × 1854 px, cadran argenté à codes boursiers orange et bracelet acier. Extraire le lien de la fiche exacte, sans inventer son chemin."
     }
   ]
 }
