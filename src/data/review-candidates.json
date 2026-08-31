@@ -1720,7 +1720,7 @@
   {
     "detectedAt": "2026-08-31",
     "id": "christopher-ward-trident-biscay-automatic-39-sand-consort",
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Christopher Ward",
       "brandSlug": "christopher-ward",
@@ -1763,6 +1763,7 @@
       "verifiedAt": "2026-08-31",
       "waterResistance": "200 m"
     },
-    "issueNumber": 66
+    "issueNumber": 66,
+    "reviewedAt": "2026-08-31"
   }
 ]
