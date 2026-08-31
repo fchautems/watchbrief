@@ -130,6 +130,12 @@
         "https://perpetuelofficial.com/cdn/shop/files/3-3_1.jpg?v=1784377901&width=1500"
       ],
       "reason": "Peacock Edition × Perpétuel Gallery, contrôle visuel du 31 août 2026 : les quatre images de la fiche officielle /products/peacock-edition montrent un bracelet brun recadré, alors que la fiche indique un bracelet en nubuck bleu. 3-4_1 est une macro de cadran ; les autres vues coupent aussi les extrémités du bracelet, avec des reflets importants sur 31-3 et 3-2_1. Aucun visuel admissible de la montre entière dans la configuration décrite ; chercher un nouveau packshot exact avant admission. Aucune candidate créée."
+    },
+    {
+      "brand": "Christopher Ward",
+      "purpose": "image",
+      "preferred": "Lien de galerie officiel /dw/image/v2/BDWD_PRD/…/images/WATCHES/<référence>/<référence>_Picture_1.jpg?sw=2000&sh=2000",
+      "reason": "C60-39C3H1-S0KW0-B1 contrôlée le 31 août 2026 : JPEG 2000 × 2000 px, montre entière nette, cadran sable, lunette noire et bracelet Consort fermé. Extraire le lien exact de la galerie (y compris son identifiant dw), sans inventer le chemin."
     }
   ]
 }
