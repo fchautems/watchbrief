@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30",
+  "updatedAt": "2026-08-31",
   "notes": "Ces règles sont des raccourcis de recherche, pas des preuves. Toute candidate exige encore une vérification de la variante exacte.",
   "patterns": [
     {
@@ -119,6 +119,17 @@
       "brand": "Orient",
       "purpose": "image",
       "reason": "Contrôle du 30 août 2026, RA-BC0005L : visuel officiel 900 × 900 net mais bracelet recadré en haut et en bas ; galerie produit UK chargée avec missing_product. Vue oblique du revendeur SeriousWatches 800 × 703 également coupée aux deux extrémités du bracelet. Son image frontale _600x ne charge qu'à 564 × 743. Aucun de ces chemins ne satisfait le contrôle d'image entière haute définition ; ne pas les réutiliser pour valider la candidate. Page officielle et prix UK 529,99 GBP TVA 20 % incluse retrouvés, mais aucune candidate créée faute de visuel admissible."
+    },
+    {
+      "brand": "Vitreum",
+      "purpose": "image",
+      "avoid": [
+        "https://perpetuelofficial.com/cdn/shop/files/31-3.jpg?v=1784377842&width=1500",
+        "https://perpetuelofficial.com/cdn/shop/files/3-4_1.jpg?v=1784377869&width=1500",
+        "https://perpetuelofficial.com/cdn/shop/files/3-2_1.jpg?v=1784377934&width=1500",
+        "https://perpetuelofficial.com/cdn/shop/files/3-3_1.jpg?v=1784377901&width=1500"
+      ],
+      "reason": "Peacock Edition × Perpétuel Gallery, contrôle visuel du 31 août 2026 : les quatre images de la fiche officielle /products/peacock-edition montrent un bracelet brun recadré, alors que la fiche indique un bracelet en nubuck bleu. 3-4_1 est une macro de cadran ; les autres vues coupent aussi les extrémités du bracelet, avec des reflets importants sur 31-3 et 3-2_1. Aucun visuel admissible de la montre entière dans la configuration décrite ; chercher un nouveau packshot exact avant admission. Aucune candidate créée."
     }
   ]
 }
