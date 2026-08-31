@@ -1716,5 +1716,53 @@
     },
     "issueNumber": 65,
     "reviewedAt": "2026-08-30"
+  },
+  {
+    "detectedAt": "2026-08-31",
+    "id": "christopher-ward-trident-biscay-automatic-39-sand-consort",
+    "status": "review",
+    "watch": {
+      "brand": "Christopher Ward",
+      "brandSlug": "christopher-ward",
+      "date": "2026-08-27",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "editorialStatus": "publishable",
+      "id": "christopher-ward-trident-biscay-automatic-39-sand-consort",
+      "imageSource": "Christopher Ward",
+      "imageSourceUrl": "https://www.christopherward.com/int/watches/Trident-Biscay-Automatic/C60-39C3H1-S0KW0-B1.html",
+      "imageUrl": "https://www.christopherward.com/dw/image/v2/BDWD_PRD/on/demandware.static/-/Sites-cw-master-catalog/default/dwf399ff35/images/WATCHES/C60-39C3H1-S0KW0-B1/C60-39C3H1-S0KW0-B1_Picture_1.jpg?sw=2000&sh=2000",
+      "independent": true,
+      "limitedEdition": false,
+      "limitedQty": null,
+      "linkLabel": "Fiche officielle",
+      "lugToLug": "46,3 mm",
+      "material": "Acier inoxydable, lunette en aluminium anodisé",
+      "model": "Trident Biscay Automatic 39 mm Sand/Black – Consort",
+      "movement": "Automatique · Sellita SW300-1 COSC sans date",
+      "notes": "Référence C60-39C3H1-S0KW0-B1. Collection non limitée ; précommande annoncée pour fin octobre 2026 au contrôle. Lancement couvert le 27 août 2026, distinct des Trident 30×30 du seed.",
+      "powerReserve": "50–56 h",
+      "price": "CHF 1’695 hors taxes",
+      "priceCheckedAt": "2026-08-31",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.christopherward.com/int/watches/Trident-Biscay-Automatic/C60-39C3H1-S0KW0-B1.html",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://www.christopherward.com/int/watches/Trident-Biscay-Automatic/C60-39C3H1-S0KW0-B1.html",
+      "slug": "christopher-ward-trident-biscay-automatic-39-sand-consort",
+      "sourceNotes": "Contrôle du 31 août 2026 : boutique affichant Switzerland CHF, tarif 1’695 CHF sans gravure. Conditions officielles §11.1 : prix hors TVA hors Royaume-Uni/UE ; éventuelles taxes collectées au paiement ou à l’importation. Tableau technique officiel : 39 × 11 × 46,3 mm, 200 m et 50–56 h (texte commercial : environ 56 h). Packshot officiel 2000 × 2000 px contrôlé : montre entière nette, cadran sable, lunette noire, Consort acier fermé. Aucun doublon dans seed, éditorial, candidates JSON ou issues ouvertes.",
+      "sources": [
+        "https://www.christopherward.com/int/watches/Trident-Biscay-Automatic/C60-39C3H1-S0KW0-B1.html",
+        "https://www.christopherward.com/int/terms-conditions.html",
+        "https://www.christopherward.com/int/duties-and-taxes.html",
+        "https://oracleoftime.com/christopher-ward-c60-trident-biscay-automatic-gmt-watch-review/"
+      ],
+      "summary": "La nouvelle Biscay réinterprète les plongeuses des années 1960 avec un boîtier aminci, un calibre COSC réellement sans date et un bracelet réglable sans outil. Cette version de 39 mm associe un cadran sable à une lunette noire et au bracelet acier Consort iLink.",
+      "thickness": "11 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-08-31",
+      "waterResistance": "200 m"
+    },
+    "issueNumber": 66
   }
 ]
