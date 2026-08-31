@@ -1765,5 +1765,51 @@
     },
     "issueNumber": 66,
     "reviewedAt": "2026-08-31"
+  },
+  {
+    "id": "gaga-laboratorio-labormatic-superleggero",
+    "issueNumber": 67,
+    "status": "review",
+    "detectedAt": "2026-08-31",
+    "watch": {
+      "id": "gaga-laboratorio-labormatic-superleggero",
+      "slug": "gaga-laboratorio-labormatic-superleggero",
+      "brand": "Gagà Laboratorio",
+      "brandSlug": "gaga-laboratorio",
+      "model": "Labormatic Superleggero",
+      "date": "2026-08-31",
+      "movement": "La Joux-Perret G100 automatique",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "13,3 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5 microbillé",
+      "waterResistance": "50 m",
+      "powerReserve": "68 h",
+      "price": "CHF 4’700 hors taxes",
+      "priceSourceUrl": "https://gagalaboratorio.com/thesuperleggero/",
+      "priceCheckedAt": "2026-08-31",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 100,
+      "summary": "La Labormatic passe pour la première fois au titane grade 5 avec cette Superleggero limitée à 100 pièces. Son affichage à disque des heures et son indicateur central conservent l’identité décentrée de la collection, animée par le G100 automatique de 68 heures.",
+      "productUrl": "https://gagalaboratorio.com/thesuperleggero/",
+      "linkLabel": "Voir la Labormatic Superleggero",
+      "imageUrl": "https://gagalaboratorio.com/wp-content/uploads/2026/08/gaga-laboratorio-labormatic-superleggero-1.png",
+      "imageSource": "Gagà Laboratorio",
+      "imageSourceUrl": "https://gagalaboratorio.com/thesuperleggero/",
+      "sources": [
+        "https://gagalaboratorio.com/thesuperleggero/",
+        "https://www.fratellowatches.com/even-in-titanium-the-gaga-laboratorio-labormatic-superleggero-is-no-lightweight/",
+        "https://monochrome-watches.com/new-superlight-titanium-gaga-laboratorios-labormatic-superleggero-introducing-price/"
+      ],
+      "sourceNotes": "Référence officielle LMTT-001. La page produit confirme CHF 4’700 hors TVA, 42 × 13,30 mm, 50 m, calibre La Joux-Perret G100 et série de 100 pièces. Lug-to-lug non publié. Asset officiel original 1366 × 2048 px contrôlé : montre entière nette, cadran jaune et bracelet textile noir/gris de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-08-31",
+      "independent": true
+    }
   }
 ]
