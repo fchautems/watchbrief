@@ -1858,5 +1858,51 @@
       "independent": true
     },
     "reviewedAt": "2026-09-01"
+  },
+  {
+    "id": "ifl-watches-out-of-order-shaker-happy-hour",
+    "issueNumber": 69,
+    "status": "review",
+    "detectedAt": "2026-08-31",
+    "watch": {
+      "id": "ifl-watches-out-of-order-shaker-happy-hour",
+      "slug": "ifl-watches-out-of-order-shaker-happy-hour",
+      "brand": "IFL Watches × Out Of Order",
+      "brandSlug": "ifl-watches-out-of-order",
+      "model": "Shaker Happy Hour",
+      "date": "2026-08-31",
+      "movement": "Seiko NH34A automatique GMT",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "13,25 mm",
+      "lugToLug": "48 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "300 m",
+      "powerReserve": "41 h",
+      "price": "995 € TTC",
+      "priceSourceUrl": "https://iflwatches.eu/products/out-of-order-shaker-happy-hour",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "EU",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 200,
+      "summary": "IFL Watches transforme la Shaker GMT d’Out Of Order en une scène de fête peinte à la main, rendant chaque cadran légèrement unique. Sous cette fantaisie subsistent un NH34A automatique, une lunette 24 heures, un bracelet acier et une étanchéité de 300 mètres.",
+      "productUrl": "https://iflwatches.eu/products/out-of-order-shaker-happy-hour",
+      "linkLabel": "Voir la Shaker Happy Hour",
+      "imageUrl": "https://iflwatches.eu/cdn/shop/files/iflw-out-of-order-shaker-happy-hour-limited-edition.jpg?v=1787995024&width=3840",
+      "imageSource": "IFL Watches",
+      "imageSourceUrl": "https://iflwatches.eu/products/out-of-order-shaker-happy-hour",
+      "sources": [
+        "https://iflwatches.eu/products/out-of-order-shaker-happy-hour",
+        "https://blog.iflwatches.com/introducing-the-out-of-order-shaker-happy-hour/",
+        "https://www.fratellowatches.com/a-colorful-celebration-of-life-the-ifl-watches-x-out-of-order-shaker-happy-hour/"
+      ],
+      "sourceNotes": "Référence officielle OOO.001-25.HH.BAND.SS, série de 200 cadrans peints à la main. La page EU confirme 995 € TVA comprise, 40 × 13,25 × 48 mm, NH34A, 41 h et 300 m. Fratello publie 47,5 mm de lug-to-lug ; la valeur officielle IFL de 48 mm est retenue. Asset officiel 1500 × 1500 px contrôlé : montre entière nette de face, cadran, lunette GMT bleue et bracelet acier exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": true
+    }
   }
 ]
