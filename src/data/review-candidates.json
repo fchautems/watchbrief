@@ -1909,7 +1909,7 @@
   {
     "id": "ohorapictor-duet-submarine-canyon-36",
     "issueNumber": 70,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-01",
     "watch": {
       "id": "ohorapictor-duet-submarine-canyon-36",
@@ -1950,7 +1950,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-01"
   },
   {
     "id": "tudor-northflag-gmt-m9140g1a0u-0001",
