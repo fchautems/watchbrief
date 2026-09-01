@@ -1816,7 +1816,7 @@
   {
     "id": "stowa-chrono-wrc-stage-1-black",
     "issueNumber": 68,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-31",
     "watch": {
       "id": "stowa-chrono-wrc-stage-1-black",
@@ -1856,6 +1856,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-01"
   }
 ]
