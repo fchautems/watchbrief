@@ -1769,7 +1769,7 @@
   {
     "id": "gaga-laboratorio-labormatic-superleggero",
     "issueNumber": 67,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-31",
     "watch": {
       "id": "gaga-laboratorio-labormatic-superleggero",
@@ -1810,7 +1810,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-08-31",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-01"
   },
   {
     "id": "stowa-chrono-wrc-stage-1-black",
