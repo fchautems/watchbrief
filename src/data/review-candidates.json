@@ -1811,5 +1811,50 @@
       "verifiedAt": "2026-08-31",
       "independent": true
     }
+  },
+  {
+    "id": "stowa-chrono-wrc-stage-1-black",
+    "issueNumber": 68,
+    "status": "review",
+    "detectedAt": "2026-08-31",
+    "watch": {
+      "id": "stowa-chrono-wrc-stage-1-black",
+      "slug": "stowa-chrono-wrc-stage-1-black",
+      "brand": "STOWA",
+      "brandSlug": "stowa",
+      "model": "Chrono WRC Stage 1 Black",
+      "date": "2026-08-31",
+      "movement": "Sellita SW510 automatique, finition Top",
+      "diameter": "44 mm",
+      "diameterMm": 44,
+      "thickness": "16 mm",
+      "lugToLug": "49 mm",
+      "material": "Acier inoxydable revêtu noir",
+      "waterResistance": "100 m",
+      "powerReserve": "50 h",
+      "price": "2’990 € TTC",
+      "priceSourceUrl": "https://www.stowa.de/chrono-wrc-stage-1-black-silicone-strap-black",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "DE",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Deuxième montre issue du partenariat officiel STOWA–WRC, ce chronographe bicompax adopte un boîtier noir de 44 mm et un cadran gris animé d’accents orange. Le Sellita SW510 en finition Top apporte 50 heures de réserve, avec une étanchéité de 100 mètres.",
+      "productUrl": "https://www.stowa.de/chrono-wrc-stage-1-black-silicone-strap-black",
+      "linkLabel": "Voir le Chrono WRC Stage 1 Black",
+      "imageUrl": "https://www.stowa.de/media/image/product/4515/lg/chrono-wrc-stage-1-black-silikonband-schwarz~2.png",
+      "imageSource": "STOWA",
+      "imageSourceUrl": "https://www.stowa.de/chrono-wrc-stage-1-black-silicone-strap-black",
+      "sources": [
+        "https://www.stowa.de/chrono-wrc-stage-1-black-silicone-strap-black",
+        "https://www.wrc.com/en/news/stowa-launches-second-wrc-collaborative-watch",
+        "https://monochrome-watches.com/stowa-chrono-wrc-stage-1-automatic-chronograph-for-the-world-rally-championship-introducing-price/"
+      ],
+      "sourceNotes": "Variante officielle Black sur bracelet silicone noir, identifiant produit 4515 ; aucune référence alphanumérique publiée. La page STOWA confirme 44 × 16 × 49 mm, 100 m, Sellita SW510 Top et 2’990 € TVA allemande de 19 % incluse. Monochrome publie une réserve de marche de 50 h. Asset officiel 1200 × 1200 px contrôlé : montre et bracelet entiers, nets, de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": true
+    }
   }
 ]
