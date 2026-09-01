@@ -1950,5 +1950,49 @@
       "verifiedAt": "2026-09-01",
       "independent": true
     }
+  },
+  {
+    "id": "tudor-northflag-gmt-m9140g1a0u-0001",
+    "issueNumber": 71,
+    "status": "review",
+    "detectedAt": "2026-09-01",
+    "watch": {
+      "id": "tudor-northflag-gmt-m9140g1a0u-0001",
+      "slug": "tudor-northflag-gmt-m9140g1a0u-0001",
+      "brand": "TUDOR",
+      "brandSlug": "tudor",
+      "model": "Northflag GMT",
+      "date": "2026-09-01",
+      "movement": "Calibre manufacture MT5652-U automatique, COSC et METAS",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "12,7 mm",
+      "lugToLug": "48,8 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m",
+      "powerReserve": "65 h",
+      "price": "CHF 4’500 TTC",
+      "priceSourceUrl": "https://www.tudorwatch.com/en/watches/tudor-northflag/m9140g1a0u-0001",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "TUDOR relance la Northflag avec un boîtier plus fin, un vrai GMT et le calibre MT5652-U certifié Master Chronometer. Le dessin sportif intégré revient avec ses accents jaunes, un bracelet acier à fermoir T-fit et une étanchéité de 100 mètres.",
+      "productUrl": "https://www.tudorwatch.com/en/watches/tudor-northflag/m9140g1a0u-0001",
+      "linkLabel": "Voir la TUDOR Northflag GMT",
+      "imageUrl": "https://media.tudorwatch.com/image/upload/q_auto/f_auto/c_limit,w_1920/v1/catalogue/0yi5ee8b69yh3/upright-cb-with-drop-shadow/tudor-m9140g1a0u-0001",
+      "imageSource": "TUDOR",
+      "imageSourceUrl": "https://www.tudorwatch.com/en/watches/tudor-northflag/m9140g1a0u-0001",
+      "sources": [
+        "https://www.tudorwatch.com/en/watches/tudor-northflag/m9140g1a0u-0001",
+        "https://monochrome-watches.com/2026-tudor-northflag-gmt-introducing-price/"
+      ],
+      "sourceNotes": "Référence officielle M9140G1A0U-0001, cadran noir et bracelet acier intégré. La page officielle suisse confirme CHF 4’500 TTC, 40 × 12,7 mm, 100 m, calibre MT5652-U, 65 h, GMT et certification COSC/METAS. Monochrome publie 48,8 mm de lug-to-lug. Asset officiel 1800 × 2400 px contrôlé : montre et bracelet entiers, nets, cadran noir et aiguilles GMT jaunes de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": false
+    }
   }
 ]
