@@ -1862,7 +1862,7 @@
   {
     "id": "ifl-watches-out-of-order-shaker-happy-hour",
     "issueNumber": 69,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-08-31",
     "watch": {
       "id": "ifl-watches-out-of-order-shaker-happy-hour",
@@ -1903,7 +1903,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-01"
   },
   {
     "id": "ohorapictor-duet-submarine-canyon-36",
