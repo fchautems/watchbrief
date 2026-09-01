@@ -1994,5 +1994,50 @@
       "verifiedAt": "2026-09-01",
       "independent": false
     }
+  },
+  {
+    "id": "bremont-terra-nova-35mm-jumping-hour-frosted",
+    "issueNumber": 72,
+    "status": "review",
+    "detectedAt": "2026-09-01",
+    "watch": {
+      "id": "bremont-terra-nova-35mm-jumping-hour-frosted",
+      "slug": "bremont-terra-nova-35mm-jumping-hour-frosted",
+      "brand": "Bremont",
+      "brandSlug": "bremont",
+      "model": "Terra Nova 35mm Jumping Hour Frosted",
+      "date": "2026-09-01",
+      "movement": "Bremont BC634AH automatique, développé avec Sellita",
+      "diameter": "35 mm",
+      "diameterMm": 35,
+      "thickness": "8.90 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable 904L givré et poli",
+      "waterResistance": "30 m",
+      "powerReserve": "56 h",
+      "price": "€5.400",
+      "priceSourceUrl": "https://www.bremont.com/products/terra-nova-35mm-jumping-hour-frosted-leather-strap",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "Europe",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 150,
+      "summary": "Bremont réduit sa montre à heures sautantes à 35 mm et applique une finition givrée intégrale au boîtier et au cadran en acier 904L. Le calibre automatique BC634 associe saut instantané des heures, minutes rétrogrades et 56 heures de réserve dans seulement 8,90 mm d’épaisseur.",
+      "productUrl": "https://www.bremont.com/products/terra-nova-35mm-jumping-hour-frosted-leather-strap",
+      "linkLabel": "Voir la fiche officielle",
+      "imageUrl": "https://www.bremont.com/cdn/shop/files/Frosted35-ProductCarousel-1_1500x.webp?v=1787306006",
+      "imageSource": "Bremont",
+      "imageSourceUrl": "https://www.bremont.com/products/terra-nova-35mm-jumping-hour-frosted-leather-strap",
+      "sources": [
+        "https://www.bremont.com/products/terra-nova-35mm-jumping-hour-frosted-leather-strap",
+        "https://monochrome-watches.com/2026-new-versions-of-the-bremont-terra-nova-jumping-hour-including-a-new-35mm-size/"
+      ],
+      "sourceNotes": "Référence officielle TN35-JH-FS-CC-L-S sur nubuck gris. La page Bremont confirme 35 × 8,90 mm, acier 904L, calibre BC634AH, 56 h, 30 m, série de 150 pièces et €5.400 sur le marché européen avec taxes et droits couverts. Asset officiel 1500 × 1500 inspecté : vue frontale nette de la montre entière, variante exacte confirmée. La longueur de boîtier publiée de 40,93 mm n’étant pas explicitement qualifiée de lug-to-lug, ce dernier reste « Non communiqué ».",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": true
+    }
   }
 ]
