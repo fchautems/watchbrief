@@ -1904,5 +1904,51 @@
       "verifiedAt": "2026-09-01",
       "independent": true
     }
+  },
+  {
+    "id": "ohorapictor-duet-submarine-canyon-36",
+    "issueNumber": 70,
+    "status": "review",
+    "detectedAt": "2026-09-01",
+    "watch": {
+      "id": "ohorapictor-duet-submarine-canyon-36",
+      "slug": "ohorapictor-duet-submarine-canyon-36",
+      "brand": "O&HoraPictor",
+      "brandSlug": "ohorapictor",
+      "model": "Duet Submarine Canyon 36 mm",
+      "date": "2026-09-01",
+      "movement": "Sellita SW200-2M Power+ manuel",
+      "diameter": "36 mm",
+      "diameterMm": 36,
+      "thickness": "10,2 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable 316L",
+      "waterResistance": "50 m",
+      "powerReserve": "65 h",
+      "price": "US$2,892, hors droits et taxes d’importation (DDU)",
+      "priceSourceUrl": "https://www.horapictor.com/product/submarine-canyon/",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "HK / international",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 20,
+      "summary": "O&HoraPictor associe un émail Grand Feu bleu à une base en argent gravée à la main pour créer des reflets changeants dans la nouvelle collection Duet. Limitée à 20 pièces, cette version de 36 mm reçoit le récent Sellita SW200-2M Power+ manuel et ses 65 heures de réserve.",
+      "productUrl": "https://www.horapictor.com/product/submarine-canyon/",
+      "linkLabel": "Voir la Duet Submarine Canyon",
+      "imageUrl": "https://www.horapictor.com/wp-content/uploads/2026/08/Submarine-Canyon04.jpg",
+      "imageSource": "O&HoraPictor",
+      "imageSourceUrl": "https://www.horapictor.com/product/submarine-canyon/",
+      "sources": [
+        "https://www.horapictor.com/product/submarine-canyon/",
+        "https://www.horapictor.com/faq/",
+        "https://monochrome-watches.com/ohorapictor-atelier-launches-the-new-duet-collection-an-attainable-take-on-grand-feu-enamel/"
+      ],
+      "sourceNotes": "Variante Submarine Canyon sélectionnée en 36 mm ; aucune référence alphanumérique publiée. La page officielle confirme 36/38/40 × 10,2 mm, 50 m, Sellita SW200-2M Power+ manuel, 65 h et série de 20 pièces. Prix de base officiel US$2,892 ; la FAQ précise une expédition depuis Hong Kong en DDU, droits et taxes d’importation non inclus. Lug-to-lug non publié. Asset officiel 1525 × 2064 px contrôlé : montre entière nette, cadran bleu gravé/émaillé et bracelet noir exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": true
+    }
   }
 ]
