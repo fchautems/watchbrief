@@ -1956,7 +1956,7 @@
   {
     "id": "tudor-northflag-gmt-m9140g1a0u-0001",
     "issueNumber": 71,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-01",
     "watch": {
       "id": "tudor-northflag-gmt-m9140g1a0u-0001",
@@ -1995,7 +1995,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-01"
   },
   {
     "id": "bremont-terra-nova-35mm-jumping-hour-frosted",
