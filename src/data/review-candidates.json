@@ -2042,5 +2042,51 @@
       "verifiedAt": "2026-09-01",
       "independent": true
     }
+  },
+  {
+    "id": "mad-editions-mad3-vincent-calabrese-blue",
+    "issueNumber": 73,
+    "status": "review",
+    "detectedAt": "2026-09-01",
+    "watch": {
+      "id": "mad-editions-mad3-vincent-calabrese-blue",
+      "slug": "mad-editions-mad3-vincent-calabrese-blue",
+      "brand": "M.A.D.Editions",
+      "brandSlug": "mad-editions",
+      "model": "M.A.D.3 Vincent Calabrese Blue",
+      "date": "2026-09-01",
+      "movement": "La Joux-Perret G111 automatique avec module d’heure sautante vagabonde bidirectionnel développé par MB&F",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "12.7 mm",
+      "lugToLug": "43.7 mm",
+      "material": "Acier inoxydable 316L",
+      "waterResistance": "30 m",
+      "powerReserve": "55 h",
+      "price": "CHF 2’900 hors taxes",
+      "priceSourceUrl": "https://www.mbandf.com/madeditions/madeditions-raffles",
+      "priceCheckedAt": "2026-09-01",
+      "priceMarket": "CH / international en CHF",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 1500,
+      "summary": "M.A.D.Editions transpose le Baladin de Vincent Calabrese dans une montre à heure sautante vagabonde : le disque des heures parcourt progressivement le cadran pendant que les minutes s’écoulent. Le module bidirectionnel développé par MB&F repose sur un La Joux-Perret G111 et tient dans un boîtier acier de 40 × 43,7 mm.",
+      "productUrl": "https://www.mbandf.com/madeditions/madeditions-raffles",
+      "linkLabel": "Voir la vente officielle",
+      "imageUrl": "https://www.mbandf.com/fileadmin/_processed_/4/d/csm_MADEditions_MAD3_Vincent_Calabrese_Blue_Packshot_Hres_25a1baddf6.webp",
+      "imageSource": "MB&F / M.A.D.Editions",
+      "imageSourceUrl": "https://www.mbandf.com/madeditions/madeditions-raffles",
+      "sources": [
+        "https://www.mbandf.com/madeditions/madeditions-raffles",
+        "https://www.mbandf.com/madeditions/mad3",
+        "https://monochrome-watches.com/the-new-mad-3-brings-vincent-calabreses-jumping-hour-into-the-mad-editions-universe-review-price/"
+      ],
+      "sourceNotes": "Édition Blue proposée au public par tirage au sort jusqu’au 7 septembre 2026 ; 1’500 montres attribuées. La page officielle confirme 40 × 12,7 × 43,7 mm, acier 316L, calibre La Joux-Perret G111 avec module MB&F, 55 h, 30 m et CHF 2’900 hors taxes ; la TVA suisse est collectée au paiement pour une adresse CH. Packshot officiel 870 × 1160 px inspecté : montre entière nette, cadran bleu et bracelet cuir beige exacts. Aucune référence alphanumérique n’est publiée.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-01",
+      "independent": true
+    }
   }
 ]
