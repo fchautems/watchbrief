@@ -2094,7 +2094,7 @@
   {
     "id": "louis-erard-marqueterie-de-paille",
     "issueNumber": 74,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-02",
     "watch": {
       "id": "louis-erard-marqueterie-de-paille",
@@ -2134,6 +2134,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-02",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-02"
   }
 ]
