@@ -2182,5 +2182,52 @@
       "verifiedAt": "2026-09-02",
       "independent": true
     }
+  },
+  {
+    "id": "czapek-antarctique-s-titanium-revelation-cosmic-blue",
+    "issueNumber": 76,
+    "status": "review",
+    "detectedAt": "2026-09-02",
+    "watch": {
+      "id": "czapek-antarctique-s-titanium-revelation-cosmic-blue",
+      "slug": "czapek-antarctique-s-titanium-revelation-cosmic-blue",
+      "brand": "Czapek",
+      "brandSlug": "czapek",
+      "model": "Antarctique S Titanium Révélation Cosmic Blue",
+      "date": "2026-04-10",
+      "movement": "Czapek SXH7 automatique squelette à micro-rotor",
+      "diameter": "38,5 mm",
+      "diameterMm": 38.5,
+      "thickness": "10,6 mm",
+      "lugToLug": "42,8 mm",
+      "material": "Titane grade 5",
+      "waterResistance": "120 m",
+      "powerReserve": "plus de 60 h",
+      "price": "CHF 42’000 hors taxes (+8,1 % de TVA suisse)",
+      "priceSourceUrl": "https://www.czapek.com/shop/antarctique-s-titanium-revelation-cosmic-blue-8619",
+      "priceCheckedAt": "2026-09-02",
+      "priceMarket": "CH / international en CHF",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 25,
+      "summary": "Czapek retourne l’architecture de son calibre SXH7 afin d’exposer côté cadran l’échappement et le mécanisme de stop-seconde. Cette Antarctique compacte de 38,5 mm associe le mouvement entièrement ajouré à une minuterie Cosmic Blue, un boîtier et un bracelet en titane, ainsi qu’un micro-rotor en platine recyclé.",
+      "productUrl": "https://www.czapek.com/shop/antarctique-s-titanium-revelation-cosmic-blue-8619",
+      "linkLabel": "Voir l’Antarctique S Révélation",
+      "imageUrl": "https://www.czapek.com/web/image/product.product/10471/image_1024/%5B1665-P-S%5D%20Antarctique%20S%20Titanium%20R%C3%A9v%C3%A9lation%20Cosmic%20Blue%20%28Polished%20Inter-links%29?unique=3dbee21",
+      "imageSource": "Czapek",
+      "imageSourceUrl": "https://www.czapek.com/shop/antarctique-s-titanium-revelation-cosmic-blue-8619",
+      "sources": [
+        "https://www.czapek.com/shop/antarctique-s-titanium-revelation-cosmic-blue-8619",
+        "https://www.fratellowatches.com/czapek-introduces-a-new-antarctique-collection-in-titanium/",
+        "https://collectivehorology.com/products/czapek-antarctique-revelation-cosmic-blue-limited-availability",
+        "https://www.exquisitetimepieces.com/products/czapek-antarctique-s-titanium-revelation-cosmic-blue-1665-p-s"
+      ],
+      "sourceNotes": "Référence 1665-P-S, version 38,5 mm avec maillons centraux polis. La page officielle confirme le calibre SXH7, le titane, 120 m, la production limitée à 25 pièces par an et CHF 42’000 hors taxes ; ses conditions précisent l’ajout de 8,1 % de TVA pour un achat en Suisse. Fratello et Collective Horology publient 10,6 mm d’épaisseur, 42,8 mm de lug-to-lug et plus de 60 h de réserve. Asset officiel 765 × 1024 px inspecté : montre entière nette, minuterie Cosmic Blue, petite seconde à 4 h 30 et bracelet exacts ; le serveur ne fournit pas de définition supérieure malgré l’endpoint 1920.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-02",
+      "independent": true
+    }
   }
 ]
