@@ -2140,7 +2140,7 @@
   {
     "id": "oris-propilot-x-gonzo-edition",
     "issueNumber": 75,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-02",
     "watch": {
       "id": "oris-propilot-x-gonzo-edition",
@@ -2181,7 +2181,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-02",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-02"
   },
   {
     "id": "czapek-antarctique-s-titanium-revelation-cosmic-blue",
