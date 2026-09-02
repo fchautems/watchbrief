@@ -2001,7 +2001,7 @@
   {
     "id": "bremont-terra-nova-35mm-jumping-hour-frosted",
     "issueNumber": 72,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-01",
     "watch": {
       "id": "bremont-terra-nova-35mm-jumping-hour-frosted",
@@ -2041,7 +2041,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-02"
   },
   {
     "id": "mad-editions-mad3-vincent-calabrese-blue",
