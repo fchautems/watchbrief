@@ -2088,5 +2088,50 @@
       "verifiedAt": "2026-09-01",
       "independent": true
     }
+  },
+  {
+    "id": "louis-erard-marqueterie-de-paille",
+    "issueNumber": 74,
+    "status": "review",
+    "detectedAt": "2026-09-02",
+    "watch": {
+      "id": "louis-erard-marqueterie-de-paille",
+      "slug": "louis-erard-marqueterie-de-paille",
+      "brand": "Louis Erard",
+      "brandSlug": "louis-erard",
+      "model": "Marqueterie de Paille",
+      "date": "2026-09-02",
+      "movement": "Sellita SW261-1 automatique",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "12,82 mm",
+      "lugToLug": "45,9 mm",
+      "material": "Acier inoxydable poli",
+      "waterResistance": "50 m",
+      "powerReserve": "env. 38 h",
+      "price": "CHF 4’500 hors taxes",
+      "priceSourceUrl": "https://www.louiserard.com/products/louis-erard-marqueterie-de-paille",
+      "priceCheckedAt": "2026-09-02",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 25,
+      "summary": "Louis Erard transpose la marqueterie de paille dans un cadran composé à la main de 28 sections de seigle par Bernardo d’Orey. Limitée à 25 pièces, cette création associe ce travail géométrique bleu à un boîtier acier de 39 mm et à l’affichage régulateur signature de la maison.",
+      "productUrl": "https://www.louiserard.com/products/louis-erard-marqueterie-de-paille",
+      "linkLabel": "Voir la Marqueterie de Paille",
+      "imageUrl": "https://www.louiserard.com/cdn/shop/files/34248AA45.BVA158.png?v=1786610284&width=823",
+      "imageSource": "Louis Erard",
+      "imageSourceUrl": "https://www.louiserard.com/products/louis-erard-marqueterie-de-paille",
+      "sources": [
+        "https://www.louiserard.com/products/louis-erard-marqueterie-de-paille",
+        "https://monochrome-watches.com/new-louis-erard-marqueterie-de-paille-straw-marquetry-dial-review-price/"
+      ],
+      "sourceNotes": "Référence officielle 34248AA45.BVA158. La page Louis Erard confirme 39 mm, 50 m, environ 38 h, série de 25 pièces et CHF 4’500 hors taxes. Monochrome publie 12,82 mm d’épaisseur et 45,9 mm de lug-to-lug. La page officielle indique Sellita SW261-1, contre SW266-1 chez Monochrome ; la donnée de la maison est retenue. Asset officiel 823 × 1140 px inspecté : montre entière nette, cadran bleu en marqueterie de paille et bracelet beige exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-02",
+      "independent": true
+    }
   }
 ]
