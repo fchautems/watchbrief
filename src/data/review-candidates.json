@@ -2231,5 +2231,53 @@
       "independent": true
     },
     "reviewedAt": "2026-09-02"
+  },
+  {
+    "id": "voxel-meridion-vx01-e-electric-blue",
+    "issueNumber": 77,
+    "status": "review",
+    "detectedAt": "2026-09-02",
+    "watch": {
+      "id": "voxel-meridion-vx01-e-electric-blue",
+      "slug": "voxel-meridion-vx01-e-electric-blue",
+      "brand": "VOXEL",
+      "brandSlug": "voxel",
+      "model": "MERIDION VX01-E Electric Blue",
+      "date": "2026-09-02",
+      "reference": "VX01-E · cadran Electric Blue · bracelet Alcantara bleu · affichage 12 h",
+      "movement": "Newton P092 automatique avec module propriétaire VOXEL d’affichage sautant 12/24 heures",
+      "diameter": "41,4 mm",
+      "diameterMm": 41.4,
+      "thickness": "12,2 mm, verre compris",
+      "lugToLug": "45,5 mm",
+      "material": "Acier inoxydable 904L avec fond vissé en titane grade 5",
+      "waterResistance": "120 m",
+      "powerReserve": "44 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://voxelwatches.com/pages/voxel-reveal-landing",
+      "priceCheckedAt": "2026-09-02",
+      "priceMarket": "international",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 120,
+      "summary": "Pour sa première collection, VOXEL fait alterner mécaniquement le cadran entre affichages 12 et 24 heures à 1 h et 13 h. Le module propriétaire s’ajoute au calibre automatique Newton P092 dans un boîtier décagonal en acier 904L ; cette variante Electric Blue sur Alcantara appartient à une série de 120 pièces.",
+      "productUrl": "https://voxelwatches.com/pages/voxel-reveal-landing",
+      "linkLabel": "Découvrir la MERIDION VX01-E",
+      "imageUrl": "https://voxelwatches.com/cdn/shop/files/Blue-Sun-D.png?v=1786457201&width=1200",
+      "imageSource": "VOXEL",
+      "imageSourceUrl": "https://voxelwatches.com/pages/voxel-reveal-landing",
+      "sources": [
+        "https://voxelwatches.com/pages/voxel-reveal-landing",
+        "https://www.fratellowatches.com/hittin-switches-with-the-voxel-meridion-vx01-e/",
+        "https://timeandtidewatches.com/the-voxel-meridion-vx01-e-introducing/"
+      ],
+      "sourceNotes": "Variante Electric Blue sur bracelet Alcantara bleu, affichage 12 h ; référence de collection VX01-E. La page officielle confirme le module mécanique alternant 12/24 heures, l’acier 904L, le fond en titane grade 5, 120 m, 44 h, le verre saphir et l’ouverture des précommandes le 1er octobre. Fratello publie 41,4 × 12,2 × 45,5 mm, le calibre Newton P092 et la répartition de l’Edition 01 : 120 Electric Blue, 120 Charcoal Grey et 60 Silver Star. Le prix officiel n’est pas encore publié ; les tarifs presse ne sont pas repris. Asset officiel 1 200 × 1 500 px inspecté : montre entière nette, cadran Electric Blue et bracelet Alcantara bleu exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-02",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-02"
   }
 ]
