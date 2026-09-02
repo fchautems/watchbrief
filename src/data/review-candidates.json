@@ -2279,5 +2279,53 @@
       "independent": true
     },
     "reviewedAt": "2026-09-02"
+  },
+  {
+    "id": "maurice-lacroix-aikon-ic-frozen-carbon-bronze-ac6008-brl20-730-2",
+    "issueNumber": 78,
+    "status": "review",
+    "detectedAt": "2026-09-02",
+    "watch": {
+      "id": "maurice-lacroix-aikon-ic-frozen-carbon-bronze-ac6008-brl20-730-2",
+      "slug": "maurice-lacroix-aikon-ic-frozen-carbon-bronze-ac6008-brl20-730-2",
+      "brand": "Maurice Lacroix",
+      "brandSlug": "maurice-lacroix",
+      "model": "AIKON-IC Frozen Carbon Bronze",
+      "date": "2026-09-02",
+      "reference": "AC6008-BRL20-730-2 · boîtier bronze · cadran Frozen Carbon noir avec poudre de bronze · bracelet bi-caoutchouc noir",
+      "movement": "Maurice Lacroix ML1000 automatique, développé avec Soprod",
+      "diameter": "43 mm",
+      "diameterMm": 43,
+      "thickness": "11 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Bronze avec lunette en céramique noire et fond ouvert en titane",
+      "waterResistance": "100 m",
+      "powerReserve": "60 h",
+      "price": "CHF 3’450 TTC",
+      "priceSourceUrl": "https://www.mauricelacroix.com/ch_fr/watches/watches-aikon/watches-aikonic/aikon-ic-frozen-carbon/AC6008-BRL20-730-2.html",
+      "priceCheckedAt": "2026-09-02",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 500,
+      "summary": "Maurice Lacroix associe pour la première fois un boîtier en bronze à un cadran Frozen Carbon mêlé de poudre de bronze, dont le veinage aléatoire rend chaque pièce unique. Cette édition limitée à 500 exemplaires reçoit une lunette céramique noire, le calibre automatique ML1000 développé avec Soprod et un bracelet bi-caoutchouc noir.",
+      "productUrl": "https://www.mauricelacroix.com/ch_fr/watches/watches-aikon/watches-aikonic/aikon-ic-frozen-carbon/AC6008-BRL20-730-2.html",
+      "linkLabel": "Voir l’AIKON-IC Frozen Carbon Bronze",
+      "imageUrl": "https://www.mauricelacroix.com/dw/image/v2/BKDJ_PRD/on/demandware.static/-/Sites-mla_masterCatalog/default/dw9bb8c7c9/images/hi-res/AC6008-BRL20-730-2_soldat_1.png?sw=1200&sh=1200&sfrm=png&q=75",
+      "imageSource": "Maurice Lacroix",
+      "imageSourceUrl": "https://www.mauricelacroix.com/ch_fr/watches/watches-aikon/watches-aikonic/aikon-ic-frozen-carbon/AC6008-BRL20-730-2.html",
+      "sources": [
+        "https://www.mauricelacroix.com/ch_fr/watches/watches-aikon/watches-aikonic/aikon-ic-frozen-carbon/AC6008-BRL20-730-2.html",
+        "https://www.mauricelacroix.com/en-intl/news-aikon-ic-frozen-carbon.html",
+        "https://monochrome-watches.com/first-look-video-review-maurice-lacroix-aikon-ic-frozen-carbon-collection-bronze-damas-titanium-ceramic-ml1000-specs-price-pics/"
+      ],
+      "sourceNotes": "Référence officielle AC6008-BRL20-730-2. La fiche suisse confirme le boîtier bronze de 43 × 11 mm, la lunette céramique noire, le fond ouvert en titane, le calibre automatique ML1000, 60 h, 100 m, la série de 500 pièces et CHF 3’450 TVA incluse. Le communiqué explique que le cadran Frozen Carbon mêle fibres de carbone et poudre de bronze selon un motif aléatoire ; Monochrome recoupe les caractéristiques et le lancement à Geneva Watch Days 2026. Lug-to-lug non publié : « Non communiqué ». Asset officiel 1 200 × 1 200 px inspecté : montre entière nette, boîtier bronze, cadran noir veiné de bronze et bracelet bi-caoutchouc noir exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-02",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-02"
   }
 ]
