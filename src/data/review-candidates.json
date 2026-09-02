@@ -2136,5 +2136,51 @@
       "independent": true
     },
     "reviewedAt": "2026-09-02"
+  },
+  {
+    "id": "oris-propilot-x-gonzo-edition",
+    "issueNumber": 75,
+    "status": "review",
+    "detectedAt": "2026-09-02",
+    "watch": {
+      "id": "oris-propilot-x-gonzo-edition",
+      "slug": "oris-propilot-x-gonzo-edition",
+      "brand": "Oris",
+      "brandSlug": "oris",
+      "model": "ProPilot X Gonzo Edition",
+      "date": "2026-09-02",
+      "movement": "Oris Calibre 115 squelette à remontage manuel",
+      "diameter": "44 mm",
+      "diameterMm": 44,
+      "thickness": "12,5 mm",
+      "lugToLug": "50 mm",
+      "material": "Titane grade 2 avec lunette en titane grade 5",
+      "waterResistance": "100 m",
+      "powerReserve": "240 h (10 jours)",
+      "price": "CHF 8’500 TTC",
+      "priceSourceUrl": "https://www.oris.ch/en-CH/product/watch/propilot-x/propilot-x-calibre-115/01-115-7759-7180-Set",
+      "priceCheckedAt": "2026-09-02",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Oris poursuit sa série Muppets avec une ProPilot X en titane animée par le calibre squelette 115 : le visage de Gonzo gravé sur le ressort-moteur apparaît lorsque la montre est complètement remontée. Le cadran en dégradé bleu, rouge et jaune, l’aiguille de réserve en forme de piment et les dix jours d’autonomie composent une interprétation aussi mécanique que ludique.",
+      "productUrl": "https://www.oris.ch/en-CH/product/watch/propilot-x/propilot-x-calibre-115/01-115-7759-7180-Set",
+      "linkLabel": "Voir la ProPilot X Gonzo Edition",
+      "imageUrl": "https://image.oris.ch/data/37847_0111577597180-Set_ds.png",
+      "imageSource": "Oris",
+      "imageSourceUrl": "https://www.oris.ch/en-CH/product/watch/propilot-x/propilot-x-calibre-115/01-115-7759-7180-Set",
+      "sources": [
+        "https://www.oris.ch/en-CH/product/watch/propilot-x/propilot-x-calibre-115/01-115-7759-7180-Set",
+        "https://www.fratellowatches.com/introducing-the-oris-propilot-x-gonzo-edition/",
+        "https://www.hodinkee.com/articles/the-oris-propilot-x-gonzo-edition-live-pics",
+        "https://www.seco.admin.ch/de/faq-pbv"
+      ],
+      "sourceNotes": "Référence officielle 01 115 7759 7180-Set. La fiche Oris suisse confirme 44 mm, titane, calibre manuel 115, 240 h, 100 m, bracelet titane et CHF 8’500 ; le prix CH est traité TTC conformément à l’ordonnance suisse sur l’indication des prix, qui impose l’inclusion des taxes publiques dans le prix de détail. Fratello publie 12,5 mm d’épaisseur et 50 mm de lug-to-lug ; Hodinkee indique respectivement 12,6 et 52 mm, contradiction signalée dans l’issue. Le champ officiel isLimitedEdition est faux : il s’agit d’une édition spéciale non numérotée. Asset maître Oris 531 × 750 px inspecté : montre entière nette, cadran multicolore et bracelet titane de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-02",
+      "independent": true
+    }
   }
 ]
