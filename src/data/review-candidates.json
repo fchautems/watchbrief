@@ -2047,7 +2047,7 @@
   {
     "id": "mad-editions-mad3-vincent-calabrese-blue",
     "issueNumber": 73,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-01",
     "watch": {
       "id": "mad-editions-mad3-vincent-calabrese-blue",
@@ -2088,7 +2088,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-01",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-02"
   },
   {
     "id": "louis-erard-marqueterie-de-paille",
