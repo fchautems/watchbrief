@@ -2571,5 +2571,52 @@
       "independent": false
     },
     "reviewedAt": "2026-09-03"
+  },
+  {
+    "id": "girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39-99116-11-3615-1cm",
+    "issueNumber": 84,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39-99116-11-3615-1cm",
+      "slug": "girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39-99116-11-3615-1cm",
+      "brand": "Girard-Perregaux",
+      "brandSlug": "girard-perregaux",
+      "model": "Laureato Fifty Tourbillon micro-rotor 39 mm",
+      "date": "2026-09-02",
+      "reference": "99116-11-3615-1CM · cadran en or rose 18 ct, boîtier et bracelet acier",
+      "movement": "Girard-Perregaux GP8410 automatique, tourbillon à cage en forme de lyre et micro-rotor en platine et or rose",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "10 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable, cadran en or rose 18 ct",
+      "waterResistance": "50 m",
+      "powerReserve": "72 h",
+      "price": "CHF 85’000 TTC",
+      "priceSourceUrl": "https://www.girard-perregaux.com/fr-ch/watches/grand-complications/99116-11-3615-1cm",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Girard-Perregaux installe un nouveau tourbillon automatique dans le format contenu de la Laureato Fifty 39 mm. Le calibre manufacture GP8410 associe une cage en forme de lyre à un micro-rotor en platine et or rose, visible au dos, tandis que cette référence reçoit un cadran en or rose 18 ct à motif Clous de Paris.",
+      "productUrl": "https://www.girard-perregaux.com/fr-ch/watches/grand-complications/99116-11-3615-1cm",
+      "linkLabel": "Découvrir la Laureato Fifty Tourbillon micro-rotor",
+      "imageUrl": "https://api.girard-perregaux.com/media/catalog/product/9/9/99116-11-3615-1CM-hero-3eea64.png",
+      "imageSource": "Girard-Perregaux",
+      "imageSourceUrl": "https://www.girard-perregaux.com/fr-ch/watches/grand-complications/99116-11-3615-1cm",
+      "sources": [
+        "https://www.girard-perregaux.com/fr-ch/watches/grand-complications/99116-11-3615-1cm",
+        "https://www.girard-perregaux.com/fr-ch/terms-and-conditions-shipping-program",
+        "https://www.hodinkee.com/articles/the-girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39",
+        "https://monochrome-watches.com/2026-girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39mm-review/"
+      ],
+      "sourceNotes": "Référence officielle 99116-11-3615-1CM, cadran en or rose 18 ct. La fiche suisse confirme 39 × 10 mm, acier, calibre manufacture GP8410 automatique, tourbillon à cage en forme de lyre, 50 m et CHF 85’000 ; ses données de prix indiquent une TVA suisse incluse de 8,1 %. Hodinkee et Monochrome publient une réserve de marche de 72 h et recoupent le lancement. La marque présente le modèle comme un pilier permanent de la collection. Lug-to-lug non publié. Asset officiel 1 560 × 2 400 px inspecté : montre entière nette, cadran rose, tourbillon à 6 h et bracelet acier de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": false
+    }
   }
 ]
