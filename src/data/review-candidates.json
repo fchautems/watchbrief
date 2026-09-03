@@ -2474,5 +2474,53 @@
       "independent": false
     },
     "reviewedAt": "2026-09-03"
+  },
+  {
+    "id": "gallet-flying-officer-chronograph-40-ag2301131b1x2",
+    "issueNumber": 82,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "gallet-flying-officer-chronograph-40-ag2301131b1x2",
+      "slug": "gallet-flying-officer-chronograph-40-ag2301131b1x2",
+      "brand": "Gallet",
+      "brandSlug": "gallet",
+      "model": "Flying Officer Chronograph 40",
+      "date": "2026-09-03",
+      "reference": "AG2301131B1X2 · cadran noir, anneau des villes blanc, bracelet cuir orange",
+      "movement": "Calibre Gallet 23, mécanique à remontage automatique",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "15,02 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m",
+      "powerReserve": "Environ 65 h",
+      "price": "CHF 3’900 TTC",
+      "priceSourceUrl": "https://www.gallet.com/ch-fr/watches/flying-officer/flying-officer-chronograph/AG2301131B1X2/",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Pour son relancement complet à l’occasion du bicentenaire de Gallet, la Flying Officer Chronograph 40 réinterprète la montre de voyage lancée en 1939. La référence AG2301131B1X2 associe un anneau de 24 destinations et une lunette 12 heures rotative au calibre automatique Gallet 23, dans un boîtier acier de 40 mm étanche à 100 m.",
+      "productUrl": "https://www.gallet.com/ch-fr/watches/flying-officer/flying-officer-chronograph/AG2301131B1X2/",
+      "linkLabel": "Découvrir la Gallet Flying Officer Chronograph 40",
+      "imageUrl": "https://www.gallet.com/cdn-cgi/image/format=webp,quality=90,width=1080/api/image-proxy/www-breitling.eu.saleor.cloud/media/thumbnails/products/ag2301131b1x2-soldier_2be7d277_thumbnail_1024.webp",
+      "imageSource": "Gallet",
+      "imageSourceUrl": "https://www.gallet.com/ch-fr/watches/flying-officer/flying-officer-chronograph/AG2301131B1X2/",
+      "sources": [
+        "https://www.gallet.com/ch-fr/watches/flying-officer/flying-officer-chronograph/AG2301131B1X2/",
+        "https://press.gallet.com/gallet-relaunch-flying-officer-en/",
+        "https://www.hodinkee.com/articles/the-gallet-flying-officer",
+        "https://www.fratellowatches.com/gallet-returns-for-its-200th-anniversary-with-four-new-watch-collections/"
+      ],
+      "sourceNotes": "La fiche officielle suisse confirme la référence AG2301131B1X2, le prix de CHF 3’900 TVA incluse, le boîtier acier de 40 × 15,02 mm, 100 m d’étanchéité, le calibre Gallet 23 automatique et environ 65 h de réserve. Le newsroom Gallet date le lancement du 3 septembre 2026 et décrit l’anneau de 24 destinations ; Hodinkee et Fratello recoupent le relancement et les caractéristiques de la collection. Aucun nombre de pièces n’est annoncé : modèle traité comme collection permanente. Lug-to-lug non publié. Asset officiel inspecté en 1 024 × 1 024 px : montre entière nette, cadran noir, anneau blanc et bracelet cuir orange de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-03"
   }
 ]
