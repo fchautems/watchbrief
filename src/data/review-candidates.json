@@ -2376,5 +2376,54 @@
       "independent": true
     },
     "reviewedAt": "2026-09-03"
+  },
+  {
+    "id": "bvlgari-vianney-halter-octo-finissimo-dual-time-titanium-104356",
+    "issueNumber": 80,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "bvlgari-vianney-halter-octo-finissimo-dual-time-titanium-104356",
+      "slug": "bvlgari-vianney-halter-octo-finissimo-dual-time-titanium-104356",
+      "brand": "Bvlgari × Vianney Halter",
+      "brandSlug": "bvlgari",
+      "model": "Octo Finissimo Dual Time × Vianney Halter Titanium",
+      "date": "2026-09-02",
+      "reference": "104356 · titane sablé · bracelet titane intégré",
+      "movement": "BVF 200 automatique ultra-plat à micro-rotor",
+      "diameter": "40,5 mm",
+      "diameterMm": 40.5,
+      "thickness": "9,7 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane sablé",
+      "waterResistance": "30 m",
+      "powerReserve": "60 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.bulgari.com/en-us/stories/geneva-watch-days",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "international",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 30,
+      "summary": "Pour sa première collaboration avec Vianney Halter, Bvlgari transpose l’architecture à quatre affichages de l’Antiqua dans l’Octo Finissimo. Le nouveau calibre automatique BVF 200 à micro-rotor réunit heure locale, GMT, date, petite seconde et indicateur jour/nuit dans un boîtier en titane de 9,7 mm, limité à 30 pièces.",
+      "productUrl": "https://www.bulgari.com/en-us/stories/geneva-watch-days",
+      "linkLabel": "Découvrir l’Octo Finissimo Dual Time × Vianney Halter",
+      "imageUrl": "https://media.bulgari.com/image/upload/c_fill,h_1440,w_1440/q_auto/f_auto/v1/collection/GWD-collection-page/26/gwd-26-octo-x-vh_ngbsxb.jpg",
+      "imageSource": "Bvlgari",
+      "imageSourceUrl": "https://www.bulgari.com/en-us/stories/geneva-watch-days",
+      "sources": [
+        "https://www.bulgari.com/en-us/stories/geneva-watch-days",
+        "https://www.watchtime.com/brands/titanium-watches/bulgari-titanium-geneva-watch-days-2026",
+        "https://monochrome-watches.com/bulgari-octo-finissimo-dual-time-x-vianney-halter-antiqua-inspired-video-review-price/",
+        "https://revolutionwatch.com/bvlgari-octo-finissimo-vianney-halter/"
+      ],
+      "sourceNotes": "Variante titane de référence 104356. La page officielle confirme la collaboration, le boîtier et le bracelet en titane, l’architecture à quatre affichages ainsi que le calibre BVF 200 avec fonctions GMT, date et jour/nuit. WatchTime et Revolution publient 40,5 × 9,7 mm, 30 m, 60 h et une série de 30 pièces. Aucun prix n’est affiché par Bvlgari : « Prix non communiqué » conformément à la politique ; les montants presse ne sont pas repris comme tarifs officiels. Lug-to-lug non publié. Asset officiel 1 440 × 1 440 px inspecté : montre entière nette, boîtier, bracelet titane et quatre affichages de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-03"
   }
 ]
