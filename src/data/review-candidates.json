@@ -2327,5 +2327,54 @@
       "independent": true
     },
     "reviewedAt": "2026-09-02"
+  },
+  {
+    "id": "h-moser-streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+    "issueNumber": 79,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "h-moser-streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+      "slug": "h-moser-streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+      "brand": "H. Moser & Cie.",
+      "brandSlug": "h-moser-and-cie",
+      "model": "Streamliner Tourbillon Skeleton Ceramic Alpine Limited Edition",
+      "date": "2026-09-02",
+      "reference": "6814-2100 · céramique gris anthracite · ponts et platine Alpine Blue · bracelet Alcantara bleu",
+      "movement": "HMC 814 automatique squelette, tourbillon volant une minute à double spiral",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "12,8 mm, verre compris",
+      "lugToLug": "Non communiqué",
+      "material": "Céramique gris anthracite",
+      "waterResistance": "120 m",
+      "powerReserve": "Non communiqué",
+      "price": "CHF 79’000 hors taxes (+8,1 % de TVA suisse)",
+      "priceSourceUrl": "https://h-moser.com/en/streamliner/streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "CH / international en CHF",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 100,
+      "summary": "H. Moser & Cie. réalise sa première Streamliner en céramique pour sa troisième collaboration avec Alpine Motorsports. La carrure anthracite encadre le calibre automatique HMC 814 entièrement ajouré, dont la platine et les ponts Alpine Blue dévoilent un tourbillon volant à double spiral ; l’ensemble est limité à 100 pièces.",
+      "productUrl": "https://h-moser.com/en/streamliner/streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+      "linkLabel": "Voir la Streamliner Tourbillon Skeleton Ceramic Alpine",
+      "imageUrl": "https://content.h-moser.com/media/pages/streamliner/streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100/6dba2fdf06-1788357599/hmoser_product_lifestyle_desktop__1600x1200px_6814-2100__01-1920x.webp",
+      "imageSource": "H. Moser & Cie.",
+      "imageSourceUrl": "https://h-moser.com/en/streamliner/streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+      "sources": [
+        "https://h-moser.com/en/streamliner/streamliner-tourbillon-skeleton-ceramic-alpine-6814-2100",
+        "https://h-moser.com/en/h-moser-cie-x-alpine",
+        "https://media.alpinecars.com/streamliner-tourbillon-skeleton-ceramic-alpine-limited-edition-a-new-chapter-a-new-material/?lang=eng",
+        "https://monochrome-watches.com/moser-streamliner-tourbillon-skeleton-ceramic-alpine-limited-edition-introducing-price/"
+      ],
+      "sourceNotes": "Référence officielle 6814-2100. H. Moser confirme 40 mm, la céramique anthracite, 12 ATM, le calibre HMC 814 automatique, la série de 100 pièces et CHF 79’000 hors taxes ; la TVA suisse applicable est précisée à 8,1 %. Le communiqué Alpine et Monochrome publient 12,8 mm avec verre (11 mm sans verre) et recoupent les caractéristiques. Lug-to-lug et réserve de marche non publiés : « Non communiqué ». Asset officiel 1 600 × 1 200 px inspecté : montre nette, cadran squelette Alpine Blue, boîtier anthracite et bracelet Alcantara bleu exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-03"
   }
 ]
