@@ -2425,5 +2425,54 @@
       "independent": false
     },
     "reviewedAt": "2026-09-03"
+  },
+  {
+    "id": "breitling-navitimer-b09-chronograph-41-miles-davis-ab09501a1b1x1",
+    "issueNumber": 81,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "breitling-navitimer-b09-chronograph-41-miles-davis-ab09501a1b1x1",
+      "slug": "breitling-navitimer-b09-chronograph-41-miles-davis-ab09501a1b1x1",
+      "brand": "Breitling",
+      "brandSlug": "breitling",
+      "model": "Navitimer B09 Chronograph 41 Miles Davis",
+      "date": "2026-09-02",
+      "reference": "AB09501A1B1X1 · acier, cadran noir reverse panda, bracelet veau brun dégradé",
+      "movement": "Breitling Manufacture Calibre B09, mécanique à remontage manuel, certifié COSC",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "13 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable",
+      "waterResistance": "30 m",
+      "powerReserve": "Environ 70 h",
+      "price": "CHF 8’250 TTC",
+      "priceSourceUrl": "https://www.breitling.com/ch-en/watches/navitimer/navitimer-b09-chronograph-41/AB09501A1B1X1/",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 500,
+      "summary": "Pour le centenaire de Miles Davis, Breitling réinterprète la Navitimer réf. 806 Mk5 portée par le musicien avec cadran reverse panda, logo Twin Jet et Super-LumiNova couleur crème. Limitée à 500 pièces, cette version de 41 mm reçoit le calibre manufacture B09 à remontage manuel, certifié COSC et doté d’environ 70 heures de réserve.",
+      "productUrl": "https://www.breitling.com/ch-en/watches/navitimer/navitimer-b09-chronograph-41/AB09501A1B1X1/",
+      "linkLabel": "Découvrir la Navitimer B09 Chronograph 41 Miles Davis",
+      "imageUrl": "https://www.breitling.com/cdn-cgi/image/format=webp,quality=90,width=1080,fit=cover,gravity=0.5x0.5/api/image-proxy/www-breitling.eu.saleor.cloud/media/thumbnails/products/ab09501a1b1x1-soldier_5336f713_thumbnail_1024.webp",
+      "imageSource": "Breitling",
+      "imageSourceUrl": "https://www.breitling.com/ch-en/watches/navitimer/navitimer-b09-chronograph-41/AB09501A1B1X1/",
+      "sources": [
+        "https://www.breitling.com/ch-en/watches/navitimer/navitimer-b09-chronograph-41/AB09501A1B1X1/",
+        "https://www.hodinkee.com/articles/the-breitling-navitimer-b09-chronograph-41-miles-davis",
+        "https://www.fratellowatches.com/breitling-navitimer-b09-chronograph-41-tribute-to-miles-davis/",
+        "https://watchesbysjx.com/2026/09/breitling-navitimer-b09-miles-davis.html"
+      ],
+      "sourceNotes": "La page officielle suisse confirme la référence AB09501A1B1X1, le prix de CHF 8’250 TVA incluse, le boîtier acier de 41 × 13 mm, 30 m d’étanchéité, le calibre B09 manuel et environ 70 h de réserve. Breitling et les recoupements confirment la série de 500 pièces et l’inspiration directe de la réf. 806 Mk5 portée par Miles Davis. Lug-to-lug non publié. Asset officiel inspecté en 1 080 × 1 080 px : montre entière nette, cadran reverse panda, boîtier acier et bracelet veau brun de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-03"
   }
 ]
