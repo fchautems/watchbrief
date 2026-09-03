@@ -2522,5 +2522,54 @@
       "independent": false
     },
     "reviewedAt": "2026-09-03"
+  },
+  {
+    "id": "zenith-chronomaster-solo-sport-black-date-03-5000-3620-22-m5000",
+    "issueNumber": 83,
+    "status": "review",
+    "detectedAt": "2026-09-03",
+    "watch": {
+      "id": "zenith-chronomaster-solo-sport-black-date-03-5000-3620-22-m5000",
+      "slug": "zenith-chronomaster-solo-sport-black-date-03-5000-3620-22-m5000",
+      "brand": "Zenith",
+      "brandSlug": "zenith",
+      "model": "CHRONOMASTER Solo Sport Black Date",
+      "date": "2026-09-02",
+      "reference": "03.5000.3620/22.M5000 · cadran et lunette en céramique noire · date à 3 h · bracelet acier",
+      "movement": "El Primero 3620, mécanique à remontage automatique, 5 Hz",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "Non communiqué",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable, lunette et cadran en céramique noire",
+      "waterResistance": "200 m (20 ATM)",
+      "powerReserve": "60 h",
+      "price": "CHF 9’900 TTC",
+      "priceSourceUrl": "https://www.zenith-watches.com/fr_ch/product/chronomaster-solo-sport-03-5000-3620-22-m5000",
+      "priceCheckedAt": "2026-09-03",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Zenith transpose pour la première fois l’identité haute fréquence de l’El Primero dans une CHRONOMASTER à trois aiguilles. Cette variante noire avec date réunit le calibre manufacture 3620 à 5 Hz, une lunette tournante unidirectionnelle, 200 mètres d’étanchéité et le fermoir ZENCLASP à micro-ajustement.",
+      "productUrl": "https://www.zenith-watches.com/fr_ch/product/chronomaster-solo-sport-03-5000-3620-22-m5000",
+      "linkLabel": "Découvrir la CHRONOMASTER Solo Sport Black Date",
+      "imageUrl": "https://zenith-watches.epresspack.me/storage/clients/1035/1-soldat-1-chronomaster-solo-sport-035000362022m5000-4x5_1788187718.png",
+      "imageSource": "Zenith",
+      "imageSourceUrl": "https://pressroom.zenith-watches.com/chronomaster-solo-sport-distilling-the-essence-of-high-frequency/?lang=eng",
+      "sources": [
+        "https://www.zenith-watches.com/fr_ch/product/chronomaster-solo-sport-03-5000-3620-22-m5000",
+        "https://www.zenith-watches.com/fr_ch/page/sales-condition",
+        "https://pressroom.zenith-watches.com/chronomaster-solo-sport-distilling-the-essence-of-high-frequency/?lang=eng",
+        "https://monochrome-watches.com/zenith-chronomaster-solo-sport-time-only-high-frequency-el-primero-review-video-price/",
+        "https://www.hodinkee.com/articles/zenith-chronomaster-solo-sport"
+      ],
+      "sourceNotes": "La fiche officielle suisse confirme la référence 03.5000.3620/22.M5000, le cadran et la lunette en céramique noire, le bracelet acier et le tarif de CHF 9’900 ; les conditions de vente Zenith indiquent que les taxes applicables sont calculées et incluses dans le prix total. Le communiqué officiel daté du 2 septembre 2026 confirme le boîtier de 40 mm, le calibre El Primero 3620 à 5 Hz, 60 h de réserve, 20 ATM, le ZENCLASP et le caractère non limité. Monochrome et Hodinkee recoupent le lancement. Épaisseur et lug-to-lug non publiés, donc laissés « Non communiqué ». Asset presse officiel inspecté en 1 500 × 1 875 px : montre entière nette, cadran noir avec date à 3 h, lunette noire et bracelet acier de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-03",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-03"
   }
 ]
