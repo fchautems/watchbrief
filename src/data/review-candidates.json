@@ -2618,5 +2618,54 @@
       "verifiedAt": "2026-09-03",
       "independent": false
     }
+  },
+  {
+    "id": "doxa-sub-300-ti5-professional-823-50-351-21",
+    "issueNumber": 85,
+    "status": "review",
+    "detectedAt": "2026-09-04",
+    "watch": {
+      "id": "doxa-sub-300-ti5-professional-823-50-351-21",
+      "slug": "doxa-sub-300-ti5-professional-823-50-351-21",
+      "brand": "DOXA",
+      "brandSlug": "doxa",
+      "model": "SUB 300 Ti5 Professional",
+      "date": "2026-09-02",
+      "reference": "823.50.351.21 · cadran Professional orange · bracelet Dive Flex orange",
+      "movement": "Mouvement mécanique automatique suisse certifié COSC",
+      "diameter": "42,5 mm",
+      "diameterMm": 42.5,
+      "thickness": "13,4 mm",
+      "lugToLug": "45 mm",
+      "material": "Titane grade 5",
+      "waterResistance": "300 m",
+      "powerReserve": "Environ 38 h",
+      "price": "CHF 2’750 TTC",
+      "priceSourceUrl": "https://ch.doxawatches.com/products/sub-300-ti5-professional",
+      "priceCheckedAt": "2026-09-04",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "DOXA étend le titane grade 5 à la collection permanente de sa plongeuse historique SUB 300. Cette variante Professional conserve le cadran orange signature et le format 42,5 × 45 mm, tout en annonçant une construction environ 40 % plus légère que l’acier, un mouvement automatique certifié COSC et 300 mètres d’étanchéité.",
+      "productUrl": "https://ch.doxawatches.com/products/sub-300-ti5-professional",
+      "linkLabel": "Découvrir la DOXA SUB 300 Ti5 Professional",
+      "imageUrl": "https://ch.doxawatches.com/cdn/shop/files/DOXA_SUB_300_Ti5_823.50.351.21.png?v=1785829718&width=4127",
+      "imageSource": "DOXA",
+      "imageSourceUrl": "https://ch.doxawatches.com/products/sub-300-ti5-professional",
+      "sources": [
+        "https://ch.doxawatches.com/products/sub-300-ti5-professional",
+        "https://ch.doxawatches.com/pages/terms-and-conditions",
+        "https://doxawatches.com/blogs/doxa-b-log/sub-300-ti5-the-sub-reforged",
+        "https://www.hodinkee.com/articles/the-doxa-sub-300-ti5",
+        "https://monochrome-watches.com/introducing-doxa-sub-300-ti5-titanium-dive-watch-geneva-watch-days-specs-price-review/"
+      ],
+      "sourceNotes": "Référence officielle 823.50.351.21, cadran Professional orange et bracelet Dive Flex orange. La fiche suisse confirme le boîtier, la couronne et le fond en titane grade 5, 42,5 × 45 × 13,4 mm, 300 m, le mouvement automatique suisse certifié COSC, environ 38 h et CHF 2’750 ; les conditions de vente DOXA CH précisent que les prix en CHF incluent la TVA suisse applicable. Hodinkee publie explicitement un lug-to-lug de 45 mm et identifie le calibre Sellita SW200-1 ; Monochrome recoupe les caractéristiques et le caractère permanent. Asset officiel inspecté en 4 127 × 4 498 px : montre entière nette, cadran orange, boîtier titane et bracelet orange exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-04",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-04"
   }
 ]
