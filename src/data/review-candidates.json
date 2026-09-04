@@ -2716,5 +2716,54 @@
       "independent": false
     },
     "reviewedAt": "2026-09-04"
+  },
+  {
+    "id": "studio-underd0g-02series-mantis-gen2-02mahe",
+    "issueNumber": 87,
+    "status": "review",
+    "detectedAt": "2026-09-04",
+    "watch": {
+      "id": "studio-underd0g-02series-mantis-gen2-02mahe",
+      "slug": "studio-underd0g-02series-mantis-gen2-02mahe",
+      "brand": "Studio Underd0g",
+      "brandSlug": "studio-underd0g",
+      "model": "02SERIES Mantis (Gen2)",
+      "date": "2026-08-28",
+      "reference": "02MAHE · cadran dégradé vert entièrement luminescent · bracelet « Herb » en daim lavé",
+      "movement": "Sellita SW200-2 M Power+, mécanique à remontage manuel",
+      "diameter": "37,5 mm",
+      "diameterMm": 37.5,
+      "thickness": "11,5 mm",
+      "lugToLug": "46 mm",
+      "material": "Acier inoxydable 316L",
+      "waterResistance": "100 m (10 ATM)",
+      "powerReserve": "63 h",
+      "price": "CHF 900 hors taxes",
+      "priceSourceUrl": "https://underd0g.com/products/02mahe?country=CH",
+      "priceCheckedAt": "2026-09-04",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "summary": "Studio Underd0g transforme sa 02SERIES Gen2 en édition spéciale nocturne grâce à un cadran vert dégradé composé d’un disque supérieur en saphir et d’une base recouverte de sept couches de Super-LumiNova X1. Le boîtier acier de 37,5 × 11,5 mm abrite le Sellita manuel SW200-2 M à 63 heures de réserve ; les commandes n’ont été ouvertes que neuf heures le 1er septembre.",
+      "productUrl": "https://underd0g.com/products/02mahe?country=CH",
+      "linkLabel": "Découvrir la Studio Underd0g 02SERIES Mantis",
+      "imageUrl": "https://underd0g.com/cdn/shop/files/MantisMedia2.jpg?v=1787343148",
+      "imageSource": "Studio Underd0g",
+      "imageSourceUrl": "https://underd0g.com/pages/mantis",
+      "sources": [
+        "https://underd0g.com/products/02mahe?country=CH",
+        "https://underd0g.com/pages/mantis",
+        "https://underd0g.com/pages/faqs",
+        "https://www.hodinkee.com/articles/introducing-studio-underd0g-02series-mantis",
+        "https://www.europastar.com/time-keeper/1004116366-studio-underd0g-launches-new-special-edition.html"
+      ],
+      "sourceNotes": "La page officielle confirme la référence 02MAHE, 37,5 × 11,5 × 46 mm, acier 316L, 10 ATM, le Sellita SW200-2 M Power+ manuel à 4 Hz et 63 h, ainsi que le cadran vert entièrement luminescent à disque supérieur en saphir et sept couches de Super-LumiNova X1. La localisation suisse affiche CHF 900 ; la FAQ classe la Suisse parmi les destinations ROW expédiées DDU, donc prix hors taxes avec droits et taxes d’importation à la charge du client. Hodinkee date l’annonce du 28 août 2026 et confirme la fenêtre de commande de neuf heures du 1er septembre ; quantité finale non publiée. Asset officiel inspecté en 1 184 × 1 246 px : montre entière nette, cadran Mantis vert et bracelet Herb exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-04",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-04"
   }
 ]
