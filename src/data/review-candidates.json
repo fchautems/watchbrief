@@ -2765,5 +2765,53 @@
       "independent": true
     },
     "reviewedAt": "2026-09-04"
+  },
+  {
+    "id": "seiko-prospex-speedtimer-grand-touring-hbd001j1",
+    "issueNumber": 88,
+    "status": "review",
+    "detectedAt": "2026-09-04",
+    "watch": {
+      "id": "seiko-prospex-speedtimer-grand-touring-hbd001j1",
+      "slug": "seiko-prospex-speedtimer-grand-touring-hbd001j1",
+      "brand": "Seiko",
+      "brandSlug": "seiko",
+      "model": "Prospex Speedtimer « Grand Touring » Mechanical Chronograph Sky Blue",
+      "date": "2026-09-01",
+      "reference": "HBD001J1 / HBD001 · cadran bleu ciel, compteurs noirs, bracelet acier",
+      "movement": "Seiko 8R48, mécanique à remontage automatique, chronographe à roue à colonnes et embrayage vertical",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "14,6 mm",
+      "lugToLug": "49,5 mm",
+      "material": "Acier inoxydable à revêtement extra-dur",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "45 h",
+      "price": "INR 270’000 TTC",
+      "priceSourceUrl": "https://seikowatches.co.in/collections/new-arrivals/products/prospex-speedtimer-mechanical-chronograph-hbd001j1",
+      "priceCheckedAt": "2026-09-04",
+      "priceMarket": "IN",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Seiko renouvelle son Speedtimer mécanique d’inspiration 1972 avec un cadran bleu ciel strié, trois compteurs contrastés et un bracelet multi-rangs. Le calibre manufacture 8R48 associe roue à colonnes et embrayage vertical dans un boîtier acier de 42 × 14,6 mm, étanche à 100 mètres et doté de 45 heures de réserve.",
+      "productUrl": "https://www.seikowatches.com/us-en/products/prospex/hbd001j1",
+      "linkLabel": "Découvrir la Seiko Prospex Speedtimer Grand Touring HBD001J1",
+      "imageUrl": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/05/14/21/10/HBD001J1/HBD001J1.png?mh=1200&mw=1200",
+      "imageSource": "Seiko",
+      "imageSourceUrl": "https://www.seikowatches.com/us-en/products/prospex/hbd001j1",
+      "sources": [
+        "https://www.seikowatches.com/us-en/products/prospex/hbd001j1",
+        "https://seikowatches.co.in/collections/new-arrivals/products/prospex-speedtimer-mechanical-chronograph-hbd001j1",
+        "https://monochrome-watches.com/2026-seiko-prospex-speedtimer-mechanical-hbd001-hbd002-hbc003-hbc004-review-price/",
+        "https://www.t3.com/luxury/watches/seiko-expands-prospex-family-with-stunning-new-grand-touring-collection"
+      ],
+      "sourceNotes": "Les pages officielles confirment la référence HBD001J1, le cadran bleu ciel sur bracelet acier, le boîtier de 42 × 14,6 × 49,5 mm, le calibre 8R48 automatique à roue à colonnes et embrayage vertical, 45 h et 10 bar. La boutique officielle Seiko Inde affiche INR 270’000 et précise que toutes les taxes sont incluses. Monochrome date l’annonce du 1er septembre 2026 et confirme l’entrée en collection permanente. Asset produit officiel inspecté en 1 102 × 1 102 px : montre nette, cadran bleu ciel, compteurs noirs, boîtier et bracelet acier de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-04",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-04"
   }
 ]
