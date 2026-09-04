@@ -2575,7 +2575,7 @@
   {
     "id": "girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39-99116-11-3615-1cm",
     "issueNumber": 84,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-03",
     "watch": {
       "id": "girard-perregaux-laureato-fifty-tourbillon-micro-rotor-39-99116-11-3615-1cm",
@@ -2617,7 +2617,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-03",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-04"
   },
   {
     "id": "doxa-sub-300-ti5-professional-823-50-351-21",
