@@ -2667,5 +2667,54 @@
       "independent": true
     },
     "reviewedAt": "2026-09-04"
+  },
+  {
+    "id": "hamilton-khaki-field-murph-38-stardust-blue-h70405140",
+    "issueNumber": 86,
+    "status": "review",
+    "detectedAt": "2026-09-04",
+    "watch": {
+      "id": "hamilton-khaki-field-murph-38-stardust-blue-h70405140",
+      "slug": "hamilton-khaki-field-murph-38-stardust-blue-h70405140",
+      "brand": "Hamilton",
+      "brandSlug": "hamilton",
+      "model": "Khaki Field Murph 38mm « Stardust » Blue",
+      "date": "2026-09-01",
+      "reference": "H70405140 · cadran bleu dégradé texturé · bracelet acier",
+      "movement": "Hamilton H-10 automatique, spiral Nivachron",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "11,1 mm",
+      "lugToLug": "44,7 mm",
+      "material": "Acier inoxydable",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "80 h",
+      "price": "CHF 945 TTC",
+      "priceSourceUrl": "https://www.hamiltonwatch.com/en-ch/h70405140-khaki-field-murph-auto.html",
+      "priceCheckedAt": "2026-09-04",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Hamilton rattache visuellement la Murph à ses origines cinématographiques avec un cadran bleu dégradé, grenu et inspiré d’une comète interstellaire. Cette référence conserve le format compact de 38 mm, le calibre automatique H-10 à spiral Nivachron et ses 80 heures de réserve, sur bracelet acier.",
+      "productUrl": "https://www.hamiltonwatch.com/en-ch/h70405140-khaki-field-murph-auto.html",
+      "linkLabel": "Découvrir la Khaki Field Murph 38mm Stardust Blue",
+      "imageUrl": "https://press.hamiltonwatch.com/media/pressreleases/13/images/Hamilton_Khaki_Field_Murph_H70405140_Detail_3/print.jpg",
+      "imageSource": "Hamilton",
+      "imageSourceUrl": "https://press.hamiltonwatch.com/presslounge/pressrelease/index/id/13/",
+      "sources": [
+        "https://www.hamiltonwatch.com/en-ch/h70405140-khaki-field-murph-auto.html",
+        "https://www.hamiltonwatch.com/en-ch/conditions-of-sale",
+        "https://press.hamiltonwatch.com/presslounge/pressrelease/index/id/13/",
+        "https://monochrome-watches.com/hamilton-khaki-field-murph-38mm-blue-textured-dial-2026-review-price/",
+        "https://precisionwatches.com/journal/hamilton-murph-blue-dial/"
+      ],
+      "sourceNotes": "Référence H70405140, cadran bleu dégradé texturé et bracelet acier. La fiche suisse officielle confirme 38 × 11,1 mm, acier, calibre H-10 automatique avec spiral Nivachron, 80 h, 100 m, collection permanente et CHF 945 ; les conditions de vente Hamilton CH précisent que les prix en CHF incluent la TVA locale. Le détaillant Hamilton agréé Precision Watches publie un lug-to-lug de 44,7 mm pour cette référence. Asset du dossier presse officiel inspecté en 4 000 × 2 666 px : montre complète nette, cadran Stardust bleu, boîtier et bracelet acier exacts, sans recadrage de la pièce.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-04",
+      "independent": false
+    },
+    "reviewedAt": "2026-09-04"
   }
 ]
