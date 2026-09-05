@@ -2963,5 +2963,53 @@
       "independent": false
     },
     "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "daniel-roth-extra-plat-rose-gold-gilt-dbbd04a1",
+    "issueNumber": 92,
+    "status": "review",
+    "detectedAt": "2026-09-05",
+    "watch": {
+      "id": "daniel-roth-extra-plat-rose-gold-gilt-dbbd04a1",
+      "slug": "daniel-roth-extra-plat-rose-gold-gilt-dbbd04a1",
+      "brand": "Daniel Roth",
+      "brandSlug": "daniel-roth",
+      "model": "Extra Plat Rose Gold Gilt",
+      "date": "2026-09-02",
+      "reference": "DBBD04A1 · boîtier or rose 5N · cadran noir gilt guilloché · bracelet cuir de veau noir",
+      "movement": "Daniel Roth DR002, mécanique à remontage manuel, développé et assemblé à La Fabrique du Temps Louis Vuitton",
+      "diameter": "35,5 mm de largeur",
+      "diameterMm": 35.5,
+      "thickness": "7,7 mm",
+      "lugToLug": "38,6 mm",
+      "material": "Or rose 5N, cadran en or massif à finition noire galvanique et guilloché main",
+      "waterResistance": "30 m",
+      "powerReserve": "env. 65 h",
+      "price": "CHF 55’500 hors taxes",
+      "priceSourceUrl": "https://www.danielroth.com/watch/extraplat/extraplat-rosegoldgilt/",
+      "priceCheckedAt": "2026-09-05",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": false,
+      "summary": "Daniel Roth revisite le cadran gilt selon une méthode traditionnelle : une base en or massif est guillochée à la main, masquée puis galvanisée en noir afin de laisser apparaître les chiffres romains et les inscriptions dans le métal. Le boîtier double ellipse en or rose 5N mesure 35,5 × 38,6 × 7,7 mm et abrite le calibre manuel DR002 à 65 heures de réserve.",
+      "productUrl": "https://www.danielroth.com/watch/extraplat/extraplat-rosegoldgilt/",
+      "linkLabel": "Découvrir la Daniel Roth Extra Plat Rose Gold Gilt",
+      "imageUrl": "https://images.prismic.io/daniel-roth/toHNTgwvpFZ6WNuX_rose-gold-gilt.png",
+      "imageSource": "Daniel Roth",
+      "imageSourceUrl": "https://www.danielroth.com/watch/extraplat/extraplat-rosegoldgilt/",
+      "sources": [
+        "https://www.danielroth.com/watch/extraplat/extraplat-rosegoldgilt/",
+        "https://www.hodinkee.com/articles/the-daniel-roth-extra-plat-rose-gold-with-gilt-dial",
+        "https://monochrome-watches.com/daniel-roth-extra-plat-rose-gold-gilt-2026-review-price/",
+        "https://timeandtidewatches.com/daniel-roth-extra-plat-rose-gold-gilt-introducing/"
+      ],
+      "sourceNotes": "La page officielle confirme le boîtier en or rose 5N de 38,6 × 35,5 × 7,7 mm, 30 m, le cadran en or guilloché main, le calibre DR002 manuel à 4 Hz et environ 65 h, ainsi que CHF 55’500 hors taxes. Hodinkee date l’annonce du 2 septembre 2026, publie la référence DBBD04A1 et précise qu’il ne s’agit pas d’une édition limitée. Time+Tide publie 38,6 mm comme lug-to-lug ; cette valeur n’est donc pas estimée. Monochrome et Hodinkee annoncent CHF 55’000 hors taxes, mais le prix officiel vérifié prévaut. Asset officiel inspecté en définition originale 1 200 × 1 500 px : montre entière nette, boîtier or rose, cadran noir gilt et bracelet noir exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-05",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-05"
   }
 ]
