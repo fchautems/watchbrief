@@ -155,6 +155,14 @@
         "https://www.renaudtixier.com/wp-content/uploads/2026/08/RT_Monday-Organica-Black_crop-scaled.webp"
       ],
       "reason": "Monday Organica Black PL/LE7, contrôle du 5 septembre 2026 : le packshot officiel 2000 × 2000 px coupe les deux extrémités du bracelet ; _3_ est une vue macro du fond et _crop une vue recadrée. La fiche officielle est complète et indique « Price on request », mais aucun visuel admissible de la montre entière n’a été trouvé ; aucune candidate créée."
+    },
+    {
+      "brand": "Laurent Ferrier",
+      "purpose": "image",
+      "avoid": [
+        "https://laurentferrier.ch/cdn/shop/files/Laurent-Ferrier_Classic-Moon_Dusk-Watch_LCF039.J2.BW1_Soldat-Front_{width}x.png?v=1788272821"
+      ],
+      "reason": "Classic Moon Dusk LCF039.J2.BW1, contrôle visuel du 2026-09-05 : packshot officiel frontal 1800 × 2128 px net et de la variante exacte, mais les extrémités du bracelet sont recadrées en haut et en bas. Les autres assets de la fiche sont des vues arrière, poignet, ambiance ou détails. Page officielle, dimensions 40 × 12,90 mm et prix CHF 93’000 hors taxes confirmés, mais aucune candidate créée faute d’image admissible de la montre entière."
     }
   ]
 }
