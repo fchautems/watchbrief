@@ -3011,5 +3011,54 @@
       "independent": true
     },
     "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "mauron-musy-mu05-no-ring-origin-mu05-111",
+    "issueNumber": 93,
+    "status": "review",
+    "detectedAt": "2026-09-05",
+    "watch": {
+      "id": "mauron-musy-mu05-no-ring-origin-mu05-111",
+      "slug": "mauron-musy-mu05-no-ring-origin-mu05-111",
+      "brand": "Mauron Musy",
+      "brandSlug": "mauron-musy",
+      "model": "MU05 nO-Ring Origin",
+      "date": "2026-09-02",
+      "reference": "MU05-111 · titane grade 5 · cadran noir ajouré avec calculs nO-Ring® · accents ton or rouge · bracelet caoutchouc noir",
+      "movement": "Mauron Musy MM01-SK, mécanique à remontage automatique bidirectionnel et architecture squelettée",
+      "diameter": "44 mm",
+      "diameterMm": 44,
+      "thickness": "13 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5 satiné et poli, boîtier de 29 composants",
+      "waterResistance": "300 m (30 ATM)",
+      "powerReserve": "55 h",
+      "price": "CHF 34’000 hors taxes",
+      "priceSourceUrl": "https://mauronmusy.com/en/collections/no-ring-origin/mu05-111",
+      "priceCheckedAt": "2026-09-05",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 13,
+      "summary": "La MU05-111 célèbre dix ans de la technologie d’étanchéité sans joint nO-Ring® en intégrant au cadran et au bracelet des fragments des calculs manuscrits de Christophe Musy. Son boîtier en titane grade 5 de 44 mm réunit 29 composants, résiste à 300 mètres et abrite le calibre automatique squeletté MM01-SK. Chacun des treize cadrans reçoit un fragment différent.",
+      "productUrl": "https://mauronmusy.com/en/collections/no-ring-origin/mu05-111",
+      "linkLabel": "Découvrir la Mauron Musy MU05 nO-Ring Origin",
+      "imageUrl": "https://mauronmusy.com/content/3861/black-rubber.jpg",
+      "imageSource": "Mauron Musy",
+      "imageSourceUrl": "https://mauronmusy.com/en/collections/no-ring-origin/mu05-111",
+      "sources": [
+        "https://mauronmusy.com/en/collections/no-ring-origin/mu05-111",
+        "https://mauronmusy.com/en/collections/no-ring-origin",
+        "https://www.thewatchpages.com/watches/mauron-musy-mu05-no-ring-origin-mu05-111",
+        "https://www.hourstriker.com/news/mauron-musy-mu05111-noring-origin"
+      ],
+      "sourceNotes": "La page produit officielle confirme la référence MU05-111, le cadran noir unique imprimé de calculs nO-Ring®, le boîtier en titane grade 5 de 44 × 13 mm et 29 composants, 300 m, le calibre automatique MM01-SK à 4 Hz, 55 h, le bracelet de 22 mm livré en deux exemplaires et la série limitée à 13 pièces. Elle affiche CHF 34’000 avec la mention explicite « International VAT excluded » ; les conditions officielles précisent que l’acheteur acquitte TVA, douane et autres taxes. The Watch Pages date l’ajout du 2 septembre 2026 et recoupe référence et spécifications ; Hourstriker recoupe l’annonce et le tarif. Packshot officiel inspecté en 811 × 1 000 px : montre entière nette, boîtier titane, cadran ajouré noir à inscriptions, accents ton or rouge et bracelet caoutchouc noir de la variante exacte. Lug-to-lug non publié.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-05",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-05"
   }
 ]
