@@ -3060,5 +3060,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "trilobe-chateau-trente-deux-3201bdx",
+    "issueNumber": 94,
+    "status": "review",
+    "detectedAt": "2026-09-05",
+    "watch": {
+      "id": "trilobe-chateau-trente-deux-3201bdx",
+      "slug": "trilobe-chateau-trente-deux-3201bdx",
+      "brand": "Trilobe",
+      "brandSlug": "trilobe",
+      "model": "Château Trente-Deux",
+      "date": "2026-09-02",
+      "reference": "3201BDX · acier 316L · cadran bordeaux · bracelet intégré acier",
+      "movement": "Trilobe X-Nihilo, mécanique automatique manufacture à masse oscillante",
+      "diameter": "39,5 mm",
+      "diameterMm": 39.5,
+      "thickness": "10,15 mm",
+      "lugToLug": "46,18 mm",
+      "material": "Acier inoxydable 316L, finitions satinées, microbillées et polies miroir",
+      "waterResistance": "50 m (5 bar)",
+      "powerReserve": "42 h",
+      "price": "€17 500 TTC",
+      "priceSourceUrl": "https://trilobe.com/us/collections/chateau-trente-deux-2/",
+      "priceCheckedAt": "2026-09-05",
+      "priceMarket": "FR",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "La Château Trente-Deux adopte un cadran bordeaux inspiré d’un grand cru, animé par trois anneaux rotatifs qui indiquent heures, minutes et secondes. Son boîtier acier de 39,5 mm et son bracelet intégré abritent le calibre manufacture X-Nihilo, conçu et produit dans l’atelier parisien de Trilobe. Les 100 premières pièces sont numérotées avant l’entrée de cette variante au catalogue permanent.",
+      "productUrl": "https://trilobe.com/us/collections/chateau-trente-deux-2/",
+      "linkLabel": "Découvrir la Trilobe Château Trente-Deux",
+      "imageUrl": "https://trilobe.com/wp-content/uploads/2026/09/P_COLLECTION_3201BDX_SOLDAT%402x_min.png",
+      "imageSource": "Trilobe",
+      "imageSourceUrl": "https://trilobe.com/us/collections/chateau-trente-deux-2/",
+      "sources": [
+        "https://trilobe.com/us/collections/chateau-trente-deux-2/",
+        "https://trilobe.com/en/actualites/chateau-trente-deux-2/",
+        "https://monochrome-watches.com/trilobe-chateau-trente-deux-with-a-burgundy-dial-integrated-sports-watch-introducing-price/"
+      ],
+      "sourceNotes": "La page produit officielle confirme la référence 3201BDX, le boîtier acier 316L de 39,5 × 10,15 × 46,18 mm, 50 m, le calibre automatique manufacture X-Nihilo à 4 Hz et 42 h, le bracelet intégré acier à double boucle déployante, ainsi que le prix de 17 500 € TTC. L’annonce officielle du 2 septembre 2026 précise le cadran bordeaux et la fabrication intégrale dans la manufacture parisienne. La Maison annonce une première série de 100 pièces numérotées accompagnées d’un grand cru, puis l’entrée de la variante dans la collection permanente : limitedEdition reste donc false. Packshot officiel inspecté en définition originale 2 100 × 2 414 px : montre entière nette, cadran bordeaux et bracelet intégré acier exacts.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-05",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-05"
   }
 ]
