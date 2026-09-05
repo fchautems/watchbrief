@@ -2864,5 +2864,55 @@
       "independent": false
     },
     "reviewedAt": "2026-09-04"
+  },
+  {
+    "id": "gerald-charles-masterlink-atelier-edition-golden-rose",
+    "issueNumber": 90,
+    "status": "review",
+    "detectedAt": "2026-09-05",
+    "watch": {
+      "id": "gerald-charles-masterlink-atelier-edition-golden-rose",
+      "slug": "gerald-charles-masterlink-atelier-edition-golden-rose",
+      "brand": "Gerald Charles",
+      "brandSlug": "gerald-charles",
+      "model": "Masterlink Atelier Edition Golden Rose",
+      "date": "2026-09-02",
+      "reference": "ML1.0-SSPS-SSBR-MI14HM-SBDP · cadran en maillechort martelé main finition Golden Rose · bracelet intégré en acier",
+      "movement": "Gerald Charles GCA1000, mécanique à remontage automatique avec micro-rotor décentré",
+      "diameter": "38 mm de largeur",
+      "diameterMm": 38,
+      "thickness": "7,99 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable 316L poli et satiné, cadran en maillechort martelé main",
+      "waterResistance": "100 m (10 ATM)",
+      "powerReserve": "50 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.geraldcharles.com/products/masterlink-atelier-edition-golden-rose",
+      "priceCheckedAt": "2026-09-05",
+      "priceMarket": "international",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 25,
+      "summary": "Cette Masterlink ajoute un cadran en maillechort martelé entièrement à la main dans l’atelier genevois de Gerald Charles, rendant chaque exemplaire visuellement unique. Son boîtier asymétrique en acier de 38 × 38 × 7,99 mm conserve 100 mètres d’étanchéité et abrite le calibre automatique GCA1000 à micro-rotor, épais de seulement 2,67 mm. La finition Golden Rose est limitée à 25 pièces.",
+      "productUrl": "https://www.geraldcharles.com/products/masterlink-atelier-edition-golden-rose",
+      "linkLabel": "Découvrir la Gerald Charles Masterlink Atelier Edition Golden Rose",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0664/5760/0317/files/ML1.0-SSPS-SSBR-MI14HM-SBDP_Front_3b092055-737e-4d57-8f1f-ff06a2fde2a9.png?crop=center&height=1920&v=1785922272&width=1920",
+      "imageSource": "Gerald Charles",
+      "imageSourceUrl": "https://www.geraldcharles.com/products/masterlink-atelier-edition-golden-rose",
+      "sources": [
+        "https://www.geraldcharles.com/products/masterlink-atelier-edition-golden-rose",
+        "https://www.geraldcharles.com/geneva-watch-days-2026/",
+        "https://monochrome-watches.com/gerald-charles-masterlink-atelier-edition-hand-hammered-dial-integrated-sports-watch-introducing/",
+        "https://www.hodinkee.com/articles/gerald-charles-masterlink-atelier-edition",
+        "https://swisswatches-magazine.com/gerald-charles-masterlink-atelieredition/"
+      ],
+      "sourceNotes": "La page produit officielle confirme la référence ML1.0-SSPS-SSBR-MI14HM-SBDP, le cadran Golden Rose en maillechort martelé main, le boîtier acier 316L de 38 × 38 × 7,99 mm, 100 m, le calibre automatique GCA1000 à micro-rotor, 50 h et la série de 25 pièces. Le prix y est explicitement indiqué « PRICE ON DEMAND », donc affiché « Prix non communiqué » sans reprise des montants presse. Monochrome, Hodinkee et Swisswatches recoupent l’annonce du 2 septembre 2026 et les spécifications. Asset officiel inspecté en 1 920 × 1 920 px : montre entière nette, cadran Golden Rose, boîtier et bracelet acier de la variante exacte. La longueur de boîtier de 38 mm n’est pas traitée comme un lug-to-lug.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-05",
+      "independent": true
+    },
+    "reviewedAt": "2026-09-05"
   }
 ]
