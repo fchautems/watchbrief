@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-05",
   "notes": "Ces règles sont des raccourcis de recherche, pas des preuves. Toute candidate exige encore une vérification de la variante exacte.",
   "patterns": [
     {
@@ -136,6 +136,25 @@
       "purpose": "image",
       "preferred": "Lien de galerie officiel /dw/image/v2/BDWD_PRD/…/images/WATCHES/<référence>/<référence>_Picture_1.jpg?sw=2000&sh=2000",
       "reason": "C60-39C3H1-S0KW0-B1 contrôlée le 31 août 2026 : JPEG 2000 × 2000 px, montre entière nette, cadran sable, lunette noire et bracelet Consort fermé. Extraire le lien exact de la galerie (y compris son identifiant dw), sans inventer le chemin."
+    },
+    {
+      "brand": "Hublot",
+      "purpose": "image",
+      "avoid": [
+        "https://www.hublot.com/sites/default/files/2026-08/Big-Bang-Original-Soft-Touch-All-Red-43-mm-Soldier.png",
+        "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2026-08/Big-Bang-Original-Soft-Touch-All-Red-43-mm-Soldier.png?itok=evq1Szm7"
+      ],
+      "reason": "Big Bang Original Soft Touch All Red 431.RXR.2770.RX.VEL, contrôle du 5 septembre 2026 : l’original officiel 3400 × 5100 px est net et exact, mais les extrémités du bracelet sont coupées en haut et en bas. La transformation dite no_crop conserve ce cadrage. Page CH, référence, CHF 20’700 et spécifications retrouvés, mais aucune candidate créée faute de montre entière non recadrée."
+    },
+    {
+      "brand": "Renaud Tixier",
+      "purpose": "image",
+      "avoid": [
+        "https://www.renaudtixier.com/wp-content/uploads/2026/08/RT_Soldat_Monday_organica_black.webp",
+        "https://www.renaudtixier.com/wp-content/uploads/2026/08/RT_Monday-Organica-Black-_3_-scaled.webp",
+        "https://www.renaudtixier.com/wp-content/uploads/2026/08/RT_Monday-Organica-Black_crop-scaled.webp"
+      ],
+      "reason": "Monday Organica Black PL/LE7, contrôle du 5 septembre 2026 : le packshot officiel 2000 × 2000 px coupe les deux extrémités du bracelet ; _3_ est une vue macro du fond et _crop une vue recadrée. La fiche officielle est complète et indique « Price on request », mais aucun visuel admissible de la montre entière n’a été trouvé ; aucune candidate créée."
     }
   ]
 }
