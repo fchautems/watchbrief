@@ -3338,5 +3338,51 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "50 m (5 ATM)"
     }
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "baltic-aquascaphe-gmt-mk-ii-red",
+    "issueNumber": 100,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "Baltic",
+      "brandSlug": "baltic",
+      "date": "2026-09-03",
+      "diameter": "39,5 mm",
+      "diameterMm": 39.5,
+      "editorialStatus": "publishable",
+      "id": "baltic-aquascaphe-gmt-mk-ii-red",
+      "imageSource": "Baltic",
+      "imageSourceUrl": "https://baltic-watches.com/en/products/aquascaphe-gmt-mk-ii-red",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0012/9299/2583/files/GMT_Red_Face_BOR.png?v=1786615035",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "47 mm",
+      "material": "Acier inoxydable 316L, lunette bidirectionnelle en saphir rouge et bleu",
+      "model": "Aquascaphe GMT MK-II Red",
+      "movement": "Miyota 9075 GMT, automatique à heure locale sautante",
+      "powerReserve": "42 h",
+      "price": "915 € TTC",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "FR / UE",
+      "priceSourceUrl": "https://baltic-watches.com/en/products/aquascaphe-gmt-mk-ii-red",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://baltic-watches.com/en/products/aquascaphe-gmt-mk-ii-red",
+      "reference": "aquascaphe-gmt-mk-ii-red · lunette rouge/bleue · cadran noir · bracelet acier grains de riz",
+      "slug": "baltic-aquascaphe-gmt-mk-ii-red",
+      "sourceNotes": "La page produit officielle confirme le boîtier acier 316L de 39,5 mm, le lug-to-lug de 47 mm, l’épaisseur de 13,8 mm (12 mm hors verre), la lunette saphir bidirectionnelle 48 clics, le calibre automatique Miyota 9075 true GMT, 42 h et 200 m. Les données structurées officielles identifient la référence commerciale « aquascaphe-gmt-mk-ii-red » et une fourchette de 850 à 915 € ; la fiche retient 915 € pour le bracelet acier grains de riz visible sur le packshot. Baltic précise que les taxes et frais de douane sont inclus en France et dans l’Union européenne. Hodinkee et Monochrome recoupent le lancement du 3 septembre 2026, la collection permanente et les tarifs. Packshot officiel inspecté en 1 353 × 2 000 px : montre entière nette de face, lunette rouge/bleue, cadran noir, aiguille GMT rouge et bracelet grains de riz de la variante exacte.",
+      "sources": [
+        "https://baltic-watches.com/en/products/aquascaphe-gmt-mk-ii-red",
+        "https://www.hodinkee.com/articles/introducing-baltic-aquascaphe-gmt-mkii",
+        "https://monochrome-watches.com/baltic-aquascaphe-gmt-mk-ii-true-gmt-miyota-movement-more-accessible-introducing-price/"
+      ],
+      "summary": "Baltic transforme l’Aquascaphe GMT en vraie montre de voyage grâce au Miyota 9075 à heure locale sautante. Cette MK-II Red ajoute un boîtier redessiné avec protège-couronne, une lunette saphir rouge/bleue et 200 mètres d’étanchéité, tout en abaissant le tarif face à la génération précédente.",
+      "thickness": "13,8 mm (12 mm hors verre)",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "200 m (20 ATM)"
+    }
   }
 ]
