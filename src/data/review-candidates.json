@@ -3107,5 +3107,50 @@
       "independent": true
     },
     "reviewedAt": "2026-09-05"
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "konstantin-chaykin-wolf",
+    "issueNumber": 95,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "Konstantin Chaykin",
+      "brandSlug": "konstantin-chaykin",
+      "date": "2026-09-03",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "editorialStatus": "publishable",
+      "id": "konstantin-chaykin-wolf",
+      "imageSource": "Konstantin Chaykin",
+      "imageSourceUrl": "https://konstantinchaykin.com/collections/watches/wristmons/wolf/",
+      "imageUrl": "https://konstantinchaykin.com/local/templates/kc/img/wolf/gallery-3.webp",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable",
+      "model": "Wolf",
+      "movement": "Calibre K.18-28 automatique, base La Joux-Perret G200 modifiée et module Joker manufacture de 111 composants",
+      "powerReserve": "68 h",
+      "price": "CHF 18’800 hors taxes",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "INTL",
+      "priceSourceUrl": "https://konstantinchaykin.com/collections/watches/wristmons/wolf/",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://konstantinchaykin.com/collections/watches/wristmons/wolf/",
+      "reference": "East collection · acier · cadran noir, gris et jaune · bracelet textile gris",
+      "slug": "konstantin-chaykin-wolf",
+      "sourceNotes": "La page officielle confirme une édition illimitée, un boîtier acier de 40 mm et 12,15 mm d’épaisseur (12,75 mm aux cornes supérieures), 30 m, le calibre K.18-28 automatique et 68 h. Elle affiche CHF 18’800 hors TVA sur sa page internationale. Le lug-to-lug et une référence alphanumérique ne sont pas publiés. L’asset officiel gallery-3.webp, contrôlé à 2792 × 1862 px, montre la montre entière et la variante exacte : cornes en oreilles, cadran loup noir/gris aux yeux jaunes et bracelet textile gris.",
+      "sources": [
+        "https://konstantinchaykin.com/collections/watches/wristmons/wolf/",
+        "https://revolutionwatch.com/konstantin-chaykins-hungry-wolf/"
+      ],
+      "summary": "La collection East accueille un loup dont les yeux affichent heures et minutes, tandis que la gueule signale uniquement les deux à trois jours entourant la pleine lune. Le calibre K.18-28 réunit une base La Joux-Perret G200 et un module Joker manufacture de 111 composants.",
+      "thickness": "12.15 mm (12.75 mm aux cornes supérieures)",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "30 m"
+    }
   }
 ]
