@@ -3152,5 +3152,51 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "30 m"
     }
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "oris-propilot-bronze-01-733-7805-3164-07-6-2022brlc",
+    "issueNumber": 96,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "Oris",
+      "brandSlug": "oris",
+      "date": "2026-09-02",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "editorialStatus": "publishable",
+      "id": "oris-propilot-bronze-01-733-7805-3164-07-6-2022brlc",
+      "imageSource": "Oris",
+      "imageSourceUrl": "https://www.oris.ch/en-CH/product/watch/propilot/propilot-date/01-733-7805-3164-07-6-2022BRLC",
+      "imageUrl": "https://oris.rokka.io/fe_vuepal_no_crop/variables-w-2000/ccd180de6bd40b09b159026e50ccef9b9a4117bd/MgVAehsxPeuCievDhbjB-v1.jpg",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "49 mm",
+      "material": "Bronze, fond en acier inoxydable avec verre minéral",
+      "model": "ProPilot Bronze",
+      "movement": "Oris 733-1, mécanique à remontage automatique",
+      "powerReserve": "41 h",
+      "price": "CHF 2’250 TTC",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.oris.ch/en-CH/product/watch/propilot/propilot-date/01-733-7805-3164-07-6-2022BRLC",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.oris.ch/en-CH/product/watch/propilot/propilot-date/01-733-7805-3164-07-6-2022BRLC",
+      "reference": "01 733 7805 3164-07 6 2022BRLC · boîtier bronze · cadran noir · bracelet daim vert foncé",
+      "slug": "oris-propilot-bronze-01-733-7805-3164-07-6-2022brlc",
+      "sourceNotes": "La page officielle suisse confirme la référence, le boîtier bronze de 41 mm, le fond acier, 10 bar, le calibre automatique Oris 733-1, 41 h, le cadran noir, le bracelet cuir et CHF 2’250. La page est un e-shop suisse ; conformément à l’OIP/SECO, le prix affiché au consommateur est traité comme TVA incluse. Monochrome recoupe l’annonce de septembre 2026, la collection permanente et publie 11,7 mm d’épaisseur et 49 mm de lug-to-lug. Asset officiel inspecté en 2 000 × 2 500 px : montre entière nette, boîtier/couronne bronze, cadran noir, bracelet daim vert foncé et boucle LIFT exacts.",
+      "sources": [
+        "https://www.oris.ch/en-CH/product/watch/propilot/propilot-date/01-733-7805-3164-07-6-2022BRLC",
+        "https://monochrome-watches.com/introducing-2026-oris-propilot-bronze-specs-price/",
+        "https://www.seco.admin.ch/de/faq-pbv"
+      ],
+      "summary": "Oris transpose dans le bronze la nouvelle génération de sa ProPilot de 41 mm, avec lunette cannelée, couronne surdimensionnée et boucle LIFT réalisées dans le même alliage. Le cadran noir et le bracelet en daim vert foncé encadrent le calibre automatique 733-1, visible au dos, avec 41 heures de réserve et 100 mètres d’étanchéité.",
+      "thickness": "11,7 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "100 m (10 bar)"
+    }
   }
 ]
