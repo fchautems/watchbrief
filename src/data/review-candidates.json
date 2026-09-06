@@ -3198,5 +3198,52 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "100 m (10 bar)"
     }
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "renaud-tixier-monday-organica-burgundy-rg-le7",
+    "issueNumber": 97,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "Renaud Tixier",
+      "brandSlug": "renaud-tixier",
+      "date": "2026-08-21",
+      "diameter": "40,8 mm",
+      "diameterMm": 40.8,
+      "editorialStatus": "publishable",
+      "id": "renaud-tixier-monday-organica-burgundy-rg-le7",
+      "imageSource": "Renaud Tixier",
+      "imageSourceUrl": "https://www.renaudtixier.com/creations/monday-organica/monday-organica-burgundy/",
+      "imageUrl": "https://www.renaudtixier.com/wp-content/uploads/2026/08/RT_Soldat_Monday_organica_red.png",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 7,
+      "lugToLug": "Non communiqué",
+      "material": "Or rose 5N, cadran en or massif gravé et émaillé grand feu bordeaux",
+      "model": "Monday Organica Burgundy",
+      "movement": "Renaud Tixier RVI2023, automatique à micro-rotor avec dispositif breveté « danseur »",
+      "powerReserve": "min. 72 h",
+      "price": "Prix non communiqué",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.renaudtixier.com/creations/monday-organica/monday-organica-burgundy/",
+      "priceTaxMode": "unknown",
+      "productUrl": "https://www.renaudtixier.com/creations/monday-organica/monday-organica-burgundy/",
+      "reference": "RG/LE7 · boîtier or rose 5N · cadran émail grand feu bordeaux · bracelet veau beige",
+      "slug": "renaud-tixier-monday-organica-burgundy-rg-le7",
+      "sourceNotes": "La fiche produit officielle confirme la référence RG/LE7, le boîtier or rose 5N de 40,8 × 12,6 mm, 30 m, le calibre automatique RVI2023 à micro-rotor avec « danseur », 274 composants, 31 rubis et au moins 72 h de réserve, le bracelet veau beige et l’édition limitée à 7 pièces. Elle affiche « Prix sur demande » : conformément à la politique WatchBrief, aucun montant secondaire n’est repris et le prix reste non communiqué. Le communiqué officiel d’août et sa reprise datée du 21 août 2026 recoupent le lancement, le cadran bordeaux et la série de sept. Asset officiel inspecté en 2 000 × 2 000 px : montre entière nette, cadran bordeaux, boîtier or rose et bracelet beige exacts. Lug-to-lug non publié. Le communiqué repris indique 60 h, contre 72 h sur la fiche officielle actuelle ; la valeur officielle de la fiche prévaut.",
+      "sources": [
+        "https://www.renaudtixier.com/creations/monday-organica/monday-organica-burgundy/",
+        "https://www.renaudtixier.com/en/press/",
+        "https://southernjewelrynews.com/press-release/renaud-tixier-monday-organica-after-the-blossom-come-the-root-and-the-fruit/"
+      ],
+      "summary": "La Monday Organica Burgundy termine le triptyque Organica avec un cadran en or massif gravé, ciselé puis émaillé grand feu dans des nuances bordeaux. Son boîtier en or rose 5N gravé main abrite le calibre automatique RVI2023, dont le micro-rotor à « danseur » associe volant d’inertie et ressort de propulsion pour améliorer le remontage.",
+      "thickness": "12,6 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "30 m (3 ATM)"
+    }
   }
 ]
