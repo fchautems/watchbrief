@@ -3292,5 +3292,51 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "100 m (10 ATM)"
     }
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "anordain-model-1-porcelain-g101",
+    "issueNumber": 99,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "anOrdain",
+      "brandSlug": "anordain",
+      "date": "2026-08-27",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "editorialStatus": "publishable",
+      "id": "anordain-model-1-porcelain-g101",
+      "imageSource": "anOrdain",
+      "imageSourceUrl": "https://anordain.com/products/model-1-porcelain",
+      "imageUrl": "https://anordain.com/cdn/shop/files/M1_Medium_Porcelain_White_Giedra_Black.webp?v=1785246710",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "46 mm",
+      "material": "Acier inoxydable 316L poli, cadran en porcelaine blanche émaillée",
+      "model": "Model 1 Porcelain",
+      "movement": "La Joux-Perret G101, automatique",
+      "powerReserve": "68 h",
+      "price": "£2’200 hors TVA",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "UK",
+      "priceSourceUrl": "https://anordain.com/products/model-1-porcelain",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://anordain.com/products/model-1-porcelain",
+      "reference": "Medium 38 mm · calibre La Joux-Perret G101 standard · cadran porcelaine blanc/bleu · bracelet cuir noir Giedra",
+      "slug": "anordain-model-1-porcelain-g101",
+      "sourceNotes": "La page produit officielle confirme le boîtier acier 316L de 38 mm, l’épaisseur de 11 mm, le lug-to-lug de 46 mm, le cadran en porcelaine blanche émaillée, les aiguilles bleuies thermiquement, le fond vissé, 5 ATM, le calibre automatique La Joux-Perret G101 et le prix britannique de £2’200 + TVA. Fratello et Hodinkee recoupent le lancement du 27 août 2026, la réserve de marche de 68 h et une première production de 70 pièces suivie de petites séries mensuelles : la montre n’est donc pas traitée comme une édition limitée. Une source secondaire mentionne 47,4 mm de lug-to-lug ; la valeur officielle actuelle de 46 mm prévaut. Packshot officiel original inspecté en 3000 × 3000 px : montre nette de face, boîtier, cadran et bracelet noir Giedra de la variante exacte.",
+      "sources": [
+        "https://anordain.com/products/model-1-porcelain",
+        "https://www.fratellowatches.com/hands-on-anordain-model-1-porcelain/",
+        "https://www.hodinkee.com/articles/introducing-the-anordain-model-1-porcelain"
+      ],
+      "summary": "anOrdain applique au Model 1 un cadran en porcelaine blanche émaillée, fabriqué à Glasgow par Cara Louise et animé d’une typographie de Kia Tasbihgou. Le boîtier acier de 38 mm reçoit le calibre automatique La Joux-Perret G101 et des aiguilles bleuies thermiquement.",
+      "thickness": "11 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "50 m (5 ATM)"
+    }
   }
 ]
