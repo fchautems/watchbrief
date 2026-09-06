@@ -3245,5 +3245,52 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "30 m (3 ATM)"
     }
+  },
+  {
+    "detectedAt": "2026-09-06",
+    "id": "hublot-big-bang-original-soft-touch-all-red-431-rxr-2770-rx-vel",
+    "issueNumber": 98,
+    "reviewedAt": "2026-09-06",
+    "status": "review",
+    "watch": {
+      "brand": "Hublot",
+      "brandSlug": "hublot",
+      "date": "2026-09-01",
+      "diameter": "43 mm",
+      "diameterMm": 43,
+      "editorialStatus": "publishable",
+      "id": "hublot-big-bang-original-soft-touch-all-red-431-rxr-2770-rx-vel",
+      "imageSource": "Hublot",
+      "imageSourceUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-original-soft-touch-all-red-43-mm",
+      "imageUrl": "https://www.hublot.com/sites/default/files/styles/watch_item_desktop_1x_scale_no_crop_600_6000_/public/2026-08/Big-Bang-Original-Soft-Touch-All-Red-43-mm-Soldier.png?itok=evq1Szm7",
+      "independent": false,
+      "limitedEdition": false,
+      "lugToLug": "Non communiqué",
+      "material": "Titane surmoulé de caoutchouc rouge à effet velours",
+      "model": "Big Bang Original Soft Touch All Red",
+      "movement": "HUB1280 UNICO manufacture, automatique, chronographe flyback à roue à colonnes",
+      "powerReserve": "env. 72 h",
+      "price": "CHF 20’700 TTC",
+      "priceCheckedAt": "2026-09-06",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-original-soft-touch-all-red-43-mm",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.hublot.com/en-ch/watches/big-bang/big-bang-original-soft-touch-all-red-43-mm",
+      "reference": "431.RXR.2770.RX.VEL · titane surmoulé de caoutchouc rouge effet velours · cadran rouge · bracelet caoutchouc noir et rouge",
+      "slug": "hublot-big-bang-original-soft-touch-all-red-431-rxr-2770-rx-vel",
+      "sourceNotes": "La page produit officielle suisse confirme la référence 431.RXR.2770.RX.VEL, le boîtier de 43 mm en titane surmoulé de caoutchouc rouge effet velours, 100 m, le calibre automatique HUB1280 UNICO flyback à roue à colonnes, environ 72 h, le cadran rouge et le bracelet noir/rouge, ainsi que CHF 20’700. Le catalogue officiel CH précise que les prix suisses incluent la TVA. L’annonce Hublot du 1er septembre 2026 confirme le lancement et le procédé de surmoulage ; aucune limitation n’est annoncée. The Hour Markers publie une épaisseur de 13,2 mm. Packshot officiel inspecté en 900 × 1350 px : montre entière nette, boîtier, cadran, bracelet et chronographe de la variante rouge exacte. Lug-to-lug non publié.",
+      "sources": [
+        "https://www.hublot.com/en-ch/watches/big-bang/big-bang-original-soft-touch-all-red-43-mm",
+        "https://www.hublot.com/en-us/news/softest-expression-of-hublots-material-mastery",
+        "https://www.thehourmarkers.com/releases/hublot-big-bang-unico",
+        "https://www.hublot.com/en-ch/watches"
+      ],
+      "summary": "Hublot donne à la Big Bang Original une enveloppe tactile rouge : un caoutchouc texturé est surmoulé sur le boîtier et la lunette en titane, puis repris sur le cadran et le bracelet. Le chronographe manufacture HUB1280 Unico conserve son flyback à roue à colonnes et environ 72 heures de réserve.",
+      "thickness": "13,2 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-06",
+      "waterResistance": "100 m (10 ATM)"
+    }
   }
 ]
