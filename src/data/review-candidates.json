@@ -3432,5 +3432,51 @@
       "verifiedAt": "2026-09-07",
       "waterResistance": "300 m (30 bar)"
     }
+  },
+  {
+    "detectedAt": "2026-09-07",
+    "id": "union-glashutte-seris-small-second-blue-d018-228-11-041-00",
+    "issueNumber": 102,
+    "reviewedAt": "2026-09-07",
+    "status": "review",
+    "watch": {
+      "brand": "Union Glashütte",
+      "brandSlug": "union-glashutte",
+      "date": "2026-09-07",
+      "diameter": "36 mm",
+      "diameterMm": 36,
+      "editorialStatus": "publishable",
+      "id": "union-glashutte-seris-small-second-blue-d018-228-11-041-00",
+      "imageSource": "Union Glashütte",
+      "imageSourceUrl": "https://www.union-glashuette.com/de_de/d0182281104100.html",
+      "imageUrl": "https://www.union-glashuette.com/media/catalog/product/u/n/union_d018.228.11.041.00_seris_kleine_sekunde_mb_front_1.png",
+      "independent": false,
+      "limitedEdition": false,
+      "lugToLug": "42,67 mm",
+      "material": "Acier inoxydable 316L, cadran bleu soleillé, bracelet acier 316L",
+      "model": "Seris Small Second Blue",
+      "movement": "Union Glashütte UNG-28.S1, automatique, spiral silicium",
+      "powerReserve": "60 h",
+      "price": "2’350 € TTC",
+      "priceCheckedAt": "2026-09-07",
+      "priceMarket": "DE",
+      "priceSourceUrl": "https://www.union-glashuette.com/de_de/d0182281104100.html",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.union-glashuette.com/de_de/d0182281104100.html",
+      "reference": "D018.228.11.041.00 · cadran bleu soleillé · bracelet acier",
+      "slug": "union-glashutte-seris-small-second-blue-d018-228-11-041-00",
+      "sourceNotes": "La page produit officielle allemande confirme la référence D018.228.11.041.00, le boîtier acier de 36 mm, 9,9 mm d’épaisseur, 42,67 mm de lug-to-lug, 5 bar, le calibre automatique UNG-28.S1 à spiral silicium, 60 h de réserve, le cadran bleu soleillé, le bracelet acier et 2’350 €. Les conditions de vente officielles précisent que les prix du site allemand sont en euros et comprennent la TVA locale. Monochrome recoupe le lancement du 7 septembre 2026 et l’ouverture de cette nouvelle collection Seris Small Second. Asset officiel original inspecté en 1 200 × 1 200 px : montre entière nette, cadran bleu, petite seconde/date à 6 h et bracelet acier de la variante exacte. La fiche produit affiche 27 rubis tandis que le bloc descriptif du calibre en indique 21 ; cette contradiction non déterminante est conservée sans trancher.",
+      "sources": [
+        "https://www.union-glashuette.com/de_de/d0182281104100.html",
+        "https://www.union-glashuette.com/de_de/verkaufs-und-lieferbedingungen",
+        "https://monochrome-watches.com/union-glashutte-unveils-the-compact-and-dressy-seris-small-second-collection/"
+      ],
+      "summary": "Union Glashütte inaugure la Seris Small Second avec une architecture compacte de 36 mm où petite seconde et date se partagent le compteur à 6 heures. Cette variante associe un cadran bleu soleillé à un bracelet acier et reçoit le calibre automatique UNG-28.S1 à spiral silicium, doté de 60 heures de réserve.",
+      "thickness": "9,9 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-07",
+      "waterResistance": "50 m (5 bar)"
+    }
   }
 ]
