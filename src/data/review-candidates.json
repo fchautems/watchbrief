@@ -3478,5 +3478,52 @@
       "verifiedAt": "2026-09-07",
       "waterResistance": "50 m (5 bar)"
     }
+  },
+  {
+    "detectedAt": "2026-09-07",
+    "id": "montblanc-star-legacy-nicolas-rieussec-mb136359",
+    "issueNumber": 103,
+    "reviewedAt": "2026-09-07",
+    "status": "review",
+    "watch": {
+      "brand": "Montblanc",
+      "brandSlug": "montblanc",
+      "date": "2026-02-04",
+      "diameter": "43 mm",
+      "diameterMm": 43,
+      "editorialStatus": "publishable",
+      "id": "montblanc-star-legacy-nicolas-rieussec-mb136359",
+      "imageSource": "Montblanc",
+      "imageSourceUrl": "https://www.montblanc.com/fr-ch/montblanc-star-legacy-nicolas-rieussec-chronograph-43-mm-limited-edition---821-pieces-MB136359.html",
+      "imageUrl": "https://www.montblanc.com/dw/image/v2/BHDB_PRD/on/demandware.static/-/Sites-montblanc-master/default/dw14d96148/images/all-images/MB136359/vjvl2RbTQr2OUKr9J4MKFQ_95eea335.png?sw=960&q=90",
+      "independent": false,
+      "limitedEdition": true,
+      "limitedQty": 821,
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable, cadran brun à motif de course hippique, bracelet cuir de veau brun",
+      "model": "Star Legacy Nicolas Rieussec Chronograph Limited Edition 821",
+      "movement": "Montblanc Manufacture MB R200, automatique, chronographe monopoussoir à disques avec second fuseau",
+      "powerReserve": "72 h",
+      "price": "CHF 7’900 TTC",
+      "priceCheckedAt": "2026-09-07",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.montblanc.com/fr-ch/montblanc-star-legacy-nicolas-rieussec-chronograph-43-mm-limited-edition---821-pieces-MB136359.html",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.montblanc.com/fr-ch/montblanc-star-legacy-nicolas-rieussec-chronograph-43-mm-limited-edition---821-pieces-MB136359.html",
+      "reference": "MB136359 · cadran brun motif course hippique · bracelet cuir de veau brun",
+      "slug": "montblanc-star-legacy-nicolas-rieussec-mb136359",
+      "sourceNotes": "La page produit officielle suisse confirme la référence MB136359, le boîtier acier de 43 mm, 15,01 mm d’épaisseur, 5 bar, le calibre manufacture automatique MB R200, le chronographe monopoussoir, le second fuseau, le cadran brun à motif de course hippique, le bracelet cuir brun, la série limitée à 821 pièces et CHF 7’900. Le prix est celui de l’e-shop suisse ; conformément à l’OIP/SECO, il est traité comme TVA incluse. Monochrome recoupe le lancement du 4 février 2026, les 72 h de réserve, la fréquence de 4 Hz et le tarif européen. Asset produit officiel inspecté en 960 × 960 px : montre entière nette, boîtier acier, cadran brun illustré, chronographe à disques et bracelet brun de la variante exacte. Lug-to-lug non publié.",
+      "sources": [
+        "https://www.montblanc.com/fr-ch/montblanc-star-legacy-nicolas-rieussec-chronograph-43-mm-limited-edition---821-pieces-MB136359.html",
+        "https://monochrome-watches.com/2026-collection-montblanc-watches-rieussec-iced-sea-1858-star-legacy-review-price/",
+        "https://www.seco.admin.ch/de/faq-pbv"
+      ],
+      "summary": "Montblanc transpose l’origine du chronographe à encre dans un cadran brun sfumato illustrant une course hippique du Champ-de-Mars en 1821. Le calibre manufacture MB R200 combine chronographe monopoussoir à disques rotatifs, second fuseau et 72 heures de réserve dans une série de 821 pièces.",
+      "thickness": "15,01 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-07",
+      "waterResistance": "50 m (5 bar)"
+    }
   }
 ]
