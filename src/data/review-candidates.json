@@ -3384,5 +3384,53 @@
       "verifiedAt": "2026-09-06",
       "waterResistance": "200 m (20 ATM)"
     }
+  },
+  {
+    "detectedAt": "2026-09-07",
+    "id": "oris-social-club-edition-ii-01-733-7789-4121-set",
+    "issueNumber": 101,
+    "reviewedAt": "2026-09-07",
+    "status": "review",
+    "watch": {
+      "brand": "Oris",
+      "brandSlug": "oris",
+      "date": "2026-09-02",
+      "diameter": "43,5 mm",
+      "diameterMm": 43.5,
+      "editorialStatus": "publishable",
+      "id": "oris-social-club-edition-ii-01-733-7789-4121-set",
+      "imageSource": "Oris",
+      "imageSourceUrl": "https://www.oris.ch/en-CH/product/watch/aquis/aquis-date/01-733-7789-4121-Set",
+      "imageUrl": "https://image.oris.ch/data/37853_0173377894121-Set_horizontale_ds.png",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 500,
+      "lugToLug": "51 mm",
+      "material": "Acier inoxydable, lunette acier à échelle des minutes en relief",
+      "model": "Social Club Edition II",
+      "movement": "Oris 733-1, mécanique à remontage automatique sur base Sellita SW 200-1",
+      "powerReserve": "41 h",
+      "price": "CHF 2’100 TTC",
+      "priceCheckedAt": "2026-09-07",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.oris.ch/en-CH/product/watch/aquis/aquis-date/01-733-7789-4121-Set",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.oris.ch/en-CH/product/watch/aquis/aquis-date/01-733-7789-4121-Set",
+      "reference": "01 733 7789 4121-Set · cadran argent givré · bracelet NATO vert olive",
+      "slug": "oris-social-club-edition-ii-01-733-7789-4121-set",
+      "sourceNotes": "La page produit officielle suisse confirme la référence 01 733 7789 4121-Set, le boîtier acier de 43,5 mm, 30 bar, le calibre automatique Oris 733-1, 41 h, le cadran argent givré, le bracelet textile vert et CHF 2’100. La page est un e-shop suisse ; conformément à l’OIP/SECO, le prix affiché au consommateur est traité comme TVA incluse. Oris confirme une série limitée à 500 pièces non numérotées et 62 clubs dans le monde. Hodinkee recoupe le lancement de septembre 2026 et publie 13,1 mm d’épaisseur ainsi que 51 mm de lug-to-lug. Packshot officiel inspecté en 1 812 × 1 200 px : montre entière nette, boîtier et lunette acier, cadran argent givré, date à ours et bracelet NATO vert olive de la variante exacte.",
+      "sources": [
+        "https://www.oris.ch/en-CH/product/watch/aquis/aquis-date/01-733-7789-4121-Set",
+        "https://www.hodinkee.com/articles/the-oris-social-club-edition-ii",
+        "https://monochrome-watches.com/oris-social-club-edition-ii-aquis-date-introducing-price/",
+        "https://www.seco.admin.ch/de/faq-pbv"
+      ],
+      "summary": "Oris habille l’Aquis Date Relief d’un cadran argent givré et d’un bracelet NATO vert olive, une première sur la ligne depuis plus de dix ans. L’ours de la marque apparaît dans le guichet de date chaque premier du mois, clin d’œil aux 62 Oris Social Clubs que célèbre cette série de 500 pièces.",
+      "thickness": "13,1 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-07",
+      "waterResistance": "300 m (30 bar)"
+    }
   }
 ]
