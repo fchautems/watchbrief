@@ -3525,5 +3525,51 @@
       "verifiedAt": "2026-09-07",
       "waterResistance": "50 m (5 bar)"
     }
+  },
+  {
+    "detectedAt": "2026-09-07",
+    "id": "a-lange-sohne-1815-up-down-244-037",
+    "issueNumber": 104,
+    "reviewedAt": "2026-09-07",
+    "status": "review",
+    "watch": {
+      "brand": "A. Lange & Söhne",
+      "brandSlug": "a-lange-sohne",
+      "date": "2026-09-04",
+      "diameter": "37,5 mm",
+      "diameterMm": 37.5,
+      "editorialStatus": "publishable",
+      "id": "a-lange-sohne-1815-up-down-244-037",
+      "imageSource": "A. Lange & Söhne",
+      "imageSourceUrl": "https://www.alange-soehne.com/ch-en/timepieces/1815/1815-updown/1815-updown-in-750-pink-gold-244-037",
+      "imageUrl": "https://img.alange-soehne.com/product-slideshow-product-2/5400a1fd3234576fb4a52499bedcb5484cd0e5dc.jpg",
+      "independent": false,
+      "limitedEdition": true,
+      "limitedQty": 300,
+      "lugToLug": "Non communiqué",
+      "material": "Or rose 750, cadran bleu en argent 925 avec compteurs argentés, bracelet alligator brun rougeâtre",
+      "model": "1815 UP/DOWN 37,5 mm Pink Gold",
+      "movement": "A. Lange & Söhne L051.2, mécanique à remontage manuel avec indicateur de réserve de marche intégré",
+      "powerReserve": "72 h",
+      "price": "Prix sur demande",
+      "priceCheckedAt": "2026-09-07",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.alange-soehne.com/ch-en/timepieces/1815/1815-updown/1815-updown-in-750-pink-gold-244-037",
+      "priceTaxMode": "unknown",
+      "productUrl": "https://www.alange-soehne.com/ch-en/timepieces/1815/1815-updown/1815-updown-in-750-pink-gold-244-037",
+      "reference": "244.037 / LSLS2444AG · or rose 750 · cadran bleu en argent 925, compteurs argentés · bracelet alligator brun rougeâtre",
+      "slug": "a-lange-sohne-1815-up-down-244-037",
+      "sourceNotes": "La page produit officielle suisse confirme la référence 244.037 / LSLS2444AG, le boîtier en or rose 750 de 37,5 mm, l’épaisseur de 8,7 mm, 3 bar, le calibre manufacture manuel L051.2, 72 h de réserve, le cadran bleu en argent 925, le bracelet alligator brun rougeâtre, la série limitée à 300 pièces et un prix sur demande. Le communiqué officiel du 4 septembre 2026 confirme les deux nouvelles éditions, la couleur bleue du cadran et les compteurs argentés. Le champ technique isolé « Dial colour: Argenté » contredit le descriptif et le communiqué ; ceux-ci, ainsi que le packshot, établissent clairement le cadran principal bleu. Packshot officiel inspecté en 1 024 × 1 024 px : montre entière nette, boîtier or rose, cadran bleu à compteurs argentés et bracelet brun de la variante exacte. Lug-to-lug non publié.",
+      "sources": [
+        "https://www.alange-soehne.com/ch-en/timepieces/1815/1815-updown/1815-updown-in-750-pink-gold-244-037",
+        "https://press.alange-soehne.com/1815-up-down-2026/"
+      ],
+      "summary": "A. Lange & Söhne renouvelle la 1815 UP/DOWN dans un boîtier compact en or rose de 37,5 mm, avec cadran bleu et compteurs argentés. Le calibre manuel L051.2 intègre l’indicateur de réserve de marche et offre 72 heures d’autonomie ; cette édition est limitée à 300 pièces.",
+      "thickness": "8,7 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-07",
+      "waterResistance": "30 m (3 bar)"
+    }
   }
 ]
