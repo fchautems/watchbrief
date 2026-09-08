@@ -3805,5 +3805,51 @@
       "waterResistance": "50 m"
     },
     "reviewedAt": "2026-09-08"
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "louis-vuitton-tambour-spin-time-green-w9wga2",
+    "issueNumber": 110,
+    "status": "review",
+    "watch": {
+      "brand": "Louis Vuitton",
+      "brandSlug": "louis-vuitton",
+      "date": "2026-09-08",
+      "diameter": "39.5 mm",
+      "diameterMm": 39.5,
+      "editorialStatus": "publishable",
+      "id": "louis-vuitton-tambour-spin-time-green-w9wga2",
+      "imageSource": "Louis Vuitton",
+      "imageSourceUrl": "https://eu.louisvuitton.com/eng-e1/products/tambour-spin-time-automatic-395mm-white-gold-nvprod8010324v/W9WGA2",
+      "imageUrl": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-tambour-spin-time-automatic-39.5mm-white-gold--W9WGA2_PM2_Front%20view.png?wid=2400&hei=2400",
+      "independent": false,
+      "limitedEdition": false,
+      "lugToLug": "Non communiqué",
+      "material": "Or blanc 750/1000",
+      "model": "Tambour Spin Time Green",
+      "movement": "Calibre manufacture ST13.01 automatique, affichage Spin Time à cubes rotatifs",
+      "powerReserve": "45 h",
+      "price": "Prix non communiqué",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "international",
+      "priceSourceUrl": "https://eu.louisvuitton.com/eng-e1/products/tambour-spin-time-automatic-395mm-white-gold-nvprod8010324v/W9WGA2",
+      "priceTaxMode": "unknown",
+      "productUrl": "https://eu.louisvuitton.com/eng-e1/products/tambour-spin-time-automatic-395mm-white-gold-nvprod8010324v/W9WGA2",
+      "reference": "W9WGA2",
+      "slug": "louis-vuitton-tambour-spin-time-green-w9wga2",
+      "sourceNotes": "La page officielle confirme la référence W9WGA2, l’or blanc, le cadran vert, le bracelet caoutchouc kaki, le diamètre de 39,5 mm, l’étanchéité à 100 m et le calibre ST13.01. L’asset officiel 2400 × 2400 montre la variante entière ; contrôle visuel concluant. L’épaisseur de 12,15 mm et la réserve de 45 h sont recoupées par Monochrome. Louis Vuitton ne publie qu’un bouton « Contact an advisor » : les tarifs secondaires divergent, donc aucun montant non officiel n’est retenu. Lug-to-lug non publié.",
+      "sources": [
+        "https://eu.louisvuitton.com/eng-e1/products/tambour-spin-time-automatic-395mm-white-gold-nvprod8010324v/W9WGA2",
+        "https://monochrome-watches.com/louis-vuitton-tambour-spin-time-2026-permanent-collection-video-review-price/",
+        "https://revolutionwatch.com/a-new-spin-louis-vuitton-tambour-spin-time/",
+        "https://www.watchtime.net/brands/luxusuhren/louis-vuitton-fuenf-neue-wege-fuer-die-spin-time-komplikation"
+      ],
+      "summary": "Louis Vuitton installe sa complication Spin Time à douze cubes rotatifs dans une nouvelle collection permanente de 39,5 mm. Cette variante en or blanc associe un cadran vert, un bracelet caoutchouc kaki et le calibre automatique manufacture ST13.01.",
+      "thickness": "12.15 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "100 m"
+    }
   }
 ]
