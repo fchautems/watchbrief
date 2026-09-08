@@ -3759,5 +3759,49 @@
       "verifiedAt": "2026-09-08",
       "waterResistance": "50 m"
     }
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "titoni-impetus-ceramtech-luxe-tourbillon-deep-blue-1000-z-r-741",
+    "issueNumber": 109,
+    "status": "review",
+    "watch": {
+      "brand": "Titoni",
+      "brandSlug": "titoni",
+      "date": "2026-09-08",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "editorialStatus": "publishable",
+      "id": "titoni-impetus-ceramtech-luxe-tourbillon-deep-blue-1000-z-r-741",
+      "imageSource": "Titoni",
+      "imageSourceUrl": "https://www.titoni.ch/ch/de/herrenuhren/impetus-ceramtech/detail/1000-Z-R-741/",
+      "imageUrl": "https://www.titoni.ch/fileadmin/_processed_/2/3/csm_1000_z_r_741_detail_web_jpg_d5905467ca.jpg",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "50 mm",
+      "material": "Céramique high-tech noire",
+      "model": "Impetus CeramTech LUXE Tourbillon Deep Blue",
+      "movement": "Calibre T1000 mécanique à remontage manuel, tourbillon, assemblé à Grenchen",
+      "powerReserve": "Plus de 100 h",
+      "price": "CHF 12’800",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.titoni.ch/ch/de/herrenuhren/impetus-ceramtech/detail/1000-Z-R-741/",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.titoni.ch/ch/de/herrenuhren/impetus-ceramtech/detail/1000-Z-R-741/",
+      "reference": "1000 Z-R-741",
+      "slug": "titoni-impetus-ceramtech-luxe-tourbillon-deep-blue-1000-z-r-741",
+      "sourceNotes": "Variante 1000 Z-R-741 à cadran Deep Blue, boîtier entièrement en céramique noire et bracelet FKM noir. La fiche officielle suisse confirme 41 mm, calibre manuel T1000, tourbillon, plus de 100 h, 50 m et CHF 12’800 sur le marché CH, retenu TVA incluse comme prix consommateur suisse. Asset officiel 1302 × 1302, montre entière en vue trois-quarts, net et visuellement contrôlé. Monochrome publie le lug-to-lug de 50 mm et un tarif international de CHF 11’900 hors taxes. Épaisseur non publiée.",
+      "sources": [
+        "https://www.titoni.ch/ch/de/herrenuhren/impetus-ceramtech/detail/1000-Z-R-741/",
+        "https://monochrome-watches.com/titoni-goes-higher-end-and-sporty-with-the-new-luxe-tourbillon-ceramic-review-price/"
+      ],
+      "summary": "Le LUXE Tourbillon place un calibre manuel T1000 à plus de 100 heures de réserve dans un boîtier sportif de 41 mm entièrement en céramique noire. Cette référence Deep Blue associe le cadran quadrillé bleu aux aiguilles, index et pont de tourbillon plaqués or rose 4N.",
+      "thickness": "Non communiqué",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "50 m"
+    }
   }
 ]
