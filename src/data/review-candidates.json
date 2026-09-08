@@ -3624,7 +3624,7 @@
     "detectedAt": "2026-09-08",
     "id": "tag-heuer-carrera-chronograph-sport-cdb2110-ba0054",
     "issueNumber": 106,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "TAG Heuer",
       "brandSlug": "tag-heuer",
@@ -3664,7 +3664,8 @@
       "verified": true,
       "verifiedAt": "2026-09-08",
       "waterResistance": "100 m"
-    }
+    },
+    "reviewedAt": "2026-09-08"
   },
   {
     "detectedAt": "2026-09-08",
