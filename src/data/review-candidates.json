@@ -3765,7 +3765,7 @@
     "detectedAt": "2026-09-08",
     "id": "titoni-impetus-ceramtech-luxe-tourbillon-deep-blue-1000-z-r-741",
     "issueNumber": 109,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Titoni",
       "brandSlug": "titoni",
@@ -3803,6 +3803,7 @@
       "verified": true,
       "verifiedAt": "2026-09-08",
       "waterResistance": "50 m"
-    }
+    },
+    "reviewedAt": "2026-09-08"
   }
 ]
