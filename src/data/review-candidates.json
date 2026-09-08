@@ -3619,5 +3619,51 @@
       "verifiedAt": "2026-09-08",
       "waterResistance": "30 m"
     }
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "tag-heuer-carrera-chronograph-sport-cdb2110-ba0054",
+    "issueNumber": 106,
+    "status": "review",
+    "watch": {
+      "brand": "TAG Heuer",
+      "brandSlug": "tag-heuer",
+      "date": "2026-09-08",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "editorialStatus": "publishable",
+      "id": "tag-heuer-carrera-chronograph-sport-cdb2110-ba0054",
+      "imageSource": "TAG Heuer",
+      "imageSourceUrl": "https://www.tagheuer.com/ch/de/zeitmesser/kollektionen/tag-heuer-carrera/42-mm-th20-00/CDB2110.BA0054.html",
+      "imageUrl": "https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw6f2d04c0/images/sprites/Carrera/CDB2110.BA0054/RTW_backUp.png",
+      "independent": false,
+      "limitedEdition": false,
+      "lugToLug": "Non communiqué",
+      "material": "Acier finement brossé et poli, cadran noir opalin à accents rouges, lunette fixe en céramique noire, bracelet acier",
+      "model": "Carrera Chronograph Sport Black",
+      "movement": "TAG Heuer TH20-00, chronographe automatique manufacture à roue à colonnes et embrayage vertical",
+      "powerReserve": "80 h",
+      "price": "CHF 6’200 TVA incluse",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.tagheuer.com/ch/de/zeitmesser/kollektionen/tag-heuer-carrera/42-mm-th20-00/CDB2110.BA0054.html",
+      "priceTaxMode": "incl-vat",
+      "productUrl": "https://www.tagheuer.com/ch/de/zeitmesser/kollektionen/tag-heuer-carrera/42-mm-th20-00/CDB2110.BA0054.html",
+      "reference": "CDB2110.BA0054 · cadran noir opalin à accents rouges · bracelet acier",
+      "slug": "tag-heuer-carrera-chronograph-sport-cdb2110-ba0054",
+      "sourceNotes": "La page produit officielle suisse confirme la référence CDB2110.BA0054, le boîtier acier de 42 mm, l’épaisseur de 14,2 mm, l’entre-cornes de 22 mm, 100 m, le calibre manufacture automatique TH20-00, 80 h de réserve, le cadran noir opalin à accents rouges, la lunette fixe en céramique noire, le bracelet acier et le prix public de CHF 6’200. Les conditions de vente TAG Heuer Suisse, art. 9.3, précisent que les prix incluent la TVA suisse applicable. Man of Many annonce le 8 septembre 2026 cinq nouvelles références Carrera Chronograph Sport et recoupe les caractéristiques de la variante noire. Packshot officiel inspecté en 1 440 × 1 440 px : montre entière nette, cadran noir à détails rouges, lunette noire et bracelet acier de la variante exacte. Lug-to-lug non publié par la maison.",
+      "sources": [
+        "https://www.tagheuer.com/ch/de/zeitmesser/kollektionen/tag-heuer-carrera/42-mm-th20-00/CDB2110.BA0054.html",
+        "https://www.tagheuer.com/ch/de/legal/terms.html",
+        "https://manofmany.com/watches/tag-heuer-new-carrera-chronograph-sport",
+        "https://www.thewatchpages.com/watches/tag-heuer-carrera-chronograph-sport-cdb2110ba0054"
+      ],
+      "summary": "TAG Heuer redessine la Carrera Chronograph Sport dans un boîtier acier de 42 mm, associé ici à un cadran noir opalin, des accents rouges et une lunette tachymétrique en céramique noire. Le calibre manufacture automatique TH20-00 conserve son chronographe à roue à colonnes, son embrayage vertical et 80 heures de réserve de marche.",
+      "thickness": "14,2 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "100 m"
+    }
   }
 ]
