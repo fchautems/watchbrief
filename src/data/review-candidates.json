@@ -3671,7 +3671,7 @@
     "detectedAt": "2026-09-08",
     "id": "nomos-orion-gold-neomatik-new-black-350",
     "issueNumber": 107,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "NOMOS Glashütte",
       "brandSlug": "nomos-glashutte",
@@ -3709,6 +3709,7 @@
       "verified": true,
       "verifiedAt": "2026-09-08",
       "waterResistance": "30 m (3 atm)"
-    }
+    },
+    "reviewedAt": "2026-09-08"
   }
 ]
