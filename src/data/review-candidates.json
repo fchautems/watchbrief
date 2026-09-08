@@ -3571,5 +3571,53 @@
       "verifiedAt": "2026-09-07",
       "waterResistance": "30 m (3 bar)"
     }
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "laurent-ferrier-classic-moon-dusk-lcf039-j2-bw1",
+    "issueNumber": 105,
+    "reviewedAt": "2026-09-08",
+    "status": "review",
+    "watch": {
+      "brand": "Laurent Ferrier",
+      "brandSlug": "laurent-ferrier",
+      "date": "2026-09-02",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "editorialStatus": "publishable",
+      "id": "laurent-ferrier-classic-moon-dusk-lcf039-j2-bw1",
+      "imageSource": "Laurent Ferrier",
+      "imageSourceUrl": "https://laurentferrier.ch/products/classic-moon-dusk",
+      "imageUrl": "https://laurentferrier.ch/cdn/shop/files/Laurent-Ferrier_Classic-Moon_Dusk-Watch_LCF039.J2.BW1_Soldat-Front_1200x.png?v=1788272821",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 20,
+      "lugToLug": "Non communiqué",
+      "material": "Or jaune 18 ct 2N, cadran opalin dégradé taupe-chocolat, bracelet nubuck moka",
+      "model": "Classic Moon Dusk – Série Atelier",
+      "movement": "Laurent Ferrier LF126.02, mécanique à remontage manuel, calendrier annuel et phase de lune",
+      "powerReserve": "80 h",
+      "price": "CHF 93’000 hors taxes",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://laurentferrier.ch/products/classic-moon-dusk",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://laurentferrier.ch/products/classic-moon-dusk",
+      "reference": "LCF039.J2.BW1 · or jaune 18 ct 2N · cadran opalin dégradé taupe-chocolat · bracelet nubuck moka",
+      "slug": "laurent-ferrier-classic-moon-dusk-lcf039-j2-bw1",
+      "sourceNotes": "La page produit officielle suisse confirme la référence LCF039.J2.BW1, le boîtier en or jaune 18 ct 2N de 40 mm, l’épaisseur de 12,90 mm, 30 m, le calibre manuel LF126.02, 80 h de réserve, le calendrier annuel, la phase de lune, le cadran opalin dégradé taupe-chocolat, le bracelet nubuck moka, la série limitée à 20 pièces et CHF 93’000. Le communiqué officiel du 2 septembre 2026 détaille le disque de lune en obsidienne à reflets dorés et le pont en émail plique-à-jour. Monochrome et Fratello précisent que le tarif de CHF 93’000 est hors taxes. Packshot officiel inspecté en 1 200 × 1 418 px : montre entière nette, boîtier or jaune, cadran taupe-chocolat, affichages du calendrier et bracelet moka de la variante exacte. Lug-to-lug non publié.",
+      "sources": [
+        "https://laurentferrier.ch/products/classic-moon-dusk",
+        "https://laurentferrier.ch/blogs/news/classic-moon-dusk",
+        "https://monochrome-watches.com/laurent-ferrier-classic-moon-dusk-serie-atelier-annual-calendar-moon-introducing-price/",
+        "https://www.fratellowatches.com/laurent-ferrier-classic-moon-dusk/"
+      ],
+      "summary": "Laurent Ferrier décline sa Classic Moon en or jaune avec un cadran dégradé taupe-chocolat et une phase de lune sur disque d’obsidienne à reflets dorés. Le calibre manuel LF126.02 associe calendrier annuel, phase de lune et indicateur de réserve au dos ; cette Série Atelier est limitée à 20 pièces.",
+      "thickness": "12,90 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "30 m"
+    }
   }
 ]
