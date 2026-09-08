@@ -3665,5 +3665,49 @@
       "verifiedAt": "2026-09-08",
       "waterResistance": "100 m"
     }
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "nomos-orion-gold-neomatik-new-black-350",
+    "issueNumber": 107,
+    "status": "review",
+    "watch": {
+      "brand": "NOMOS Glashütte",
+      "brandSlug": "nomos-glashutte",
+      "date": "2026-09-07",
+      "diameter": "36,4 mm",
+      "diameterMm": 36.4,
+      "editorialStatus": "publishable",
+      "id": "nomos-orion-gold-neomatik-new-black-350",
+      "imageSource": "NOMOS Glashütte",
+      "imageSourceUrl": "https://nomos-glashuette.com/en-us/orion/orion-gold-neomatik-new-black-350",
+      "imageUrl": "https://cdn.nomos-glashuette.com/img/f=scale-down,w=2560,bg=gray,sf=png/webshop/86/89/c2/1788168363/0350_Orion_Gold_neomatik_new_black_2d-front-masked.jpg",
+      "independent": true,
+      "limitedEdition": false,
+      "lugToLug": "45,0 mm",
+      "material": "Or jaune 18 ct, cadran noir galvanisé, bracelet Horween Genuine Shell Cordovan noir",
+      "model": "Orion Gold Neomatik New Black",
+      "movement": "NOMOS DUW 3001, automatique manufacture avec système d’échappement NOMOS swing system",
+      "powerReserve": "43 h",
+      "price": "US$16,400 hors taxes",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "US",
+      "priceSourceUrl": "https://nomos-glashuette.com/en-us/orion/orion-gold-neomatik-new-black-350",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://nomos-glashuette.com/en-us/orion/orion-gold-neomatik-new-black-350",
+      "reference": "350 · boîtier or jaune 18 ct · cadran noir galvanisé · bracelet Horween Shell Cordovan noir",
+      "slug": "nomos-orion-gold-neomatik-new-black-350",
+      "sourceNotes": "La page produit officielle américaine confirme la référence 350, le boîtier en or jaune 18 ct de 36,4 mm, l’épaisseur de 8,5 mm, le lug-to-lug de 45,0 mm, 3 atm, le calibre manufacture automatique DUW 3001, 43 h de réserve, le cadran noir galvanisé, le bracelet Horween Shell Cordovan noir et US$16,400. Le site précise que les droits sont inclus mais que des taxes locales peuvent être ajoutées au paiement ; le prix est donc libellé hors taxes. Monochrome recoupe le lancement du 7 septembre 2026 et les caractéristiques, mais mentionne par erreur la référence 305 ; la page officielle et son URL établissent 350. Packshot officiel contrôlé en rendu responsive 954 × 954 px, avec lien haute définition à 2 560 px : montre entière nette, boîtier or jaune, cadran noir, petite seconde et bracelet noir de la variante exacte.",
+      "sources": [
+        "https://nomos-glashuette.com/en-us/orion/orion-gold-neomatik-new-black-350",
+        "https://monochrome-watches.com/nomos-orion-gold-neomatik-new-black-edition-introducing-price/"
+      ],
+      "summary": "NOMOS associe pour la première fois le cadran New Black de l’Orion à un boîtier intégralement réalisé en or jaune 18 ct. Le calibre automatique manufacture DUW 3001 préserve une épaisseur de 8,5 mm dans le format habillé de 36,4 mm.",
+      "thickness": "8,5 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "30 m (3 atm)"
+    }
   }
 ]
