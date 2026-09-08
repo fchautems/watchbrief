@@ -3711,5 +3711,53 @@
       "waterResistance": "30 m (3 atm)"
     },
     "reviewedAt": "2026-09-08"
+  },
+  {
+    "detectedAt": "2026-09-08",
+    "id": "christiaan-van-der-klaauw-planetarium-skeleton-platinum-ckpt22sk",
+    "issueNumber": 108,
+    "status": "review",
+    "watch": {
+      "brand": "Christiaan van der Klaauw",
+      "brandSlug": "christiaan-van-der-klaauw",
+      "date": "2026-09-08",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "editorialStatus": "publishable",
+      "id": "christiaan-van-der-klaauw-planetarium-skeleton-platinum-ckpt22sk",
+      "imageSource": "Sincere Fine Watches / Christiaan van der Klaauw",
+      "imageSourceUrl": "https://sincerewatch.com/products/planetarium-skeleton-platinum/",
+      "imageUrl": "https://sincerewatch.com/wp-content/uploads/2026/09/Christiaan-van-der-Klaauw-Planetarium-Skeleton-Platinum-Product-Listing-1024x1024.png",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 6,
+      "lugToLug": "Non communiqué",
+      "material": "Platine 950",
+      "model": "Planetarium Skeleton Platinum",
+      "movement": "Calibre manufacture CKM-01 automatique squeletté, planétarium héliocentrique",
+      "powerReserve": "60 h",
+      "price": "EUR 86’000 hors taxes",
+      "priceCheckedAt": "2026-09-08",
+      "priceMarket": "international",
+      "priceSourceUrl": "https://monochrome-watches.com/christiaan-van-der-klaauw-planetarium-skeleton-platinum-review-price/",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://sincerewatch.com/products/planetarium-skeleton-platinum/",
+      "reference": "CKPT22SK",
+      "slug": "christiaan-van-der-klaauw-planetarium-skeleton-platinum-ckpt22sk",
+      "sourceNotes": "Référence CKPT22SK en platine 950, cadran saphir transparent et bracelet FKM bleu foncé. L’annonce officielle Instagram confirme la référence et la série de six pièces ; la fiche exacte du détaillant agréé Sincere confirme 40 mm, calibre CKM-01, 60 h et 50 m. Asset exact 1024 × 1024, montre entière, net et visuellement contrôlé. La manufacture ne publie pas encore de page produit dédiée et Sincere affiche « Price on request » ; Monochrome et Timekeepers Club relaient tous deux EUR 86’000 hors taxes. Épaisseur et lug-to-lug non publiés.",
+      "sources": [
+        "https://www.instagram.com/p/Dc8LbrZtccP/",
+        "https://www.klaauw.com/eng/",
+        "https://sincerewatch.com/products/planetarium-skeleton-platinum/",
+        "https://monochrome-watches.com/christiaan-van-der-klaauw-planetarium-skeleton-platinum-review-price/",
+        "https://www.timekeepers.club/articles/novelties/christiaan-van-der-klaauw-planetarium-skeleton-platinum"
+      ],
+      "summary": "Cette version en platine ouvre le Planetarium sur un cadran saphir transparent, révélant le calibre CKM-01 et l’orbite en temps réel de six planètes autour du Soleil. Le boîtier de 40 mm est limité à six pièces numérotées.",
+      "thickness": "Non communiqué",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-08",
+      "waterResistance": "50 m"
+    }
   }
 ]
