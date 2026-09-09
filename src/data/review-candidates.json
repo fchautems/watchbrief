@@ -3945,5 +3945,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-09"
+  },
+  {
+    "detectedAt": "2026-09-09",
+    "id": "beauregard-vianney-halter-ulysse-saint-petersbourg",
+    "issueNumber": 113,
+    "status": "review",
+    "watch": {
+      "brand": "Beauregard × Vianney Halter",
+      "brandSlug": "beauregard-vianney-halter",
+      "date": "2026-09-02",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "editorialStatus": "publishable",
+      "id": "beauregard-vianney-halter-ulysse-saint-petersbourg",
+      "imageSource": "Beauregard",
+      "imageSourceUrl": "https://beauregard.ch/fr/catalogue/a/saint-petersbourg",
+      "imageUrl": "https://beauregard.ch/storage/items/72/images/7f32a96a-8345-4e41-9a9f-95798c49ff1f_lg.png",
+      "independent": true,
+      "limitedEdition": true,
+      "limitedQty": 10,
+      "linkLabel": "Découvrir la Beauregard × Vianney Halter Ulysse Saint-Pétersbourg",
+      "lugToLug": "Non communiqué",
+      "material": "Or rose 18K, cadran en or rose 18K serti de 86 pierres précieuses sculptées à la main sur nacre, bracelet alligator châtaigne",
+      "model": "Ulysse Saint-Pétersbourg",
+      "movement": "Vianney Halter VH Mysterious, automatique à remontage mystérieux",
+      "powerReserve": "56 h",
+      "price": "Prix non communiqué",
+      "priceCheckedAt": "2026-09-09",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://beauregard.ch/fr/catalogue/a/saint-petersbourg",
+      "priceTaxMode": "unknown",
+      "productUrl": "https://beauregard.ch/fr/catalogue/a/saint-petersbourg",
+      "reference": "Référence non communiquée · boîtier or rose 18K · cadran haute joaillerie multicolore · bracelet alligator châtaigne",
+      "slug": "beauregard-vianney-halter-ulysse-saint-petersbourg",
+      "sourceNotes": "La page officielle confirme l’identité Saint-Pétersbourg, le cadran haute joaillerie en or rose 18K serti de pierres sculptées à la main sur nacre, le boîtier et le fermoir en or rose 18K, le mouvement automatique VH à remontage mystérieux, 56 h de réserve et la série de 10 pièces. Perpétuel publie 41 × 9,35 mm, 30 m, 86 pierres, le bracelet alligator châtaigne et le prix indicatif de CHF 122’000 hors taxes ; ce montant secondaire n’est pas retenu puisque Beauregard affiche officiellement « Prix sur demande ». Référence et lug-to-lug non publiés. Asset officiel 1 200 × 1 200 px contrôlé visuellement : montre entière nette, boîtier or rose, cadran multicolore et bracelet châtaigne de la variante exacte.",
+      "sources": [
+        "https://beauregard.ch/fr/catalogue/a/saint-petersbourg",
+        "https://perpetuelofficial.com/blogs/news/beauregard-vianney-halter-unveil-the-ulysse-saint-petersbourg",
+        "https://www.europastar.com/the-watch-files/craftsmanship/1004116179-alexandre-beauregard-shaping-stones-crafting.html"
+      ],
+      "summary": "La seconde Ulysse associe le travail lapidaire d’Alexandre Beauregard au mouvement automatique à remontage mystérieux de Vianney Halter. Son cadran en or rose 18K réunit 86 pierres sculptées à la main sur une base de nacre, dans une série de dix pièces.",
+      "thickness": "9,35 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-09",
+      "waterResistance": "30 m (3 ATM)"
+    }
   }
 ]
