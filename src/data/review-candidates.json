@@ -3851,5 +3851,50 @@
       "verifiedAt": "2026-09-08",
       "waterResistance": "100 m"
     }
+  },
+  {
+    "detectedAt": "2026-09-09",
+    "id": "berneron-mirage-miroir-white-38-bracelet-or-blanc",
+    "issueNumber": 111,
+    "status": "review",
+    "watch": {
+      "brand": "Berneron",
+      "brandSlug": "berneron",
+      "date": "2026-09-02",
+      "diameter": "38 × 34 mm",
+      "diameterMm": 38,
+      "editorialStatus": "publishable",
+      "id": "berneron-mirage-miroir-white-38-bracelet-or-blanc",
+      "imageSource": "Berneron",
+      "imageSourceUrl": "https://www.berneron.ch/mirage-38-miroir-white",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6485663d3754347e80149370/25abe046-f895-42a8-8525-46fb9378e6e7/01.+MRG_Miroir_soldat.jpg?format=1500w",
+      "independent": true,
+      "limitedEdition": true,
+      "lugToLug": "42 mm",
+      "material": "Or blanc 18K (Au750 Pd210)",
+      "model": "Mirage Miroir White 38 mm",
+      "movement": "Calibre manufacture 283 mécanique à remontage manuel, architecture Miroir et affichage inversé",
+      "powerReserve": "72 h",
+      "price": "CHF 130’250 hors taxes",
+      "priceCheckedAt": "2026-09-09",
+      "priceMarket": "CH",
+      "priceSourceUrl": "https://www.berneron.ch/mirage-38-miroir-white",
+      "priceTaxMode": "excl-vat",
+      "productUrl": "https://www.berneron.ch/mirage-38-miroir-white",
+      "reference": "Référence non communiquée · variante or blanc sur bracelet or blanc",
+      "slug": "berneron-mirage-miroir-white-38-bracelet-or-blanc",
+      "sourceNotes": "La page officielle confirme le boîtier asymétrique en or blanc 18K de 38 × 34 mm, l’épaisseur de 7 mm, le lug-to-lug de 42 mm, l’étanchéité à 30 m, la réserve de marche de 72 h et le calibre manufacture 283 à architecture inversée. Pour la variante contrôlée sur bracelet en or blanc, elle affiche CHF 130’250 hors taxes sur le marché suisse ; la version cuir à CHF 72’500 n’est pas retenue. La production annoncée est limitée à 36 pièces par an, versions cuir et bracelet confondues, sur allocation. Packshot officiel 1363 × 1704 px visuellement contrôlé : montre entière nette, boîtier, affichage Miroir et bracelet intégral en or blanc de la variante exacte. Aucune référence alphanumérique n’est publiée.",
+      "sources": [
+        "https://www.berneron.ch/mirage-38-miroir-white",
+        "https://revolutionwatch.com/berneron-introduces-the-mirage-38-miroir/",
+        "https://watchesbysjx.com/2026/09/berneron-mirage-miroir.html"
+      ],
+      "summary": "Berneron inverse l’architecture de la Mirage avec le calibre 283, dont les ponts guillochés deviennent le cadran et dont l’affichage est retourné. Cette version de 38 × 34 mm en or blanc associe un profil de 7 mm à un bracelet intégral en or blanc et une production de 36 pièces par an.",
+      "thickness": "7 mm",
+      "verificationStatus": "verified",
+      "verified": true,
+      "verifiedAt": "2026-09-09",
+      "waterResistance": "30 m"
+    }
   }
 ]
