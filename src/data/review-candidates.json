@@ -3857,7 +3857,7 @@
     "detectedAt": "2026-09-09",
     "id": "berneron-mirage-miroir-white-38-bracelet-or-blanc",
     "issueNumber": 111,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Berneron",
       "brandSlug": "berneron",
@@ -3896,6 +3896,7 @@
       "verified": true,
       "verifiedAt": "2026-09-09",
       "waterResistance": "30 m"
-    }
+    },
+    "reviewedAt": "2026-09-09"
   }
 ]
