@@ -3902,7 +3902,7 @@
   {
     "id": "ciga-design-everest-china-65th-anniversary",
     "issueNumber": 112,
-    "status": "review",
+    "status": "rejected",
     "detectedAt": "2026-09-09",
     "watch": {
       "id": "ciga-design-everest-china-65th-anniversary",
@@ -3943,6 +3943,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-09",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-09"
   }
 ]
