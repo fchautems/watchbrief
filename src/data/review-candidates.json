@@ -3898,5 +3898,51 @@
       "waterResistance": "30 m"
     },
     "reviewedAt": "2026-09-09"
+  },
+  {
+    "id": "ciga-design-everest-china-65th-anniversary",
+    "issueNumber": 112,
+    "status": "review",
+    "detectedAt": "2026-09-09",
+    "watch": {
+      "id": "ciga-design-everest-china-65th-anniversary",
+      "slug": "ciga-design-everest-china-65th-anniversary",
+      "brand": "CIGA design",
+      "brandSlug": "ciga-design",
+      "model": "Everest China 65th Anniversary",
+      "date": "2026-09-03",
+      "reference": "Référence non communiquée · boîtier titane grade 5 · cadran en roche de l’Everest · bracelet fluorocaoutchouc noir",
+      "movement": "CIGA design CD-10, automatique manufacture avec automate",
+      "diameter": "45 mm",
+      "diameterMm": 45,
+      "thickness": "13,6 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5, cadran en roche de l’Everest, bracelet en fluorocaoutchouc noir",
+      "waterResistance": "50 m (5 ATM)",
+      "powerReserve": "42 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://cigadesign.com/pages/everest-china-pre-launch",
+      "priceCheckedAt": "2026-09-09",
+      "priceMarket": "international",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "summary": "Première montre à automate de CIGA design, l’Everest China 65th Anniversary anime deux fois par jour la scène de l’« échelle humaine » qui permit l’ascension chinoise de 1960. Son cadran taillé dans une roche de l’Everest prend place dans un boîtier en titane grade 5 de 45 mm, animé par le calibre automatique manufacture CD-10.",
+      "productUrl": "https://cigadesign.com/pages/everest-china-pre-launch",
+      "linkLabel": "Découvrir la CIGA design Everest China 65th Anniversary",
+      "imageUrl": "https://cigadesign.com/cdn/shop/files/01_331466da-d53d-41b5-a494-e650c46fdfbc.png?v=1788159296",
+      "imageSource": "CIGA design",
+      "imageSourceUrl": "https://cigadesign.com/pages/everest-china-pre-launch",
+      "sources": [
+        "https://cigadesign.com/pages/everest-china-pre-launch",
+        "https://www.fratellowatches.com/ciga-design-everest-china-65th-anniversary/",
+        "https://timeandtidewatches.com/ciga-design-marks-65th-anniversary-of-first-successful-chinese-everest-ascent/"
+      ],
+      "sourceNotes": "La page officielle confirme le modèle, le boîtier en titane grade 5 de 45 mm, l’étanchéité à 5 ATM, le cadran en roche de l’Everest, le bracelet en fluorocaoutchouc noir et le calibre automatique CD-10 de 42 h commandant l’automate. Fratello (3 septembre 2026) et Time+Tide (7 septembre 2026) recoupent le lancement et publient l’épaisseur de 13,6 mm. Les deux articles partenaires annoncent US$1,699, mais la page officielle de pré-lancement n’affiche actuellement aucun montant : conformément à la politique, le prix reste non communiqué. Référence, quantité produite et lug-to-lug non publiés. Asset officiel inspecté en 1 363 × 1 363 px : montre entière nette, boîtier titane, cadran noir, scène automate, aiguilles piolet et bracelet noir de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-09",
+      "independent": true
+    }
   }
 ]
