@@ -3810,7 +3810,7 @@
     "detectedAt": "2026-09-08",
     "id": "louis-vuitton-tambour-spin-time-green-w9wga2",
     "issueNumber": 110,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Louis Vuitton",
       "brandSlug": "louis-vuitton",
@@ -3850,7 +3850,8 @@
       "verified": true,
       "verifiedAt": "2026-09-08",
       "waterResistance": "100 m"
-    }
+    },
+    "reviewedAt": "2026-09-09"
   },
   {
     "detectedAt": "2026-09-09",
