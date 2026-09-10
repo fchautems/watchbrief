@@ -3950,7 +3950,7 @@
     "detectedAt": "2026-09-09",
     "id": "beauregard-vianney-halter-ulysse-saint-petersbourg",
     "issueNumber": 113,
-    "status": "review",
+    "status": "published",
     "watch": {
       "brand": "Beauregard × Vianney Halter",
       "brandSlug": "beauregard-vianney-halter",
@@ -3991,7 +3991,8 @@
       "verified": true,
       "verifiedAt": "2026-09-09",
       "waterResistance": "30 m (3 ATM)"
-    }
+    },
+    "reviewedAt": "2026-09-10"
   },
   {
     "id": "zelos-helmsman-ss-garnet",
