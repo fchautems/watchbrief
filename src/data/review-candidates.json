@@ -4042,7 +4042,7 @@
   {
     "id": "tutima-patria-small-seconds-6612-09",
     "issueNumber": 115,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-10",
     "watch": {
       "id": "tutima-patria-small-seconds-6612-09",
@@ -4082,6 +4082,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-10",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-10"
   }
 ]
