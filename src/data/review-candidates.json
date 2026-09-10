@@ -4133,5 +4133,52 @@
       "verifiedAt": "2026-09-10",
       "independent": false
     }
+  },
+  {
+    "id": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
+    "issueNumber": 117,
+    "status": "review",
+    "detectedAt": "2026-09-10",
+    "watch": {
+      "id": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
+      "slug": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
+      "brand": "Alpina",
+      "brandSlug": "alpina",
+      "model": "Alpiner Extreme Solarmetre x Route du Rhum – Destination Guadeloupe",
+      "date": "2026-09-09",
+      "reference": "AL-140BT3AE6 · boîtier acier · insert de lunette en fibre de carbone · cadran noir translucide à rehaut turquoise · bracelet caoutchouc noir",
+      "movement": "AL-140 solaire à quartz, développé avec La Joux-Perret",
+      "diameter": "37,5 × 38,9 mm",
+      "diameterMm": 37.5,
+      "thickness": "10,19 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable, insert de lunette en fibre de carbone, cadran noir translucide à motif triangulaire et rehaut turquoise, bracelet en caoutchouc noir",
+      "waterResistance": "100 m (10 ATM)",
+      "powerReserve": "10 mois dans l’obscurité totale",
+      "price": "CHF 1’095",
+      "priceSourceUrl": "https://alpinawatches.com/products/alpiner-extreme-solarmetre-x-route-du-rhum-destination-guadeloupe",
+      "priceCheckedAt": "2026-09-10",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 513,
+      "summary": "Alpina installe son nouveau calibre solaire AL-140, développé avec La Joux-Perret, dans l’Alpiner Extreme de 37,5 × 38,9 mm. Cette édition Route du Rhum limitée à 513 pièces associe un insert de lunette en fibre de carbone à des accents turquoise et annonce dix mois d’autonomie dans l’obscurité totale.",
+      "productUrl": "https://alpinawatches.com/products/alpiner-extreme-solarmetre-x-route-du-rhum-destination-guadeloupe",
+      "linkLabel": "Découvrir l’Alpina Alpiner Extreme Solarmetre x Route du Rhum",
+      "imageUrl": "https://alpinawatches.com/cdn/shop/files/AL-140BT3AE6_Front_Web.webp?v=1784723925&width=1445",
+      "imageSource": "Alpina",
+      "imageSourceUrl": "https://alpinawatches.com/products/alpiner-extreme-solarmetre-x-route-du-rhum-destination-guadeloupe",
+      "sources": [
+        "https://alpinawatches.com/products/alpiner-extreme-solarmetre-x-route-du-rhum-destination-guadeloupe",
+        "https://wornandwound.com/alpina-expands-their-solar-quartz-offerings-with-new-startimer-pilot-solarmetre-references/",
+        "https://www.hodinkee.com/articles/alpina-catches-rays-and-light-with-new-startimer-pilot-solarmetre-and-alpiner-extreme-solarmetre-x-r"
+      ],
+      "sourceNotes": "La fiche suisse officielle confirme la référence AL-140BT3AE6, le boîtier acier de 37,5 × 38,9 mm, l’épaisseur de 10,19 mm (malgré la coquille « 10.19 mmmm » affichée), l’insert de lunette en fibre de carbone, le cadran noir translucide à rehaut turquoise, le bracelet caoutchouc noir, l’étanchéité à 10 ATM, le calibre solaire AL-140 développé avec La Joux-Perret et ses dix mois d’autonomie dans l’obscurité totale. Elle affiche CHF 1’095, taxes incluses, et annonce une série de 513 pièces. Worn & Wound et Hodinkee recoupent le lancement et les caractéristiques principales. Lug-to-lug non publié. Asset officiel contrôlé en 1 200 × 1 700 px : montre entière nette en vue de face, boîtier, cadran, insert de lunette et bracelet de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-10",
+      "independent": false
+    }
   }
 ]
