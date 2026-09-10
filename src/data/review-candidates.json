@@ -4086,5 +4086,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-10"
+  },
+  {
+    "id": "panerai-luminor-firenze-8-giorni-pam01734",
+    "issueNumber": 116,
+    "status": "review",
+    "detectedAt": "2026-09-10",
+    "watch": {
+      "id": "panerai-luminor-firenze-8-giorni-pam01734",
+      "slug": "panerai-luminor-firenze-8-giorni-pam01734",
+      "brand": "Panerai",
+      "brandSlug": "panerai",
+      "model": "Luminor Firenze 8 Giorni PAM01734",
+      "date": "2026-09-10",
+      "reference": "PAM01734 · Platinumtech™ · cadran vert brossé circulaire · bracelet cuir de veau toscan noir",
+      "movement": "P.5000 manufacture, remontage manuel",
+      "diameter": "44 mm",
+      "diameterMm": 44,
+      "thickness": "Non communiquée",
+      "lugToLug": "Non communiqué",
+      "material": "Platinumtech™ (alliage à 95 % de platine), cadran sandwich vert brossé circulaire, bracelet en cuir de veau toscan noir",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "8 jours (192 h)",
+      "price": "CHF 48’100",
+      "priceSourceUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01734-luminor-firenze-8-giorni.html",
+      "priceCheckedAt": "2026-09-10",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 100,
+      "summary": "Panerai célèbre le centenaire de sa boutique historique de Florence avec une Luminor inspirée d’un prototype Ref. 6152/1 des années 1960. Cette série de 100 pièces associe un boîtier Platinumtech™ de 44 mm, un cadran vert portant l’inscription « Panerai Firenze » et le calibre manuel P.5000 à huit jours de réserve.",
+      "productUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01734-luminor-firenze-8-giorni.html",
+      "linkLabel": "Découvrir la Panerai Luminor Firenze 8 Giorni PAM01734",
+      "imageUrl": "https://www.panerai.com/content/dam/rcq/pan/a6/UK/H1/4P/Sy/OM/WD/qD/1a/5o/tQ/a6UKH14PSyOMWDqD1a5otQ.png",
+      "imageSource": "Panerai",
+      "imageSourceUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01734-luminor-firenze-8-giorni.html",
+      "sources": [
+        "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01734-luminor-firenze-8-giorni.html",
+        "https://www.panerai.com/ch/en/quick-links/condition-of-sales.html",
+        "https://monochrome-watches.com/panerai-celebrates-100-years-in-florence-with-the-luminor-firenze-8-giorni-pam01734-and-pam01794-review-price/"
+      ],
+      "sourceNotes": "La fiche suisse officielle confirme la référence PAM01734, le boîtier Platinumtech™ de 44 mm (alliage à 95 % de platine), le cadran sandwich vert brossé circulaire, le bracelet en cuir de veau toscan noir accompagné d’un bracelet caoutchouc vert, l’étanchéité à 10 bar, le calibre manuel P.5000 de 192 h et la série limitée à 100 pièces. Elle affiche CHF 48’100 ; les conditions de vente suisses de Panerai précisent que les prix des pages produit sont en CHF et incluent la TVA applicable. Monochrome (10 septembre 2026) recoupe le lancement et l’inspiration du prototype Ref. 6152/1 ; son décompte de 113 composants contredit les 146 composants publiés par Panerai, valeur officielle retenue. Épaisseur du boîtier et lug-to-lug non publiés. Asset officiel contrôlé en 3 000 × 4 000 px : montre entière nette, boîtier Platinumtech™, cadran vert, aiguilles dorées, pont protège-couronne et bracelet noir de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-10",
+      "independent": false
+    }
   }
 ]
