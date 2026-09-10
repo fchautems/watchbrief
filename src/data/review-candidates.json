@@ -3992,5 +3992,51 @@
       "verifiedAt": "2026-09-09",
       "waterResistance": "30 m (3 ATM)"
     }
+  },
+  {
+    "id": "zelos-helmsman-ss-garnet",
+    "issueNumber": 114,
+    "status": "review",
+    "detectedAt": "2026-09-10",
+    "watch": {
+      "id": "zelos-helmsman-ss-garnet",
+      "slug": "zelos-helmsman-ss-garnet",
+      "brand": "Zelos",
+      "brandSlug": "zelos",
+      "model": "Helmsman SS « Garnet »",
+      "date": "2026-09-10",
+      "reference": "Référence non communiquée · cadran en grenat rouge concassé · boîtier et bracelet acier",
+      "movement": "Miyota 9015 automatique avec roue de date personnalisée",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "12,5 mm avec verre (11,5 mm sans verre)",
+      "lugToLug": "46,5 mm",
+      "material": "Acier inoxydable 316L, cadran en grenat rouge concassé, bracelet acier",
+      "waterResistance": "200 m",
+      "powerReserve": "environ 42 h",
+      "price": "549 USD (tarif de lancement)",
+      "priceSourceUrl": "https://zeloswatches.com/products/helmsman-ss-garnet",
+      "priceCheckedAt": "2026-09-10",
+      "priceMarket": "international",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": false,
+      "summary": "Zelos ramène sa première création Kickstarter dans une nouvelle déclinaison acier plus accessible. La variante Garnet associe un cadran naturel en grenat rouge concassé, différent sur chaque pièce, à une lunette de plongée interne et au calibre automatique Miyota 9015.",
+      "productUrl": "https://zeloswatches.com/products/helmsman-ss-garnet",
+      "linkLabel": "Découvrir la Zelos Helmsman SS « Garnet »",
+      "imageUrl": "https://zeloswatches.com/cdn/shop/files/2A_1800x.jpg?v=1788451864",
+      "imageSource": "Zelos",
+      "imageSourceUrl": "https://zeloswatches.com/products/helmsman-ss-garnet",
+      "sources": [
+        "https://zeloswatches.com/products/helmsman-ss-garnet",
+        "https://zeloswatches.com/collections/helmsman-diver",
+        "https://timeandtidewatches.com/zelos-helmsman-ss-hands-on/"
+      ],
+      "sourceNotes": "La fiche produit officielle confirme la variante Garnet, son cadran en grenat rouge concassé, le boîtier acier 316L de 40 mm, le lug-to-lug de 46,5 mm, l’épaisseur de 11,5 mm sans verre et 12,5 mm avec verre, l’étanchéité à 200 m, le bracelet acier et le calibre automatique Miyota 9015. Elle affiche 549 USD au marché international ; la politique d’expédition précise que taxes, TVA et droits restent à la charge de l’acheteur, tandis que la livraison est incluse. Le tarif de lancement est annoncé jusqu’au 30 septembre 2026, sans quantité totale publiée. Packshot officiel demandé en 1 800 × 2 700 px et contrôlé visuellement : montre entière nette, boîtier acier, cadran grenat rouge, lunette interne noire et rouge et bracelet acier de la variante exacte. Aucune référence alphanumérique officielle publiée.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-10",
+      "independent": true
+    }
   }
 ]
