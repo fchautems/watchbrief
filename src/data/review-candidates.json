@@ -4038,5 +4038,50 @@
       "verifiedAt": "2026-09-10",
       "independent": true
     }
+  },
+  {
+    "id": "tutima-patria-small-seconds-6612-09",
+    "issueNumber": 115,
+    "status": "review",
+    "detectedAt": "2026-09-10",
+    "watch": {
+      "id": "tutima-patria-small-seconds-6612-09",
+      "slug": "tutima-patria-small-seconds-6612-09",
+      "brand": "Tutima Glashütte",
+      "brandSlug": "tutima",
+      "model": "Patria Small Seconds 6612-09",
+      "date": "2026-09-10",
+      "reference": "6612-09 · boîtier titane grade 5 poli · cadran blanc argenté décor pyramidal · aiguilles or 18 ct · bracelet peau de mouton acajou",
+      "movement": "Tutima 617 manufacture, remontage manuel",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "11,2 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Titane grade 5 poli, cadran blanc argenté décor pyramidal, aiguilles en or 18 ct, bracelet en peau de mouton acajou",
+      "waterResistance": "50 m (5 ATM)",
+      "powerReserve": "65 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://tutima.com/watch/patria-6612-09/",
+      "priceCheckedAt": "2026-09-10",
+      "priceMarket": "DE",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "summary": "Cette Patria associe un boîtier en titane grade 5 poli à un cadran blanc argenté décoré d’un motif pyramidal et à des aiguilles façonnées en or 18 ct. Son calibre manufacture manuel 617, visible par le fond saphir, conserve l’architecture trois-quarts et la réserve de marche de 65 heures de la ligne de haute horlogerie de Tutima.",
+      "productUrl": "https://tutima.com/watch/patria-6612-09/",
+      "linkLabel": "Découvrir la Tutima Patria Small Seconds 6612-09",
+      "imageUrl": "https://tutima.com/wp-content/uploads/2026/03/6612-09_front_a-840x1106.jpg",
+      "imageSource": "Tutima Glashütte",
+      "imageSourceUrl": "https://tutima.com/watch/patria-6612-09/",
+      "sources": [
+        "https://tutima.com/watch/patria-6612-09/",
+        "https://monochrome-watches.com/tutima-patria-grade-5-titanium-and-18k-gold-calibre-617-in-house-6612-09-introducing-price/"
+      ],
+      "sourceNotes": "La page produit officielle confirme la référence 6612-09, le boîtier poli en titane grade 5 de 41 mm, le cadran blanc argenté décoré, les aiguilles en or 18 ct, le bracelet en peau de mouton acajou, l’étanchéité à 5 ATM et le calibre manufacture manuel 617 de 65 h. Monochrome (10 septembre 2026) recoupe le lancement, publie l’épaisseur de 11,2 mm et annonce 9 400 EUR ; ce montant secondaire n’est pas retenu car Tutima ne publie aucun tarif sur sa fiche officielle. Le prix et sa TVA restent donc non communiqués, de même que le lug-to-lug. Packshot officiel contrôlé en 840 × 1 106 px : montre entière nette, boîtier titane poli, cadran blanc argenté, petite seconde, aiguilles dorées et bracelet acajou de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-10",
+      "independent": true
+    }
   }
 ]
