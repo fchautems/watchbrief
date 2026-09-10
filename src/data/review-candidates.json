@@ -3996,7 +3996,7 @@
   {
     "id": "zelos-helmsman-ss-garnet",
     "issueNumber": 114,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-10",
     "watch": {
       "id": "zelos-helmsman-ss-garnet",
@@ -4037,7 +4037,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-10",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-10"
   },
   {
     "id": "tutima-patria-small-seconds-6612-09",
