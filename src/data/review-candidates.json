@@ -4180,5 +4180,51 @@
       "verifiedAt": "2026-09-10",
       "independent": false
     }
+  },
+  {
+    "id": "seiko-astron-hab008-gray-ceramic",
+    "issueNumber": 118,
+    "status": "review",
+    "detectedAt": "2026-09-11",
+    "watch": {
+      "id": "seiko-astron-hab008-gray-ceramic",
+      "slug": "seiko-astron-hab008-gray-ceramic",
+      "brand": "Seiko",
+      "brandSlug": "seiko",
+      "model": "Astron GPS Solar Dual-Time Chronograph HAB008",
+      "date": "2026-09-10",
+      "reference": "HAB008J1 · boîtier titane à revêtement dur gris sombre · céramique grise · cadran gris sombre à accents bleus · bracelet titane et céramique",
+      "movement": "Seiko 5X83 GPS solaire à quartz, double fuseau et chronographe",
+      "diameter": "43,2 mm",
+      "diameterMm": 43.2,
+      "thickness": "13,4 mm",
+      "lugToLug": "49,5 mm",
+      "material": "Titane à revêtement dur gris sombre, lunette céramique/aluminium grise, couronne à insert céramique, bracelet titane à maillons centraux céramique",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "environ 6 mois, jusqu’à environ 2 ans en économie d’énergie",
+      "price": "US$3,100",
+      "priceSourceUrl": "https://seikoluxe.com/a-refined-presence-defined-by-lustrous-gray-ceramic-harmonizing-beautifully-with-the-titanium-case-and-bracelet/",
+      "priceCheckedAt": "2026-09-11",
+      "priceMarket": "US",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "summary": "Seiko introduit pour la première fois de la céramique grise dans la collection Astron, sur la lunette, la couronne et les maillons centraux. La HAB008J1 combine cette matière à un boîtier en titane gris sombre et au calibre GPS solaire 5X83, avec double fuseau, chronographe et calendrier perpétuel.",
+      "productUrl": "https://www.seikowatches.com/us-en/products/astron/hab008j1",
+      "linkLabel": "Découvrir la Seiko Astron GPS Solar Dual-Time Chronograph HAB008",
+      "imageUrl": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2026/05/14/21/09/HAB008J1/HAB008J1.png?mh=1200&mw=1200",
+      "imageSource": "Seiko",
+      "imageSourceUrl": "https://www.seikowatches.com/us-en/products/astron/hab008j1",
+      "sources": [
+        "https://www.seikowatches.com/us-en/products/astron/hab008j1",
+        "https://seikoluxe.com/a-refined-presence-defined-by-lustrous-gray-ceramic-harmonizing-beautifully-with-the-titanium-case-and-bracelet/",
+        "https://www.fratellowatches.com/new-seiko-astron-gps-solar-dual-time-chronographs-with-gray-ceramic/"
+      ],
+      "sourceNotes": "La fiche produit officielle américaine confirme la référence HAB008J1, la sortie en octobre 2026, le boîtier en titane à revêtement dur gris sombre de 43,2 × 13,4 × 49,5 mm, la lunette céramique/aluminium, l’étanchéité à 10 bar, le bracelet titane et céramique et le calibre GPS solaire 5X83. Seiko publie environ six mois d’autonomie à pleine charge et jusqu’à environ deux ans en économie d’énergie. La page presse officielle Seiko Watch of America affiche un MSRP de US$3,100 ; le traitement de la taxe de vente n’y est pas précisé, donc la TVA reste inconnue. Fratello recoupe l’annonce du 10 septembre 2026, la première utilisation de céramique grise dans la collection Astron et les accents bleus propres à HAB008. Packshot officiel contrôlé en 1 102 × 1 102 px : montre entière nette avec bracelet fermé, boîtier gris sombre, cadran rayé, détails bleus et lunette céramique de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-11",
+      "independent": false
+    }
   }
 ]
