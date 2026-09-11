@@ -4226,5 +4226,53 @@
       "verifiedAt": "2026-09-11",
       "independent": false
     }
+  },
+  {
+    "id": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
+    "issueNumber": 119,
+    "status": "review",
+    "detectedAt": "2026-09-11",
+    "watch": {
+      "id": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
+      "slug": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
+      "brand": "Chronoswiss",
+      "brandSlug": "chronoswiss",
+      "model": "Neo Digiteur Sky",
+      "date": "2026-09-10",
+      "reference": "CH-1373.2-LB · boîtier acier · cadran bleu pastel Sky · bracelet textile gris",
+      "movement": "Chronoswiss C.85757, remontage manuel avec module Digiteur propriétaire",
+      "diameter": "30 mm de largeur (48 mm de longueur)",
+      "diameterMm": 30,
+      "thickness": "9,7 mm",
+      "lugToLug": "48 mm",
+      "material": "Acier inoxydable satiné et poli, flancs sablés, cadran bleu pastel Sky sablé et laqué, bracelet textile gris",
+      "waterResistance": "50 m (5 bar)",
+      "powerReserve": "environ 48 h",
+      "price": "CHF 11’500",
+      "priceSourceUrl": "https://chronoswiss.com/en/intl/neo-digiteur-sky-CH-1373.2-LB",
+      "priceCheckedAt": "2026-09-11",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 99,
+      "summary": "Chronoswiss décline sa montre mécanique sans aiguilles dans une teinte bleu pastel, avec heure sautante, minutes et secondes traînantes sur trois disques. La référence Sky conserve le boîtier rectangulaire en acier et le calibre manuel C.85757, dans une série de 99 pièces.",
+      "productUrl": "https://chronoswiss.com/en/intl/neo-digiteur-sky-CH-1373.2-LB",
+      "linkLabel": "Découvrir la Chronoswiss Neo Digiteur Sky",
+      "imageUrl": "https://chronoswiss.com/storage/4811-a23bfff043b51b16ef90f5fd37caaf29/LQ-Chronoswiss_Sky_strap-open-16-9.jpg",
+      "imageSource": "Chronoswiss",
+      "imageSourceUrl": "https://chronoswiss.com/en/intl/neo-digiteur-sky-CH-1373.2-LB",
+      "sources": [
+        "https://chronoswiss.com/en/intl/neo-digiteur-sky-CH-1373.2-LB",
+        "https://chronoswiss.com/storage/4797-f523d1f81ede68982c14f4cbad79044f/NEO-DIGITEUR-Pastel-Code-ENG.pdf",
+        "https://intl.chronoswiss.com/en/terms",
+        "https://monochrome-watches.com/chronoswiss-neo-digiteur-pastel-code-collection-jumping-hour-review-price/"
+      ],
+      "sourceNotes": "La fiche produit officielle confirme la référence CH-1373.2-LB, le cadran bleu pastel Sky, le boîtier rectangulaire en acier, l’étanchéité à 5 ATM, le calibre manuel C.85757 de 48 h et la série de 99 pièces. La fiche technique officielle publie 48 × 30 mm, 9,7 mm d’épaisseur et 48 mm de lug-to-lug. Le site officiel affiche CHF 11’500 ; les conditions de vente Chronoswiss précisent que tous les prix publiés incluent la TVA légale applicable. Monochrome (10 septembre 2026) recoupe le lancement, les caractéristiques et le tarif. Visuel officiel contrôlé en 12 570 × 7 072 px : montre entière nette, boîtier acier, cadran bleu Sky, affichage mécanique à trois guichets et bracelet textile gris de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-11",
+      "independent": true
+    }
   }
 ]
