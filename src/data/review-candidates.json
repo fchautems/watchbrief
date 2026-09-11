@@ -4274,5 +4274,51 @@
       "verifiedAt": "2026-09-11",
       "independent": true
     }
+  },
+  {
+    "id": "jacob-co-brilliant-flying-tourbillon-pastel-arlequino-bt560-30-ac-ua-a",
+    "issueNumber": 120,
+    "status": "review",
+    "detectedAt": "2026-09-11",
+    "watch": {
+      "id": "jacob-co-brilliant-flying-tourbillon-pastel-arlequino-bt560-30-ac-ua-a",
+      "slug": "jacob-co-brilliant-flying-tourbillon-pastel-arlequino-bt560-30-ac-ua-a",
+      "brand": "Jacob & Co.",
+      "brandSlug": "jacob-co",
+      "model": "Brilliant Flying Tourbillon Pastel Arlequino",
+      "date": "2026-09-09",
+      "reference": "BT560.30.AC.UA.A · boîtier or blanc 18K · saphirs pastel Arlequino · bracelet alligator blanc",
+      "movement": "Jacob & Co. JCFA02 automatique, micro-rotor et tourbillon volant",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "11,61 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Or blanc 18K serti de saphirs pastel taille baguette et de diamants blancs, bracelet alligator blanc",
+      "waterResistance": "30 m (3 ATM)",
+      "powerReserve": "72 h",
+      "price": "US$693,000",
+      "priceSourceUrl": "https://jacobandco.com/timepieces/brilliant-flying-tourbillon/pastel-arlequino",
+      "priceCheckedAt": "2026-09-11",
+      "priceMarket": "US",
+      "priceTaxMode": "unknown",
+      "limitedEdition": true,
+      "limitedQty": 1,
+      "summary": "Jacob & Co. présente cette pièce unique comme la première montre moderne dont le balancier porte directement des diamants. Son calibre automatique JCFA02 réunit micro-rotor, tourbillon volant et 72 heures de réserve dans un boîtier intégralement serti de saphirs pastel et de diamants.",
+      "productUrl": "https://jacobandco.com/timepieces/brilliant-flying-tourbillon/pastel-arlequino",
+      "linkLabel": "Découvrir la Jacob & Co. Brilliant Flying Tourbillon Pastel Arlequino",
+      "imageUrl": "https://www.datocms-assets.com/99008/1777998972-bt560-30-ac-ua-abala.webp",
+      "imageSource": "Jacob & Co.",
+      "imageSourceUrl": "https://jacobandco.com/timepieces/brilliant-flying-tourbillon/pastel-arlequino",
+      "sources": [
+        "https://jacobandco.com/timepieces/brilliant-flying-tourbillon/pastel-arlequino",
+        "https://monochrome-watches.com/the-jacob-co-brilliant-flying-tourbillon-with-the-first-diamond-set-balance-wheel-in-modern-watchmaking/"
+      ],
+      "sourceNotes": "La fiche produit officielle confirme la variante Pastel Arlequino, la référence BT560.30.AC.UA.A, le boîtier de 42 mm sur 11,61 mm en or blanc 18K, l’étanchéité à 30 m, le calibre automatique JCFA02 à micro-rotor et tourbillon volant, la réserve de 72 h, la pièce unique et le tarif US$693,000 pour le marché US ; la TVA n’est pas précisée. Monochrome (9 septembre 2026) recoupe le lancement et la première revendiquée d’un balancier directement serti de diamants, mais indiquait encore un prix sur demande : le tarif officiel courant est retenu. Lug-to-lug non publié. Visuel officiel contrôlé en 1080 × 1920 px : packshot net de la montre entière, avec boîtier, cadran, complication et bracelet blanc de la variante exacte.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-11",
+      "independent": true
+    }
   }
 ]
