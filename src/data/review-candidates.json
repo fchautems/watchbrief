@@ -4320,5 +4320,51 @@
       "verifiedAt": "2026-09-11",
       "independent": true
     }
+  },
+  {
+    "id": "delma-midland-meteorite-automatic-41701-740-6-731",
+    "issueNumber": 121,
+    "status": "review",
+    "detectedAt": "2026-09-12",
+    "watch": {
+      "id": "delma-midland-meteorite-automatic-41701-740-6-731",
+      "slug": "delma-midland-meteorite-automatic-41701-740-6-731",
+      "brand": "DELMA",
+      "brandSlug": "delma",
+      "model": "Midland Meteorite Automatic",
+      "date": "2026-09-11",
+      "reference": "41701.740.6.731 · cadran météorite Muonionalusta · bracelet acier intégré",
+      "movement": "Sellita SW200-1 automatique, rotor personnalisé DELMA",
+      "diameter": "40,5 mm",
+      "diameterMm": 40.5,
+      "thickness": "10,8 mm",
+      "lugToLug": "47 mm",
+      "material": "Acier inoxydable 316L satiné et poli, cadran en météorite Muonionalusta, bracelet acier intégré",
+      "waterResistance": "100 m (10 ATM)",
+      "powerReserve": "41 h",
+      "price": "CHF 1’500",
+      "priceSourceUrl": "https://www.delmawatches.com/en-ch/products/midland-meteorite-automatic-40mm",
+      "priceCheckedAt": "2026-09-12",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 100,
+      "summary": "DELMA remplace le cadran guilloché de sa Midland par un véritable cadran en météorite Muonionalusta, dont chaque motif de Widmanstätten est unique. Cette série de 100 pièces conserve le boîtier intégré en acier de 40,5 mm et le calibre automatique Sellita SW200-1.",
+      "productUrl": "https://www.delmawatches.com/en-ch/products/midland-meteorite-automatic-40mm",
+      "linkLabel": "Découvrir la DELMA Midland Meteorite Automatic",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0505/1488/6848/files/Delma_Midland_Meteorite_41701.740.6.731.jpg?v=1788771113",
+      "imageSource": "DELMA",
+      "imageSourceUrl": "https://www.delmawatches.com/en-ch/products/midland-meteorite-automatic-40mm",
+      "sources": [
+        "https://www.delmawatches.com/en-ch/products/midland-meteorite-automatic-40mm",
+        "https://monochrome-watches.com/delma-midland-automatic-meteorite-integrated-sports-watch-introducing-price/"
+      ],
+      "sourceNotes": "La fiche produit officielle suisse confirme la référence 41701.740.6.731, le cadran en véritable météorite Muonionalusta, le boîtier acier de 40,5 mm sur 10,8 mm, le lug-to-lug de 47 mm, l’étanchéité à 100 m, le calibre automatique Sellita SW200-1 de 41 h et la série de 100 pièces. La page localisée CH affiche CHF 1’500 et précise que DELMA couvre les droits, taxes d’importation et la TVA pour les livraisons en Suisse. Monochrome (11 septembre 2026) recoupe le lancement, les caractéristiques, la limitation et le tarif suisse. Visuel officiel exact contrôlé : packshot frontal net de la montre entière, cadran météorite, boîtier et bracelet acier intégré ; la source officielle propose jusqu’à 1 600 px de largeur.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-12",
+      "independent": true
+    }
   }
 ]
