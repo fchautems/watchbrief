@@ -4186,7 +4186,7 @@
   {
     "id": "seiko-astron-hab008-gray-ceramic",
     "issueNumber": 118,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-11",
     "watch": {
       "id": "seiko-astron-hab008-gray-ceramic",
@@ -4227,7 +4227,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-11",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-14"
   },
   {
     "id": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
