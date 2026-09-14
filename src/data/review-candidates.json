@@ -4376,7 +4376,7 @@
   {
     "id": "formex-essence-fortyone-arctic-white-033416612100",
     "issueNumber": 122,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-14",
     "watch": {
       "id": "formex-essence-fortyone-arctic-white-033416612100",
@@ -4418,6 +4418,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-14",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-14"
   }
 ]
