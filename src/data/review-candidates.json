@@ -4233,7 +4233,7 @@
   {
     "id": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
     "issueNumber": 119,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-11",
     "watch": {
       "id": "chronoswiss-neo-digiteur-sky-ch-1373-2-lb",
@@ -4276,7 +4276,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-11",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-14"
   },
   {
     "id": "jacob-co-brilliant-flying-tourbillon-pastel-arlequino-bt560-30-ac-ua-a",
