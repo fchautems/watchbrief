@@ -4366,5 +4366,52 @@
       "verifiedAt": "2026-09-12",
       "independent": true
     }
+  },
+  {
+    "id": "formex-essence-fortyone-arctic-white-033416612100",
+    "issueNumber": 122,
+    "status": "review",
+    "detectedAt": "2026-09-14",
+    "watch": {
+      "id": "formex-essence-fortyone-arctic-white-033416612100",
+      "slug": "formex-essence-fortyone-arctic-white-033416612100",
+      "brand": "Formex",
+      "brandSlug": "formex",
+      "model": "Essence FortyOne Arctic White",
+      "date": "2026-09-14",
+      "reference": "0334.1.6612.100 · cadran Arctic White · bracelet acier",
+      "movement": "Sellita SW200-2 Power+ automatique, certifié COSC",
+      "diameter": "41 mm",
+      "diameterMm": 41,
+      "thickness": "10,6 mm",
+      "lugToLug": "46,5 mm",
+      "material": "Acier inoxydable 316L satiné et poli, cadran Arctic White, bracelet acier",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "65 h",
+      "price": "CHF 1’500",
+      "priceSourceUrl": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-arctic-white/",
+      "priceCheckedAt": "2026-09-14",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Formex intercale un nouveau boîtier de 41 mm entre les Essence 39 et 43 mm, avec des proportions entièrement revues. Cette génération ajoute une couronne vissée, le Sellita SW200-2 Power+ certifié COSC de 65 heures et un fermoir papillon à micro-ajustement 0/3/6 mm utilisable au poignet.",
+      "productUrl": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-arctic-white/",
+      "linkLabel": "Découvrir la Formex Essence FortyOne Arctic White",
+      "imageUrl": "https://media.zenobuilder.com/upload/uok04hg6nb/Formex-Essence-41-mm-Automatic-COSC-White-Dial-Styled-image-37681404.jpg",
+      "imageSource": "Formex",
+      "imageSourceUrl": "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-arctic-white/",
+      "sources": [
+        "https://formexwatch.com/watches/essence-fortyone-automatic-chronometer-arctic-white/",
+        "https://timeandtidewatches.com/formex-essence-fortyone-arctic-white-hands-on/"
+      ],
+      "notes": "Référence en précommande ; les expéditions sont annoncées pour fin septembre 2026.",
+      "sourceNotes": "La fiche produit officielle suisse confirme la référence 0334.1.6612.100, le cadran Arctic White, le nouveau boîtier acier de 41 mm sur 10,6 mm, le lug-to-lug de 46,5 mm, l’étanchéité à 100 m et le Sellita SW200-2 Power+ certifié COSC de 65 h. La page affiche CHF 1’500 TVA incluse pour la configuration sur bracelet acier et annonce des expéditions fin septembre 2026. Time+Tide (14 septembre 2026) recoupe les caractéristiques, la nouvelle taille, la couronne vissée et le fermoir papillon à micro-ajustement. Visuel officiel contrôlé en 1920 × 1080 px : montre entière nette, cadran blanc, boîtier et bracelet acier de la variante exacte. L’Essence 39 Alpine White déjà publiée est distincte par sa taille, sa référence et son cadran.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-14",
+      "independent": true
+    }
   }
 ]
