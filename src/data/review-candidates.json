@@ -4138,7 +4138,7 @@
   {
     "id": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
     "issueNumber": 117,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-10",
     "watch": {
       "id": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
@@ -4180,7 +4180,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-10",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-14"
   },
   {
     "id": "seiko-astron-hab008-gray-ceramic",
