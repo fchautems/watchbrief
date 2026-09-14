@@ -4329,7 +4329,7 @@
   {
     "id": "delma-midland-meteorite-automatic-41701-740-6-731",
     "issueNumber": 121,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-12",
     "watch": {
       "id": "delma-midland-meteorite-automatic-41701-740-6-731",
@@ -4370,7 +4370,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-12",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-14"
   },
   {
     "id": "formex-essence-fortyone-arctic-white-033416612100",
