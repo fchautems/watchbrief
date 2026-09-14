@@ -4090,7 +4090,7 @@
   {
     "id": "panerai-luminor-firenze-8-giorni-pam01734",
     "issueNumber": 116,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-10",
     "watch": {
       "id": "panerai-luminor-firenze-8-giorni-pam01734",
@@ -4132,7 +4132,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-10",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-14"
   },
   {
     "id": "alpina-alpiner-extreme-solarmetre-route-du-rhum-al-140bt3ae6",
