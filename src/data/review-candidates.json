@@ -4424,7 +4424,7 @@
   {
     "id": "venezianico-redentore-levius-prima-serie-1521500",
     "issueNumber": 123,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-15",
     "watch": {
       "id": "venezianico-redentore-levius-prima-serie-1521500",
@@ -4467,6 +4467,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-15",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-15"
   }
 ]
