@@ -4420,5 +4420,53 @@
       "independent": true
     },
     "reviewedAt": "2026-09-14"
+  },
+  {
+    "id": "venezianico-redentore-levius-prima-serie-1521500",
+    "issueNumber": 123,
+    "status": "review",
+    "detectedAt": "2026-09-15",
+    "watch": {
+      "id": "venezianico-redentore-levius-prima-serie-1521500",
+      "slug": "venezianico-redentore-levius-prima-serie-1521500",
+      "brand": "Venezianico",
+      "brandSlug": "venezianico",
+      "model": "Redentore Levius – Prima Serie",
+      "date": "2026-09-15",
+      "reference": "1521500 · cadran bleu Zefiro guilloché main · boîtier titane grade 5 · bracelet cuir bleu",
+      "movement": "V5000 mécanique à remontage manuel, conçu et fabriqué en Italie par OISA",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "8,9 mm",
+      "lugToLug": "44,2 mm",
+      "material": "Titane grade 5 satiné et poli, cadran bleu Zefiro guilloché main, bracelet cuir bleu",
+      "waterResistance": "30 m (3 ATM)",
+      "powerReserve": "60 h",
+      "price": "4 750 EUR hors taxes",
+      "priceSourceUrl": "https://www.venezianico.com/products/redentore-levius-1521500",
+      "priceCheckedAt": "2026-09-15",
+      "priceMarket": "international (EUR)",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": null,
+      "summary": "La Redentore Levius transpose les codes d’une montre habillée dans un boîtier en titane grade 5 de 38 × 8,9 × 44,2 mm et seulement 48 g. Son cadran bleu Zefiro est guilloché à la main par Linda Renzetti sur un tour de 1850, tandis que le calibre manuel italien V5000 offre 60 heures de réserve et une précision annoncée de ±3 s/j.",
+      "productUrl": "https://www.venezianico.com/products/redentore-levius-1521500",
+      "linkLabel": "Découvrir la Venezianico Redentore Levius",
+      "imageUrl": "https://www.venezianico.com/cdn/shop/files/PackshotRedentoreLeviusdefinitivo.png?v=1788955620&width=1800",
+      "imageSource": "Venezianico",
+      "imageSourceUrl": "https://www.venezianico.com/products/redentore-levius-1521500",
+      "sources": [
+        "https://www.venezianico.com/products/redentore-levius-1521500",
+        "https://www.fratellowatches.com/venetian-elegance-venezianico-redentore-levius/",
+        "https://monochrome-watches.com/venezianico-redentore-levius-titanium-v5000-italian-made-movement-hand-guilloche-dial-first-look-price/"
+      ],
+      "notes": "Disponible pendant 72 heures à partir du 25 septembre 2026 à 15 h (GMT+1). Les 100 premières pièces seront individuellement numérotées ; la quantité totale n’est pas publiée.",
+      "sourceNotes": "La fiche produit officielle confirme la référence 1521500, le cadran bleu Zefiro guilloché à la main, le boîtier en titane grade 5 de 38 × 8,9 × 44,2 mm, l’étanchéité à 30 m et le calibre manuel V5000 de 60 h. La page internationale affiche 4 750 EUR hors taxes et annonce une disponibilité de 72 heures à partir du 25 septembre 2026 ; les 100 premières pièces seront numérotées, sans quantité totale publiée. Fratello (15 septembre 2026) recoupe le lancement, les caractéristiques et la précision annoncée de ±3 s/j. Packshot officiel contrôlé en 1 800 × 1 800 px : montre entière nette, boîtier titane, cadran bleu Zefiro et bracelet cuir bleu de la variante exacte. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-15",
+      "independent": true
+    }
   }
 ]
