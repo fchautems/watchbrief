@@ -4518,5 +4518,53 @@
       "verifiedAt": "2026-09-16",
       "independent": false
     }
+  },
+  {
+    "id": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
+    "issueNumber": 125,
+    "status": "review",
+    "detectedAt": "2026-09-16",
+    "watch": {
+      "id": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
+      "slug": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
+      "brand": "IWC",
+      "brandSlug": "iwc",
+      "model": "Ingenieur Automatic 40 50th Anniversary",
+      "date": "2026-09-15",
+      "reference": "IW328910 · cadran argenté brossé · boîtier et bracelet intégré en acier",
+      "movement": "Calibre de manufacture IWC 32111 automatique",
+      "diameter": "40 mm",
+      "diameterMm": 40,
+      "thickness": "10,7 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier fin entièrement satiné, cadran argenté brossé, bracelet intégré en acier",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "120 h",
+      "price": "CHF 13’200",
+      "priceSourceUrl": "https://www.iwc.com/ch-fr/watches/ingenieur/iw328910-ingenieur-automatic-40-50-anniversary",
+      "priceCheckedAt": "2026-09-16",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 1150,
+      "summary": "IWC célèbre les 50 ans de l’Ingenieur SL dessinée par Gérald Genta avec une édition limitée au cadran argenté brossé inspiré d’un modèle rare des années 1970. Le calibre automatique 32111 offre 120 heures de réserve de marche, tandis que la construction conserve une cage interne en fer doux.",
+      "productUrl": "https://www.iwc.com/ch-fr/watches/ingenieur/iw328910-ingenieur-automatic-40-50-anniversary",
+      "linkLabel": "Découvrir l’IWC Ingenieur Automatic 40 50th Anniversary",
+      "imageUrl": "https://img.iwc.com/product-slideshow-2xl-1/o-dpr-2/be8e32a7f015032aac485897ba5eeeb47d3be970.jpg",
+      "imageSource": "IWC Schaffhausen",
+      "imageSourceUrl": "https://www.iwc.com/ch-fr/watches/ingenieur/iw328910-ingenieur-automatic-40-50-anniversary",
+      "sources": [
+        "https://www.iwc.com/ch-fr/watches/ingenieur/iw328910-ingenieur-automatic-40-50-anniversary",
+        "https://press.iwc.com/",
+        "https://www.fratellowatches.com/50-years-of-iwcs-ingenieur-sl-designed-by-gerald-genta-a-new-iwc-ingenieur-automatic-in-two-sizes/"
+      ],
+      "notes": "Édition limitée à 1 150 exemplaires. Le médaillon du fond commémore le 50e anniversaire de l’Ingenieur SL.",
+      "sourceNotes": "La fiche suisse officielle confirme la référence IW328910, le lancement anniversaire, le boîtier en acier de 40 × 10,7 mm, l’étanchéité à 10 bar, le calibre automatique 32111 et ses 120 h de réserve, ainsi que le prix de CHF 13’200 toutes taxes comprises. IWC annonce une série de 1 150 exemplaires ; Fratello recoupe le lancement du 15 septembre 2026 et les caractéristiques. Le lug-to-lug n’est pas publié pour cette référence et reste donc « Non communiqué ». Visuel officiel exact contrôlé en 1 854 × 2 140 px : montre entière nette, cadran argenté brossé, logo anniversaire, boîtier et bracelet intégré visibles ; l’asset haute définition répond et suit le motif IWC validé. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-16",
+      "independent": false
+    }
   }
 ]
