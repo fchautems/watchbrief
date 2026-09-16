@@ -4566,5 +4566,52 @@
       "verifiedAt": "2026-09-16",
       "independent": false
     }
+  },
+  {
+    "id": "glashutte-original-70s-stereo-panel-13611010271",
+    "issueNumber": 126,
+    "status": "review",
+    "detectedAt": "2026-09-17",
+    "watch": {
+      "id": "glashutte-original-70s-stereo-panel-13611010271",
+      "slug": "glashutte-original-70s-stereo-panel-13611010271",
+      "brand": "Glashütte Original",
+      "brandSlug": "glashutte-original",
+      "model": "70s « Stereo Panel »",
+      "date": "2026-09-16",
+      "reference": "1-36-11-01-02-71 · cadran argenté Stereo Panel · bracelet acier intégré",
+      "movement": "Calibre manufacture 36-11 automatique",
+      "diameter": "39 × 39 mm",
+      "diameterMm": 39,
+      "thickness": "9,6 mm",
+      "lugToLug": "43,7 mm",
+      "material": "Acier inoxydable satiné et poli, cadran argenté à texture Hexagrid, bracelet intégré en acier",
+      "waterResistance": "100 m (10 bar)",
+      "powerReserve": "100 h",
+      "price": "Prix non communiqué",
+      "priceSourceUrl": "https://www.glashuette-original.com/fr/watches/la-collection-vintage/70s-1-36-11-01-02-71/",
+      "priceCheckedAt": "2026-09-17",
+      "priceMarket": "FR",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Glashütte Original relance sa sportive intégrée carrée dans un format aminci de 39 × 39 mm, avec un cadran « Stereo Panel » texturé inspiré des chaînes hi-fi des années 1970. Le calibre manufacture 36-11 apporte 100 heures de réserve, un spiral silicium et un fond saphir.",
+      "productUrl": "https://www.glashuette-original.com/fr/watches/la-collection-vintage/70s-1-36-11-01-02-71/",
+      "linkLabel": "Découvrir la Glashütte Original 70s Stereo Panel",
+      "imageUrl": "https://www.glashuette-original.com/app/uploads/2026/09/Glashuette-Original-W13611010271-Desktop.jpg",
+      "imageSource": "Glashütte Original",
+      "imageSourceUrl": "https://www.glashuette-original.com/fr/watches/la-collection-vintage/70s-1-36-11-01-02-71/",
+      "sources": [
+        "https://www.glashuette-original.com/fr/watches/la-collection-vintage/70s-1-36-11-01-02-71/",
+        "https://monochrome-watches.com/2026-new-glashutte-original-70s-collection-time-and-date-integrated-sports-watch-introducing-price/"
+      ],
+      "notes": "Collection permanente. Le bracelet emploie le système breveté Groove Lock à changement rapide et un fermoir à réglage fin.",
+      "sourceNotes": "La fiche officielle confirme la référence 1-36-11-01-02-71, le cadran argenté « Stereo Panel », le boîtier acier de 39 × 39 × 9,6 mm, l’étanchéité à 10 bar, le calibre automatique 36-11 et ses 100 h de réserve. Monochrome publie 43,7 mm de lug-to-lug et recoupe le lancement du 16 septembre 2026. La page officielle affiche « Prix disponible sur demande » ; le prix reste donc « Prix non communiqué », sans reprendre le tarif média faute de contexte fiscal officiel. Visuel officiel exact contrôlé en 1 920 × 1 080 px : montre entière nette, cadran argenté, boîtier et bracelet acier fermé entièrement visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-17",
+      "independent": false
+    }
   }
 ]
