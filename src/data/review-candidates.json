@@ -4469,5 +4469,54 @@
       "independent": true
     },
     "reviewedAt": "2026-09-15"
+  },
+  {
+    "id": "rolex-perpetual-padellone-everose-settimo-53505-0003",
+    "issueNumber": 124,
+    "status": "review",
+    "detectedAt": "2026-09-16",
+    "watch": {
+      "id": "rolex-perpetual-padellone-everose-settimo-53505-0003",
+      "slug": "rolex-perpetual-padellone-everose-settimo-53505-0003",
+      "brand": "Rolex",
+      "brandSlug": "rolex",
+      "model": "Perpetual Padellone Everose – bracelet Settimo",
+      "date": "2026-09-15",
+      "reference": "m53505-0003 · or Everose 18 ct · cadran blanc intense · bracelet Settimo",
+      "movement": "Rolex 7190 automatique, calendrier annuel instantané Haplos et échappement Dynapulse",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "12,20 mm",
+      "lugToLug": "environ 45 mm",
+      "material": "Or Everose 18 ct poli, cadran blanc intense grainé, bracelet Settimo sept maillons en or Everose 18 ct",
+      "waterResistance": "50 m",
+      "powerReserve": "66 h",
+      "price": "CHF 64’800",
+      "priceSourceUrl": "https://monochrome-watches.com/2026-rolex-perpetual-padellone-annual-calendar-moonphase-dynapulse-53505-53506-review-video-price/",
+      "priceCheckedAt": "2026-09-16",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "limitedQty": null,
+      "summary": "Rolex inaugure une nouvelle famille avec un calendrier annuel complet dont la date, le jour et le mois sautent instantanément à minuit, complété par une phase de Lune à météorites. Le calibre 7190 à 5 Hz réunit le système Haplos, l’échappement Dynapulse et 66 heures de réserve dans un boîtier habillé de 39 mm.",
+      "productUrl": "https://www.rolex.com/fr-ch/watches/new-watches/perpetual-padellone",
+      "linkLabel": "Découvrir la Rolex Perpetual Padellone",
+      "imageUrl": "https://media.rolex.com/image/upload/v1788250779/rolexcom/049e3b0b345c/new-watches/padellone/rolex-new-watches-2026-padellone-m53505-0003_2608stj_0001-cover-portrait.jpg",
+      "imageSource": "Rolex",
+      "imageSourceUrl": "https://www.rolex.com/fr-ch/watches/new-watches/perpetual-padellone",
+      "sources": [
+        "https://www.rolex.com/fr-ch/watches/new-watches/perpetual-padellone",
+        "https://newsroom.rolex.com/watches/new-watches/perpetual-padellone",
+        "https://monochrome-watches.com/2026-rolex-perpetual-padellone-annual-calendar-moonphase-dynapulse-53505-53506-review-video-price/",
+        "https://www.fratellowatches.com/hot-take-rolexs-perpetual-padellone-annual-calendar-takes-a-nod-from-the-past/"
+      ],
+      "sourceNotes": "Rolex a présenté la Perpetual Padellone le 15 septembre 2026. La page suisse officielle et le Newsroom confirment la nouvelle famille, la référence m53505-0003 sur bracelet Settimo, le boîtier Everose de 39 mm, l’étanchéité à 50 m, le calibre 7190 à 5 Hz, le calendrier annuel complet instantané, la phase de Lune et les 66 h de réserve. Monochrome publie 12,20 mm d’épaisseur et environ 45 mm de lug-to-lug, et recoupe le tarif suisse officiel de CHF 64’800 TVA incluse ; Fratello confirme séparément la référence et le prix. La page suisse de lancement ne rend pas encore ce prix dans son HTML. Visuel officiel contrôlé en 1 170 × 2 550 px : montre entière nette, boîtier Everose, cadran blanc intense, complication et bracelet Settimo de la variante exacte. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "notes": "Collection permanente. Les lunes sont réalisées en météorite ; le mécanisme Haplos distingue les mois de 30 et 31 jours et ne requiert qu’une correction annuelle à la fin février.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-16",
+      "independent": false
+    }
   }
 ]
