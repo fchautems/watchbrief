@@ -23,6 +23,7 @@ function WatchImage({ watch }: { watch: Watch }) {
       src={source}
       alt={`${watch.brand} ${watch.model}`}
       loading="lazy"
+      style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
       onError={() => setSourceIndex((index) => index + 1)}
     />
   );
