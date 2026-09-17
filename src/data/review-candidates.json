@@ -4522,7 +4522,7 @@
   {
     "id": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
     "issueNumber": 125,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-16",
     "watch": {
       "id": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
@@ -4565,7 +4565,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-16",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-17"
   },
   {
     "id": "glashutte-original-70s-stereo-panel-13611010271",
