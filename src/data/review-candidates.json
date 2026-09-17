@@ -4571,7 +4571,7 @@
   {
     "id": "glashutte-original-70s-stereo-panel-13611010271",
     "issueNumber": 126,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-17",
     "watch": {
       "id": "glashutte-original-70s-stereo-panel-13611010271",
@@ -4613,6 +4613,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-17",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-17"
   }
 ]
