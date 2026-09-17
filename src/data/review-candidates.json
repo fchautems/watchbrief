@@ -4615,5 +4615,52 @@
       "independent": false
     },
     "reviewedAt": "2026-09-17"
+  },
+  {
+    "id": "grand-seiko-elegance-sbgw325",
+    "issueNumber": 127,
+    "status": "review",
+    "detectedAt": "2026-09-17",
+    "watch": {
+      "id": "grand-seiko-elegance-sbgw325",
+      "slug": "grand-seiko-elegance-sbgw325",
+      "brand": "Grand Seiko",
+      "brandSlug": "grand-seiko",
+      "model": "Elegance Collection Manual-winding Mechanical SBGW325",
+      "date": "2026-09-17",
+      "reference": "SBGW325G · cadran bleu profond à chiffres arabes · bracelet crocodile indigo",
+      "movement": "Grand Seiko 9S64 mécanique à remontage manuel",
+      "diameter": "37,3 mm",
+      "diameterMm": 37.3,
+      "thickness": "11,7 mm",
+      "lugToLug": "44,3 mm",
+      "material": "Acier inoxydable, cadran bleu profond, bracelet crocodile teint à l’indigo",
+      "waterResistance": "Résistant aux éclaboussures",
+      "powerReserve": "72 h",
+      "price": "US$5,800 hors taxes",
+      "priceSourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw325g",
+      "priceCheckedAt": "2026-09-17",
+      "priceMarket": "US",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 600,
+      "summary": "Grand Seiko rend hommage à la SBGW003 de 2001, première montre manuelle animée par un calibre 9S, avec un cadran bleu profond aux chiffres arabes distinctifs. Le boîtier acier de 37,3 mm accueille le calibre manuel 9S64, tandis que le bracelet crocodile est teint à l’indigo selon la technique hon-ai.",
+      "productUrl": "https://www.grand-seiko.com/us-en/collections/sbgw325g",
+      "linkLabel": "Découvrir la Grand Seiko SBGW325",
+      "imageUrl": "https://www.grand-seiko.com/us-en/-/media/Images/Product--Image/All/GrandSeiko/2026/08/10/21/12/SBGW325G/SBGW325G.png",
+      "imageSource": "Grand Seiko",
+      "imageSourceUrl": "https://www.grand-seiko.com/us-en/collections/sbgw325g",
+      "sources": [
+        "https://www.grand-seiko.com/us-en/collections/sbgw325g",
+        "https://monochrome-watches.com/grand-seiko-elegance-sbgw325-tribute-to-the-first-manual-winding-9s-model-sbgw003-introducing-price/"
+      ],
+      "notes": "Édition limitée à 600 exemplaires, annoncée pour octobre 2026. Un second bracelet en cuir de vache gris est fourni.",
+      "sourceNotes": "La fiche officielle Grand Seiko confirme la référence SBGW325, le cadran bleu profond à chiffres arabes, le boîtier acier de 37,3 × 11,7 × 44,3 mm, le calibre manuel 9S64 et ses 72 h de réserve, la résistance aux éclaboussures ainsi que la série limitée à 600 pièces. La page américaine affiche US$5,800 avant taxes locales et annonce une sortie en octobre 2026 ; Monochrome recoupe le lancement du 17 septembre 2026, les caractéristiques et la limitation. Packshot officiel exact contrôlé : PNG 1 102 × 1 102 px, montre nette avec boîtier, cadran et bracelet de la variante SBGW325G ; l’URL finale répond en HTTP 200. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes ; la SBGW325 est distincte de la SBGR325.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-17",
+      "independent": false
+    }
   }
 ]
