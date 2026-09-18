@@ -4662,5 +4662,52 @@
       "verifiedAt": "2026-09-17",
       "independent": false
     }
+  },
+  {
+    "id": "kurono-tokyo-calendrier-sbr-saxe-blue",
+    "issueNumber": 128,
+    "status": "review",
+    "detectedAt": "2026-09-18",
+    "watch": {
+      "id": "kurono-tokyo-calendrier-sbr-saxe-blue",
+      "slug": "kurono-tokyo-calendrier-sbr-saxe-blue",
+      "brand": "Kurono Tokyo",
+      "brandSlug": "kurono-tokyo",
+      "model": "Calendrier Small Batch Release Saxe Blue",
+      "date": "2026-09-17",
+      "reference": "Calendrier SBR · cadran Saxe blue · bracelet veau noir",
+      "movement": "Miyota 9122 automatique, triple calendrier",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "11,5 mm avec glace (10 mm hors glace)",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable 316L poli, cadran Saxe blue, bracelet en veau noir",
+      "waterResistance": "50 m (5 ATM)",
+      "powerReserve": "40 h",
+      "price": "US$2,380 hors taxes et droits",
+      "priceSourceUrl": "https://kuronotokyo.com/pages/calendrier-sbr",
+      "priceCheckedAt": "2026-09-18",
+      "priceMarket": "international",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": null,
+      "summary": "Hajime Asaoka reprend son triple calendrier dans une petite série non reconduite, avec un cadran Saxe blue brillant, un centre à lignes verticales et des chiffres arabes appliqués obtenus par électroformage. Le boîtier acier de 38 mm reçoit le Miyota 9122 automatique avec affichage du jour, de la date et du mois.",
+      "productUrl": "https://kuronotokyo.com/pages/calendrier-sbr",
+      "linkLabel": "Découvrir la Kurono Tokyo Calendrier SBR Saxe Blue",
+      "imageUrl": "https://kuronotokyo.com/cdn/shop/files/KT_CalendrierSBR_2.1.jpg?v=1788938729&width=2000",
+      "imageSource": "Kurono Tokyo",
+      "imageSourceUrl": "https://kuronotokyo.com/pages/calendrier-sbr",
+      "sources": [
+        "https://kuronotokyo.com/pages/calendrier-sbr",
+        "https://monochrome-watches.com/kurono-tokyo-calendrier-small-batch-release-smb-saxe-blue-dial-introducing-price/"
+      ],
+      "notes": "Petite série à quantité non communiquée, non reconduite. Commandes mondiales le 24 septembre 2026 à 23 h JST, une montre par client ; livraisons attendues à partir de fin octobre 2026.",
+      "sourceNotes": "La page officielle confirme le cadran Saxe blue à 70 % de brillance, les chiffres arabes appliqués par électroformage, le boîtier acier de 38 mm et 11,5 mm avec glace, l’étanchéité à 5 ATM, le Miyota 9122 automatique de 40 h et le triple calendrier. Elle affiche US$2,380 hors TVA et droits pour la vente internationale, précise que la production limitée ne sera pas reconduite et ne publie ni quantité ni lug-to-lug. Monochrome recoupe le lancement du 17 septembre 2026 et les caractéristiques. Visuel officiel exact contrôlé en 2 000 × 1 400 px : montre nette avec boîtier, cadran Saxe blue, triple calendrier et bracelet veau noir visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-18",
+      "independent": true
+    }
   }
 ]
