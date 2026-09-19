@@ -1,9 +1,31 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": null,
-  "lastFullRotationAt": null,
-  "rotationCursor": 0,
-  "seenAnnouncements": [],
+  "lastFreshnessSweepAt": "2026-09-19T08:19:51Z",
+  "lastFullRotationAt": "2026-09-19T04:23:02Z",
+  "rotationCursor": 1,
+  "seenAnnouncements": [
+    {
+      "key": "czapek-promenade-ecume-des-jours",
+      "title": "Czapek Promenade L’Écume des Jours",
+      "officialUrl": "https://www.czapek.com/shop/promenade-ecume-des-jours-8814",
+      "firstSeenAt": "2026-09-19T04:18:08Z",
+      "disposition": "candidate-129"
+    },
+    {
+      "key": "rgm-model-501-efb",
+      "title": "RGM / E.F. Bowman Model 501-EFB",
+      "sourceUrl": "https://monochrome-watches.com/pennsylvania-based-rgm-revives-the-e-f-bowman-name-with-the-model-501-efb-introducing-price/",
+      "firstSeenAt": "2026-09-19T04:18:08Z",
+      "disposition": "no-official-product-page-yet"
+    },
+    {
+      "key": "singer-1970-dualtrack",
+      "title": "Singer 1970 DualTrack",
+      "sourceUrl": "https://monochrome-watches.com/",
+      "firstSeenAt": "2026-09-19T04:18:08Z",
+      "disposition": "seen-no-candidate"
+    }
+  ],
   "needsReviewLastChecked": {}
 }
