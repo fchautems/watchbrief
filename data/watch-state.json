@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
+  "lastFreshnessSweepAt": null,
+  "lastFullRotationAt": null,
+  "rotationCursor": 0,
+  "seenAnnouncements": [],
+  "needsReviewLastChecked": {}
+}
