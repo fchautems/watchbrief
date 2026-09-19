@@ -4709,5 +4709,52 @@
       "verifiedAt": "2026-09-18",
       "independent": true
     }
+  },
+  {
+    "id": "czapek-promenade-ecume-des-jours",
+    "issueNumber": 129,
+    "status": "review",
+    "detectedAt": "2026-09-19",
+    "watch": {
+      "id": "czapek-promenade-ecume-des-jours",
+      "slug": "czapek-promenade-ecume-des-jours",
+      "brand": "Czapek",
+      "brandSlug": "czapek",
+      "model": "Promenade L’Écume des Jours",
+      "date": "2026-09-18",
+      "reference": "Promenade Ecume des Jours · boîtier acier · bracelet maille milanaise",
+      "movement": "Calibre manufacture Czapek SXH5.1 automatique à micro-rotor",
+      "diameter": "38 mm",
+      "diameterMm": 38,
+      "thickness": "10,8 mm",
+      "lugToLug": "42 mm",
+      "material": "Acier inoxydable poli, cadran Grand Feu bleu avec nacre, jade et nénuphar en titane peint à la main, bracelet maille milanaise en acier",
+      "waterResistance": "50 m (5 ATM)",
+      "powerReserve": "60 h",
+      "price": "CHF 26’800 hors TVA",
+      "priceSourceUrl": "https://www.czapek.com/shop/promenade-ecume-des-jours-8814",
+      "priceCheckedAt": "2026-09-19",
+      "priceMarket": "CH",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 18,
+      "summary": "Czapek transpose deux motifs de L’Écume des Jours de Boris Vian dans un cadran métiers d’art : un clavier périphérique en nacre peint à la main et un nénuphar animé sur la petite seconde. Le cadran Grand Feu bleu est réalisé avec Donzé Cadrans et MD’Art, tandis que le calibre automatique SXH5.1 à micro-rotor en platine offre 60 heures de réserve.",
+      "productUrl": "https://www.czapek.com/shop/promenade-ecume-des-jours-8814",
+      "linkLabel": "Découvrir la Czapek Promenade L’Écume des Jours",
+      "imageUrl": "https://www.czapek.com/web/image/product.product/10776/image_1024/%5B1726%5D%20Promenade%20Ecume%20des%20Jours%20%28Milanese%20Bracelet%29?unique=b9dc1f9",
+      "imageSource": "Czapek Genève",
+      "imageSourceUrl": "https://www.czapek.com/shop/promenade-ecume-des-jours-8814",
+      "sources": [
+        "https://www.czapek.com/shop/promenade-ecume-des-jours-8814",
+        "https://monochrome-watches.com/inspired-by-a-cult-french-novel-czapek-unveils-the-promenade-ecume-des-jours-hands-on-price/"
+      ],
+      "notes": "Édition limitée à 18 exemplaires. Le clavier périphérique évoque le « pianocktail » de Boris Vian ; le nénuphar en titane peint à la main tourne avec la petite seconde.",
+      "sourceNotes": "La page produit officielle confirme l’identité, le boîtier acier de 38 mm, l’étanchéité à 5 ATM, le calibre automatique SXH5.1 à micro-rotor en platine recyclé, ses 60 h de réserve et la série limitée à 18 pièces. Elle affiche CHF 26’800 hors TVA et précise que 8,1 % de TVA suisse sont ajoutés pour un achat en Suisse. Monochrome recoupe le lancement du 18 septembre 2026, l’épaisseur de 10,8 mm et le lug-to-lug de 42 mm. Visuel officiel exact contrôlé en 748 × 1 024 px : montre entière nette, cadran bleu à clavier périphérique et nénuphar, boîtier acier et bracelet maille milanaise visibles ; l’URL finale répond en HTTP 200. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-19",
+      "independent": true
+    }
   }
 ]
