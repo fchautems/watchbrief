@@ -1,7 +1,7 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-19T08:19:51Z",
+  "lastFreshnessSweepAt": "2026-09-19T12:17:41Z",
   "lastFullRotationAt": "2026-09-19T04:23:02Z",
   "rotationCursor": 1,
   "seenAnnouncements": [
@@ -25,6 +25,27 @@
       "sourceUrl": "https://monochrome-watches.com/",
       "firstSeenAt": "2026-09-19T04:18:08Z",
       "disposition": "seen-no-candidate"
+    },
+    {
+      "key": "rolex-perpetual-padellone",
+      "title": "Rolex Perpetual Padellone",
+      "officialUrl": "https://newsroom.rolex.com/fr/watches/new-watches/perpetual-padellone",
+      "firstSeenAt": "2026-09-15T00:00:00Z",
+      "disposition": "candidate-124"
+    },
+    {
+      "key": "grand-seiko-sbgw325",
+      "title": "Grand Seiko SBGW325",
+      "officialUrl": "https://www.grand-seiko.com/us-en/collections/sbgw325g",
+      "firstSeenAt": "2026-09-17T00:00:00Z",
+      "disposition": "candidate-127"
+    },
+    {
+      "key": "tudor-northflag",
+      "title": "Tudor Northflag",
+      "officialUrl": "https://www.tudorwatch.com/en/watches/northflag",
+      "firstSeenAt": "2026-09-01T00:00:00Z",
+      "disposition": "existing-candidate-issue-71"
     }
   ],
   "needsReviewLastChecked": {}
