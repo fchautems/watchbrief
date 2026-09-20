@@ -4473,7 +4473,7 @@
   {
     "id": "rolex-perpetual-padellone-everose-settimo-53505-0003",
     "issueNumber": 124,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-16",
     "watch": {
       "id": "rolex-perpetual-padellone-everose-settimo-53505-0003",
@@ -4517,7 +4517,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-16",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-20"
   },
   {
     "id": "iwc-ingenieur-automatic-40-50th-anniversary-iw328910",
