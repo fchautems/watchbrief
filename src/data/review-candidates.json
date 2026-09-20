@@ -4667,7 +4667,7 @@
   {
     "id": "kurono-tokyo-calendrier-sbr-saxe-blue",
     "issueNumber": 128,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-18",
     "watch": {
       "id": "kurono-tokyo-calendrier-sbr-saxe-blue",
@@ -4709,7 +4709,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-18",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-20"
   },
   {
     "id": "czapek-promenade-ecume-des-jours",
