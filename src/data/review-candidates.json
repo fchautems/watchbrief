@@ -4715,7 +4715,7 @@
   {
     "id": "czapek-promenade-ecume-des-jours",
     "issueNumber": 129,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-19",
     "watch": {
       "id": "czapek-promenade-ecume-des-jours",
@@ -4757,7 +4757,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-19",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-20"
   },
   {
     "id": "charlie-concordia-gmt-bleu-antarctique",
