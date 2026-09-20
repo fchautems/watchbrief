@@ -4619,7 +4619,7 @@
   {
     "id": "grand-seiko-elegance-sbgw325",
     "issueNumber": 127,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-17",
     "watch": {
       "id": "grand-seiko-elegance-sbgw325",
@@ -4661,7 +4661,8 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-17",
       "independent": false
-    }
+    },
+    "reviewedAt": "2026-09-20"
   },
   {
     "id": "kurono-tokyo-calendrier-sbr-saxe-blue",
