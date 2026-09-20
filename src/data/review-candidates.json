@@ -4756,5 +4756,51 @@
       "verifiedAt": "2026-09-19",
       "independent": true
     }
+  },
+  {
+    "id": "charlie-concordia-gmt-bleu-antarctique",
+    "issueNumber": 130,
+    "status": "review",
+    "detectedAt": "2026-09-20",
+    "watch": {
+      "id": "charlie-concordia-gmt-bleu-antarctique",
+      "slug": "charlie-concordia-gmt-bleu-antarctique",
+      "brand": "Charlie",
+      "brandSlug": "charlie",
+      "model": "Concordia GMT Bleu Antarctique",
+      "date": "2026-09-19",
+      "reference": "Concordia GMT Bleu Antarctique · bracelet acier 3 maillons",
+      "movement": "TMI/Seiko NH34 automatique GMT",
+      "diameter": "40,5 mm",
+      "diameterMm": 40.5,
+      "thickness": "13,5 mm avec verre (11,75 mm hors verre)",
+      "lugToLug": "47,5 mm",
+      "material": "Acier inoxydable 316L poli et brossé, cadran bleu sablé, insert de lunette en aluminium bleu, bracelet acier 3 maillons",
+      "waterResistance": "300 m (30 ATM)",
+      "powerReserve": "41 h",
+      "price": "695 € · TVA calculée et prélevée à la commande",
+      "priceSourceUrl": "https://charlie-paris.com/products/concordia-gmt-bleu",
+      "priceCheckedAt": "2026-09-20",
+      "priceMarket": "FR/EU",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Charlie renouvelle sa Concordia GMT avec cinq cadrans, un dessin révisé et un prix plus accessible. La variante Bleu Antarctique associe un boîtier acier de 40,5 mm étanche à 300 m, un rehaut 24 heures bicolore et le calibre automatique TMI/Seiko NH34, avec une luminescence différenciée pour l’heure locale et le GMT.",
+      "productUrl": "https://charlie-paris.com/products/concordia-gmt-bleu",
+      "linkLabel": "Découvrir la Charlie Concordia GMT Bleu Antarctique",
+      "imageUrl": "https://charlie-paris.com/cdn/shop/files/CON-GMT-001-41_756fa6eb-61ed-43d6-b9da-adb6523ab6ff.jpg?v=1786628058&width=3200",
+      "imageSource": "Charlie Paris",
+      "imageSourceUrl": "https://charlie-paris.com/products/concordia-gmt-bleu",
+      "sources": [
+        "https://charlie-paris.com/products/concordia-gmt-bleu",
+        "https://www.fratellowatches.com/the-updated-charlie-concordia-gmt/"
+      ],
+      "notes": "Collection permanente proposée en précommande ; la page officielle annonce une livraison estimée début novembre 2026. Bracelet acier 3 maillons retenu pour la candidate.",
+      "sourceNotes": "La page produit officielle confirme la variante Bleu Antarctique, le boîtier acier 316L de 40,5 × 13,5 × 47,5 mm, l’étanchéité à 300 m, le calibre automatique TMI/Seiko NH34 et ses 41 h de réserve. Elle affiche 695 € sur bracelet acier 3 maillons et précise que la TVA applicable au pays de résidence est calculée et prélevée à la commande dans l’Union européenne. Fratello recoupe le lancement du 19 septembre 2026, les cinq nouvelles couleurs, les caractéristiques et le nouveau tarif. Packshot officiel exact contrôlé en 3 200 × 3 200 px : montre entière nette, cadran bleu, boîtier et bracelet acier 3 maillons visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-20",
+      "independent": true
+    }
   }
 ]
