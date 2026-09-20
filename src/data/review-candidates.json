@@ -4763,7 +4763,7 @@
   {
     "id": "charlie-concordia-gmt-bleu-antarctique",
     "issueNumber": 130,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-20",
     "watch": {
       "id": "charlie-concordia-gmt-bleu-antarctique",
@@ -4804,6 +4804,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-20",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-20"
   }
 ]
