@@ -1,9 +1,9 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-20T04:18:50Z",
-  "lastFullRotationAt": "2026-09-19T04:23:02Z",
-  "rotationCursor": 1,
+  "lastFreshnessSweepAt": "2026-09-20T08:20:09Z",
+  "lastFullRotationAt": "2026-09-20T08:20:09Z",
+  "rotationCursor": 2,
   "seenAnnouncements": [
     {
       "key": "czapek-promenade-ecume-des-jours",
@@ -46,6 +46,13 @@
       "officialUrl": "https://www.tudorwatch.com/en/watches/northflag",
       "firstSeenAt": "2026-09-01T00:00:00Z",
       "disposition": "existing-candidate-issue-71"
+    },
+    {
+      "key": "charlie-concordia-gmt-bleu-antarctique",
+      "title": "Charlie Concordia GMT Bleu Antarctique",
+      "officialUrl": "https://charlie-paris.com/products/concordia-gmt-bleu",
+      "firstSeenAt": "2026-09-20T08:20:09Z",
+      "disposition": "candidate-130"
     }
   ],
   "needsReviewLastChecked": {}
