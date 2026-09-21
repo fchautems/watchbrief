@@ -4807,5 +4807,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-20"
+  },
+  {
+    "id": "rgm-model-501-efb",
+    "issueNumber": 131,
+    "status": "review",
+    "detectedAt": "2026-09-21",
+    "watch": {
+      "id": "rgm-model-501-efb",
+      "slug": "rgm-model-501-efb",
+      "brand": "RGM",
+      "brandSlug": "rgm",
+      "model": "Model 501-EFB",
+      "date": "2026-09-15",
+      "reference": "Model 501-EFB · boîtier acier 316L · cadran émail Grand Feu blanc · bracelet alligator brun",
+      "movement": "ASE 200 automatique à micro-rotor, fini par RGM, 33 rubis, 21 600 alt/h",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "11,3 mm au sommet du verre",
+      "lugToLug": "48 mm",
+      "material": "Acier inoxydable 316L, cadran émail Grand Feu blanc, aiguilles en acier bleui, bracelet alligator brun",
+      "waterResistance": "50 m (5 ATM)",
+      "powerReserve": "86 h",
+      "price": "US$16,950 · taxes non précisées",
+      "priceSourceUrl": "https://www.rgmwatches.com/ef-bowman-watches-page",
+      "priceCheckedAt": "2026-09-21",
+      "priceMarket": "US",
+      "priceTaxMode": "unknown",
+      "limitedEdition": false,
+      "summary": "RGM ressuscite le nom du détaillant historique E.F. Bowman avec une montre habillée américaine à cadran Grand Feu blanc et petite seconde. Son boîtier acier de 39 mm accueille l’ASE 200 automatique à micro-rotor, fini par RGM, qui offre 86 heures de réserve de marche.",
+      "productUrl": "https://www.rgmwatches.com/ef-bowman-watches-page",
+      "linkLabel": "Découvrir la RGM Model 501-EFB",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/550b2072e4b0d3cbec5358d7/1788372176976-L3QDU8CPOSX8Q8AT173S/RGM_Bowman_08.jpg?format=1500w",
+      "imageSource": "RGM Watch Co.",
+      "imageSourceUrl": "https://www.rgmwatches.com/ef-bowman-watches-page",
+      "sources": [
+        "https://www.rgmwatches.com/ef-bowman-watches-page",
+        "https://www.rgmwatches.com/rgmblog/2026/9/15/e-f-bowman-watches-by-rgm",
+        "https://monochrome-watches.com/pennsylvania-based-rgm-revives-the-e-f-bowman-name-with-the-model-501-efb-introducing-price/"
+      ],
+      "notes": "Présentation publique annoncée le 25 septembre 2026 au Lancaster Watch Weekend. Boîtiers en or et en platine disponibles sur commande spéciale.",
+      "sourceNotes": "La page officielle RGM confirme le Model 501-EFB en acier 316L, le cadran émail Grand Feu blanc, les aiguilles bleuies, le diamètre de 39 mm, l’épaisseur de 11,3 mm, le lug-to-lug de 48 mm, l’étanchéité à 5 ATM et le calibre ASE 200 automatique à micro-rotor fini par RGM, doté de 33 rubis et de 86 h de réserve. Elle affiche US$16,950 sans préciser le traitement des taxes. Monochrome recoupe l’annonce du 15 septembre 2026 et les caractéristiques. Visuel officiel exact contrôlé en 1 500 × 1 000 px : boîtier, cadran, petite seconde, aiguilles et bracelet de la variante acier visibles et nets ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-21",
+      "independent": true
+    }
   }
 ]
