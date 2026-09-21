@@ -4855,5 +4855,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-21"
+  },
+  {
+    "id": "h-moser-off-grid-blue-6di0-1202",
+    "issueNumber": 132,
+    "status": "review",
+    "detectedAt": "2026-09-21",
+    "watch": {
+      "id": "h-moser-off-grid-blue-6di0-1202",
+      "slug": "h-moser-off-grid-blue-6di0-1202",
+      "brand": "H. Moser & Cie.",
+      "brandSlug": "h-moser-cie",
+      "model": "Off-Grid Blue",
+      "date": "2026-09-21",
+      "reference": "6DI0-1202 · boîtier acier et composite bleu · cadran Blackor fumé · bracelet caoutchouc blanc",
+      "movement": "Calibre D10 analogique-numérique rechargeable, développé avec Sequent pour H. Moser & Cie.",
+      "diameter": "42,6 mm",
+      "diameterMm": 42.6,
+      "thickness": "14,4 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier avec composite bleu, cadran ajouré et sous-cadran Blackor fumé, bracelet caoutchouc blanc intégré",
+      "waterResistance": "120 m (12 ATM)",
+      "powerReserve": "12 mois en affichage horaire seul ; environ 6 mois en usage mixte",
+      "price": "CHF 3’900 hors TVA",
+      "priceSourceUrl": "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
+      "priceCheckedAt": "2026-09-21",
+      "priceMarket": "CH / vente directe en CHF",
+      "priceTaxMode": "excl-vat",
+      "limitedEdition": true,
+      "limitedQty": 1000,
+      "summary": "H. Moser transpose le dessin Streamliner dans une montre analogique-numérique développée avec Sequent. L’Off-Grid Blue combine affichage mécanique des heures et écran numérique pour le GMT, un chronographe rattrapante au 1/100e, un calendrier perpétuel, une phase de Lune perpétuelle, les heures solaires, l’alarme et la minuterie.",
+      "productUrl": "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
+      "linkLabel": "Découvrir la H. Moser & Cie. Off-Grid Blue",
+      "imageUrl": "https://content.h-moser.com/media/pages/streamliner/off-grid-6di0-1202/da0444b87f-1789367946/hmc-moser-streamliner-offgrid-blue_soldier_preview-1536x.webp",
+      "imageSource": "H. Moser & Cie.",
+      "imageSourceUrl": "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
+      "sources": [
+        "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
+        "https://www.hodinkee.com/articles/the-h-moser-and-cie-off-grid-live-pics"
+      ],
+      "notes": "Réservée aux clients H. Moser du 21 au 23 septembre 2026, puis ouverte à tous du 24 septembre au 5 octobre, dans la limite de 1’000 exemplaires.",
+      "sourceNotes": "La page officielle confirme la référence 6DI0-1202, le boîtier acier avec composite bleu de 42,6 mm, le cadran ajouré avec sous-cadran Blackor fumé, le bracelet caoutchouc blanc intégré, l’étanchéité à 12 ATM, le calibre D10 développé avec Sequent et le prix de CHF 3’900 hors TVA. Elle annonce 1’000 pièces, 12 mois d’autonomie en affichage horaire seul et environ 6 mois en usage mixte. Hodinkee recoupe l’annonce du 21 septembre 2026 et publie une épaisseur de 14,4 mm ; il cite 1 h d’usage du chronographe dans son scénario mixte contre 4 h sur la page officielle, qui prévaut. Lug-to-lug non publié. Packshot officiel exact contrôlé en 1 020 × 1 360 px : montre entière nette, boîtier bleu, cadran Blackor, écran numérique et bracelet blanc visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-21",
+      "independent": true
+    }
   }
 ]
