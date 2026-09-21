@@ -4811,7 +4811,7 @@
   {
     "id": "rgm-model-501-efb",
     "issueNumber": 131,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-21",
     "watch": {
       "id": "rgm-model-501-efb",
@@ -4853,6 +4853,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-21",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-21"
   }
 ]
