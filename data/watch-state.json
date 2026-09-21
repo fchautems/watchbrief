@@ -1,9 +1,9 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-21T08:19:31Z",
-  "lastFullRotationAt": "2026-09-20T08:20:09Z",
-  "rotationCursor": 2,
+  "lastFreshnessSweepAt": "2026-09-21T12:24:47Z",
+  "lastFullRotationAt": "2026-09-21T12:24:47Z",
+  "rotationCursor": 3,
   "seenAnnouncements": [
     {
       "key": "czapek-promenade-ecume-des-jours",
@@ -17,7 +17,8 @@
       "title": "RGM / E.F. Bowman Model 501-EFB",
       "sourceUrl": "https://monochrome-watches.com/pennsylvania-based-rgm-revives-the-e-f-bowman-name-with-the-model-501-efb-introducing-price/",
       "firstSeenAt": "2026-09-19T04:18:08Z",
-      "disposition": "no-official-product-page-yet"
+      "disposition": "candidate-131",
+      "officialUrl": "https://www.rgmwatches.com/ef-bowman-watches-page"
     },
     {
       "key": "singer-1970-dualtrack",
