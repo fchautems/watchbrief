@@ -1,7 +1,7 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-21T16:20:49Z",
+  "lastFreshnessSweepAt": "2026-09-21T20:18:00Z",
   "lastFullRotationAt": "2026-09-21T12:24:47Z",
   "rotationCursor": 3,
   "seenAnnouncements": [
@@ -54,6 +54,13 @@
       "officialUrl": "https://charlie-paris.com/products/concordia-gmt-bleu",
       "firstSeenAt": "2026-09-20T08:20:09Z",
       "disposition": "candidate-130"
+    },
+    {
+      "key": "h-moser-off-grid-blue-6di0-1202",
+      "title": "H. Moser & Cie. Off-Grid Blue",
+      "officialUrl": "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
+      "firstSeenAt": "2026-09-21T20:18:00Z",
+      "disposition": "candidate-132"
     }
   ],
   "needsReviewLastChecked": {}
