@@ -1,9 +1,9 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-22T12:19:23Z",
-  "lastFullRotationAt": "2026-09-21T12:24:47Z",
-  "rotationCursor": 3,
+  "lastFreshnessSweepAt": "2026-09-22T16:21:59Z",
+  "lastFullRotationAt": "2026-09-22T16:21:59Z",
+  "rotationCursor": 4,
   "seenAnnouncements": [
     {
       "key": "czapek-promenade-ecume-des-jours",
@@ -61,6 +61,13 @@
       "officialUrl": "https://h-moser.com/en/streamliner/off-grid-6di0-1202",
       "firstSeenAt": "2026-09-21T20:18:00Z",
       "disposition": "candidate-132"
+    },
+    {
+      "key": "baume-mercier-clifton-10872",
+      "title": "Baume & Mercier Clifton 10872",
+      "officialUrl": "https://www.baume-et-mercier.com/ch/fr/collections/clifton-homme/montre-clifton-10872-phase-de-lune.html",
+      "firstSeenAt": "2026-09-22T16:21:59Z",
+      "disposition": "seen-no-candidate-image-unverified"
     }
   ],
   "needsReviewLastChecked": {}
