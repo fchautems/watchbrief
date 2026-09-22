@@ -4859,7 +4859,7 @@
   {
     "id": "h-moser-off-grid-blue-6di0-1202",
     "issueNumber": 132,
-    "status": "review",
+    "status": "published",
     "detectedAt": "2026-09-21",
     "watch": {
       "id": "h-moser-off-grid-blue-6di0-1202",
@@ -4901,6 +4901,7 @@
       "editorialStatus": "publishable",
       "verifiedAt": "2026-09-21",
       "independent": true
-    }
+    },
+    "reviewedAt": "2026-09-22"
   }
 ]
