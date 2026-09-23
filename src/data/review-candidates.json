@@ -4903,5 +4903,52 @@
       "independent": true
     },
     "reviewedAt": "2026-09-22"
+  },
+  {
+    "id": "frederique-constant-highlife-automatic-legion-etrangere-fc-303lbr3nh26",
+    "issueNumber": 133,
+    "status": "review",
+    "detectedAt": "2026-09-23",
+    "watch": {
+      "id": "frederique-constant-highlife-automatic-legion-etrangere-fc-303lbr3nh26",
+      "slug": "frederique-constant-highlife-automatic-legion-etrangere-fc-303lbr3nh26",
+      "brand": "Frédérique Constant",
+      "brandSlug": "frederique-constant",
+      "model": "Highlife Automatic x Légion étrangère",
+      "date": "2026-09-23",
+      "reference": "FC-303LBR3NH26 · cadran sable · bracelet nubuck brun, bracelets acier et caoutchouc noir inclus",
+      "movement": "Calibre FC-303 automatique sur base La Joux-Perret G100, 24 rubis",
+      "diameter": "39 mm",
+      "diameterMm": 39,
+      "thickness": "10,34 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier inoxydable poli et brossé, cadran sable sablé, bracelet nubuck brun embossé crocodile ; bracelets acier et caoutchouc noir inclus",
+      "waterResistance": "100 m (10 ATM)",
+      "powerReserve": "68 h",
+      "price": "CHF 1’995 · taxes et droits inclus (DDP)",
+      "priceSourceUrl": "https://frederiqueconstant.com/watches/collection/highlife/highlife_automatic/fc-303lbr3nh26/",
+      "priceCheckedAt": "2026-09-23",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": true,
+      "limitedQty": 888,
+      "summary": "Frédérique Constant inaugure sa collaboration avec la Légion étrangère par une Highlife au cadran sable épuré, marqué de la grenade à sept flammes à 6 h. Le boîtier acier de 39 mm reçoit le calibre automatique FC-303 sur base La Joux-Perret G100, doté de 68 heures de réserve, avec trois bracelets interchangeables sans outil.",
+      "productUrl": "https://frederiqueconstant.com/watches/collection/highlife/highlife_automatic/fc-303lbr3nh26/",
+      "linkLabel": "Découvrir la Frédérique Constant Highlife Automatic x Légion étrangère",
+      "imageUrl": "https://frederiqueconstant.com/wp-content/uploads/others/4-Highlife-Automatic-FC-303LBR3NH26-1-scaled.webp",
+      "imageSource": "Frédérique Constant",
+      "imageSourceUrl": "https://frederiqueconstant.com/watches/collection/highlife/highlife_automatic/fc-303lbr3nh26/",
+      "sources": [
+        "https://frederiqueconstant.com/watches/collection/highlife/highlife_automatic/fc-303lbr3nh26/",
+        "https://monochrome-watches.com/frederique-constant-x-french-foreign-legion-limited-editions-review-price/"
+      ],
+      "notes": "Édition limitée à 888 exemplaires. Une partie des recettes est reversée à la Fédération des sociétés d’anciens de la Légion étrangère pour soutenir d’anciens légionnaires et leurs familles.",
+      "sourceNotes": "La page officielle suisse confirme la référence FC-303LBR3NH26, le cadran sable sablé avec grenade à 6 h, le boîtier acier de 39 mm et 10,34 mm, l’étanchéité à 10 ATM, le calibre automatique FC-303 de 68 h et la série limitée à 888 pièces. Elle affiche CHF 1’995 et précise que taxes et droits sont inclus (DDP). Monochrome recoupe l’annonce du 23 septembre 2026, les caractéristiques et le tarif. Lug-to-lug non publié. Visuel officiel exact contrôlé en 2 560 × 1 440 px : la montre est seule, centrée entre deux gants, avec boîtier Highlife, cadran sable, date à 3 h et bracelet nubuck brun visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-23",
+      "independent": false
+    }
   }
 ]
