@@ -1,9 +1,9 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-23T16:18:45Z",
-  "lastFullRotationAt": "2026-09-22T16:21:59Z",
-  "rotationCursor": 4,
+  "lastFreshnessSweepAt": "2026-09-23T20:18:37Z",
+  "lastFullRotationAt": "2026-09-23T20:18:37Z",
+  "rotationCursor": 5,
   "seenAnnouncements": [
     {
       "key": "czapek-promenade-ecume-des-jours",
@@ -68,6 +68,34 @@
       "officialUrl": "https://www.baume-et-mercier.com/ch/fr/collections/clifton-homme/montre-clifton-10872-phase-de-lune.html",
       "firstSeenAt": "2026-09-22T16:21:59Z",
       "disposition": "seen-no-candidate-image-unverified"
+    },
+    {
+      "key": "frederique-constant-highlife-automatic-legion-etrangere-fc-303lbr3nh26",
+      "title": "Frédérique Constant Highlife Automatic x Légion étrangère",
+      "officialUrl": "https://frederiqueconstant.com/watches/collection/highlife/highlife_automatic/fc-303lbr3nh26/",
+      "firstSeenAt": "2026-09-23T20:18:37Z",
+      "disposition": "candidate-133"
+    },
+    {
+      "key": "frederique-constant-classics-index-small-seconds-legion-etrangere-fc-530gs3b6b",
+      "title": "Frédérique Constant Classics Index Small Seconds Automatic x Légion étrangère",
+      "officialUrl": "https://frederiqueconstant.com/watches/collection/men/men_classics/men_classics_index-small-seconds-automatic/fc-530gs3b6b/",
+      "firstSeenAt": "2026-09-23T20:18:37Z",
+      "disposition": "same-launch-not-selected"
+    },
+    {
+      "key": "nivada-grenchen-f77-mkii-100-years",
+      "title": "Nivada Grenchen F77 MKII 100 Years",
+      "officialUrl": "https://nivadagrenchenofficial.com/pages/f77-100years",
+      "firstSeenAt": "2026-09-23T20:18:37Z",
+      "disposition": "seen-no-candidate-no-official-chf"
+    },
+    {
+      "key": "gronefeld-1941-quadrivium",
+      "title": "Grönefeld 1941 Quadrivium",
+      "officialUrl": "https://www.gronefeld.com/collection",
+      "firstSeenAt": "2026-09-23T20:18:37Z",
+      "disposition": "seen-no-candidate-not-fresh-official"
     }
   ],
   "needsReviewLastChecked": {}
