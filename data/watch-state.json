@@ -1,7 +1,7 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-23T00:17:08Z",
+  "lastFreshnessSweepAt": "2026-09-23T04:18:30Z",
   "lastFullRotationAt": "2026-09-22T16:21:59Z",
   "rotationCursor": 4,
   "seenAnnouncements": [
