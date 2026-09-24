@@ -4950,5 +4950,51 @@
       "verifiedAt": "2026-09-23",
       "independent": false
     }
+  },
+  {
+    "id": "panerai-luminor-pam01714",
+    "issueNumber": 134,
+    "status": "review",
+    "detectedAt": "2026-09-24",
+    "watch": {
+      "id": "panerai-luminor-pam01714",
+      "slug": "panerai-luminor-pam01714",
+      "brand": "Panerai",
+      "brandSlug": "panerai",
+      "model": "Luminor PAM01714",
+      "date": "2026-09-22",
+      "reference": "PAM01714 · boîtier acier DLC noir · cadran bleu · bracelet textile bleu",
+      "movement": "Calibre P.980 automatique, 23 rubis, 28 800 alt/h, 169 composants",
+      "diameter": "42 mm",
+      "diameterMm": 42,
+      "thickness": "13,8 mm",
+      "lugToLug": "Non communiqué",
+      "material": "Acier microsablé avec revêtement DLC noir, cadran bleu, bracelet textile bleu",
+      "waterResistance": "500 m (50 bar)",
+      "powerReserve": "3 jours",
+      "price": "CHF 6’600 · TVA incluse",
+      "priceSourceUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01714-luminor.html",
+      "priceCheckedAt": "2026-09-24",
+      "priceMarket": "CH",
+      "priceTaxMode": "incl-vat",
+      "limitedEdition": false,
+      "summary": "Panerai transpose pour la première fois l’architecture Luminor civile des années 1990 dans un boîtier pleinement étanche de 42 mm. La PAM01714 combine acier DLC noir, cadran bleu et bracelet textile assorti, avec le calibre automatique P.980 à trois jours de réserve et 500 mètres d’étanchéité.",
+      "productUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01714-luminor.html",
+      "linkLabel": "Découvrir la Panerai Luminor PAM01714",
+      "imageUrl": "https://www.panerai.com/content/dam/rcq/pan/Pq/Lz/Xn/Dj/Sc/-J/pR/r3/gs/he/cQ/PqLzXnDjSc-JpRr3gshecQ.jpeg.transform.strip_component_bg_image_640_2x.png",
+      "imageSource": "Panerai",
+      "imageSourceUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01714-luminor.html",
+      "sources": [
+        "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01714-luminor.html",
+        "https://www.fratellowatches.com/42mm-panerai-luminor-pam01710-pam01711-and-pam01714/"
+      ],
+      "notes": "Collection permanente. La PAM01714 est la déclinaison acier DLC noir et cadran bleu d’un trio de nouvelles Luminor 42 mm comprenant aussi les PAM01710 et PAM01711 en acier.",
+      "sourceNotes": "La page officielle suisse confirme la référence PAM01714, le boîtier acier microsablé DLC de 42 mm, le cadran bleu, le bracelet textile bleu, l’étanchéité à 50 bar et le calibre automatique P.980 de 169 composants avec trois jours de réserve. Son balisage produit officiel affiche CHF 6’600 et la page suisse précise que la taxe de vente est incluse. Fratello recoupe l’annonce du 22 septembre 2026, l’épaisseur de 13,8 mm et les caractéristiques, mais indique 177 composants ; la valeur officielle de 169 prévaut. Lug-to-lug non publié. Packshot officiel exact contrôlé en 1 280 × 1 707 px : vue frontale nette, boîtier DLC noir, cadran bleu, petite seconde et bracelet textile bleu visibles ; l’URL finale répond correctement. Déduplication négative contre le seed, editorial.ts, review-candidates.json et les issues ouvertes.",
+      "verified": true,
+      "verificationStatus": "verified",
+      "editorialStatus": "publishable",
+      "verifiedAt": "2026-09-24",
+      "independent": false
+    }
   }
 ]
