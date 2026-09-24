@@ -1,7 +1,7 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-24T04:21:46Z",
+  "lastFreshnessSweepAt": "2026-09-24T08:19:47Z",
   "lastFullRotationAt": "2026-09-23T20:18:37Z",
   "rotationCursor": 5,
   "seenAnnouncements": [
@@ -104,6 +104,14 @@
       "sourceUrl": "https://www.fratellowatches.com/42mm-panerai-luminor-pam01710-pam01711-and-pam01714/",
       "firstSeenAt": "2026-09-24T00:23:04Z",
       "disposition": "candidate-134-selected-pam01714"
+    },
+    {
+      "key": "glashutte-original-senator-chronograph-2026",
+      "title": "Glashütte Original Senator Chronograph / Senator Chronograph Navigator",
+      "officialUrl": "https://www.glashuette-original.com/en/watches/senator/senator-chronograph-navigator-1-37-24-20-12-71/",
+      "sourceUrl": "https://www.fratellowatches.com/hands-on-glashutte-original-senator-chronograph/",
+      "firstSeenAt": "2026-09-24T08:19:47Z",
+      "disposition": "seen-no-candidate-announced-last-month"
     }
   ],
   "needsReviewLastChecked": {}
