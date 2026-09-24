@@ -1,7 +1,7 @@
 {
   "version": 1,
   "purpose": "Checkpoint léger pour la veille WatchBrief afin d'éviter de reconstruire le contexte à chaque passage.",
-  "lastFreshnessSweepAt": "2026-09-23T20:18:37Z",
+  "lastFreshnessSweepAt": "2026-09-24T00:23:04Z",
   "lastFullRotationAt": "2026-09-23T20:18:37Z",
   "rotationCursor": 5,
   "seenAnnouncements": [
@@ -96,6 +96,14 @@
       "officialUrl": "https://www.gronefeld.com/collection",
       "firstSeenAt": "2026-09-23T20:18:37Z",
       "disposition": "seen-no-candidate-not-fresh-official"
+    },
+    {
+      "key": "panerai-luminor-42-pam01710-pam01711-pam01714",
+      "title": "Panerai Luminor 42 PAM01710 / PAM01711 / PAM01714",
+      "officialUrl": "https://www.panerai.com/ch/en/collections/watch-collection/luminor/pam01714-luminor.html",
+      "sourceUrl": "https://www.fratellowatches.com/42mm-panerai-luminor-pam01710-pam01711-and-pam01714/",
+      "firstSeenAt": "2026-09-24T00:23:04Z",
+      "disposition": "candidate-134-selected-pam01714"
     }
   ],
   "needsReviewLastChecked": {}
